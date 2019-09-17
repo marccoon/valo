@@ -1,0 +1,4612 @@
+@media screen and (max-width: 1620px)  {
+    .complex-plan__img {
+        left: -150px;
+    }
+    .complex-plan_mask {
+        left: -150px;
+    }
+    .first-modal {
+        left: 700px;
+    }
+    .second-modal {
+        left: 950px;
+    }
+    .third-modal {
+        left: 1150px;
+    }
+    .four-modal {
+        left: 1100px;
+        top: 20px;
+    }
+    .five-modal {
+        left: 300px;
+    }
+    .six-modal {
+        left: 540px;
+    }
+    .seven-modal {
+        left: 720px;
+    }
+    .eight-modal {
+        left: 920px;
+    }
+    .description-slider .owl-prev {
+        left: auto;
+        right: 140px;
+    }
+    .description-slider .owl-next {
+        right: 80px;
+        left: auto;
+    }
+    .infrastructure-slider .owl-next {
+        right: 80px;
+        left: auto;
+    }
+    .infrastructure-slider .owl-prev {
+        left: auto;
+        right: 140px;
+    }
+    .hostel-slider .owl-prev {
+        left: 80px;
+        right: auto;
+    }
+    .hostel-slider .owl-next {
+        right: auto;
+        left: 140px;
+    }
+    /*Калькулятор*/
+    .calculator__content {
+        width: auto;
+    }
+    /*Калькулятор*/
+    /*Локация*/
+    .location-loc {
+        width: 100%;
+    }
+    .location-loc__text-block {
+        width: 100%;
+    }
+    .location-metro {
+        width: 100%;
+    }
+    .location-shopping {
+        width: 100%;
+    }
+    .location-transport {
+        width: 100%;
+    }
+    .location-transport-future {
+        width: 100%;
+    }
+    .location-form {
+        width: 100%;
+    }
+    /*Локация*/
+    /*Сервис*/
+    .service-wrapper {
+        padding-left: 45px;
+        padding-right: 45px;
+        width: 100%;
+    }
+    .services-content {
+        width: auto;
+    }
+    .services-about-company-text {
+        margin-left: 45px;
+        margin-right: 45px;
+        width: auto;
+    }
+    .services-about-company {
+        height: auto;
+    }
+    .services-about-company-img {
+        width: auto;
+    }
+    .service-faq-photo-text-block {
+        justify-content: center;
+    }
+    .service-faq-photo-text-block-photo-image {
+        margin-right: 30px;
+    }
+    /*Сервис*/
+    /*Партнёры*/
+    .partners-bottom {
+        width: auto;
+    }
+    .partners-main__global__container {
+        width: auto;
+    }
+    /*Партнёры*/
+    /*Команда*/
+    .team-wrapper {
+        width: auto;
+    }
+    /*Команда*/
+    /*Шаблон*/
+    .s-page-global-container {
+        width: auto;
+    }
+    /*Шаблон*/
+}
+@media screen and (max-width: 1577px) {
+    /*trade-in*/
+    .trade-in-container {
+        width: auto;
+    }
+    .trade-in__new-service {
+        width: auto;
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+    .trade-in-wrapper {
+        margin-left: 45px;
+        margin-right: 45px;
+        width: auto;
+    }
+    /*trade-in*/
+    /*Локация*/
+    .location-main_maska {
+        display: none;
+    }
+    /*Локация*/
+}
+@media screen  and (max-width: 1517px) {
+    /*Карта объекта*/
+    .obj-wrapper {
+        width: auto;
+        margin: 0;
+    }
+    /*Карта объекта*/
+}
+@media screen and (max-width: 1500px) {
+    .left-buttons {
+        display: none;
+    }
+    /*Апартаменты*/
+    .apartments-wrapper {
+        width: auto;
+    }
+    .apartments-content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    /*Апартаменты*/
+
+}
+@media screen and (max-width: 1450px)  {
+    .complex-plan__img {
+        left: -350px;
+    }
+    .complex-plan_mask {
+        left: -350px;
+    }
+    .first-modal {
+        left: 500px;
+    }
+    .second-modal {
+        left: 750px;
+    }
+    .third-modal {
+        left: 850px;
+    }
+    .four-modal {
+        left: 850px;
+        top: 20px;
+    }
+    .five-modal {
+        left: 100px;
+    }
+    .six-modal {
+        left: 340px;
+    }
+    .seven-modal {
+        left: 520px;
+    }
+    .eight-modal {
+        left: 720px;
+    }
+    .main-partners__slider__item__top {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main-partners__slider__item__bottom {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main-partners__slider .owl-prev {
+        left: 0;
+    }
+    .main-partners__slider .owl-next {
+        right: 0;
+    }
+    /*Локация*/
+    .location-loc__text-block_text-container {
+        margin-left: 150px;
+    }
+    .location-shopping-people {
+        display: none;
+    }
+    .location-shopping-photo {
+        display: none;
+    }
+    .location-shopping-green {
+        width: 100%;
+    }
+    .location-shopping-white {
+        width: 100%;
+    }
+    /*Локация*/
+    /*Сервис*/
+
+    .services-about-company {
+        flex-direction: column;
+        max-height: none;
+    }
+    .services-about-company-img-image {
+        width: 100%;
+        margin-bottom: -4px;
+    }
+    .services-bread {
+        display: none;
+    }
+    .services-main {
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+    .services-about-company-img {
+        margin-top: 20px;
+    }
+    .service-faq-photo-text-block {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .service-faq-photo-text-block-photo-image {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+    .service-faq-block {
+        margin-top: 45px;
+    }
+    .service-faq-photo-text {
+        width: 100%;
+    }
+    .service-faq-photo-text-triangle {
+        transform: rotate(90deg);
+        top: -9px;
+        left: 50%;
+        margin-left: -10px;
+    }
+    .service-faq-photo-text {
+        margin-top: 32px;
+        height: auto;
+        padding-bottom: 40px;
+    }
+    .service-faq-photo-text-p {
+        margin-left: 43px;
+        margin-right: 43px;
+        font-size: 25px;
+    }
+    .service-faq-photo-autor-description {
+        margin-right: 43px;
+    }
+    .service-accordion-block {
+        margin-top: 20px;
+    }
+    .collapsible-header {
+        margin-top: 10px;
+        margin-bottom: 0 !important;
+    }
+    .service-tasks {
+        margin-top: 45px;
+    }
+    .service-tasks {
+        flex-direction: column;
+    }
+    .service-tasks-left {
+        width: 100%;
+    }
+    .service-tasks-rigth {
+        width: 100%;
+    }
+    .service-task-main {
+        margin: 75px 0 70px 50px;
+    }
+    .service-tasks-left {
+        height: auto;
+    }
+    .service-task-lists {
+        margin-left: 50px;
+        margin-bottom: 115px;
+    }
+    .service-tasks {
+        height: auto;
+    }
+    .service-body .slider-one {
+        line-height: 0 !important;
+    }
+    .owl-theme .owl-nav {
+        margin-top: 0;
+    }
+    .best-block {
+        display: none !important;
+    }
+    .service-body .slider-third {
+        margin-top: 55px;
+        display: block !important;
+    }
+    .service-body .slider-third .owl-item img{
+        width: 104px;
+        height: 104px;
+    }
+    .service-body .third-slider-item .best-card {
+        display: flex;
+        justify-content: center;
+    }
+    .service-body .third-slider-item .best-card-text {
+        width: 420px;
+        display: inline-block;
+        align-self: center;
+    }
+    .why-we-block {
+        height: auto;
+        padding-bottom: 80px;
+    }
+    .service-body .slider-third .owl-prev span{
+        color: transparent;
+    }
+    .service-body .slider-third .owl-next span{
+        color: transparent;
+    }
+    .service-body .slider-third .owl-next {
+        background: url("../img/two-slider-arrow.png") no-repeat !important;
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+        position: absolute;
+        width: 10px;
+        height: 52px;
+        right: -10px;
+        top: 15px;
+    }
+    .service-body .slider-third .owl-prev {
+        background: url("../img/two-slider-arrow.png") no-repeat !important;
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+        position: absolute;
+        width: 10px;
+        height: 52px;
+        left: -10px;
+        top: 15px;
+        transform: rotate(180deg);
+    }
+    .company-structure-content {
+        display: none;
+    }
+    .service-body .slider-four-item {
+        width: 278px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .service-body .slider-four .owl-prev span{
+        color: transparent;
+    }
+    .service-body .slider-four  .owl-next span{
+        color: transparent;
+    }
+    .service-body .slider-four  .owl-next {
+        background: url("../img/two-slider-arrow.png") no-repeat !important;
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+        position: absolute;
+        width: 10px;
+        height: 52px;
+        right: -15px;
+        top: 140px;
+    }
+    .service-body .slider-four  .owl-prev {
+        background: url("../img/two-slider-arrow.png") no-repeat !important;
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+        position: absolute;
+        width: 10px;
+        height: 52px;
+        left: -15px;
+        top: 140px;
+        transform: rotate(180deg);
+    }
+    .service-body .slider-four {
+        display: block !important;
+    }
+    /*Сервис*/
+}
+@media screen and (max-width: 1400px)  {
+    /*Карта объекта*/
+    .calculator-block-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .calc-bottom-slider {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .slider-two .owl-next span {
+        right: 0;
+    }
+    .slider-two .owl-prev span {
+        left: 0;
+    }
+    /*Карта объекта*/
+}
+@media screen and (max-width: 1300px) {
+    /*калькулятор*/
+    .calculator__content__hr {
+        width: 100%;
+    }
+    /*калькулятор*/
+    /*Локация*/
+    .location-loc__text-block_text-container {
+        margin-left: 110px;
+    }
+    /*Локация*/
+}
+@media screen and (max-width: 1250px) {
+    .work-invest {
+        padding-bottom: 90px;
+        padding-top: 130px;
+    }
+    .how-to-buy {
+        padding-top: 337px;
+    }
+    .main-wrapper {
+        width: 640px;
+    }
+    .main-slider .owl-next {
+        bottom: 210px;
+        left: -270px;
+    }
+    .main-slider .owl-prev {
+        bottom: 210px;
+        left: -260px;
+    }
+    .main-slide {
+        padding-bottom: 220px;
+    }
+    .valo-its {
+        height: 610px;
+    }
+    .presentation-video__ipad-block {
+        min-width: 310px;
+        width: 310px;
+        height: 240px;
+        align-self: center;
+    }
+    .presentation-video__ipad-block iframe {
+        width: 252px;
+        height: 165px;
+        margin-top: 21px;
+    }
+    .complex-plan__choose-corp__buttons_label_btn {
+        width: 112px;
+        height: 52px;
+        color: #1c2840;
+        font-size: 15px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    .complex-plan__apartment-description_corp__flex {
+        flex-direction: column;
+    }
+    .complex-plan__apartment-description {
+        height: 1260px;
+    }
+    .complex-plan__apartment-description__left {
+        height: 550px;
+        width: 100%;
+    }
+    .complex-plan__apartment-description__left__triangle {
+        display: none;
+    }
+    .complex-plan__apartment-description__left_container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 640px;
+    }
+    .complex-plan__apartment-description__left_lists {
+        display: none;
+    }
+    .complex-plan__apartment-description__right {
+        width: 100%;
+    }
+    .description-slider__slide__text {
+        margin-top: -1px;
+        width: 365px;
+    }
+    .public-space {
+        height: 712px;
+    }
+    .public-space__content {
+        height: 712px;
+    }
+    .why-valo {
+        display: flex;
+        flex-direction: column;
+    }
+    .why-valo-left {
+        width: 100%;
+    }
+    .why-valo-right {
+        width: 100%;
+    }
+    .valo-location {
+        height: 2080px;
+    }
+    .valo-location_text-block {
+        flex-direction: column;
+    }
+    .valo-location_text-block_btn  {
+        margin-left: 0;
+        margin-top: 65px;
+    }
+    .valo-location__map-block {
+        flex-direction: column;
+    }
+    .valo-location__map-block_map {
+        width: 100%;
+    }
+    .valo-location__map-block_map iframe {
+        width: 100%;
+        height: 650px;
+    }
+    .valo-location__map-block_right {
+        width: 100%;
+        margin-top: -3px;
+    }
+    .why-valo-right__content {
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .infrastructure {
+        flex-direction: column;
+    }
+    .infrastructure__left {
+        width: 100%;
+    }
+    .infrastructure__left__content {
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .infrastructure__right {
+        width: 100%;
+    }
+    .hostel-technology {
+        flex-direction: column;
+    }
+    .hostel-technology__left {
+        width: 100%;
+        height: 830px;
+    }
+    .hostel-technology__right {
+        width: 100%;
+        height: 830px;
+    }
+    .hostel-technology__right {
+        padding-left: 0;
+    }
+    .hostel-technology__right_main {
+        display: block;
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .dn-1250 {
+        display: none;
+    }
+    .hostel-technology__right_lists {
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main-partners__slider .owl-prev {
+        left: -50px;
+    }
+    .main-partners__slider .owl-next {
+        right: -50px;
+    }
+    .prof-company-slider  {
+        display: block !important;
+        margin-top: 85px;
+    }
+    .prof-company__text-block {
+        display: none;
+    }
+    .prof-company__text-block_text {
+        width: 505px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .work-invest_sub-main-block {
+        flex-direction: column;
+    }
+    .work-invest_sub-main-block_btn {
+        margin-top: 45px;
+    }
+    .work-invest__cards {
+        display: none;
+    }
+    .work-invest__bottom-description {
+        display: none;
+    }
+    .work-invest__cards__card {
+        margin-left: auto;
+        margin-right: auto;
+        width: 420px;
+    }
+    .work-invest-slider {
+        margin-top: 90px;
+        display: block !important;
+    }
+    .no-relative {
+        position: static;
+    }
+    .how-to-buy__managers {
+        left: 0;
+        max-width: 100%;
+        top: -1px;
+        height: 285px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .how-to-buy__managers_btn {
+        margin-right: auto;
+        margin-top: 30px;
+    }
+    .how-to-buy__managers_text {
+        width: auto;
+    }
+    .how-to-buy__choose-buttons_button {
+        width: 112px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .how-to-buy__triangle {
+        bottom: -21px;
+    }
+    .buy-variants {
+        height: 1250px;
+        padding-bottom: 0;
+        padding-top: 95px;
+    }
+    .buy-variants__trade-in_btn {
+        margin-top: 85px;
+    }
+
+    .buy-variants__trade-in_text {
+        margin-top: 90px;
+    }
+    .buy-variants__trade-in_second-text {
+        margin-top: 70px;
+    }
+    .buy-variants__ipoteca__top-block_btn {
+        display: none;
+    }
+    .buy-variants__banks {
+        flex-direction: column-reverse;
+    }
+    .buy-variants__banks_right {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        width: 640px;
+        justify-content: space-between;
+    }
+    .buy-variants__banks_right_item {
+        width: 200px;
+        height: 140px;
+        background-color: #fff;
+        opacity: .8;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .buy-variants__banks_left {
+        margin-top: 20px;
+        width: 640px;
+    }
+    .buy-variants__ipoteca__bottom {
+        max-width: 100vw;
+        left: 0;
+        bottom: -308px;
+        height: 308px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .buy-variants__ipoteca__bottom_btn {
+        margin-top: 20px;
+        margin-right: auto;
+    }
+    .buy-variants__ipoteca__bottom_text {
+        margin-right: 0;
+    }
+    .construction-progress {
+        margin-top: 308px;
+        padding-bottom: 380px;
+        position: relative;
+    }
+    .buy-variants__rassrochka__text-block {
+        display: none;
+    }
+    .rassrochka-slider {
+        display: block !important;
+        margin-top: 140px;
+        width: 100%;
+    }
+    .buy-variants__rassrochka__text-block_text::before {
+        top: 0;
+
+    }
+    .buy-variants__rassrochka__text-block_text {
+        min-height: 75px;
+        display: flex;
+        align-items: center;
+        width: 505px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .rassrochka-slider-slider {
+        margin-top: 65px;
+        display: block !important;
+    }
+    .big-progress-slider-item {
+        width: 505px;
+        min-width: 505px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .big-progress-slider-item_p {
+        display: flex;
+        align-items: center;
+    }
+    .buy-variants__rassrchka__bottom {
+        bottom: -308px;
+        width: 100%;
+        left: 0;
+        height: 308px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .buy-variants__rassrochka_description {
+        margin-top: 85px;
+    }
+    .sto-pro-slider {
+        display: block !important;
+        width: 640px;
+        margin-top: 55px;
+    }
+    .buy-variants__sto-pro__text-block_text {
+        min-height: 75px;
+        display: flex;
+        align-items: center;
+        width: 505px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .buy-variants__sto-pro__text-block_text::before {
+        top: 0;
+    }
+    .buy-variants__sto-pro__text-block {
+        display: none;
+    }
+    .buy-variants__sto-pro__bottom {
+        bottom: -308px;
+        height: 308px;
+        left: 0;
+        width: 100%;
+    }
+    .buy-variants__trade-in__bottom {
+        bottom: -308px;
+        height: 308px;
+        left: 0;
+        width: 100%;
+    }
+    .construction-progress__top-block {
+        flex-direction: column;
+    }
+    .construction-progress__top-block_p {
+        margin-top: 90px;
+        margin-left: 65px;
+    }
+    .construction-progress_cameras {
+        flex-direction: column;
+    }
+    .construction-progress_cameras__choose-camera {
+        width: 100%;
+    }
+    .construction-progress__photos {
+        width: 100%;
+    }
+    .construction-progress__live-camera iframe{
+        width: 600px !important;
+        left: calc(50% - 300px) !important;
+        height: 300px !important;
+        top: calc(50% - 150px) !important;
+    }
+    .big-progress-slider .owl-next span {
+        top: -791px;
+        left: 195px;
+        padding: 20px;
+    }
+    .big-progress-slider .owl-prev span {
+        top: -791px;
+        left: 40px;
+        padding: 20px;
+    }
+    .construction-progress__bottom-block {
+        height: 310px;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        margin-top: 0;
+        max-width: 100%;
+        left: 0;
+        bottom: 0;
+        align-items: flex-start;
+        width: 100%;
+        min-width: auto;
+    }
+    .construction-progress__bottom-block__right-block__form {
+        margin-top: 50px;
+    }
+    .prof-company__text-block_text:hover:before {
+        content: url(../img/1prof.png);
+        position: absolute;
+        left: 0;
+    }
+    .prof-company__text-block_text-2:hover:before {
+        content: url(../img/2prof.png);
+        position: absolute;
+        left: 0;
+    }
+    .prof-company__text-block_text-3:hover:before {
+        content: url(../img/3prof.png);
+        position: absolute;
+        left: 0;
+    }
+    /*Апартаменты*/
+    .apartments-card-block {
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+    }
+    /*Апартаменты*/
+    /*Калькулятор*/
+    .calculator-wrapper {
+        width: 640px;
+    }
+
+    .calculator__content_main {
+        padding-top: 15px;
+        font-size: 37px;
+    }
+
+    .calculator__content__text {
+        font-size: 25px;
+    }
+
+    .calculator__content__hr_text {
+        display: block;
+        margin-top: 35px;
+    }
+
+    .calculator__content__price {
+        display: none;
+    }
+
+    .calculator__content__dropdowns {
+        flex-direction: column;
+    }
+
+    .calculator__content__dropdowns_dropdown {
+        margin-right: 0;
+        width: 100%;
+        margin-top: 20px;
+        height: 50px;
+    }
+
+    .calculator__content__dropdowns_dropdown_span {
+        font-size: 25px;
+    }
+
+    .calculator__content__dropdowns_dropdown_container {
+        width: 100%;
+        max-width: none;
+        z-index: 1;
+        min-width: 640px;
+        top: 50px;
+
+    }
+
+    .calculator__content__dropdowns_dropdown_container__li_span {
+        font-size: 25px;
+    }
+
+    .calculator__content__dropdowns__right {
+        width: auto;
+        margin-left: 0;
+        margin-top: 20px;
+        height: auto;
+    }
+
+    .calculator__content__dropdowns__right_main {
+        font-size: 25px;
+    }
+
+    .calculator__content__dropdowns__right__lists_li_left {
+        font-size: 20px;
+    }
+
+    .calculator__content__dropdowns__right__lists_li_right {
+        font-size: 20px;
+    }
+
+    .calculator__content__dropdowns__right__lists_li {
+        height: auto;
+    }
+
+    .calculator__content__dropdowns__right__lists_li_left {
+        width: 350px;
+    }
+
+    .calculator__content__dropdowns__right__lists_li_right {
+        width: 150px;
+    }
+
+    .calculator__content__cards {
+        display: none;
+    }
+
+    .calculator__content__dropdowns_dropdown-1 .calculator__content__dropdowns_dropdown_container {
+        z-index: 2;
+    }
+
+    .calculator__content__cards_card_p {
+        font-size: 25px;
+        width: calc(100% - 40px);
+        padding-left: 40px;
+    }
+
+    .calculator__content__left-block {
+        display: none;
+    }
+
+    .calculator__content__cards-slider {
+        display: block;
+    }
+
+    .calculator__content__cards-slider__item_content {
+        display: flex;
+    }
+
+    .calculator__content__cards-slider__item_content_text {
+        margin-left: 30px;
+    }
+
+    .calculator__content__cards_card_hr {
+        margin-bottom: 15px;
+    }
+
+    .calculator__content_big-btn-block_btn {
+        font-size: 20px;
+        width: 310px;
+    }
+
+    .calculator__content__form-main {
+        font-size: 37px;
+    }
+
+    .calculator__content__form_inputs_input {
+        width: 300px;
+        height: 53px;
+        font-size: 24px;
+    }
+
+    .calculator__content__form_textarea {
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .calculator__content__form {
+        width: 100%;
+    }
+
+    .calculator__content__form_btn {
+        width: 220px;
+        height: 70px;
+        font-size: 27px;
+    }
+
+    .calculator__content__hr {
+        position: relative;
+        left: 0;
+    }
+    /*Калькулятор*/
+    /*Локация*/
+    .location-loc-main {
+        font-size: 37px;
+    }
+    .location-wrapper {
+        width: 640px;
+        margin: 0 auto;
+    }
+    .location-main__buttons {
+        display: none;
+    }
+    .my-map {
+        height: 610px;
+    }
+    .my-map .ymaps-2-1-74-map {
+        height: 610px !important;
+    }
+    .location-main_main {
+        display: none;
+    }
+    .location-loc__text-block {
+        transform: skew(0);
+        left: 0;
+        margin-top: 65px;
+        height: 460px;
+    }
+    .location-loc__text-block_text {
+        width: 100%;
+        max-width: 100%;
+        font-size: 25px;
+    }
+    .location-loc__text-block_text-container {
+        width: 640px;
+        margin: 0 auto;
+        transform: skew(0);
+    }
+    .location-loc {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+    .location-loc__text-block__to-metro{
+        display: none;
+    }
+    .location-loc-main_img {
+        display: none;
+    }
+    .location-loc_container-mobile > .location-wrapper {
+        position: relative;
+    }
+    .location-loc__text-block__to-metro-mobile {
+        display: flex;
+    }
+    .location-loc-main_img-mobile {
+        display: block;
+    }
+    .location-loc__cards {
+        display: none;
+    }
+    .location-loc__cards__card__right_text {
+        font-size: 25px;
+        width: 300px;
+    }
+    .location-loc__cards__mobile-slider {
+        display: block;
+    }
+    .location-metro-container_green-div {
+        display: none;
+    }
+    .location-metro__text-block-mobile {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .location-metro__text-block-mobile .location-metro-container_main {
+        padding-top: 0;
+        font-size: 37px;
+        display: block;
+    }
+    .location-metro__text-block-mobile .location-metro-container_text {
+        max-width: none;
+        font-size: 25px;
+        display: block;
+    }
+    .location-metro-container_text {
+        display: none;
+    }
+    .location-metro-container_main {
+        display: none;
+    }
+    .location-metro {
+        padding-top: 0;
+    }
+    .location-metro-container__lists {
+        padding-top: 575px;
+        margin-top: 0;
+    }
+    .location-metro-container__metro-map {
+        width: 100%;
+        top: -76px;
+    }
+    .location-metro-container__lists_li {
+        font-size: 20px;
+    }
+    .location-metro-container__lists_li::after {
+        top: -7px;
+    }
+    .location-shopping-green {
+        position: static;
+        transform: skew(0);
+        height: 232px;
+        justify-content: center;
+        display: flex;
+    }
+    .location-shopping-green_content {
+        display: flex;
+        align-items: center;
+    }
+    .location-shopping-white {
+        display: none;
+    }
+    .location-shopping-green_img {
+        display: block;
+        position: absolute;
+        right: 0;
+        height: 100%;
+    }
+    .location-shopping_main {
+        display: none;
+    }
+    .location-shopping__columns_column {
+        display: none;
+    }
+    .slider-shopping {
+        display: block;
+    }
+    .slider-shopping__container {
+        display: block;
+    }
+    .location-shopping__maza-park_left_p {
+        display: none;
+    }
+    .location-shopping__maza-park_left_h3 {
+        margin-right: 0;
+    }
+    .location-shopping__maza-park {
+        margin-top: 50px;
+    }
+    .location-shopping__maza-park__750 {
+        display: block;
+    }
+    .location-transport {
+        flex-direction: column;
+    }
+    .location-transport__left {
+        width: 100%;
+        height: 468px;
+    }
+    .location-transport__right {
+        width: 100%;
+    }
+    .location-transport__left_main {
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 37px;
+        margin-top: 60px;
+    }
+    .location-transport__left_text {
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 25px;
+        margin-top: 50px;
+    }
+    .location-transport__left__lists {
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .location-transport__left__lists_li {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .location-transport__right {
+        height: 465px;
+    }
+    .location-transport__right_main {
+        font-size: 37px;
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 70px;
+        white-space: nowrap;
+    }
+    .location-transport__right__container {
+        margin-top: 75px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 640px;
+        grid-column-gap: 30px;
+        grid-row-gap: 50px;
+    }
+    .location-transport__right__container__card__text-bottom {
+        font-size: 25px;
+    }
+    .location-transport-future {
+        flex-direction: column;
+        height: auto;
+    }
+    .location-transport-future__left {
+        width: 100%;
+        height: 888px;
+    }
+    .location-transport-future__right {
+        width: 100%;
+        height: 548px;
+    }
+    .location-transport-future__left_main {
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 37px;
+    }
+    .location-transport-future__left_p {
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 25px;
+    }
+    .location-form {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .location-form_main {
+        font-size: 37px;
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .location-form__form__inputs {
+        width: 640px;
+    }
+    .location-form__form__inputs_input {
+        width: 300px;
+        height: 53px;
+        font-size: 24px;
+    }
+    .location-form__form__inputs_input-name {
+        margin-right: 0;
+    }
+    .location-form__textarea {
+        width: 100%;
+        font-size: 24px;
+    }
+    .location-form__form {
+        width: 640px;
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    .location-form__btn {
+        width: 220px;
+        height: 70px;
+        font-size: 27px;
+    }
+    /*Локация*/
+    /*Партнёры*/
+    .partners-main__global__container_main {
+        font-size: 60px;
+        margin-top: 0;
+        padding-top: 65px;
+    }
+    .partners-wrapper {
+        width: 640px;
+    }
+    .partners-main__global__container_text {
+        font-size: 18px;
+        margin-top: 40px;
+    }
+    .partners-main__global__container {
+        width: auto;
+        padding-top: 0;
+    }
+    .partners-main {
+        padding-top: 45px;
+        padding-bottom: 65px;
+    }
+    .partners-main__global .bread {
+        display: none;
+    }
+    .partners-main__global__container__slider {
+        width: 640px !important;
+    }
+    .partners-main__global__container__slider .slick-prev.slick-arrow {
+        left: -29px;
+        z-index: 20;
+    }
+    .partners-main__global__container__slider .slick-next.slick-arrow {
+        right: 0;
+        z-index: 20;
+    }
+    .partners-bottom {
+        width: auto;
+    }
+    .partners-bottom__container {
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    .partners-bottom__container .partners-wrapper {
+        flex-direction: column;
+    }
+    .partners-bottom__container__left_main {
+        font-size: 45px;
+    }
+    .partners-bottom__container__left_text {
+        font-size: 20px;
+    }
+    .partners-bottom__container__left_text {
+        margin-top: 45px;
+        margin-bottom: 50px;
+    }
+    .partners-main__global__container {
+        padding-top: 20px;
+    }
+    /*Партнёры*/
+    /*Команда*/
+    .team-container {
+        width: auto;
+    }
+    .team-container__wrapper {
+        width: 640px;
+    }
+    .content-top-menu__item {
+        padding: 5px;
+        font-size: 12px;
+    }
+    .team-container_main {
+        font-size: 60px;
+        margin-top: 0;
+        padding-top: 65px;
+    }
+    .bread {
+        display: none;
+    }
+    .team-container__buttons {
+        height: 240px;
+    }
+    .team-container__buttons .team-container__wrapper {
+        display: grid;
+        grid-template-columns: 310px 310px;
+        grid-row-gap: 2px;
+    }
+    .team-container__cards_container {
+        grid-template-columns: 285px 285px;
+    }
+    /*Команда*/
+    /*Шаблон*/
+    .shab-two-border-blocks-container {
+        flex-direction: column;
+    }
+    .shab-mini-border-block1 {
+        margin-bottom: 20px;
+    }
+    .shab-mini-border-block {
+        width: 100%;
+    }
+    .shab-border-block {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .shab-border-block_img {
+        align-self: flex-start;
+    }
+    .shab-video-container {
+        width: 640px;
+        height: 335px;
+    }
+    .shab-photo-in-text__mini-potos-row {
+        flex-direction: column;
+
+    }
+    .shab-photo-in-text__mini-potos-row_img {
+        width: 100%;
+        margin-bottom: 20px;
+        height: 363px;
+    }
+    .shab-photo-in-text__mini-potos-row_img1 {
+        margin-bottom: 20px;
+    }
+    .shab-photo-in-text__potos-bottom {
+        width: 100%;
+        margin-top: 0;
+    }
+    .shab-photo-in-text__potos-bottom_img {
+        width: 100%;
+        height: 363px;
+    }
+    .shub-slider {
+        width: 530px;
+        height: 310px;
+    }
+    .shub-slider_item {
+        grid-template-columns: auto;
+        grid-row-gap: 0;
+        height: 332px;
+    }
+    .shub-slider_item_img {
+        height: 100%;
+    }
+    .circle-next {
+        right: -55px;
+    }
+    .circle-prev {
+        left: -55px;
+    }
+    .shab-quote__container_content_right_img {
+        width: 175px;
+        height: 175px;
+        margin-left: 35px;
+        float: right;
+    }
+    .shab-quote__container_content {
+        display: block;
+    }
+    .shub-icon-container {
+        display: flex !important;
+    }
+    .shub-slider2 {
+        width: 530px;
+        height: 332px;
+    }
+    .shub-slider3 {
+        width: 530px;
+        height: 332px;
+    }
+    .shub-slider_item_img {
+        height: 100%;
+    }
+    .shub-number-block {
+        padding-top: 60px;
+    }
+    .shub-hover-photo {
+        margin-top: 60px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        position: relative;
+        height: 725px;
+    }
+    .shub-hover-photo__container {
+        position: absolute;
+        left: 0;
+        top: 80px;
+        height: 560px;
+        width: 100%;
+    }
+    .shub-hover-photo__container__icon-block_icon {
+        width: 56px;
+        height: 56px;
+        -webkit-background-size: 60%;
+        background-size: 60%;
+    }
+    .shub-hover-photo__container__icon-block_text {
+        font-size: 15px;
+    }
+    .shub-hover-photo__container__icon-block1 {
+        right: 2%;
+        top: 335px;
+    }
+    .shub-hover-photo__container__icon-block2 {
+        right: 5.73%;
+        top: 145px;
+    }
+    .shub-hover-photo__container__icon-block3 {
+        top: 70px;
+        left: 32.26%;
+    }
+    .shub-hover-photo__container__icon-block4 {
+        left: 25.6%;
+        top: 225px;
+    }
+    .shub-hover-photo__container__icon-block_icon5 {
+        left: 2.8%;
+        top: 153px;
+    }
+    .shub-hover-photo__container__description-block {
+        width: 100%;
+        height: 100%;
+        left: -1250px;
+    }
+    .shub-hover-photo__container__description-block_under-ol-img {
+        display: none;
+    }
+    .shub-hover-photo__container__description-block_cross2 {
+        left: auto;
+        right: 4px;
+    }
+    .shub-hover-photo__container__description-block_ol_li {
+        font-size: 19px;
+        line-height: 120%;
+    }
+    /*Шаблон*/
+}
+@media screen and (max-width: 1200px)  {
+    .complex-plan {
+        overflow-x: scroll;
+    }
+    .complex-plan__img {
+        left: 0;
+    }
+    .complex-plan_mask {
+        left: 0;
+    }
+    .first-modal {
+        left: 850px;
+        top: 400px;
+    }
+    .second-modal {
+        left: 1100px;
+        top: 300px;
+    }
+    .third-modal {
+        left: 1300px;
+        top: 250px;
+    }
+    .four-modal {
+        left: 1250px;
+        top: 80px;
+    }
+    .four-modal .complex-plan__modal_triangle{
+        right: 45px;
+    }
+    .five-modal {
+        left: 450px;
+        top: 110px;
+    }
+    .six-modal {
+        left: 690px;
+        top: 30px;
+    }
+    .seven-modal {
+        left: 870px;
+        top: 20px;
+    }
+    .eight-modal {
+        left: 1070px;
+        top: 10px;
+    }
+    /*Карта объекта*/
+    .calculator-block-content-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .main-calc-container {
+        flex-direction: column;
+    }
+    .left-calc {
+        margin: 0 auto;
+    }
+    .under-slider {
+        flex-direction: column;
+    }
+    .under-slider-compass {
+        width: 100%;
+    }
+    .calculator-block-content-right-top {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .card-obj .slider-nav-link {
+        width: 100%;
+        margin-top: 1px !important;
+    }
+    .slider-nav-link {
+        text-align: center;
+    }
+    .slider-nav-link-mobile {
+        display: flex;
+    }
+    .slider-nav-link a {
+        margin-left: 0;
+    }
+    .good-description-block {
+        margin: 0 auto;
+        width: 585px;
+        margin-top: 40px;
+    }
+    .watch-obj {
+        float: none;
+        text-align: center;
+    }
+    .calc-bottom-slider {
+        display: none;
+    }
+    .modal-slider {
+        display: none !important;
+    }
+    /*Карта объекта*/
+}
+@media screen and (max-width: 1100px) {
+    /*trade in*/
+    .trade-in__new-service {
+        background: url(../img/trade750.png);
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+        padding-bottom: 220px !important;
+    }
+    .trade-in__scheme-of-work_main {
+        margin-bottom: 55px;
+    }
+    .trade-in__scheme-of-work_circle-block {
+        display: none;
+    }
+    .trade-in-slider-2 {
+        display: block !important;
+        height: 400px;
+        background: url(../img/trade-in-3.png) no-repeat center center;
+        -webkit-background-size: 400px 400px;
+        background-size: 400px 400px;
+    }
+    .trade-in__scheme-of-work_circle-block_text-img {
+        position: relative;
+        top: 140px;
+    }
+    .trade-in-slider-2__item {
+        background-color: rgba(87, 181, 187, .7) !important;
+        height: 115px;
+        margin-top: 140px;
+        margin-right: 95px;
+        margin-left: 45px;
+        width: calc(100% - 140px);
+        padding-left: 30px;
+        padding-right: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .trade-in-slider-2 .owl-item img {
+        top: 139px;
+        display: block;
+        width: 117px !important;
+        height: 117px !important;
+        right: 45px;
+        position: absolute;
+    }
+    .trade-in-slider-2 .owl-next span {
+        color: transparent;
+    }
+    .trade-in-slider-2 .owl-prev span {
+        color: transparent;
+    }
+    .trade-in-slider-2 .owl-next {
+        width: 50px;
+        height: 50px;
+        background: url(../img/resp-arr.png) no-repeat center center / 100% 100% !important;
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+        position: absolute;
+        top: 165px;
+        right: -10px;
+        transform: rotate(180deg);
+    }
+    .trade-in-slider-2 .owl-next:hover {
+        background: url(../img/resp-arr2.png) no-repeat center center / 100% 100% !important;
+        transform: rotate(0);
+    }
+    .trade-in-slider-2 .owl-prev {
+        width: 50px;
+        height: 50px;
+        transform: rotate(0deg);
+        background: url(../img/resp-arr.png) no-repeat center center / 100% 100% !important;
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+        position: absolute;
+        top: 165px;
+        left: -10px;
+    }
+    .trade-in-slider-2 .owl-prev:hover {
+        background: url(../img/resp-arr2.png) no-repeat center center / 100% 100% !important;
+        transform: rotate(180deg);
+    }
+    .trade-in__scheme-of-work__form {
+        width: 100%;
+    }
+    /*trade in*/
+}
+@media screen and (max-width: 1050px) {
+    /*Апартаменты*/
+    .ranges {
+        flex-direction: column;
+    }
+    .first-range {
+        width: 100%;
+    }
+    .second-range {
+        margin: 0;
+        width: 100%;
+    }
+    .filter-buttons {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        position: absolute;
+        top: -55px;
+    }
+    .sub-filter-main {
+        position: relative;
+    }
+    .filter-buttons label{
+        order: 5;
+        margin-top: 15px;
+    }
+    .filter-buttons span {
+        margin-top: 10px;
+    }
+    .show-filter-result-button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sub-filter-content .apartments-dropdowns-lists {
+        justify-content: space-between;
+    }
+    .apartments-card-block {
+        display: grid !important;
+    }
+    .catalog-list {
+        display:  none !important;
+    }
+    .img-filters {
+        display: none;
+    }
+    /*Апартаменты*/
+}
+@media screen and (max-width: 1000px) {
+    /*Сервис*/
+    .service-accordion-header {
+        font-size: 25px;
+    }
+    .services-content {
+        padding-top: 60px;
+    }
+    .services-main {
+        font-size: 70px;
+    }
+    .services-about-company-text-main {
+        font-size: 37px;
+    }
+    .services-about-company-text-p {
+        font-size: 25px;
+    }
+    .service-faq-photo-text-autor {
+        font-size: 25px;
+    }
+    .service-faq-photo-text-description {
+        font-size: 18px;
+    }
+    .collapsible-header {
+        font-size: 25px;
+    }
+    .accordion-p {
+        font-size: 20px;
+    }
+    .service-task-main {
+        font-size: 37px;
+    }
+    .service-task-list {
+        font-size: 25px;
+    }
+    .service-body .slider-one .owl-next {
+        left: calc(50% + 12px);
+    }
+    .service-body .slider-one .owl-prev {
+        left: calc(50% - 52px);
+    }
+    .why-we-main {
+        font-size: 37px;
+    }
+    .company-structure-main {
+        font-size: 37px;
+    }
+    .service-form-main {
+        font-size: 37px;
+    }
+    .service-form-form {
+        width: 100% !important;
+    }
+    .service-textarea {
+        height: 125px !important;
+        width: 100% !important;
+    }
+    .service-input {
+        max-width:198px !important;
+        height: 53px !important;
+        background-position: 18px 20px !important;
+    }
+    .service-form-btn {
+        width: 220px;
+        height: 70px;
+        font-size: 27px;
+    }
+    /*Сервис*/
+}
+@media screen and (max-width: 950px) {
+    /*Апартаменты*/
+    .apartments-dropdowns-lists {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-column-gap: 22px;
+    }
+    .apartments-dropdowns-list {
+        width: 100%;
+    }
+    .apartments-card-block {
+        grid-template-columns: 100%;
+        justify-content: center;
+    }
+    .apartments-card {
+        width: 100%;
+    }
+    .apartments-img-block {
+        flex-direction: row;
+    }
+    .card-img-container {
+        background-color: rgba(100%, 100%, 100%, .76);
+        width: 50%;
+    }
+    .apartments-card {
+        height: 253px;
+    }
+    .card-btn {
+        display: none;
+    }
+    .apartments-card-text-container {
+        width: 50%;
+        background-color: #ffffff;
+        padding: 15px 15px 35px 15px;
+        flex-direction: column;
+    }
+    .apartments-card-text-block {
+        order: 5;
+    }
+    .apartments-card-text-block p{
+        font-size: 25px;
+        margin-top: 5px;
+    }
+    .apartments-card-text-block span{
+        font-size: 25px;
+    }
+    .apartments-card:hover .card-img-container {
+        background-color: rgba(87, 181, 187, .76);
+    }
+    .apartments-card:hover .apartments-card-text-container {
+        background-color: rgba(255,255,255,.3);
+    }
+    .responsive-950 {
+        display: none;
+    }
+    .dn-950 {
+        display: none;
+    }
+    .db-950 {
+        display: block;
+    }
+    /*Апартаменты*/
+}
+@media screen and (max-width: 768px)  {
+    .complex-plan {
+        display: none;
+    }
+}
+@media screen and (max-width: 750px) {
+    .content-top-menu {
+        display: none;
+    }
+    .services-main {
+        margin-top: 0;
+    }
+    .hostel-slider__item {
+        height: 335px;
+    }
+    .infrastructure-slider__item {
+        height: 337px !important;
+    }
+    .how-to-buy {
+        padding-top: 315px;
+    }
+    .work-invest__cards__card {
+        height: auto;
+    }
+    .work-invest {
+        padding-top: 65px;
+        padding-bottom: 70px;
+    }
+    .main-slide_main {
+        font-size: 40px;
+    }
+    .main-wrapper {
+        width: 285px;
+    }
+    .main-slide_sub-main {
+        font-size: 24px;
+    }
+    .main-slide_main-description {
+        font-size: 12px;
+        margin-top: 18px;
+        width: 100%;
+    }
+    .main-page-bgn {
+        width: 192px;
+        height: 40px;
+        font-size: 12px;
+        margin-top: 47px;
+    }
+    .main-slider .owl-prev {
+        left: -90px;
+        top: -220px;
+        width: 45px !important;
+        height: 45px !important;
+        -webkit-background-size: contain !important;
+        background-size: contain !important;
+    }
+    .main-slider .owl-prev:hover {
+        width: 45px !important;
+        height: 45px !important;
+        -webkit-background-size: contain !important;
+        background-size: contain !important;
+    }
+    .main-slider .owl-next  {
+        left: -95px;
+        top: -220px;
+        width: 45px !important;
+        height: 45px !important;
+        -webkit-background-size: contain !important;
+        background-size: contain !important;
+    }
+    .main-slider .owl-next:hover {
+        width: 45px !important;
+        height: 45px !important;
+        -webkit-background-size: contain !important;
+        background-size: contain !important;
+    }
+    .main-block {
+        height: 510px;
+    }
+    .valo-its {
+        height: 465px;
+        margin-top: 133px;
+    }
+    .valo-its_main {
+        font-size: 24px;
+    }
+    .valo-its_text {
+        font-size: 12px;
+    }
+    .main-page-bgn {
+        width: 190px;
+        height: 40px;
+        font-size: 12px;
+    }
+    .presentation-video {
+        height: 610px;
+    }
+    .presentation-video_main {
+        font-size: 24px;
+    }
+    .presentation-video_text {
+        font-size: 12px;
+        margin-top: 50px;
+    }
+    .main-page-bgn {
+        width: 190px;
+        height: 40px;
+        font-size: 12px;
+        margin-top: 30px;
+    }
+    .presentation-video__container {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .presentation-video__ipad-block {
+        width: 285px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        max-width: 285px;
+        min-width: auto;
+    }
+    .presentation-video__text-block {
+        height: auto;
+    }
+    .presentation-video__ipad-block iframe {
+        width: 230px;
+        height: 160px;
+        margin-top: 21px;
+    }
+    .complex-plan__choose-corp__buttons_label_btn {
+        width: 52px;
+        height: 52px;
+        content: '1';
+    }
+    .complex-plan__apartment-description__left {
+        height: 400px;
+    }
+    .complex-plan__apartment-description__left_container {
+        width: 285px;
+    }
+    .main-slide__text-block {
+        width: auto;
+    }
+    .complex-plan__apartment-description__left_main {
+        font-size: 20px;
+    }
+    .complex-plan__apartment-description__left_main_description {
+        font-size: 14px;
+    }
+    .complex-plan__apartment-description__left_text {
+        display: none;
+    }
+    .complex-plan__apartment-description__left__bottom {
+        flex-direction: column-reverse;
+    }
+    .complex-plan__apartment-description__left__bottom_price-block_text {
+        font-size: 12px;
+    }
+    .complex-plan__apartment-description__left__bottom_price-block_price {
+        font-size: 18px;
+    }
+    .complex-plan__apartment-description__left__bottom_btn {
+        width: 190px;
+        height: 40px;
+        font-size: 12px;
+        margin-top: 40px;
+    }
+    .description-slider__slide__text {
+        width: 100%;
+        height: 130px;
+    }
+    .description-slider__slide__text_bold-text {
+        font-size: 12px;
+    }
+    .description-slider__slide__text_term_little-text {
+        font-size: 12px;
+    }
+    .description-slider .owl-prev {
+        width: 36px;
+        height: 36px;
+        background-size: contain !important;
+        bottom: 40px;
+        right: 50px;
+    }
+    .description-slider .owl-next {
+        width: 36px;
+        height: 36px;
+        background-size: contain !important;
+        bottom: 40px;
+        right: 5px;
+    }
+    .description-slider .owl-prev:hover {
+        width: 36px;
+        height: 36px;
+        background-size: contain !important;
+    }
+    .description-slider .owl-next:hover {
+        width: 36px;
+        height: 36px;
+        background-size: contain !important;
+    }
+    .description-slider__slide {
+        height: 335px;
+    }
+    .complex-plan__apartment-description {
+        height: auto;
+    }
+    .public-space_main {
+        font-size: 24px;
+    }
+    .public-space_text {
+        margin-top: 55px;
+        font-size: 12px;
+    }
+    .public-space {
+        height: 506px;
+        display: flex;
+        align-items: center;
+    }
+    .public-space__content {
+        height: auto;
+    }
+    .why-valo-left {
+        height: 350px;
+    }
+    .why-valo-right {
+        height: 372px;
+    }
+    .why-valo-right__content_main {
+        font-size: 24px;
+        width: auto;
+    }
+    .why-valo-right__content__lists {
+        display: none;
+    }
+    .why-valo-slider{
+        display: block !important;
+    }
+    .why-valo-right__content {
+        width: 285px;
+    }
+    .why-valo-right__content__lists__li_main {
+        font-size: 18px;
+    }
+    .why-valo-right__content__lists__li_text {
+        font-size: 12px;
+    }
+    .why-valo-right__content__lists__li {
+        flex-direction: column;
+    }
+    .why-valo-slider {
+        margin-top: 65px;
+    }
+    .valo-location {
+        height: auto;
+        padding-top: 80px;
+    }
+    .valo-location_main {
+        font-size: 24px;
+    }
+    .valo-location_text-block_p {
+        font-size: 12px;
+    }
+    .valo-location__map-block_map iframe {
+        display: none;
+    }
+    .no-relative-750 {
+        position: static;
+    }
+    .pos-relative-750 {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 285px;
+    }
+    .valo-location_text-block {
+        margin-top: 68px;
+    }
+    .valo-location__map-block_right {
+        display: none;
+    }
+    .location-slider {
+        display: block !important;
+        margin-top: -3px;
+    }
+    .valo-location__content.h-100 {
+        height: auto;
+    }
+    .valo-location .main-wrapper.h-100{
+        height: auto;
+    }
+    .valo-location__map-block_map_750 {
+        display: block;
+    }
+    .infrastructure__left {
+        height: 530px;
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+    }
+    .infrastructure__left__content_main {
+        font-size: 24px;
+    }
+    .infrastructure__left__content__lists__li {
+        font-size: 12px;
+    }
+    .infrastructure__left__content {
+        width: 285px;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+    }
+    .infrastructure__left__content__lists__li:not(:first-child) {
+        margin-top: 30px;
+    }
+    .infrastructure-slider__item_img {
+        height: 337px !important;
+    }
+    .infrastructure__right {
+        height: 337px;
+    }
+    .infrastructure-slider__item_text-block {
+        padding-left: 20px;
+        font-size: 12px;
+        width: 100%;
+    }
+    .infrastructure-slider__item_text-block_text {
+        font-size: 12px;
+    }
+    .infrastructure-slider .owl-next {
+        -webkit-background-size: contain;
+        background-size: contain;
+        width: 36px;
+        height: 36px;
+        right: 5px;
+        bottom: 30px;
+    }
+    .infrastructure-slider .owl-next:hover {
+        -webkit-background-size: contain;
+        background-size: contain;
+        width: 36px;
+        height: 36px;
+    }
+    .infrastructure-slider .owl-prev {
+        -webkit-background-size: contain;
+        background-size: contain;
+        width: 36px;
+        height: 36px;
+        right: 50px;
+        bottom: 30px;
+    }
+    .infrastructure-slider__item_text-block_main {
+        font-size: 12px;
+    }
+    .infrastructure-slider .owl-prev:hover {
+        -webkit-background-size: contain;
+        background-size: contain;
+        width: 36px;
+        height: 36px;
+    }
+    .hostel-technology__left {
+        height: 335px;
+    }
+    .hostel-slider__item_img {
+        height: 335px !important;
+    }
+    .hostel-slider__item__text-block {
+        width: 100%;
+    }
+    .hostel-slider__item__text-block_main {
+        font-size: 12px;
+        display: flex;
+        margin-left: auto;
+    }
+    .hostel-slider__item__text-block_text{
+        font-size: 12px;
+        display: flex;
+        margin-left: auto;
+    }
+    .hostel-slider .owl-next {
+        -webkit-background-size: contain;
+        background-size: contain;
+        width: 36px;
+        height: 36px;
+        left: 50px;
+        bottom: 30px;
+    }
+    .hostel-slider .owl-next:hover {
+        -webkit-background-size: contain;
+        background-size: contain;
+        width: 36px;
+        height: 36px;
+    }
+    .hostel-slider .owl-prev {
+        -webkit-background-size: contain;
+        background-size: contain;
+        width: 36px;
+        height: 36px;
+        left: 5px;
+        bottom: 30px;
+    }
+    .hostel-slider .owl-prev:hover {
+        -webkit-background-size: contain;
+        background-size: contain;
+        width: 36px;
+        height: 36px;
+    }
+    .hostel-technology__right_main {
+        font-size: 24px;
+        width: 285px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hostel-technology__right_lists {
+        width: 285px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hostel-technology__right_lists_li {
+        font-size: 12px;
+        padding-left: 50px;
+        margin-bottom: 30px;
+    }
+    .hostel-technology__right {
+        height: 714px;
+    }
+    .main-partners__main {
+        font-size: 24px;
+    }
+    .main-partners {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    .main-partners__slider .owl-prev {
+        background: none !important;
+        transform: rotate(0);
+        left: -30px;
+    }
+    .main-partners__slider .owl-prev:hover {
+        background: none !important;
+        transform: rotate(0);
+    }
+    .main-partners__slider .owl-next {
+        background: none !important;
+        transform: rotate(0);
+        right: -10px;
+        width: 10px;
+    }
+    .main-partners__slider .owl-next:hover {
+        background: none !important;
+        transform: rotate(0);
+        right: -10px;
+        width: 10px;
+    }
+    .main-partners__slider .owl-prev span {
+        font-size: 50px;
+        color: #fff;
+        content: url(../img/m-a-w.png);
+        transform: rotate(180deg);
+    }
+    .main-partners__slider .owl-next span {
+        font-size: 50px;
+        color: #fff;
+        content: url(../img/m-a-w.png);
+        transform: rotate(0);
+    }
+    .partners__slider__item {
+        width: 255px;
+    }
+    .main-partners__slider__item__top {
+        width: 255px;
+    }
+    .main-partners__slider__item__bottom {
+        width: 255px;
+    }
+    .prof-company {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    .prof-company_main {
+        font-size: 24px;
+    }
+    .prof-company__text-block_text {
+        width: 285px;
+        font-size: 12px;
+        padding-left: 85px;
+    }
+    .prof-company-slider .owl-prev {
+        background: none !important;
+        transform: rotate(0);
+        left: -40px;
+        bottom: 60px;
+    }
+    .prof-company-slider .owl-prev:hover {
+        background: none !important;
+        transform: rotate(0);
+    }
+    .prof-company-slider .owl-next {
+        background: none !important;
+        transform: rotate(0);
+        bottom: 60px;
+        width: 10px;
+    }
+    .prof-company-slider .owl-next:hover {
+        background: none !important;
+        transform: rotate(0);
+        right: 0;
+        bottom: 60px;
+        width: 10px;
+    }
+    .prof-company-slider .owl-prev span {
+        transform: rotate(180deg);
+        content: url(../img/m-a-w.png);
+        top: 20px;
+        position: relative;
+        left: 0;
+    }
+    .prof-company-slider .owl-next span {
+        transform: rotate(0);
+        content: url(../img/m-a-w.png);
+        top: 20px;
+        position: relative;
+        right: -5px;
+    }
+    .work-invest_main {
+        font-size: 24px;
+    }
+    .work-invest_sub-main-block_p {
+        font-size: 14px;
+    }
+    .work-invest__cards__card {
+        width: 248px;
+    }
+    .work-invest__cards__card__top_main {
+        font-size: 20px;
+    }
+    .work-invest__cards__card__top_text {
+        font-size: 12px;
+    }
+    .work-invest__cards__card__top_name {
+        font-size: 14px;
+    }
+    .work-invest__cards__card__bottom {
+        padding: 47px 24px 43px 22px;
+        height: auto;
+    }
+    .work-invest__cards__card__bottom__lists__li_description {
+        font-size: 12px;
+    }
+    .work-invest__cards__card__bottom__lists__li_text {
+        font-size: 12px;
+    }
+    .work-invest__cards__card__bottom_gatant-description {
+        font-size: 12px;
+    }
+    .work-invest-slider {
+
+    }
+    .work-invest-slider .owl-prev {
+        background: none !important;
+        transform: rotate(0);
+        left: -40px;
+        top: 170px;
+    }
+    .work-invest-slider .owl-prev:hover {
+        background: none !important;
+        transform: rotate(0);
+    }
+    .work-invest-slider .owl-next {
+        background: none !important;
+        transform: rotate(0);
+        top: 170px;
+        width: 10px;
+        right: -10px;
+    }
+    .work-invest-slider .owl-next:hover {
+        background: none !important;
+        transform: rotate(0);
+        width: 10px;
+        right: -10px;
+    }
+    .work-invest-slider .owl-prev span {
+        font-size: 50px;
+        color: #fff;
+        transform: rotate(180deg);
+        content: url(../img/m-a-w.png);
+    }
+    .work-invest-slider .owl-next span {
+        font-size: 50px;
+        color: #fff;
+        display: block;
+        content: url(../img/m-a-w.png);
+    }
+    .work-invest_sub-main-block_btn {
+        width: 191px;
+        height: 40px;
+        font-size: 12px;
+    }
+    .how-to-buy__managers {
+        height: 273px;
+        padding: 0;
+    }
+    .how-to-buy__managers_text {
+        font-size: 16px;
+        width: 285px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .how-to-buy__managers_btn {
+        width: 191px;
+        height: 40px;
+        font-size: 12px;
+    }
+    .how-to-buy_main {
+        font-size: 24px;
+    }
+    .how-to-buy__choose-buttons {
+        margin-top: 45px;
+        flex-direction: column;
+    }
+    .how-to-buy__choose-buttons_button {
+        margin-top: 1px;
+        width: 100%;
+    }
+    .buy-variants__banks_right {
+        width: 285px;
+        grid-column-gap: 8px;
+        grid-row-gap: 8px;
+    }
+    .buy-variants__banks_right_item {
+        width: 88px;
+        height: 70px;
+    }
+    .buy-variants__banks_left {
+        width: 285px;
+        height: 417px;
+        padding: 25px;
+    }
+    .buy-variants__banks_left_content {
+        background: none;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+    .buy-variants__banks_left_content_grid-item {
+        width: 100%;
+        height: auto;
+        align-items: flex-start;
+        margin-top: 12px;
+    }
+    .buy-variants__banks_img {
+        margin: 0 auto;
+    }
+    .buy-variants__rassrochka_main {
+        font-size: 24px;
+    }
+    .buy-variants__rassrochka_sub_main {
+        font-size: 14px;
+    }
+    .buy-variants__rassrochka__text-block_text {
+        width: 285px !important;
+    }
+    .rassrochka-slider-slider {
+        width: 285px !important;
+        margin-top: 50px;
+    }
+    .rassrochka-slider-slider .owl-prev {
+        background: none !important;
+        transform: rotate(0);
+        left: -40px;
+        top: -5px;
+        position: absolute;
+    }
+    .rassrochka-slider-slider .owl-prev:hover {
+        background: none !important;
+        transform: rotate(0);
+    }
+    .rassrochka-slider-slider .owl-next {
+        background: none !important;
+        transform: rotate(0);
+        right: -40px;
+        top: -5px;
+        position: absolute;
+    }
+    .rassrochka-slider-slider .owl-next:hover {
+        background: none !important;
+        transform: rotate(0);
+    }
+    .rassrochka-slider-slider .owl-prev span {
+        font-size: 50px;
+        color: #fff;
+        transform: rotate(0);
+    }
+    .rassrochka-slider-slider .owl-next span {
+        font-size: 50px;
+        color: #fff;
+        transform: rotate(0);
+    }
+    .buy-variants__ipoteca__top-block_main {
+        font-size: 24px;
+    }
+    .buy-variants__rassrochka_description {
+        font-size: 14px;
+        margin-top: 50px;
+    }
+    .buy-variants__rassrochka_btn {
+        margin-top: 90px;
+        height: 40px;
+        width: 191px;
+        font-size: 12px;
+    }
+    .buy-variants {
+        padding-top: 75px;
+        height: 865px;
+    }
+    .buy-variants__banks {
+        margin-top: 65px;
+    }
+    .buy-variants__sto-pro_main {
+        font-size: 24px;
+    }
+    .buy-variants__sto-pro_sub-main {
+        font-size: 14px;
+    }
+    .sto-pro-slider {
+        width: 285px !important;
+    }
+    .buy-variants__sto-pro__text-block_text {
+        width: 285px !important;
+    }
+    .sto-pro-slider  .owl-prev {
+        background: none !important;
+        transform: rotate(0);
+        left: -40px;
+        top: -5px;
+        position: absolute;
+    }
+    .sto-pro-slider  .owl-prev:hover {
+        background: none !important;
+        transform: rotate(0);
+    }
+    .sto-pro-slider  .owl-next {
+        background: none !important;
+        transform: rotate(0);
+        right: -40px;
+        top: -5px;
+        position: absolute;
+    }
+    .sto-pro-slider  .owl-next:hover {
+        background: none !important;
+        transform: rotate(0);
+    }
+    .sto-pro-slider  .owl-prev span {
+        font-size: 50px;
+        color: #fff;
+        transform: rotate(0);
+    }
+    .sto-pro-slider  .owl-next span {
+        font-size: 50px;
+        color: #fff;
+        transform: rotate(0);
+    }
+    .sto-pro-slider {
+        margin-top: 50px;
+    }
+    .buy-variants__sto-pro_text {
+        font-size: 14px;
+        margin-top: 50px;
+    }
+    .buy-variants__trade-in_main {
+        font-size: 24px;
+    }
+    .buy-variants__trade-in_sub-main {
+        font-size: 14px;
+        margin-top: 30px;
+        width: auto;
+    }
+    .buy-variants__trade-in_text {
+        margin-top: 35px;
+        font-size: 12px;
+    }
+    .buy-variants__trade-in_second-text {
+        font-size: 14px;
+        width: auto;
+        margin-top: 35px;
+    }
+    .buy-variants__trade-in_btn {
+        width: 191px;
+        height: 40px;
+        font-size: 12px;
+        margin-top: 35px;
+    }
+    .buy-variants__ipoteca__bottom_text {
+        font-size: 16px;
+        width: 285px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .buy-variants__ipoteca__bottom {
+        height: 190px;
+        bottom: -189px;
+        padding: 0;
+    }
+    .buy-variants__ipoteca__bottom_btn {
+        margin-right: 0;
+        margin-top: 30px;
+        width: 191px;
+        height: 40px;
+        font-size: 12px;
+        align-self: flex-start;
+        max-width: 191px;
+        min-width: auto;
+    }
+    .dn-750 {
+        display: none;
+    }
+    .buy-variants__ipoteca__bottom_btn-container {
+        width: 285px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .buy-variants__ipoteca__bottom_btn-container {
+        display: block;
+    }
+    .construction-progress {
+        margin-top: 189px;
+        padding-top: 55px;
+    }
+    .construction-progress__top-block__main {
+        font-size: 24px;
+    }
+    .construction-progress__top-block_p {
+        margin-top: 60px;
+    }
+    .construction-progress_cameras__choose-camera {
+        height: 285px;
+    }
+    .big-progress-slider .owl-prev span {
+        top: -425px;
+        padding: 20px;
+        left: 40px;
+    }
+    .big-progress-slider .owl-next span {
+        top: -425px;
+        padding: 20px;
+        left: 195px;
+    }
+    .construction-progress_cameras__choose-camera_main {
+        font-size: 16px;
+    }
+    .construction-progress_cameras__choose-camera__buttons_btn {
+        width: 191px;
+        height: 40px;
+        font-size: 12px;
+        margin-top: 12px;
+    }
+    .construction-progress_cameras__choose-camera__buttons {
+        margin-top: 25px;
+    }
+    .construction-progress__live-camera iframe{
+        width: 300px !important;
+        height: 174px !important;
+        left: calc(50% - 150px) !important;
+        top: calc(50% - 87px) !important;
+    }
+    .big-progress-slider {
+        height: 285px;
+    }
+    .big-progress-slider_item-1 {
+        height: 285px;
+    }
+    .big-progress-slider_item-2 {
+        height: 285px;
+    }
+    .buy-variants__rassrchka__bottom {
+        height: 190px;
+        bottom: -189px;
+        padding: 0;
+    }
+    .buy-variants__sto-pro__bottom {
+        height: 190px;
+        bottom: -189px;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .buy-variants__trade-in__bottom {
+        height: 190px;
+        bottom: -189px;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .construction-progress__photos {
+        height: auto;
+    }
+    .big-progress-slider_item {
+        height: auto !important;
+    }
+    .construction-progress__bottom-block__left-block {
+        width: 100%;
+    }
+    .construction-progress__bottom-block__left-block_main {
+        font-size: 24px;
+        width: 285px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .construction-progress__bottom-block__left-block_sub-main {
+        font-size: 14px;
+        width: 285px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .construction-progress__bottom-block {
+        padding: 0;
+    }
+    .construction-progress__bottom-block__right-block {
+        width: 100%;
+    }
+    .construction-progress__bottom-block__right-block__form {
+        width: 285px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .construction-progress__bottom-block__right-block__form_input {
+        width: 100%;
+        margin-top: 1px;
+        height: 40px;
+        margin-right: 0;
+    }
+    .construction-progress__bottom-block__right-block__form_input_submit {
+        margin-top: 1px;
+        width: 136px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .construction-progress__bottom-block {
+        height: 360px;
+    }
+    .how-to-buy-btn-container {
+        display: block;
+    }
+    .big-progress-slider .slick-next  {
+        background: url(../img/slick-r.png) no-repeat !important;
+        transform: rotate(0deg);
+        right: 0;
+        width: 11px;
+    }
+    .big-progress-slider .slick-next:hover  {
+        background: url(../img/slick-r.png) no-repeat !important;
+        transform: rotate(0deg);
+        right: 0;
+        width: 11px;
+    }
+    .big-progress-slider .slick-prev  {
+        background: url(../img/slick-l.png) no-repeat !important;
+        left: 0;
+        transform: rotate(0deg);
+        width: 11px;
+    }
+    .big-progress-slider .slick-prev:hover  {
+        background: url(../img/slick-l.png) no-repeat !important;
+        left: 0;
+        width: 11px;
+        transform: rotate(0deg);
+    }
+    .header-slider__item_lists_li-line-30 {
+        margin-top: 30px;
+    }
+    /*Апартаменты*/
+    .apartments-dropdowns-list-program {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .apartments-catalog-filter-lists {
+        flex-wrap: wrap;
+    }
+    .bread {
+        display: none;
+    }
+    /*Апартаменты*/
+    /*Калькулятор*/
+    .calculator-wrapper {
+        width: 285px;
+    }
+    .calculator__content_main {
+        font-size: 30px;
+    }
+    .calculator__content__text {
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    .calculator__content__hr {
+        margin-top: 15px;
+    }
+    .calculator__content__hr_text {
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    .calculator__content__dropdowns_dropdown {
+        height: 41px;
+    }
+    .calculator__content__dropdowns_dropdown_span {
+        font-size: 14px;
+    }
+    .calculator__content__dropdowns_dropdown_container {
+        width: 285px;
+        min-width: 285px;
+        max-width: 285px;
+        top: 39px;
+    }
+    .calculator__content__dropdowns_dropdown  {
+        font-size: 14px;
+    }
+    .calculator__content__dropdowns_dropdown_container__li_span {
+        font-size: 14px;
+    }
+    .calculator__content__dropdowns__right_main {
+        font-size: 17px;
+    }
+    .calculator__content__dropdowns__right__lists_li_left {
+        font-size: 12px;
+        width: 145px;
+    }
+    .calculator__content__dropdowns__right__lists_li_right {
+        font-size: 19px;
+        width: 115px;
+    }
+    .calculator__content__dropdowns__right {
+        padding: 5px;
+    }
+    .calculator__content__cards-slider {
+        width: 285px;
+    }
+    .calculator__content__cards-slider__item_content_text {
+        font-size: 16px;
+        margin-left: 5px;
+    }
+    .calculator__content_big-btn-block_btn {
+        width: 228px;
+        height: 44px;
+        font-size: 12px;
+    }
+    .calculator__content__form-main {
+        font-size: 13px;
+    }
+    .calculator__content__form_inputs_input-name {
+        background-position: 10px 50%;
+        -webkit-background-size: 6px 6px;
+        background-size: 6px 6px;
+    }
+    .calculator__content__form_inputs_input-phone {
+        background-position: 10px 50%;
+        -webkit-background-size: 6px 6px;
+        background-size: 6px 6px;
+    }
+    .calculator__content__form_inputs_input {
+        width: 130px;
+        height: 24px;
+        font-size: 11px;
+        padding-left: 20px;
+    }
+    .calculator__content__form_textarea {
+        margin-top: 10px;
+        width: 285px;
+        height: 54px;
+        padding: 10px 20px;
+        font-size: 11px;
+    }
+    .calculator__content__form_btn {
+        margin-top: 10px;
+        width: 94px;
+        height: 30px;
+        font-size: 11px;
+    }
+    /*Калькулятор*/
+    /*Локация*/
+    .location-wrapper {
+        width: 285px;
+    }
+    .my-map {
+        display: none;
+    }
+    .location-main-map {
+        display: block;
+        height:700px;
+        background: url(../img/750.png) no-repeat center center / 100% 100%;
+        padding-top: 108px;
+    }
+    .location-loc-main {
+        font-size: 30px;
+    }
+    .location-loc {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .location-loc__text-block {
+        margin-top: 50px;
+        height: 205px;
+    }
+    .location-loc__text-block_text {
+        font-size: 11px;
+    }
+    .location-loc__text-block_text-top {
+        margin-bottom: 15px;
+    }
+    .location-loc__text-block_text-container {
+        width: 285px;
+    }
+    .location-loc__text-block__to-metro-mobile {
+        width: 252px;
+        height: 59px;
+        bottom: -26px;
+    }
+    .location-loc__text-block__to-metro_img {
+        display: none;
+    }
+    .location-loc__text-block__to-metro__text-block_top-text {
+        font-size: 16px;
+    }
+    .location-loc__text-block__to-metro__text-block_bottom-text {
+        font-size: 11px;
+    }
+    .location-loc__cards__mobile-slider {
+        width: 285px;
+        margin-top: 58px;
+    }
+    .location-loc-main_img-mobile {
+        margin-top: 20px;
+    }
+    .location-loc__cards__mobile-slider__item_left {
+        width: 83px;
+    }
+    .location-loc__cards__card__left_img {
+        max-width: 30px;
+        max-height: 33px;
+    }
+    .location-loc__cards__mobile-slider__item {
+        height: 60px;
+    }
+    .location-loc__cards__card__right_text {
+        width: 126px;
+        font-size: 11px;
+        line-height: normal;
+    }
+    .location-loc__cards__mobile-slider .slick-next {
+        top: 6px;
+    }
+    .location-loc__cards__mobile-slider .slick-prev {
+        top: 6px;
+    }
+    .location-loc__text-block__to-metro_img-top {
+        display: block;
+    }
+    .location-metro__text-block-mobile .location-metro-container_main {
+        font-size: 30px;
+    }
+    .location-metro__text-block-mobile .location-metro-container_text {
+        font-size: 11px;
+        margin-top: 30px;
+    }
+    .location-metro__text-block-mobile {
+        height: 265px;
+    }
+    .location-loc__cards__mobile-slider .slick-next {
+        right: 0;
+    }
+    .location-loc__cards__mobile-slider .slick-prev {
+        left: 0;
+    }
+    .location-metro-container__metro-map{
+        display: none;
+    }
+    .location-metro-container__lists {
+        padding-top: 40px;
+
+    }
+    .location-metro-container__lists_li {
+        margin-left: 40px;
+        font-size: 11px;
+        margin-bottom: 20px;
+    }
+    .location-metro-container__lists_li::after {
+        font-size: 11px;
+        width: 20px;
+        height: 20px;
+        top: -4px;
+        left: -30px;
+    }
+    .location-metro {
+        padding-bottom: 40px;
+    }
+    .location-shopping-green_content {
+        height: 280px;
+    }
+    .location-shopping-green_content {
+        font-size: 30px;
+        width: 285px;
+        height: 100%;
+    }
+    .location-shopping-green_img {
+        display: none;
+    }
+    .dn750 {
+        display: none;
+    }
+    .slider-shopping__item_main {
+        font-size: 30px;
+    }
+    .slider-shopping__item_text {
+        font-size: 11px;
+        margin-top: 40px;
+    }
+    .slider-shopping__container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .location-shopping__maza-park {
+        display: none;
+    }
+    .location-shopping__maza-park-mob {
+        display: block;
+    }
+    .location-shopping__maza-park-mob > .location-wrapper {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+    .location-shopping__maza-park-mob_img {
+        position: absolute;
+        right: -200px;
+        top: -38px;
+        height: 199px;
+    }
+    .location-shopping__maza-park__750 {
+        font-size: 11px;
+    }
+    .location-shopping {
+        padding-bottom: 50px;
+    }
+    .location-transport__left {
+        height: 360px;
+    }
+    .location-transport__left_main {
+        width: 285px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 30px;
+        margin-top: 55px;
+    }
+    .location-transport__left_text {
+        width: 285px;
+        margin-top: 50px;
+        font-size: 11px;
+    }
+    .location-transport__left__lists {
+        margin-top: 10px;
+        width: 285px;
+    }
+    .location-transport__left__lists_li {
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+    .location-transport__right {
+        height: 325px;
+    }
+    .location-transport__right_main {
+        width: 285px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 30px;
+        white-space: normal;
+        margin-top: 55px;
+    }
+    .location-transport__right__container {
+        display: none;
+    }
+    .location-transport__right_slider {
+        display: block;
+        margin-top: 45px;
+        text-align: center;
+    }
+    .location-transport__right__container__card__text-bottom {
+        font-size: 16px;
+    }
+    .location-transport-future__left {
+        height: 515px;
+    }
+    .location-transport-future__left_main {
+        margin-top: 55px;
+        font-size: 30px;
+        width: 285px;
+    }
+    .location-transport-future__left_p {
+        font-size: 11px;
+        width: 285px;
+    }
+    .location-transport-future__left_p-1 {
+        margin-top: 30px;
+    }
+    .location-transport-future__right {
+        height: 235px;
+    }
+    .location-form {
+        padding-top: 55px;
+        padding-bottom: 35px;
+    }
+    .location-form_main {
+        font-size: 30px;
+        width: 285px;
+    }
+    .location-form__form {
+        width: 285px;
+    }
+    .location-form__form__inputs {
+        width: 100%;
+        margin-top: 35px;
+    }
+    .location-form__form__inputs_input {
+        width: 130px;
+        height: 24px;
+        font-size: 11px;
+        padding-left: 20px;
+    }
+    .location-form__form__inputs_input-name {
+        background-position: 10px 50%;
+        -webkit-background-size: 6px 6px;
+        background-size: 6px 6px;
+    }
+    .location-form__form__inputs_input-phone {
+        background-position: 10px 50%;
+        -webkit-background-size: 6px 6px;
+        background-size: 6px 6px;
+    }
+    .location-form__textarea {
+        margin-top: 10px;
+        width: 285px;
+        height: 54px;
+        padding: 10px 20px;
+        font-size: 11px;
+    }
+    .location-form__btn {
+        margin-top: 10px;
+        width: 94px;
+        height: 30px;
+        font-size: 11px;
+    }
+    /*Локация*/
+    /*Карта объекта*/
+    .card-obj .slider-one {
+        max-width: 100vw;
+    }
+    .calculator-block {
+        background: url("../img/calc-bgc-750.png") no-repeat;
+    }
+    .bread {
+        display: none;
+    }
+    .icons-block {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .calculator-block-content-title {
+        display: none;
+    }
+    .mobile-h2 {
+        display: block;
+    }
+    .calculator-block-content-right-top {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .calculator-block-content-top-text {
+        width: 100%;
+        margin-right: 0;
+        color: #fff;
+    }
+    .calc-top-br {
+        display: none;
+    }
+    .top-icon {
+        display: none;
+    }
+    .calculator-hr {
+        display: block;
+    }
+    .top-icon-mobile {
+        display: block;
+    }
+    .top-icon-mobile:first-child {
+        margin-right: auto;
+    }
+    .calculator-block-content-top-btn {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 240px;
+        height: 50px;
+        color: #1c2840;
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    .calculator-block-content-top-text {
+        color: #fff;
+        font-size: 35px;
+        font-weight: 300;
+    }
+    /*Карта объекта*/
+    /*сервис*/
+    .service-task-lists {
+        display: none;
+    }
+    .service-tasks-left {
+        height: 360px;
+    }
+    .service-body .slider-two {
+        display: block !important;
+    }
+    .service-body .slider-two .service-task-list::before {
+        content: '';
+    }
+    .service-task-main {
+
+    }
+    .service-input {
+        width: 50% !important;
+    }
+    .service-body .slider-two-item {
+        margin: 0 100px 0 100px;
+    }
+    .service-task-list {
+        margin-right: 0;
+        list-style: none;
+    }
+    .service-body .slider-two .owl-prev span{
+        color: transparent;
+    }
+    .service-body .slider-two .owl-next span{
+        color: transparent;
+    }
+    .service-body .slider-two .owl-next {
+        background: url("../img/two-slider-arrow.png") no-repeat !important;
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+        position: absolute;
+        width: 10px;
+        height: 52px;
+        right: 35px;
+        top: 0;
+    }
+    .service-body .slider-two .owl-prev {
+        background: url("../img/two-slider-arrow.png") no-repeat !important;
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+        position: absolute;
+        width: 10px;
+        height: 52px;
+        left: 35px;
+        top: 0;
+        transform: rotate(180deg);
+    }
+    /*сервис*/
+    /*trade-in*/
+    .trade-in__bread {
+        display: none;
+    }
+    .trade-in-container {
+        padding-top: 60px;
+    }
+    .trade-in-main {
+        margin-top: 0;
+        font-size: 70px;
+        line-height: normal;
+        margin-bottom: 60px;
+    }
+    .trade-in_new-service__text-block__main {
+        font-size: 37px;
+    }
+    .trade-in_new-service__text-block__main-description {
+        font-size: 25px !important;
+        margin-bottom: 40px;
+    }
+    .trade-in_new-service__text-block__text {
+        font-size: 25px;
+    }
+    .trade-in_new-service__text-block__text:not(:last-child) {
+        margin-bottom: 0;
+    }
+    .trade-in__new-service {
+        padding-bottom: 300px;
+    }
+    .trade-in_new-service__text-block {
+        width: auto;
+    }
+    .trade-in__conditions {
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+    .trade-in__conditions_main {
+        font-size: 37px;
+    }
+    .trade-in__conditions__columns {
+        display: none;
+    }
+    .trade-in-slider__item {
+        display: flex;
+        flex-direction: column;
+    }
+    .trade-in__conditions__columns__column_img {
+        width: 100px !important;
+        height: 100px;
+        margin: 0 auto 30px auto;
+    }
+    .trade-in__conditions__columns__column_text {
+        text-align: center;
+        font-size: 25px;
+        color: #fff;
+    }
+    .trade-in__conditions_description-text {
+        font-size: 25px;
+        text-align: center;
+    }
+    .trade-in-slider .owl-next span {
+        color: transparent;
+    }
+    .trade-in-slider .owl-next {
+        background: url(../img/arr-slide.png) no-repeat !important;
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+        height: 52px;
+        width: 10px;
+        position: absolute;
+        top: 10px;
+        right: -10px;
+    }
+    .trade-in-slider .owl-prev span {
+        color: transparent;
+    }
+    .trade-in-slider .owl-prev {
+        background: url(../img/arr-slide.png) no-repeat !important;
+        transform: rotate(180deg);
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+        height: 52px;
+        width: 10px;
+        position: absolute;
+        top: 10px;
+        left: -10px;
+    }
+    .trade-in-slider {
+        display: block !important;
+    }
+    .trade-in__scheme-of-work_main {
+        font-size: 37px;
+    }
+    .trade-in__scheme-of-work_callback_main {
+        font-size: 37px;
+    }
+    .trade-in__scheme-of-work__callback {
+        margin-top: 65px;
+    }
+    .trade-in__scheme-of-work__form {
+        margin-top: 70px;
+    }
+    .trade-in__scheme-of-work__form_input {
+        height: 50px !important;
+        font-size: 24px !important;
+        padding-right: 10px !important;
+    }
+    .trade-in__input-phone {
+        background:  url(../img/phone-service.png) no-repeat 18px 17px;
+    }
+    .trade-in__input-name {
+        background: url(../img/name-icon.png) no-repeat 18px 17px;
+    }
+    .trade-in_textarea {
+        padding-top: 15px !important;
+        font-size: 24px !important;
+    }
+    .trade-in__btn {
+        width: 220px;
+        height: 50px;
+        font-size: 25px;
+    }
+    /*trade-in*/
+    /*Партнёры*/
+    .partners-main {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .partners-main__global__container_main {
+        padding-top: 30px;
+        font-size: 24px;
+    }
+    .partners-main__global__container_text {
+        margin-top: 0;
+        font-size: 11px;
+    }
+    .partners-wrapper {
+        width: 285px;
+    }
+    .partners-main__global__container__slider {
+        margin-top: 30px;
+        width: 285px !important;
+    }
+    .partners-main__global__container__slider_item {
+        width: 285px !important;
+    }
+    .partners-main__global__container__slider .slick-next.slick-arrow {
+        width: 35px;
+        height: 35px;
+        right: -15px;
+    }
+    .partners-main__global__container__slider .slick-prev.slick-arrow {
+        width: 35px;
+        height: 35px;
+        left: -15px;
+    }
+    .partners-main__global__container__slider__item {
+        width: 285px !important;
+    }
+    .partners-bottom__container {
+        padding-top: 45px;
+        padding-bottom: 50px;
+    }
+    .partners-bottom__container__left_main {
+        font-size: 24px;
+    }
+    .partners-bottom__container__left_text {
+        margin-top: 35px;
+        margin-bottom: 35px;
+        font-size: 14px;
+    }
+    .partners-bottom__container__right__top {
+        flex-direction: column;
+        width: auto;
+        
+    }
+    .partners-bottom__container__right {
+        width: 285px;
+    }
+    .partners-bottom__container__right__top_input:nth-child(2) {
+        margin-top: 5px;
+    }
+    .partners-bottom__container__right_textarea {
+        margin-top: 5px;
+    }
+    .partners-main__global__container {
+        padding-top: 0;
+    }
+    .team-container__wrapper {
+        width: 285px;
+    }
+    /*Партнёры*/
+    /*Команда*/
+    .team-container {
+        padding-top: 0;
+    }
+    .team-container__wrapper {
+        width: 285px;
+    }
+    .team-container_main {
+        font-size: 24px;
+        padding-top: 30px;
+        margin-bottom: 20px;
+    }
+    .team-container_text {
+        font-size: 11px;
+        line-height: normal;
+    }
+    .team-container__buttons {
+        margin-top: 25px;
+        height: 295px;
+    }
+    .team-container__buttons .team-container__wrapper {
+        grid-template-columns: 285px;
+    }
+    .team-container__buttons_btn {
+        height: 40px;
+        font-size: 12px;
+    }
+    .team-container__cards_container {
+        grid-template-columns: 285px;
+        padding-top: 20px;
+        padding-bottom: 55px;
+    }
+    /*Команда*/
+    /*Шаблон*/
+    .shab-main {
+        font-size: 27px;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    .shab-sub-main {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+    .shab-text {
+        font-size: 16px;
+        line-height: normal;
+    }
+    .shab-border-block__img {
+        max-width: 52px;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+    }
+    .shab-mini-border-block__left-text_main {
+        font-size: 18px;
+        margin-bottom: 32px;
+        margin-top: 20px;
+        padding-right: 52px;
+    }
+    .shab-mini-border-block {
+        padding: 10px 15px 10px 15px;
+        position: relative;
+    }
+    .shab-mini-border-block__left-text_p {
+        font-size: 16px;
+        line-height: normal;
+    }
+    .shab-border-block_img {
+        max-width: 52px;
+        position: absolute;
+        margin-left: 0;
+        right: 15px;
+        top: 10px;
+    }
+    .shab-border-block {
+        position: relative;
+        padding: 10px 15px 10px 15px;
+    }
+    .shab-videow-section {
+        padding-top: 35px;
+    }
+    .shab-default-sub-main {
+        font-size: 24px;
+        line-height: normal;
+        margin-bottom: 24px;
+    }
+    .shab-video-container {
+        width: 100%;
+        height: 158px;
+    }
+    .shab-photo-in-text__mini-potos-row_img {
+        height: 156px;
+    }
+    .shab-photo-in-text__potos-bottom_img {
+        height: 156px;
+    }
+    .shab-photo-in-text {
+        padding-top: 38px;
+        padding-bottom: 38px;
+    }
+    .shub-slider_item {
+        display: block !important;
+        width: 240px;
+        height: 140px;
+    }
+    .shub-slider {
+        width: 100%;
+        height: 140px;
+    }
+    .circle-prev {
+        top: calc(50% - 12px);
+        width: 23px;
+        height: 23px;
+        left: -23px;
+    }
+    .circle-next{
+        right: -23px;
+        top: calc(50% - 12px);
+        width: 23px;
+        height: 23px;
+    }
+    .shub-slider__container {
+        padding-top: 27px;
+        padding-bottom: 27px;
+    }
+    .shab-quote__container_content_right_img {
+        float: none;
+        max-width: 155px;
+        max-height: 155px;
+        margin-left: auto;
+        margin-right: auto;
+        align-self: center;
+        display: block;
+    }
+    .shab-quote__container_content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .shup-text-auto-lh {
+        text-align: center;
+        font-size: 16px;
+    }
+    .shup-text-auto-lh.mt-25 {
+        margin-top: 10px;
+    }
+    .shup-text-auto-lh.mb-25 {
+        margin-bottom: 10px;
+    }
+    .shup-text-auto-lh-italic {
+        font-size: 16px;
+        text-align: center;
+    }
+    .shup-autor {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .shab-quote__container {
+        padding-top: 40px;
+    }
+    .shub-icon-block {
+        padding-top: 45px;
+    }
+    .shub-icon-container_icon {
+        width: 89px;
+        height: 89px;
+        margin-bottom: 25px;
+    }
+    .shub-icon-container_description {
+        font-size: 14px;
+    }
+    .shub-icon-container {
+        height: auto;
+    }
+    .shup-text-auto-lh-mobile-tal {
+        text-align: left;
+    }
+    .shup-text-auto-lh-mobile12 {
+        font-size: 12px;
+    }
+    .g-before-after {
+        margin-top: 32px;
+    }
+    .shub-black-white-slider-choose_buttons_btn {
+        width: 130px;
+        height: 25px;
+        font-size: 9px;
+    }
+    .shub-black-white-slider-choose_buttons_btn1 {
+        margin-right: 0;
+    }
+    .shub-black-white-slider-choose_buttons {
+        justify-content: space-between;
+    }
+    .shub-slider2 {
+        width: 100%;
+        height: 140px;
+        margin-top: 25px;
+    }
+    .shub-slider3 {
+        width: 100%;
+        height: 140px;
+        margin-top: 25px;
+    }
+    .shub-number-block__container {
+        width: 130px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .shub-number-block {
+        padding-top: 45px;
+    }
+    /*Шаблон*/
+}
+@media screen  and (max-width: 650px) {
+    /*Карта объекта*/
+    .mobile-h2 {
+        font-size: 14px;
+        font-weight: 400;;
+    }
+    .top-icon-mobile-first img{
+        width: 25px;
+        height: 35px;
+    }
+    .icons-block .top-icon-mobile-second img{
+        width: 28px;
+        height: 33px;
+    }
+    .icons-block .top-icon-mobile-third img {
+        width: 23px;
+        height: 26px;
+    }
+    .icons-block .top-icon-mobile-fourth img {
+        width: 25px;
+        height: 26px;
+    }
+    .top-icon-mobile:not(:last-child) {
+        margin-right: 25px;
+    }
+    .calculator-hr {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .calculator-block-content-top-text {
+        font-size: 14px;
+    }
+    .calculator-block-content-top-btn {
+        width: 185px;
+        height: 45px;
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 22px;
+    }
+    .left-calc {
+        margin-top: 20px;
+    }
+    .slider-one {
+        width: 480px;
+        height: 320px;
+        margin: 0 auto;
+    }
+    .card-obj .calc-slider-item {
+        width: 480px;
+        height: 320px;
+    }
+    .under-slider-compass {
+        width: 100%;
+        height: 75px;
+    }
+    .compass {
+        width: 62px;
+        height: 62px;
+    }
+    .slider-nav-link {
+        height: 35px;
+    }
+    .slider-nav-link a {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .good-description-block-left-list {
+        font-size: 10px;
+    }
+    .good-description-block {
+        width: 100%;
+    }
+    .under-description-text {
+        margin-right: 0;
+        padding-right: 20px;
+    }
+    .profitability-program-block-left {
+        margin-left: 20px;
+        font-size: 10px;
+    }
+    .profitability-program-block-right {
+        font-size: 10px;
+    }
+    .good-description-block-bottom-first-text {
+        display: none;
+    }
+    .good-description-block-bottom {
+        flex-direction: column;
+    }
+    .good-description-block-bottom-first-img-2 {
+        display: block;
+    }
+    .good-description-block-bottom-first-img-1 {
+        display: none;
+    }
+    .good-description-block-bottom-right-top-text {
+        font-size: 27px;
+        text-align: right;
+    }
+    .good-description-block-bottom-right-top-under-text {
+        font-size: 11px;
+    }
+    .good-description-block-bottom-container {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .good-description-block-left-list {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .left-calc {
+        width: 100%;
+    }
+    .partners-bottom__container__right__top_input:nth-child(2) {
+        margin-top: 5px;
+    }
+    .partners-bottom__container__right {
+        width: auto;
+    }
+    .partners-bottom__container__right_textarea {
+        margin-top: 5px;
+    }
+    .partners-bottom__container__right__bottom {
+        flex-direction: column;
+    }
+    .partners-bottom__container__right__bottom_left {
+        margin-right: 0;
+        text-align: center;
+        font-size: 11px;
+    }
+    .partners-bottom__container__right__bottom_left_btn {
+        margin-top: 25px;
+        margin-left: auto;
+        width: 136px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .shub-hover-photo__container__icon-block_icon {
+        width: 32px;
+        height: 32px;
+    }
+    .shub-hover-photo__container__icon-block_text {
+        padding: 5px;
+        font-size: 9px;
+    }
+    .shub-hover-photo__container {
+        height: 240px;
+        top: 34px;
+    }
+    .shub-hover-photo {
+        height: 312px;
+        padding-top: 34px;
+        padding-bottom: 0;
+    }
+    .shub-hover-photo__container__icon-block1 {
+        top: 188px;
+        right: 8%;
+    }
+    .shub-hover-photo__container__icon-block2 {
+        top: 81px;
+        right: 14%;
+    }
+    .shub-hover-photo__container__icon-block3 {
+        top: 128px;
+        left: 26%;
+    }
+    .shub-hover-photo__container__icon-block4 {
+        top: 35px;
+        left: 14%;
+    }
+    .shub-hover-photo__container__icon-block5 {
+        top: 86px;
+        left: 1%;
+    }
+    .shub-hover-photo__container__description-block{
+        padding: 12px 30px 12px 22px;
+        height: auto;
+    }
+    .shub-hover-photo__container__description-block_main {
+        font-size: 17px;
+        margin-bottom: 8px;
+    }
+    .shub-hover-photo__container__description-block_ol_li {
+        font-size: 10px;
+    }
+    .shub-hover-photo__container__description-block_ol_li_p {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .shub-hover-photo__container__description-block_ol_li_span {
+        margin-right: 10px;
+    }
+    .shub-hover-photo__container {
+        overflow: auto;
+    }
+    /*Карта объекта*/
+}
+@media screen and (max-width: 550px) {
+    /*Апартаменты*/
+    .apartments-card {
+        margin-top: 12px;
+    }
+    .apartments-dropdowns-lists {
+        grid-gap: 10px;
+        grid-template-columns: 48% 48%;
+    }
+    .apartments-main {
+        font-size: 30px;
+    }
+    .apartments-top-setting-main {
+        font-size: 13px;
+    }
+    .apartments-dropdowns-list {
+        height: 35px;
+    }
+    .apartments-dropdowns-list-content{
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    .range-counter {
+        height: 32px;
+    }
+    .range-counter-span {
+        font-size: 12px;
+    }
+    .filter-btn {
+        font-size: 10px;
+    }
+    .filter-arrow::after {
+        margin-right: 0;
+        width: 16px;
+        height: 8px;
+        display: block;
+        position: absolute;
+        right: -7px;
+        bottom: 2px ;
+    }
+    .variants-text {
+        margin-right: 2px;
+        font-size: 12px;
+    }
+    .show-filter-result-button {
+        width: 170px;
+        height: 35px;
+        font-size: 12px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .apartments-catalog-main {
+        font-size: 13px;
+    }
+    .apartments-catalog-filter-list span {
+        font-size: 10px;
+    }
+    .apartments-card {
+        height: 108px;
+    }
+    .card-img-container a {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .card-img-container img {
+        height: 80%;
+    }
+    .apartments-card-text-container {
+        padding: 6px 7px 10px 8px;
+    }
+    .card-star {
+        width: 17px;
+        height: 16px;
+    }
+    .apartments-card-text {
+        font-size: 12px !important;
+    }
+    .apartments-card-text-bold {
+        font-size: 12px !important;
+    }
+    .apartments-card-text-block p {
+        margin-top: 2px;
+    }
+    .filter-result-prev-next {
+        width: 58px;
+        height: 26px;
+        font-size: 7px;
+        top: 2px;
+        align-self: center;
+    }
+    .filter-result-prev-next:first-child {
+        margin-left: 0;
+        margin-right: 2px;
+    }
+    .filter-result-prev-next:last-child {
+        margin-right: 0;
+        margin-left: 2px;
+    }
+    .filter-result-nabigation-arrow {
+        width: 11px;
+        height: 21px;
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+        margin-left: 0;
+        margin-right: 0;
+        top: 8px;
+    }
+    .filter-result-nabigation-arrow-right {
+        width: 11px;
+        height: 21px;
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+        margin-left: 0;
+        margin-right: 0;
+        top: 8px;
+    }
+    .filter-result-number-button {
+        width: 30px !important;
+        height: 30px !important;
+        font-size: 13px;
+        margin-left: 1px;
+        margin-right: 1px;
+        align-self: center;
+    }
+    .filter-result-nabigation-arrow-right:hover {
+        background: url(../img/white-filter-left-arrow.png) no-repeat;
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+        transform: rotate(0);
+    }
+    .filter-result-nabigation-arrow:hover {
+        background: url(../img/white-filter-left-arrow.png) no-repeat;
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+        transform: rotate(180deg);
+    }
+    .dropdown-label span {
+        font-size: 12px;
+    }
+    .dropdown-menu-lists {
+        top: 36px;
+    }
+    .dropdown-label span::before {
+        margin-right: 2px;
+        top: 4px;
+        position: relative;
+    }
+    .variants label:first-child {
+        margin-bottom: 5px;
+    }
+    /*Апартаменты*/
+    /*Локация*/
+    .location-main-map {
+        background: url(../img/500.png) no-repeat center center / 100% 100%;
+    }
+    /*Локация*/
+    /*Карта объекта*/
+    .card-obj .slider-one {
+        width: 320px;
+        height: 240px;
+    }
+    .card-obj .calc-slider-item {
+        width: 320px;
+        height: 240px;
+    }
+    .card-obj .slider-one .owl-next span {
+        right: -15px;
+    }
+    .card-obj .slider-one .owl-prev span {
+        left: -15px;
+    }
+    /*Карта объекта*/
+}
+@media screen and (max-width: 500px) {
+    /*Сервис*/
+    .slider-one {
+        width: auto;
+    }
+    .service-accordion-header {
+        font-size: 14px;
+        padding-right: 45px;
+    }
+    .service-wrapper{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .services-about-company {
+        margin-top: 25px;
+    }
+    .services-main {
+        font-size: 30px;
+    }
+    .services-about-company-text-main {
+        font-size: 30px;
+        padding-top: 30px;
+        margin-bottom: 20px;
+    }
+    .services-about-company-text {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .services-about-company-text-p {
+        font-size: 11px;
+    }
+    .service-faq-photo-text-p {
+        font-size: 11px;
+        margin-left: 22px;
+        margin-right: 22px;
+    }
+    .service-faq-photo-text-autor {
+        font-size: 14px;
+    }
+    .service-faq-photo-text-description {
+        font-size: 11px;
+    }
+    .collapsible-header {
+        font-size: 14px;
+        padding-right: 45px;
+    }
+    .accordion-p {
+        font-size: 11px;
+    }
+    .service-task-main {
+        font-size: 31px;
+        margin: 55px 20px 55px 20px;
+    }
+    .service-task-list {
+        font-size: 11px;
+        text-align: left;
+    }
+    .service-body .slider-two-item {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .service-body .slider-two .owl-next {
+        right: 0px;
+    }
+    .service-body .slider-two .owl-prev {
+        left: 0px;
+    }
+    .service-tasks-left {
+        height: 320px;
+    }
+    .service-body .slider-img {
+        height: 100%;
+    }
+    .service-body .slider-one .owl-next {
+        right: 0px !important;
+        background: url(../img/two-slider-arrow.png) no-repeat !important;
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+        height: 52px !important;
+        width: 10px !important;
+        transform: rotate(0deg) !important;
+        left: auto;
+    }
+    .service-body .slider-one .owl-next:hover {
+        background: url(../img/two-slider-arrow.png) no-repeat !important;
+        transform: rotate(0deg) !important;
+    }
+    .service-body .slider-one .owl-prev:hover {
+        background: url(../img/two-slider-arrow.png) no-repeat !important;
+        transform: rotate(180deg) !important;
+    }
+    .service-body .slider-one .owl-prev {
+        left: 0px !important;
+        background: url(../img/two-slider-arrow.png) no-repeat !important;
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+        height: 52px !important;
+        width: 10px !important;
+        transform: rotate(180deg) !important;
+    }
+    .why-we-main {
+        padding-top: 60px;
+        font-size: 31px;
+    }
+    .service-body .slider-third {
+        margin-top: 45px;
+    }
+    .service-body .third-slider-item .best-card {
+        flex-direction: column;
+    }
+    .best-card-img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .service-body .third-slider-item .best-card-text{
+        font-size: 14px;
+        margin-top: 30px;
+        text-align: center;
+        width: auto;
+    }
+    .company-structure-main {
+        font-size: 31px;
+        margin-top: 55px;
+    }
+    .service-body .slider-four {
+
+    }
+    .service-body .slider-four .owl-next {
+        background: url("../img/two-slider-arrow.png") no-repeat !important;
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+        position: absolute;
+        width: 10px;
+        height: 52px;
+        right: -20px;
+        top: 150px;
+    }
+    .service-body .slider-four .owl-prev {
+        background: url("../img/two-slider-arrow.png") no-repeat !important;
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+        position: absolute;
+        width: 10px;
+        height: 52px;
+        left: -20px;
+        top: 150px;
+        transform: rotate(180deg);
+    }
+    .service-form-main {
+        font-size: 31px;
+    }
+    .service-input {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        width: 90px !important;
+        height: 24px !important;
+        font-size: 10px !important;
+    }
+    .service-input-name {
+        -webkit-background-size: 7px 7px;
+        background-size: 7px 7px;
+        background-position: 7px 8px !important;
+    }
+    .service-input-phone {
+        -webkit-background-size: 7px 7px;
+        background-size: 7px 7px;
+        background-position: 7px 8px !important;
+    }
+    .service-textarea {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        font-size: 11px !important;
+        padding-top: 9px !important;
+    }
+    .service-form-btn {
+        width: 94px !important;
+        height: 30px !important;
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    .services-content {
+        padding-bottom: 45px !important;
+        padding-top: 25px !important;
+    }
+    /*Сервис*/
+    /*trade in*/
+    .trade-in-wrapper {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .trade-in-container {
+        padding-top: 25px;
+    }
+    .trade-in-main {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .trade-in_new-service__text-block__main {
+        font-size: 30px;
+    }
+    .trade-in_new-service__text-block__main-description {
+        font-size: 11px !important;
+    }
+    .trade-in__new-service {
+        padding-top: 30px;
+    }
+    .trade-in_new-service__text-block__text {
+        font-size: 11px;
+    }
+    .trade-in__conditions {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .trade-in__conditions_main {
+        font-size: 30px;
+    }
+    .trade-in__conditions__columns__column_text {
+        font-size: 11px;
+    }
+    .trade-in__conditions_description-text{
+        font-size: 11px;
+    }
+    .trade-in__conditions_description-text {
+        margin-top: 35px;
+    }
+    .trade-in__scheme-of-work {
+        margin-top: 40px;
+        font-size: 30px;
+    }
+    .trade-in__scheme-of-work__form_input {
+        width: 130px !important;
+        height: 25px !important;
+        font-size: 11px !important;
+    }
+    .trade-in__input-phone {
+        background: url(../img/phone-service.png) no-repeat 10px 3px;
+    }
+    .trade-in__input-name {
+        background: url(../img/name-icon.png) no-repeat 10px 3px;
+    }
+    .trade-in-slider-2 .owl-next {
+        top: 200px;
+        right: 0;
+    }
+    .trade-in-slider-2 .owl-prev {
+        top: 200px;
+        left: 0;
+    }
+    .trade-in__scheme-of-work__form_input {
+        padding-left: 30px !important;
+    }
+    .trade-in_textarea {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        padding-top: 5px !important;
+        font-size: 11px !important;
+        height: 50px !important;
+        margin-top: 5px !important;
+    }
+    .trade-in__btn {
+        margin-top: 10px;
+        width: 90px;
+        height: 30px;
+        font-size: 11px;
+    }
+    .dn-500 {
+        display: none;
+    }
+    .trade-in__scheme-of-work_main {
+        font-size: 30px;
+    }
+    .trade-in-slider-2 {
+        -webkit-background-size: 250px 250px;
+        background-size: 250px 250px;
+    }
+    .trade-in-slider-2__item {
+        width: calc(100% - 55px);
+        margin-right: 35px;
+        height: 70px;
+        margin-top: 95px ;
+        margin-left: 10px;
+        padding-left: 15px;
+        padding-right: 30px;
+    }
+    .trade-in-slider-2 .owl-item img {
+        display: block;
+        top: 95px;
+        width: 70px !important;
+        height: 70px !important;
+        right: 10px;
+        position: absolute;
+    }
+    .trade-in-slider-2 {
+        height: 250px !important;
+    }
+    .trade-in__scheme-of-work_circle-block_text-img_span {
+        font-size: 11px;
+    }
+    .trade-in__scheme-of-work_callback_main {
+        font-size: 30px;
+    }
+    .trade-in__scheme-of-work__form {
+        margin-top: 40px;
+    }
+    .trade-in__new-service {
+        background: url(../img/320.png) no-repeat;
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+    /*trade in*/
+}
+@media screen  and (max-width: 480px) {
+    /*Карта объекта*/
+    .calculator-block {
+        background: url(../img/calc-bg-480.png) no-repeat;
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+    .good-description-block-bottom-right-top-text {
+        font-size: 20px;
+    }
+    .calculator-container {
+        width: 286px;
+        height: 446px;
+        margin-left: -143px;
+        margin-top: -223px;
+    }
+    .calculator-main {
+        color: #1c2840;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .credit-variants-block{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .rages-block {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .range-live-result {
+        height: 34px;
+    }
+    .apartment-price-text {
+        font-size: 14px;
+    }
+    .apartment-price-price {
+        font-size: 14px;
+    }
+    .apartment-price {
+        margin-top: 20px;
+    }
+    .first-range {
+        margin-top: -10px;
+    }
+    .second-range {
+        margin-top: -10px;
+    }
+    .range-live-result span {
+        font-size: 14px;
+    }
+    .center-div {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 7px;
+    }
+    .ipoteca-block-text::after {
+        right: 4px;
+        top: 10px;
+    }
+    .ipoteca-btn {
+        margin-top: 0;
+        height: 34px;
+        font-size: 14px;
+    }
+    .ipoteca-block {
+        width: 120px;
+        height: 35px;
+    }
+    .base-price-block {
+        width: 242px;
+        height: 34px;
+        margin-left: 22px;
+        margin-top: 35px;
+        margin-bottom: 50px;
+
+    }
+    .base-price-block-second {
+        margin-bottom: 10px;
+    }
+    .first-pay {
+        font-size: 14px;
+    }
+    .last-pay-text {
+        font-size: 10px;
+    }
+    .base-price-block-second {
+        margin-top: 5px;
+    }
+
+    /*Карта объекта*/
+    /*Модалка*/
+    .call-back-modal__container {
+        width: 100%;
+        top: calc(50% - 240px);
+        left: 0;
+        height: 480px;
+    }
+    .call-back-modal__container_top {
+        height: 50px;
+    }
+    .call-back-modal__container_top_main {
+        font-size: 25px;
+    }
+    .call-back-modal__container_bottom {
+        padding-top: 20px;
+        height: 430px;
+    }
+    /*Модалка*/
+}
+@media screen  and (max-width: 380px) {
+    /*Карта объекта*/
+    .card-obj .slider-one {
+        width: 280px;
+        height: 220px;
+    }
+    .card-obj .calc-slider-item {
+        width: 280px;
+        height: 220px;
+    }
+
+    /*Карта объекта*/
+}
+@media screen and (max-width: 350px) {
+    /*Калькулятор**/
+    .calculator__content__cards-slider .slick-next {
+        right: 1px;
+    }
+    .calculator__content__cards-slider .slick-prev {
+        left: -10px;
+    }
+    .calculator__content__cards-slider__item_content_text {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .calculator__content__cards_card_hr {
+        margin-left: 30px;
+    }
+    /*Калькулятор**/
+    /*Локация*/
+    .location-main-map {
+        display: block;
+        height:700px;
+        background: url(../img/320-loc-bg.png) no-repeat center center / 100% 100%;
+        padding-top: 108px;
+    }
+    .slider-shopping .slick-prev {
+        left: -10px;
+    }
+    .slider-shopping .slick-next  {
+        right: -10px;
+    }
+    /*Локация*/
+}
+
+
