@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/global-js/s-page1.js" line="13" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="92e3df07-59d9-4186-9cdd-69172a69bed9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/global-css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/global-css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/global-css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/global-css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/global-js/s-page1.js" beforeDir="false" afterPath="$PROJECT_DIR$/global-js/s-page1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s-page1.html" beforeDir="false" afterPath="$PROJECT_DIR$/s-page1.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/s-page1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="645" column="121" selection-start-line="645" selection-start-column="78" selection-end-line="645" selection-end-column="121" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/global-css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="7066" column="21" selection-start-line="7066" selection-start-column="21" selection-end-line="7066" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/global-css/responsive.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="1473" column="29" selection-start-line="1473" selection-start-column="29" selection-end-line="1473" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/global-js/s-page1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>shab-mini-border-blo</find>
+      <find>shab-photo-in-text</find>
+      <find>.circle-prev</find>
+      <find>shab-photo-in-text__mini-potos-row_img</find>
+      <find>breakpoint1</find>
+      <find>1344</find>
+      <find>shub-icons-row</find>
+      <find>shup-text-auto-lh</find>
+      <find>выбор отделки</find>
+      <find>shub-number-block__container</find>
+      <find>shub-hover-photo</find>
+      <find>shub-hover-photo__container</find>
+      <find>shub-hover-photo__container__icon-block</find>
+      <find>4</find>
+      <find>rows</find>
+      <find>shub-slider__container</find>
+      <find>shub-slider</find>
+      <find>shub-slider</find>
+      <find>shub-slider'</find>
+      <find>windowWidth</find>
+      <find>shub-black-white-slider-choose</find>
+      <find>shub-img-mask</find>
+      <find>shub-black-white-slider-choose</find>
+      <find>shub-slider_item</find>
+      <find>shub-slider2</find>
+      <find>choose</find>
+      <find>shub-black-white-slider-choose_buttons_btn2</find>
+      <find>delSlider</find>
+      <find>chooseFurniture</find>
+      <find>sliderInit</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/valo-calculator/css/calc-responsive.css" />
+        <option value="$PROJECT_DIR$/valo-location/css/location.css" />
+        <option value="$PROJECT_DIR$/valo-location/js/location.js" />
+        <option value="$PROJECT_DIR$/global-js/custom_map.js" />
+        <option value="$PROJECT_DIR$/valo-obj-card/css/responsive.css" />
+        <option value="$PROJECT_DIR$/valo-obj-card/css/style.css" />
+        <option value="$PROJECT_DIR$/valvo-services/css/services.css" />
+        <option value="$PROJECT_DIR$/valvo-services/css/responsive.css" />
+        <option value="$PROJECT_DIR$/valo-trade-in/css/trade-in.css" />
+        <option value="$PROJECT_DIR$/valo-trade-in/css/trade-in-responsive.css" />
+        <option value="$PROJECT_DIR$/global-js/header.js" />
+        <option value="$PROJECT_DIR$/../невский проспект.svg" />
+        <option value="$USER_HOME$/AppData/Local/Temp/7zEC03A1016/дворцовая площадь.svg" />
+        <option value="$PROJECT_DIR$/../дворцовая площадь.svg" />
+        <option value="$USER_HOME$/AppData/Local/Temp/7zEC030C653/московский вокзал.svg" />
+        <option value="$PROJECT_DIR$/../аэропорт.svg" />
+        <option value="$PROJECT_DIR$/../ТРК.svg" />
+        <option value="$PROJECT_DIR$/../надежно.svg" />
+        <option value="$PROJECT_DIR$/global-css/footer.css" />
+        <option value="$PROJECT_DIR$/global-js/valo-main.js" />
+        <option value="$PROJECT_DIR$/global-css/header.css" />
+        <option value="$PROJECT_DIR$/global-js/left-buttons.js" />
+        <option value="$PROJECT_DIR$/global-js/script.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/global-css/header-responsive.css" />
+        <option value="$PROJECT_DIR$/global-js/partners.js" />
+        <option value="$PROJECT_DIR$/global-js/apartmentsChoose.js" />
+        <option value="$PROJECT_DIR$/global-css/apartments-choose.css" />
+        <option value="$PROJECT_DIR$/../base-project-master/css/style.css" />
+        <option value="$PROJECT_DIR$/apartments-choose.html" />
+        <option value="$PROJECT_DIR$/global-js/apartments-script.js" />
+        <option value="$PROJECT_DIR$/apartments.html" />
+        <option value="$PROJECT_DIR$/calculator.html" />
+        <option value="$PROJECT_DIR$/global-js/calculator.js" />
+        <option value="$PROJECT_DIR$/location.html" />
+        <option value="$PROJECT_DIR$/global-js/location.js" />
+        <option value="$PROJECT_DIR$/obj-card.html" />
+        <option value="$PROJECT_DIR$/global-js/service-script.js" />
+        <option value="$PROJECT_DIR$/services.html" />
+        <option value="$PROJECT_DIR$/team.html" />
+        <option value="$PROJECT_DIR$/global-js/team.js" />
+        <option value="$PROJECT_DIR$/trade-in.html" />
+        <option value="$PROJECT_DIR$/global-js/trade-in-script.js" />
+        <option value="$PROJECT_DIR$/partners.html" />
+        <option value="$PROJECT_DIR$/../base-project/js/index.js" />
+        <option value="$PROJECT_DIR$/global-css/reset.css" />
+        <option value="$PROJECT_DIR$/../base-project/about.html" />
+        <option value="$PROJECT_DIR$/global-css/style.css" />
+        <option value="$PROJECT_DIR$/global-css/responsive.css" />
+        <option value="$PROJECT_DIR$/s-page1.html" />
+        <option value="$PROJECT_DIR$/global-js/s-page1.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="frontend" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="frontend" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="global-css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="frontend" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="global-js" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Молодое Зло\Desktop\frontend\global-js" />
+      <recent name="D:\Mark work\frontend\global-js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92e3df07-59d9-4186-9cdd-69172a69bed9" name="Default Changelist" comment="" />
+      <created>1562171862472</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562171862472</updated>
+      <workItem from="1562171864061" duration="8238000" />
+      <workItem from="1562227070987" duration="616000" />
+      <workItem from="1562254125839" duration="20244000" />
+      <workItem from="1562363708782" duration="956000" />
+      <workItem from="1562388816442" duration="40368000" />
+      <workItem from="1562855336127" duration="1839000" />
+      <workItem from="1562912876698" duration="18925000" />
+      <workItem from="1562952579743" duration="1344000" />
+      <workItem from="1563901191273" duration="10795000" />
+      <workItem from="1563964501311" duration="13056000" />
+      <workItem from="1563991590334" duration="8149000" />
+      <workItem from="1564061382821" duration="6255000" />
+      <workItem from="1564601049906" duration="908000" />
+      <workItem from="1564644846296" duration="19762000" />
+      <workItem from="1564735443258" duration="1694000" />
+      <workItem from="1565101168465" duration="120000" />
+      <workItem from="1565601334510" duration="15485000" />
+      <workItem from="1565638197450" duration="7142000" />
+      <workItem from="1565683308711" duration="19186000" />
+      <workItem from="1565721486935" duration="9123000" />
+      <workItem from="1565771850901" duration="16228000" />
+      <workItem from="1565856787336" duration="37000" />
+      <workItem from="1565860689919" duration="13091000" />
+      <workItem from="1565946886341" duration="17783000" />
+      <workItem from="1565976112777" duration="12633000" />
+      <workItem from="1566037715197" duration="7102000" />
+      <workItem from="1566119487303" duration="3488000" />
+      <workItem from="1566148475151" duration="1623000" />
+      <workItem from="1566205764542" duration="15620000" />
+      <workItem from="1566235260813" duration="5275000" />
+      <workItem from="1566423873044" duration="1642000" />
+      <workItem from="1566499114437" duration="60000" />
+      <workItem from="1566893139462" duration="5118000" />
+      <workItem from="1566934880095" duration="279000" />
+      <workItem from="1567012722269" duration="20000" />
+      <workItem from="1568135476441" duration="2663000" />
+      <workItem from="1568384649180" duration="20557000" />
+      <workItem from="1568452383388" duration="3838000" />
+      <workItem from="1568538472277" duration="17137000" />
+      <workItem from="1568589389215" duration="31237000" />
+      <workItem from="1568712832036" duration="22753000" />
+      <workItem from="1569001349142" duration="6901000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="417117000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24341412" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24341412" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../невский проспект.svg" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zEC03A1016/дворцовая площадь.svg" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zEC03F0A5E/дворцовая площадь.svg" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zEC031C66E/дворцовая площадь.svg" />
+    <entry file="file://$PROJECT_DIR$/../дворцовая площадь.svg" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zEC030C653/московский вокзал.svg" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zEC034BB26/аэропорт.svg" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zEC0357246/аэропорт.svg" />
+    <entry file="file://$PROJECT_DIR$/../аэропорт.svg" />
+    <entry file="file://$PROJECT_DIR$/../ТРК.svg" />
+    <entry file="file://$PROJECT_DIR$/../надежно.svg" />
+    <entry file="file://$PROJECT_DIR$/global-js/valo-main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global-js/left-buttons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="63" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global-js/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global-js/custom_map.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global-css/header-responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="115" column="5" selection-start-line="115" selection-start-column="5" selection-end-line="115" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="122" column="24" lean-forward="true" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global-css/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="118" column="18" selection-start-line="118" selection-start-column="18" selection-end-line="118" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global-css/apartments-choose.css" />
+    <entry file="file://$PROJECT_DIR$/../base-project-master/css/responsive.css" />
+    <entry file="file://$PROJECT_DIR$/../base-project-master/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/../base-project-master/js/index.js" />
+    <entry file="file://$PROJECT_DIR$/global-js/apartmentsChoose.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apartments-choose.html" />
+    <entry file="file://$PROJECT_DIR$/global-js/apartments-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="90" column="7" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global-js/calculator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="165" column="32" selection-start-line="165" selection-start-column="32" selection-end-line="165" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global-js/location.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="111" column="6" selection-start-line="111" selection-start-column="6" selection-end-line="111" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global-js/obj-card.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="133" column="33" selection-start-line="133" selection-start-column="27" selection-end-line="133" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global-js/partners.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global-js/service-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="71" column="3" selection-start-line="71" selection-start-column="3" selection-end-line="71" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj-card.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="169" selection-start-line="169" selection-end-line="169" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/trade-bg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global-js/team.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global-css/footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="70" column="42" lean-forward="true" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apartments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="168" column="6" lean-forward="true" selection-start-line="168" selection-start-column="6" selection-end-line="168" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="169" selection-start-line="169" selection-end-line="169" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="165" selection-start-line="165" selection-end-line="165" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../base-project/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="677" column="4" selection-start-line="677" selection-start-column="4" selection-end-line="677" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../base-project/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="121" column="3" selection-start-line="121" selection-start-column="3" selection-end-line="121" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global-css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trade-in.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="340" column="22" lean-forward="true" selection-start-line="268" selection-start-column="16" selection-end-line="340" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1809" column="88" selection-start-line="1809" selection-start-column="88" selection-end-line="1809" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/location.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="165" column="38" lean-forward="true" selection-start-line="165" selection-start-column="38" selection-end-line="165" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partners.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="196" selection-start-line="196" selection-end-line="199" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global-js/trade-in-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" selection-start-line="12" selection-end-line="22" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../base-project/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global-css/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="1473" column="29" selection-start-line="1473" selection-start-column="29" selection-end-line="1473" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global-css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="7066" column="21" selection-start-line="7066" selection-start-column="21" selection-end-line="7066" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s-page1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="645" column="121" selection-start-line="645" selection-start-column="78" selection-end-line="645" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global-js/s-page1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

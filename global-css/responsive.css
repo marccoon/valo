@@ -1435,12 +1435,11 @@
     }
     .shub-slider {
         width: 530px;
-        height: 310px;
+        height: 340px;
+        margin-bottom: 0;
     }
     .shub-slider_item {
-        grid-template-columns: auto;
-        grid-row-gap: 0;
-        height: 332px;
+        height: 340px;
     }
     .shub-slider_item_img {
         height: 100%;
@@ -1465,11 +1464,14 @@
     }
     .shub-slider2 {
         width: 530px;
-        height: 332px;
+        height: 340px;
     }
     .shub-slider3 {
         width: 530px;
-        height: 332px;
+        height: 340px;
+    }
+    .shub-black-white-slider-choose {
+        padding-bottom: 50px;
     }
     .shub-slider_item_img {
         height: 100%;
@@ -1535,6 +1537,10 @@
     .shub-hover-photo__container__description-block_ol_li {
         font-size: 19px;
         line-height: 120%;
+    }
+    .shub-slider__container {
+        padding-top: 65px;
+        padding-bottom: 65px;
     }
     /*Шаблон*/
 }
