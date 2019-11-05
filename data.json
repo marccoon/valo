@@ -1,0 +1,114 @@
+{
+  "bank1": {
+    "name": "sber",
+    "img": "img/bank1.png",
+    "maxSum": "60",
+    "stav": "от 10,1%",
+    "vznos": "от 15%",
+    "srok": "до 30 лет"
+  },
+  "bank2" : {
+    "name": "alfa",
+    "img": "img/bank2.png",
+    "maxSum": "25",
+    "stav": "от 9,69%",
+    "vznos": "от 10%",
+    "srok": "до 30 лет"
+  },
+  "bank3" : {
+    "name": "vtb",
+    "img": "img/bank3.png",
+    "maxSum": "60",
+    "stav": "от 9,95%",
+    "vznos": "от 20%",
+    "srok": "до 30 лет"
+  },
+  "bank4" : {
+    "name": "газпром",
+    "img": "img/bank4.png",
+    "maxSum": "60",
+    "stav": "от 9,7%",
+    "vznos": "от 20%",
+    "srok": "до 30 лет"
+  },
+  "bank5" : {
+    "name": "открытие",
+    "img": "img/bank5.png",
+    "maxSum": "30",
+    "stav": "от 9,7%",
+    "vznos": "от 40%",
+    "srok": "до 30 лет"
+  },
+  "bank6" : {
+    "name": "совком",
+    "img": "img/bank6.png",
+    "maxSum": "30",
+    "stav": "от 10,4%",
+    "vznos": "от 10%",
+    "srok": "до 30 лет"
+  },
+  "bank7" : {
+    "name": "smp",
+    "img": "img/bank7.png",
+    "maxSum": "∞",
+    "stav": "от 10,5%",
+    "vznos":"от 15%",
+    "srok": "до 25 лет"
+  },
+  "bank8" : {
+    "name": "sngb",
+    "img": "img/bank8.png",
+    "maxSum": "15",
+    "stav": "от 9,9%",
+    "vznos": "от 20%",
+    "srok": "до 30 лет"
+  },
+  "bank9" : {
+    "name": "svyaz",
+    "img": "img/bank9.png",
+    "maxSum": "30",
+    "stav": "от 10,25%",
+    "vznos": "от 15%",
+    "srok": "до 30 лет"
+  },
+  "bank10" : {
+    "name": "uralsib",
+    "img": "img/bank10.png",
+    "maxSum": "50",
+    "stav": "от 9,7%",
+    "vznos": "от 15%",
+    "srok": "до 30 лет"
+  },
+  "bank11" : {
+    "name": "spb",
+    "img": "img/bank11.png",
+    "maxSum": "20",
+    "stav": "от 9,99%",
+    "vznos": "от 20%",
+    "srok": "до 25 лет"
+  },
+  "bank12" : {
+    "name": "dom",
+    "img": "img/bank12.png",
+    "maxSum": "30",
+    "stav": "от 9,7%",
+    "vznos": "от 15%",
+    "srok": "до 30 лет"
+  },
+  "bank13" : {
+    "name": "dom",
+    "img": "img/bank13.jpg",
+    "maxSum": "20",
+    "stav": "от 9,74%",
+    "vznos": "от 20%",
+    "srok": "до 30 лет"
+  },
+  "bank14" : {
+    "name": "rosBankDom",
+    "img": "img/bank14.png",
+    "maxSum": "∞",
+    "stav": "от 10,25%",
+    "vznos": "от 15%",
+    "srok": "до 25 лет"
+  }
+}

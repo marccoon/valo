@@ -6,8 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Карточка апартамента</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.0/css/ion.rangeSlider.min.css"/>
+    <link rel="stylesheet" href="global-css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="global-css/ion.rangeSlider.min.css"/>
     <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
     <link rel="stylesheet" type="text/css" href="slick/slick.css">
@@ -19,641 +19,484 @@
     <link rel="stylesheet" href="global-css/header-responsive.css">
     <link rel="stylesheet" href="global-css/footer-responsive.css">
 </head>
-<body class="card-obj">
+<body>
+<div class="card-obj">
+    <!--first range-->
+    <span class="for-back min-first">0.01</span>
+    <span class="for-back max-first">9.5</span>
+    <span class="for-back start-first">10.5</span>
+    <span class="for-back end-first">10</span>
+    <!--first range-->
+    <!--second-range-->
+    <span class="for-back min-second">1</span>
+    <span class="for-back max-second">1</span>
+    <span class="for-back start-second">30</span>
+    <span class="for-back end-second">15</span>
+    <!--second-range-->
+    <header class="header" id="header"></header>
 
-<header class="header" id="header">
-    <div class="header-wrapper">
-        <div class="header__left">
-            <a href="index.html"><img src="img/header-logo.png" alt="" class="header-img"></a>
-            <label>
-                <input type="checkbox" id="hamb" class="header__menu-checkbox">
-                <img src="img/ham.png" alt="menu" class="header__menu_btn">
-            </label>
-        </div>
-        <div class="header__center">
-            <ul class="header__center__lists">
-                <li class="header__center__lists_li">пн-пт: 10:00 – 19:00</li>
-                <li class="header__center__lists_li">сб-вс: 11:00 – 17:00</li>
-            </ul>
-            <ul class="header__center__lists-right">
-                <li class="header__center__lists_li-right"><a href="tel: +78122107057" class="header__center__lists_li-right_link">+7 (812) 210-70-57</a></li>
-                <li class="header__center__lists_li-right"><a href="tel: +78002229385" class="header__center__lists_li-right_link">+7 (800) 222-93-85</a></li>
-            </ul>
-        </div>
-        <div class="header__right-big">
-            <div class="header__right-big__container">
-                <a href="" class="header__right-big__container__item">
-                    <p class="header__right-big__container__item_counter">0</p>
-                </a>
-                <a href="calculator.html" class="header__right-big__container__item header__right-big__container__item2">
+    <div class="fixed-bg loc-fixed"></div>
 
-                </a>
-                <input class="header__right-big__container__item header__right-big__container__item3">
+    <main>
+        <section class="calculator-block">
+            <div class="obj-wrapper">
+                <div class="calculator-block-content">
+                    <div class="content-top-menu">
+                        <a href="#" class="content-top-menu__item">
+                            Item 1
+                        </a>
 
+                        <a href="#" class="content-top-menu__item">
+                            Item 2
+                            Item 2
+                            Item 2
+                            Item 2
+                        </a>
 
-            </div>
-            <div class="header__right">
-                <img src="img/YIT.webp" alt="" class="header__right_img">
-                <img src="img/TMG.webp" alt="" class="header__right_img">
-            </div>
-        </div>
-    </div>
+                        <a href="#" class="content-top-menu__item">
+                            Item 3
+                            Item 3
+                            Item 3
+                        </a>
 
-    <menu class="header__menu">
-        <div class="header__menu-container">
-            <img src="img/hresteg.png" alt="Крестик" id="headerCross" class="header__menu_cross">
-            <div class="header-wrapper">
-                <div class="owl-carousel header-slider owl-theme">
-                    <div class="header-slider__item">
-                        <ul class="header-slider__item_lists">
-                            <li class="header-slider__item_lists_li-main"><a href="#" class="header-slider__item_lists_li-main_link">О проекте</a></li>
-                            <li class="header-slider__item_lists_li-line"></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link header-link-blue" href="#">Что такое VALO </a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Документы</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Архитектура</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Технологии</a></li>
-                        </ul>
+                        <a href="#" class="content-top-menu__item">
+                            Item 4
+                            Item 4
+                        </a>
                     </div>
+                    <h2 class="calculator-block-content-title mobile-h2">Однокомнатные апартаменты 49 м2</h2>
+                    <section class="calculator-block-content-top-block">
+                        <div class="bread">
+                            <span class="bread-span"><a href="index.html">Главная</a></span><span class="bread-span"><a href="#">Планировки</a></span><span class="bread-span"><a href="obj-card.html">Карточка апартамента</a></span>
+                        </div>
 
-                    <div class="header-slider__item">
-                        <ul class="header-slider__item_lists">
-                            <li class="header-slider__item_lists_li-main"><a href="#" class="header-slider__item_lists_li-main_link">О КОМПАНИИ</a></li>
-                            <li class="header-slider__item_lists_li-line"></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">ГАЛС</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="services.html">VALO Service</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Блог компании </a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">FAQ</a></li>
-                        </ul>
-                    </div>
+                        <div class="icons-block">
+                            <a href="apartments.html" class="top-icon"><img src="img/back-circle.png" alt=""></a>
+                            <a href="#" class="top-icon"><img src="img/print-icon.png" alt=""></a>
+                            <a href="#" class="top-icon"><img src="img/pdf-icon.png" alt=""></a>
+                            <a href="#" class="top-icon"><img src="img/mail-icon.png" alt=""></a>
 
-                    <div class="header-slider__item">
-                        <ul class="header-slider__item_lists">
-                            <li class="header-slider__item_lists_li-main"><a href="partners.html" class="header-slider__item_lists_li-main_link">ПАРТНЕРЫ VALO</a></li>
-                            <li class="header-slider__item_lists_li-line"></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">TMG Group</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">YIT</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">GLOBAL EM</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Mercure</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Hospitality management</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Еврономер</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Агентства</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="header-slider__item">
-                        <ul class="header-slider__item_lists">
-                            <li class="header-slider__item_lists_li-main"><a href="#" class="header-slider__item_lists_li-main_link">ВЫБОР АПАРТАМЕНТОВ</a></li>
-                            <li class="header-slider__item_lists_li-line header-slider__item_lists_li-line-30"></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="apartments.html">Планировки</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Выбор на 3D плане</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Коммерческие помещения</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Паркинг</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Отделка</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Оснащение</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="header-slider__item">
-                        <ul class="header-slider__item_lists">
-                            <li class="header-slider__item_lists_li-main"><a href="#" class="header-slider__item_lists_li-main_link">ИНВЕСТИРОВАНИЕ</a></li>
-                            <li class="header-slider__item_lists_li-line"></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Доходные программы</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Портфельные программы</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="header-slider__item">
-                        <ul class="header-slider__item_lists">
-                            <li class="header-slider__item_lists_li-main"><a href="#" class="header-slider__item_lists_li-main_link">КАК КУПИТЬ</a></li>
-                            <li class="header-slider__item_lists_li-line"></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Ипотека</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Рассрочка</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">100% оплата</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="trade-in.html">Trade-in</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="header-slider__item">
-                        <ul class="header-slider__item_lists">
-                            <li class="header-slider__item_lists_li-main"><a href="#" class="header-slider__item_lists_li-main_link">ХОД СТРОИТЕЛЬСТВА</a></li>
-                            <li class="header-slider__item_lists_li-line header-slider__item_lists_li-line-30"></li>
-                        </ul>
-                    </div>
-
-                    <div class="header-slider__item">
-                        <ul class="header-slider__item_lists">
-                            <li class="header-slider__item_lists_li-main"><a href="#" class="header-slider__item_lists_li-main_link">ПРЕИМУЩЕСТВА</a></li>
-                            <li class="header-slider__item_lists_li-line"></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="location.html">Локация</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#"> Услуги собственникам и арендаторам</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Инфраструктура</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Безопасность</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Гостиничные технологии</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="header-slider__item">
-                        <ul class="header-slider__item_lists">
-                            <li class="header-slider__item_lists_li-main"><a href="#" class="header-slider__item_lists_li-main_link">КОНТАКТЫ</a></li>
-                            <li class="header-slider__item_lists_li-line"></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <p class="header_bottom-text">Используйте скролл</p>
-            <img src="img/header-menu-arr.png" alt="" class="header_bottom-img">
-        </div>
-    </menu>
-
-</header>
-
-<div class="fixed-bg loc-fixed"></div>
-
-<main>
-    <section class="calculator-block">
-        <div class="obj-wrapper">
-            <div class="calculator-block-content">
-                <div class="content-top-menu">
-                    <a href="#" class="content-top-menu__item">
-                        Item 1
-                    </a>
-
-                    <a href="#" class="content-top-menu__item">
-                        Item 2
-                        Item 2
-                        Item 2
-                        Item 2
-                    </a>
-
-                    <a href="#" class="content-top-menu__item">
-                        Item 3
-                        Item 3
-                        Item 3
-                    </a>
-
-                    <a href="#" class="content-top-menu__item">
-                        Item 4
-                        Item 4
-                    </a>
-                </div>
-                <h2 class="calculator-block-content-title mobile-h2">Однокомнатные апартаменты 49 м2</h2>
-                <section class="calculator-block-content-top-block">
-                    <div class="bread">
-                        <span class="bread-span"><a href="#">Главная</a></span><span class="bread-span"><a href="#">Планировки</a></span><span class="bread-span"><a href="#">Карточка апартамента</a></span>
-                    </div>
-
-                    <div class="icons-block">
-                        <a href="apartments.html" class="top-icon"><img src="img/back-circle.png" alt=""></a>
-                        <a href="#" class="top-icon"><img src="img/print-icon.png" alt=""></a>
-                        <a href="#" class="top-icon"><img src="img/pdf-icon.png" alt=""></a>
-                        <a href="#" class="top-icon"><img src="img/mail-icon.png" alt=""></a>
-
-                        <a href="#" class="top-icon-mobile top-icon-mobile-first"><img src="img/back-circle.png" alt=""></a>
-                        <a href="#" class="top-icon-mobile top-icon-mobile-second"><img src="img/print-icon.png" alt=""></a>
-                        <a href="#" class="top-icon-mobile top-icon-mobile-third"><img src="img/pdf-icon.png" alt=""></a>
-                        <a href="#" class="top-icon-mobile top-icon-mobile-fourth"><img src="img/mail-icon.png" alt=""></a>
-                    </div>
+                            <a href="#" class="top-icon-mobile top-icon-mobile-first"><img src="img/back-circle.png" alt=""></a>
+                            <a href="#" class="top-icon-mobile top-icon-mobile-second"><img src="img/print-icon.png" alt=""></a>
+                            <a href="#" class="top-icon-mobile top-icon-mobile-third"><img src="img/pdf-icon.png" alt=""></a>
+                            <a href="#" class="top-icon-mobile top-icon-mobile-fourth"><img src="img/mail-icon.png" alt=""></a>
+                        </div>
 
 
-                </section>
-                <div class="calculator-hr"></div>
+                    </section>
+                    <div class="calculator-hr"></div>
 
 
-                <!--ПРАВЫЙ БЛОК-->
+                    <!--ПРАВЫЙ БЛОК-->
 
 
-                <section class="calculator-block-content-container">
-                    <div class="calculator-block-content-main-left">
-                        <h2 class="calculator-block-content-title">Однокомнатные апартаменты 49 м2</h2>
+                    <section class="calculator-block-content-container">
+                        <div class="calculator-block-content-main-left">
+                            <h2 class="calculator-block-content-title">Однокомнатные апартаменты 49 м2</h2>
 
-                    </div>
+                        </div>
 
 
-                    <div class="calculator-block-content-right">
-                        <div class="calculator-block-content-right-top">
-                            <p class="calculator-block-content-top-text">
-                                Подобрать апартамент и рассчитать <br class="calc-top-br"> доходность Вам поможет менеджер
+                        <div class="calculator-block-content-right">
+                            <div class="calculator-block-content-right-top">
+                                <p class="calculator-block-content-top-text">
+                                    Подобрать апартамент и рассчитать <br class="calc-top-br"> доходность Вам поможет менеджер
+                                </p>
+                                <button class="calculator-block-content-top-btn">
+                                    оставить заявку
+                                </button>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <section class="main-calc-container">
+                        <div class="left-calc">
+                            <div class="owl-carousel slider-one default-owl-slider owl-theme">
+                                <div class="calc-slider-item"></div>
+                                <div class="calc-slider-item"></div>
+                            </div>
+
+                            <div class="under-slider">
+                                <div class="under-slider-compass">
+                                    <img src="img/compass.png" alt="" class="compass">
+                                </div>
+
+                                <div class="slider-nav-links">
+                                    <div class="slider-nav-link"><a href="#">планировка</a></div>
+                                    <div class="slider-nav-link"><a href="#">РАСПОЛОЖЕНИЕ НА ЭТАЖЕ</a></div>
+                                    <div class="slider-nav-link"><a href="#">вИД ИЗ ОКНА</a></div>
+                                    <div class="slider-nav-link slider-nav-link-mobile"><a href="#">планировка с мебелью</a></div>
+                                    <div class="slider-nav-link slider-nav-link-mobile"><a href="#">корпус</a></div>
+                                    <div class="slider-nav-link slider-nav-link-mobile"><a href="#">лобби</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="good-description-block">
+                            <ul class="good-description-block-left">
+                                <li class="good-description-block-left-list good-description-block-left-main"><span>Цена при 100%</span><span class="right-description">5 013 126,82  руб.</span></li>
+                                <li class="good-description-block-left-list"><span>Цена базовая</span><span class="right-description">5 276 975,6 руб.</span></li>
+                                <li class="good-description-block-left-list"><span>Статус</span><span class="right-description">Свободно</span></li>
+                                <li class="good-description-block-left-list good-description-block-left-main"><span>Срок сдачи</span><span class="right-description">4 кв. 2019 г.</span></li>
+                                <li class="good-description-block-left-list"><span>Передача ключей</span><span class="right-description">2 кв. 2020 г.</span></li>
+                                <li class="good-description-block-left-list"><span>Корпус</span><span class="right-description">1</span></li>
+                                <li class="good-description-block-left-list"><span>Секция</span><span class="right-description">4</span></li>
+                                <li class="good-description-block-left-list"><span>Этаж</span><span class="right-description">18</span></li>
+                                <li class="good-description-block-left-list"><span>Кол-во комнат</span><span class="right-description">1</span></li>
+                                <li class="good-description-block-left-list"><span>Тип помещения</span><span class="right-description">Апартамент 1-4-Д*, 1</span></li>
+                                <li class="good-description-block-left-list"><span>Номер апартамента</span><span class="right-description">1526</span></li>
+                                <li class="good-description-block-left-list"><span>Вид из окна</span><span class="right-description">Во двор</span></li>
+                                <li class="good-description-block-left-list"><span>Отделка</span><span class="right-description">Чистовая</span></li>
+                                <li class="good-description-block-left-list good-description-block-left-main"><span>Общая площадь</span><span class="right-description">36, 92 м2</span></li>
+                                <li class="good-description-block-left-list"><span>Оснащение (мебель, техника)</span><span class="right-description">Обязательно</span></li>
+                                <li class="good-description-block-left-list"><span>Способ оплаты</span><span class="right-description">Рассрочка, 100%, ипотека</span></li>
+                                <li class="good-description-block-left-list"><span>Стоимость меблировки</span><span class="right-description">625 000 руб.</span></li>
+                                <li class="good-description-block-left-list"><span>Цена с меблировкой</span><span class="right-description">5 638 126,82 руб.</span></li>
+                                <li class="good-description-block-left-list"><span>Доходная программа</span><span class="right-description">Без программы / Классик</span></li>
+                            </ul>
+                            <p class="under-description-text">
+                                Информация актуальна на 24.04.2019
                             </p>
-                            <button class="calculator-block-content-top-btn">
-                                оставить заявку
-                            </button>
+                            <div class="profitability-program-block">
+                                <span class="profitability-program-block-left">Программа доходности:</span>
+                                <span class="profitability-program-block-right">Гарантированный доход <br> 25 500 руб.</span>
+                            </div>
+                            <div class="good-description-block-bottom-container">
+                                <div class="good-description-block-bottom">
+                                    <div class="first-img">
+                                        <a href="#"><img src="img/favorit-icon.png" class="good-description-block-bottom-first-img" alt="" ></a>
+                                        <p class="good-description-block-bottom-first-text">В избранное</p>
+                                    </div>
+
+                                    <div class="second-img" onclick="showBlock($(modalWindow))">
+                                        <img src="img/credit-calc-icon.png" class="good-description-block-bottom-first-img good-description-block-bottom-first-img-1" alt="" >
+                                        <img src="img/calc.png" class="good-description-block-bottom-first-img good-description-block-bottom-first-img-2" alt="" >
+                                        <p class="good-description-block-bottom-first-text">Калькулятор <br> Ипотеки и Рассрочки</p>
+                                    </div>
+
+                                </div>
+                                <div class="good-description-block-bottom-right">
+                                    <p class="good-description-block-bottom-right-top-text">
+                                        5 013 126,82 руб*
+                                    </p>
+                                    <p class="good-description-block-bottom-right-top-under-text">
+                                        *цена указана при 100% предоплате
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <p class="watch-obj">Просмотр на объекте осуществляется по предварительной записи. <br> Телефон: <a
+                            href="tel: +78124110000">+7 (812) 411 00 00</a></p>
+                </div>
+                <section class="calc-bottom-slider">
+                    <div class="owl-carousel slider-two owl-theme">
+                        <div class="top-slider-item-container">
+                            <div class="calc-bottom-slider-item">
+                                <a data-fancybox="gallery" href="img/slider.png"><img src="img/slider.png" alt="" class="calc-bottom-slider-item__image"></a>
+                                <div class="calc-slider-item-text-block">
+                                    <a href="#" class="calc-slider-item-text">Планировка</a>
+                                </div>
+                            </div>
                         </div>
 
+                        <div class="top-slider-item-container">
+                            <div class="calc-bottom-slider-item">
+                                <a data-fancybox="gallery" href="img/second-slide-bottom.png"><img src="img/second-slide-bottom.png" alt="" class="calc-bottom-slider-item__image"></a>
+                                <div class="calc-slider-item-text-block">
+                                    <a href="#" class="calc-slider-item-text">Планировка с мебелью</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="top-slider-item-container">
+                            <div class="calc-bottom-slider-item">
+                                <a data-fancybox="gallery" href="img/third-slide-bottom.png"><img src="img/third-slide-bottom.png" alt="" class="calc-bottom-slider-item__image"></a>
+                                <div class="calc-slider-item-text-block">
+                                    <a href="#" class="calc-slider-item-text">Лобби</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="top-slider-item-container">
+                            <div class="calc-bottom-slider-item">
+                                <a data-fancybox="gallery" href="img/third-slide-bottom.png"><img src="img/third-slide-bottom.png" alt="" class="calc-bottom-slider-item__image"></a>
+                                <div class="calc-slider-item-text-block">
+                                    <a href="#" class="calc-slider-item-text">Лобби</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="top-slider-item-container">
+                            <div class="calc-bottom-slider-item">
+                                <a data-fancybox="gallery" href="img/slider.png"><img src="img/slider.png" alt="" class="calc-bottom-slider-item__image"></a>
+                                <div class="calc-slider-item-text-block">
+                                    <a href="#" class="calc-slider-item-text">Планировка</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="top-slider-item-container">
+                            <div class="calc-bottom-slider-item">
+                                <a data-fancybox="gallery" href="img/second-slide-bottom.png"><img src="img/second-slide-bottom.png" alt="" class="calc-bottom-slider-item__image"></a>
+                                <div class="calc-slider-item-text-block">
+                                    <a href="#" class="calc-slider-item-text">Планировка с мебелью</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="top-slider-item-container">
+                            <div class="calc-bottom-slider-item">
+                                <a data-fancybox="gallery" href="img/third-slide-bottom.png"><img src="img/third-slide-bottom.png" alt="" class="calc-bottom-slider-item__image"></a>
+                                <div class="calc-slider-item-text-block">
+                                    <a href="#" class="calc-slider-item-text">Лобби</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="top-slider-item-container">
+                            <div class="calc-bottom-slider-item">
+                                <a data-fancybox="gallery" href="img/third-slide-bottom.png"><img src="img/third-slide-bottom.png" alt="" class="calc-bottom-slider-item__image"></a>
+                                <div class="calc-slider-item-text-block">
+                                    <a href="#" class="calc-slider-item-text">Лобби</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </section>
-
-                <section class="main-calc-container">
-                    <div class="left-calc">
-                        <div class="owl-carousel slider-one owl-theme">
-                            <div class="calc-slider-item"></div>
-                            <div class="calc-slider-item"></div>
-                        </div>
-
-                        <div class="under-slider">
-                            <div class="under-slider-compass">
-                                <img src="img/compass.png" alt="" class="compass">
-                            </div>
-
-                            <div class="slider-nav-links">
-                                <div class="slider-nav-link"><a href="#">планировка</a></div>
-                                <div class="slider-nav-link"><a href="#">РАСПОЛОЖЕНИЕ НА ЭТАЖЕ</a></div>
-                                <div class="slider-nav-link"><a href="#">вИД ИЗ ОКНА</a></div>
-                                <div class="slider-nav-link slider-nav-link-mobile"><a href="#">планировка с мебелью</a></div>
-                                <div class="slider-nav-link slider-nav-link-mobile"><a href="#">корпус</a></div>
-                                <div class="slider-nav-link slider-nav-link-mobile"><a href="#">лобби</a></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="good-description-block">
-                        <ul class="good-description-block-left">
-                            <li class="good-description-block-left-list good-description-block-left-main"><span>Цена при 100%</span><span class="right-description">5 013 126,82  руб.</span></li>
-                            <li class="good-description-block-left-list"><span>Цена базовая</span><span class="right-description">5 276 975,6 руб.</span></li>
-                            <li class="good-description-block-left-list"><span>Статус</span><span class="right-description">Свободно</span></li>
-                            <li class="good-description-block-left-list good-description-block-left-main"><span>Срок сдачи</span><span class="right-description">4 кв. 2019 г.</span></li>
-                            <li class="good-description-block-left-list"><span>Передача ключей</span><span class="right-description">2 кв. 2020 г.</span></li>
-                            <li class="good-description-block-left-list"><span>Корпус</span><span class="right-description">1</span></li>
-                            <li class="good-description-block-left-list"><span>Секция</span><span class="right-description">4</span></li>
-                            <li class="good-description-block-left-list"><span>Этаж</span><span class="right-description">18</span></li>
-                            <li class="good-description-block-left-list"><span>Кол-во комнат</span><span class="right-description">1</span></li>
-                            <li class="good-description-block-left-list"><span>Тип помещения</span><span class="right-description">Апартамент 1-4-Д*, 1</span></li>
-                            <li class="good-description-block-left-list"><span>Номер апартамента</span><span class="right-description">1526</span></li>
-                            <li class="good-description-block-left-list"><span>Вид из окна</span><span class="right-description">Во двор</span></li>
-                            <li class="good-description-block-left-list"><span>Отделка</span><span class="right-description">Чистовая</span></li>
-                            <li class="good-description-block-left-list good-description-block-left-main"><span>Общая площадь</span><span class="right-description">36, 92 м2</span></li>
-                            <li class="good-description-block-left-list"><span>Оснащение (мебель, техника)</span><span class="right-description">Обязательно</span></li>
-                            <li class="good-description-block-left-list"><span>Способ оплаты</span><span class="right-description">Рассрочка, 100%, ипотека</span></li>
-                            <li class="good-description-block-left-list"><span>Стоимость меблировки</span><span class="right-description">625 000 руб.</span></li>
-                            <li class="good-description-block-left-list"><span>Цена с меблировкой</span><span class="right-description">5 638 126,82 руб.</span></li>
-                            <li class="good-description-block-left-list"><span>Доходная программа</span><span class="right-description">Без программы / Классик</span></li>
-                        </ul>
-                        <p class="under-description-text">
-                            Информация актуальна на 24.04.2019
-                        </p>
-                        <div class="profitability-program-block">
-                            <span class="profitability-program-block-left">Программа доходности:</span>
-                            <span class="profitability-program-block-right">Гарантированный доход <br> 25 500 руб.</span>
-                        </div>
-                        <div class="good-description-block-bottom-container">
-                            <div class="good-description-block-bottom">
-                                <div class="first-img">
-                                    <a href="#"><img src="img/favorit-icon.png" class="good-description-block-bottom-first-img" alt="" ></a>
-                                    <p class="good-description-block-bottom-first-text">В избранное</p>
-                                </div>
-
-                                <div class="second-img" onclick="showBlock($(modalWindow))">
-                                    <img src="img/credit-calc-icon.png" class="good-description-block-bottom-first-img good-description-block-bottom-first-img-1" alt="" >
-                                    <img src="img/calc.png" class="good-description-block-bottom-first-img good-description-block-bottom-first-img-2" alt="" >
-                                    <p class="good-description-block-bottom-first-text">Калькулятор <br> Ипотеки и Рассрочки</p>
-                                </div>
-
-                            </div>
-                            <div class="good-description-block-bottom-right">
-                                <p class="good-description-block-bottom-right-top-text">
-                                    5 013 126,82 руб*
-                                </p>
-                                <p class="good-description-block-bottom-right-top-under-text">
-                                    *цена указана при 100% предоплате
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <p class="watch-obj">Просмотр на объекте осуществляется по предварительной записи. <br> Телефон: <a
-                        href="tel: +78124110000">+7 (812) 411 00 00</a></p>
             </div>
-            <section class="calc-bottom-slider">
-                <div class="owl-carousel slider-two owl-theme">
-                    <div class="top-slider-item-container">
-                        <div class="calc-bottom-slider-item">
-                            <a data-fancybox="gallery" href="img/slider.png"><img src="img/slider.png" alt="" class="calc-bottom-slider-item__image"></a>
-                            <div class="calc-slider-item-text-block">
-                                <a href="#" class="calc-slider-item-text">Планировка</a>
-                            </div>
+        </section>
+    </main>
+
+    <!--modal-->
+    <section class="modal-calc popup">
+        <form method="post" action="" class="calculator-container">
+            <h2 class="calculator-main">Калькулятор</h2>
+            <p class="calculator-text">Калькулятор поможет рассчитать варианты покупки апартаментов в ипотеку или рассрочку</p>
+
+            <div class="credit-variants-block">
+                <div class="credit-variant">
+                    <div class="ipoteca-block">
+                        <input type="radio" id="ipoteca" class="calc-radio" name="calc-radio" checked><label for="ipoteca" class="ipoteca-block-text"><p>Ипотека</p></label>
+                    </div>
+                </div>
+                <div class="credit-variant credit">
+                    <div class="ipoteca-block">
+                        <input type="radio" id="credit" class="calc-radio" name="calc-radio"><label for="credit" class="ipoteca-block-text"><p>Рассрочка</p></label>
+                    </div>
+                </div>
+            </div>
+
+            <section class="ipoteca-container" id="ipotecaBlock">
+                <div class="rages-block">
+                    <div class="range-live-result apartment-price">
+                        <span class="apartment-price-text">Цена апартамента</span>
+                        <span class="apartment-price-price" id="apartment-price">2 457 000 р.</span>
+                    </div>
+                    <div class="first-range" id="firstRange">
+                        <div class="min-max-block">
+                            <span class="min-max-min"></span>
+                            <span class="stavka">Ставка</span>
+                            <span class="min-max-max"></span>
+                        </div>
+                        <input type="text" class="js-range-slider" name="my_range" value="" />
+                        <div class="range-live-result">
+                            <span class="live-result" id="percent"></span>
                         </div>
                     </div>
 
-                    <div class="top-slider-item-container">
-                        <div class="calc-bottom-slider-item">
-                            <a data-fancybox="gallery" href="img/second-slide-bottom.png"><img src="img/second-slide-bottom.png" alt="" class="calc-bottom-slider-item__image"></a>
-                            <div class="calc-slider-item-text-block">
-                                <a href="#" class="calc-slider-item-text">Планировка с мебелью</a>
-                            </div>
+                    <div class="second-range" id="secondRange">
+                        <div class="min-max-block">
+                            <span class="min-max-min"></span>
+                            <span class="stavka">СРОК</span>
+                            <span class="min-max-max"></span>
                         </div>
-                    </div>
-
-                    <div class="top-slider-item-container">
-                        <div class="calc-bottom-slider-item">
-                            <a data-fancybox="gallery" href="img/third-slide-bottom.png"><img src="img/third-slide-bottom.png" alt="" class="calc-bottom-slider-item__image"></a>
-                            <div class="calc-slider-item-text-block">
-                                <a href="#" class="calc-slider-item-text">Лобби</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="top-slider-item-container">
-                        <div class="calc-bottom-slider-item">
-                            <a data-fancybox="gallery" href="img/third-slide-bottom.png"><img src="img/third-slide-bottom.png" alt="" class="calc-bottom-slider-item__image"></a>
-                            <div class="calc-slider-item-text-block">
-                                <a href="#" class="calc-slider-item-text">Лобби</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="top-slider-item-container">
-                        <div class="calc-bottom-slider-item">
-                            <a data-fancybox="gallery" href="img/slider.png"><img src="img/slider.png" alt="" class="calc-bottom-slider-item__image"></a>
-                            <div class="calc-slider-item-text-block">
-                                <a href="#" class="calc-slider-item-text">Планировка</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="top-slider-item-container">
-                        <div class="calc-bottom-slider-item">
-                            <a data-fancybox="gallery" href="img/second-slide-bottom.png"><img src="img/second-slide-bottom.png" alt="" class="calc-bottom-slider-item__image"></a>
-                            <div class="calc-slider-item-text-block">
-                                <a href="#" class="calc-slider-item-text">Планировка с мебелью</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="top-slider-item-container">
-                        <div class="calc-bottom-slider-item">
-                            <a data-fancybox="gallery" href="img/third-slide-bottom.png"><img src="img/third-slide-bottom.png" alt="" class="calc-bottom-slider-item__image"></a>
-                            <div class="calc-slider-item-text-block">
-                                <a href="#" class="calc-slider-item-text">Лобби</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="top-slider-item-container">
-                        <div class="calc-bottom-slider-item">
-                            <a data-fancybox="gallery" href="img/third-slide-bottom.png"><img src="img/third-slide-bottom.png" alt="" class="calc-bottom-slider-item__image"></a>
-                            <div class="calc-slider-item-text-block">
-                                <a href="#" class="calc-slider-item-text">Лобби</a>
-                            </div>
+                        <input type="text" class="js-range-slider-2" name="my_range" value="" />
+                        <div class="range-live-result">
+                            <span class="live-result" id="years"></span>
                         </div>
                     </div>
                 </div>
+                <div class="ipoteca-btn-block">
+                    <input type="button" class="ipoteca-btn" value="РАССЧИТАТЬ">
+                </div>
+                <div class="range-live-result center-div">
+                    <span class="calc-result-text">Ежемесячный платеж</span>
+                    <span class="calc-result-result" id="calculatorResult"></span>
+                </div>
+                <img src="img/obj-cross.png" alt="" onclick="closed($(modalWindow))" class="modal-closed">
             </section>
+
+            <section class="ipoteca-container credit-container" id="creditBlock">
+                <div class="base-price-block">
+                    <span class="base-price-text">Базовая стоимость</span><span class="base-price-numbers">5 457 000 р.</span>
+                </div>
+
+                <p class="first-pay">Первоначальный взнос 30%:  </p>
+                <p class="first-pay first-pay-number">600 000 р.</p>
+
+                <p class="last-pay-text">*Оплата до 30 декабря 2019 года</p>
+
+                <div class="base-price-block base-price-block-second">
+                    <span class="base-price-text">Ежемесячный платеж</span><span class="base-price-numbers">25 500 р.*</span>
+                </div>
+
+                <p class="modal-bottom-text">Другие варианты рассрочек уточняйте
+                    в отделе продаж</p>
+
+                <img src="img/obj-cross.png" alt="" onclick="closed($(modalWindow))" class="modal-closed">
+            </section>
+        </form>
+    </section>
+
+    <footer class="footer"></footer>
+
+    <section class="left-buttons">
+        <div class="left-buttons_btn-container" id="getCallBack">
+            <div class="left-buttons_btn-container_mask"></div>
+            <div class="left-buttons_btn">
+
+            </div>
+        </div>
+
+        <div class="left-buttons_btn-container left-buttons_btn-container2" id="getMail">
+            <div class="left-buttons_btn-container_mask"></div>
+            <div class="left-buttons_btn left-buttons_btn2">
+
+            </div>
+        </div>
+
+        <a href="#header" class="left-buttons_btn-container left-buttons_btn-container3">
+            <div class="left-buttons_btn-container_mask"></div>
+            <div class="left-buttons_btn left-buttons_btn3">
+
+            </div>
+        </a>
+    </section>
+
+    <section class="main-modals">
+        <div class="call-back-modal popup">
+            <div class="call-back-modal__container">
+                <img src="img/modal-cross.png" alt="" class="popup-cross">
+                <div class="call-back-modal__container_top">
+                    <h2 class="call-back-modal__container_top_main">Заказать звонок</h2>
+                </div>
+                <form class="call-back-modal__container_bottom">
+                    <input type="text" id="toBackEnd">
+                    <input type="text" class="call-back-modal__container_bottom_input call-back-modal__container_bottom_input-mb" placeholder="Ваше имя">
+                    <input type="tel" class="call-back-modal__container_bottom_input" placeholder="Ваш телефон">
+                    <div class="call-back-modal__container__sliders_text">
+                        <p class="call-back-modal__container__sliders_text_left">Дата звонка</p>
+                        <p class="call-back-modal__container__sliders_text_right">Время звонка</p>
+                    </div>
+                    <div class="call-back-modal__container_bottom__sliders">
+                        <div class="call-back-modal__container_bottom__day-slider">
+                            <div class="call-back-modal__container_bottom__day-slider_item call-back-modal__container_bottom__day-slider_item0">
+                                <p class="call-back-modal__container_bottom__day-slider_curent-date"></p>
+                                <p class="call-back-modal__container_bottom__day-slider_curent-month"></p>
+                            </div>
+                            <div class="call-back-modal__container_bottom__day-slider_item call-back-modal__container_bottom__day-slider_item1">
+                                <p class="call-back-modal__container_bottom__day-slider_curent-date"></p>
+                                <p class="call-back-modal__container_bottom__day-slider_curent-month"></p>
+                            </div>
+                            <div class="call-back-modal__container_bottom__day-slider_item call-back-modal__container_bottom__day-slider_item2">
+                                <p class="call-back-modal__container_bottom__day-slider_curent-date"></p>
+                                <p class="call-back-modal__container_bottom__day-slider_curent-month"></p>
+                            </div>
+                            <div class="call-back-modal__container_bottom__day-slider_item call-back-modal__container_bottom__day-slider_item3">
+                                <p class="call-back-modal__container_bottom__day-slider_curent-date"></p>
+                                <p class="call-back-modal__container_bottom__day-slider_curent-month"></p>
+                            </div>
+                            <div class="call-back-modal__container_bottom__day-slider_item call-back-modal__container_bottom__day-slider_item4">
+                                <p class="call-back-modal__container_bottom__day-slider_curent-date"></p>
+                                <p class="call-back-modal__container_bottom__day-slider_curent-month"></p>
+                            </div>
+                            <div class="call-back-modal__container_bottom__day-slider_item call-back-modal__container_bottom__day-slider_item5">
+                                <p class="call-back-modal__container_bottom__day-slider_curent-date"></p>
+                                <p class="call-back-modal__container_bottom__day-slider_curent-month"></p>
+                            </div>
+                            <div class="call-back-modal__container_bottom__day-slider_item call-back-modal__container_bottom__day-slider_item6">
+                                <p class="call-back-modal__container_bottom__day-slider_curent-date"></p>
+                                <p class="call-back-modal__container_bottom__day-slider_curent-month"></p>
+                            </div>
+                        </div>
+                        <div class="call-back-modal__container_bottom__right-sliders-container">
+                            <div class="call-back-modal__container_bottom__hours-slider">
+                                <p class="call-back-modal__container_bottom__hours-slider_hours">10</p>
+                                <p class="call-back-modal__container_bottom__hours-slider_hours">11</p>
+                                <p class="call-back-modal__container_bottom__hours-slider_hours">12</p>
+                                <p class="call-back-modal__container_bottom__hours-slider_hours">13</p>
+                                <p class="call-back-modal__container_bottom__hours-slider_hours">14</p>
+                                <p class="call-back-modal__container_bottom__hours-slider_hours">15</p>
+                                <p class="call-back-modal__container_bottom__hours-slider_hours">16</p>
+                                <p class="call-back-modal__container_bottom__hours-slider_hours">17</p>
+                                <p class="call-back-modal__container_bottom__hours-slider_hours">18</p>
+                                <p class="call-back-modal__container_bottom__hours-slider_hours">19</p>
+                                <p class="call-back-modal__container_bottom__hours-slider_hours">20</p>
+                            </div>
+                            <div class="call-back-modal__container_bottom__center">
+                                <img src="img/two-tock-modal.png" alt="" class="call-back-modal__container_bottom__center_img">
+                            </div>
+                            <div class="call-back-modal__container_bottom__minutes-slider">
+                                <p class="call-back-modal__container_bottom__hours-slider_minutes">00</p>
+                                <p class="call-back-modal__container_bottom__hours-slider_minutes">10</p>
+                                <p class="call-back-modal__container_bottom__hours-slider_minutes">20</p>
+                                <p class="call-back-modal__container_bottom__hours-slider_minutes">30</p>
+                                <p class="call-back-modal__container_bottom__hours-slider_minutes">40</p>
+                                <p class="call-back-modal__container_bottom__hours-slider_minutes">50</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="call-back-modal__container_bottom_pol">Политика конфиденциальности</a>
+                    <button class="call-back-modal__container_bottom_btn">
+                        отправить
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="mail-modal popup">
+            <div class="mail-modal-container">
+                <img src="img/modal-cross.png" alt="" class="popup-cross">
+                <div class="call-back-modal__container_top">
+                    <h2 class="call-back-modal__container_top_main">Обратная связь</h2>
+                </div>
+                <form class="call-back-modal__container_bottom">
+                    <input type="text" class="call-back-modal__container_bottom_input call-back-modal__container_bottom_input-mb" placeholder="Ваше имя">
+                    <input type="tel" class="call-back-modal__container_bottom_input call-back-modal__container_bottom_input-mb" placeholder="Ваш телефон">
+                    <input type="email" class="call-back-modal__container_bottom_input call-back-modal__container_bottom_input-mb" placeholder="Ваше e-mail">
+                    <textarea placeholder="Сообщение" class="call-back-modal__container_bottom_textarea"></textarea>
+                    <a href="#" class="call-back-modal__container_bottom_pol">Политика конфиденциальности</a>
+                    <button class="call-back-modal__container_bottom_btn">
+                        отправить
+                    </button>
+                </form>
+            </div>
         </div>
     </section>
-</main>
+    <!--end modal-->
 
-<!--modal-->
-<section class="modal-calc popup">
-    <form method="post" action="" class="calculator-container">
-        <h2 class="calculator-main">Калькулятор</h2>
-        <p class="calculator-text">Калькулятор поможет рассчитать варианты покупки апартаментов в ипотеку или рассрочку</p>
 
-        <div class="credit-variants-block">
-            <div class="credit-variant">
-                <div class="ipoteca-block">
-                    <input type="radio" id="ipoteca" class="calc-radio" name="calc-radio" checked><label for="ipoteca" class="ipoteca-block-text"><p>Ипотека</p></label>
-                </div>
-            </div>
-            <div class="credit-variant credit">
-                <div class="ipoteca-block">
-                    <input type="radio" id="credit" class="calc-radio" name="calc-radio"><label for="credit" class="ipoteca-block-text"><p>Рассрочка</p></label>
-                </div>
-            </div>
+    <section class="loader">
+        <div class="l_main">
+            <div class="l_square"><span></span><span></span><span></span></div>
+            <div class="l_square"><span></span><span></span><span></span></div>
+            <div class="l_square"><span></span><span></span><span></span></div>
+            <div class="l_square"><span></span><span></span><span></span></div>
         </div>
-
-        <section class="ipoteca-container" id="ipotecaBlock">
-            <div class="rages-block">
-                <div class="range-live-result apartment-price">
-                    <span class="apartment-price-text">Цена апартамента</span>
-                    <span class="apartment-price-price" id="apartment-price">2 457 000 р.</span>
-                </div>
-                <div class="first-range" id="firstRange">
-                    <div class="min-max-block">
-                        <span class="min-max-min"></span>
-                        <span class="stavka">Ставка</span>
-                        <span class="min-max-max"></span>
-                    </div>
-                    <input type="text" class="js-range-slider" name="my_range" value="" />
-                    <div class="range-live-result">
-                        <span class="live-result" id="percent"></span>
-                    </div>
-                </div>
-
-                <div class="second-range" id="secondRange">
-                    <div class="min-max-block">
-                        <span class="min-max-min"></span>
-                        <span class="stavka">СРОК</span>
-                        <span class="min-max-max"></span>
-                    </div>
-                    <input type="text" class="js-range-slider-2" name="my_range" value="" />
-                    <div class="range-live-result">
-                        <span class="live-result" id="years"></span>
-                    </div>
-                </div>
-            </div>
-            <div class="ipoteca-btn-block">
-                <input type="button" class="ipoteca-btn" value="РАССЧИТАТЬ">
-            </div>
-            <div class="range-live-result center-div">
-                <span class="calc-result-text">Ежемесячный платеж</span>
-                <span class="calc-result-result" id="calculatorResult"></span>
-            </div>
-            <img src="img/obj-cross.png" alt="" onclick="closed($(modalWindow))" class="modal-closed">
-        </section>
-
-        <section class="ipoteca-container credit-container" id="creditBlock">
-            <div class="base-price-block">
-                <span class="base-price-text">Базовая стоимость</span><span class="base-price-numbers">5 457 000 р.</span>
-            </div>
-
-            <p class="first-pay">Первоначальный взнос 30%:  </p>
-            <p class="first-pay first-pay-number">600 000 р.</p>
-
-            <p class="last-pay-text">*Оплата до 30 декабря 2019 года</p>
-
-            <div class="base-price-block base-price-block-second">
-                <span class="base-price-text">Ежемесячный платеж</span><span class="base-price-numbers">25 500 р.*</span>
-            </div>
-
-            <p class="modal-bottom-text">Другие варианты рассрочек уточняйте
-                в отделе продаж</p>
-
-            <img src="img/obj-cross.png" alt="" onclick="closed($(modalWindow))" class="modal-closed">
-        </section>
-    </form>
-</section>
-
-<footer class="footer">
-    <div class="footer-wrapper">
-        <div class="footer-left">
-            <div class="footer__images">
-                <img src="img/YIT.webp" alt="" class="footer__images_img">
-                <img src="img/TMG.webp" alt="" class="footer__images_img">
-                <p class="footer__images__text">Генеральный подрядчик:
-                    очередь 1 и 2 – YIT,
-                    очередь 3 – TMG Group</p>
-            </div>
-            <p class="footer-left__text">
-                © 2018     ООО «ГАЛС» Сайт не является публичной офертой*
-            </p>
-        </div>
-
-        <div class="footer-right">
-            <div class="footer-right-social">
-                <a href=""><img src="img/you.png" alt="" class="footer-right-social-img footer-right-social-img1"></a>
-                <a href=""><img src="img/inst.png" alt="" class="footer-right-social-img footer-right-social-img2"></a>
-                <a href=""><img src="img/vkn.png" alt="" class="footer-right-social-img footer-right-social-img3"></a>
-                <a href=""><img src="img/fac.png" alt="" class="footer-right-social-img footer-right-social-img4"></a>
-            </div>
-            <div class="footer-right__text-block">
-                <ul class="footer-right__text-block__lists footer-right__text-block__lists-time">
-                    <li class="footer-right__text-block__lists_li">Отдел продаж:</li>
-                    <li class="footer-right__text-block__lists_li">пн-пт: 10:00 – 19:00,</li>
-                    <li class="footer-right__text-block__lists_li">сб-вс: 11:00 – 17:00</li>
-                </ul>
-
-                <ul class="footer-right__text-block__lists footer-right__text-block__lists-right">
-                    <li class="footer-right__text-block__lists_li">Разрешительная документация</li>
-                    <li class="footer-right__text-block__lists_li">Политика конфиденциальности</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</footer>
-
-<section class="left-buttons">
-    <div class="left-buttons_btn-container" id="getCallBack">
-        <div class="left-buttons_btn-container_mask"></div>
-        <div class="left-buttons_btn">
-
-        </div>
-    </div>
-
-    <div class="left-buttons_btn-container left-buttons_btn-container2" id="getMail">
-        <div class="left-buttons_btn-container_mask"></div>
-        <div class="left-buttons_btn left-buttons_btn2">
-
-        </div>
-    </div>
-
-    <a href="#header" class="left-buttons_btn-container left-buttons_btn-container3">
-        <div class="left-buttons_btn-container_mask"></div>
-        <div class="left-buttons_btn left-buttons_btn3">
-
-        </div>
-    </a>
-</section>
-
-<section class="main-modals">
-    <div class="call-back-modal popup">
-        <div class="call-back-modal__container">
-            <img src="img/modal-cross.png" alt="" class="popup-cross">
-            <div class="call-back-modal__container_top">
-                <h2 class="call-back-modal__container_top_main">Заказать звонок</h2>
-            </div>
-            <form class="call-back-modal__container_bottom">
-                <input type="text" id="toBackEnd">
-                <input type="text" class="call-back-modal__container_bottom_input call-back-modal__container_bottom_input-mb" placeholder="Ваше имя">
-                <input type="tel" class="call-back-modal__container_bottom_input" placeholder="Ваш телефон">
-                <div class="call-back-modal__container__sliders_text">
-                    <p class="call-back-modal__container__sliders_text_left">Дата звонка</p>
-                    <p class="call-back-modal__container__sliders_text_right">Время звонка</p>
-                </div>
-                <div class="call-back-modal__container_bottom__sliders">
-                    <div class="call-back-modal__container_bottom__day-slider">
-                        <div class="call-back-modal__container_bottom__day-slider_item call-back-modal__container_bottom__day-slider_item0">
-                            <p class="call-back-modal__container_bottom__day-slider_curent-date"></p>
-                            <p class="call-back-modal__container_bottom__day-slider_curent-month"></p>
-                        </div>
-                        <div class="call-back-modal__container_bottom__day-slider_item call-back-modal__container_bottom__day-slider_item1">
-                            <p class="call-back-modal__container_bottom__day-slider_curent-date"></p>
-                            <p class="call-back-modal__container_bottom__day-slider_curent-month"></p>
-                        </div>
-                        <div class="call-back-modal__container_bottom__day-slider_item call-back-modal__container_bottom__day-slider_item2">
-                            <p class="call-back-modal__container_bottom__day-slider_curent-date"></p>
-                            <p class="call-back-modal__container_bottom__day-slider_curent-month"></p>
-                        </div>
-                        <div class="call-back-modal__container_bottom__day-slider_item call-back-modal__container_bottom__day-slider_item3">
-                            <p class="call-back-modal__container_bottom__day-slider_curent-date"></p>
-                            <p class="call-back-modal__container_bottom__day-slider_curent-month"></p>
-                        </div>
-                        <div class="call-back-modal__container_bottom__day-slider_item call-back-modal__container_bottom__day-slider_item4">
-                            <p class="call-back-modal__container_bottom__day-slider_curent-date"></p>
-                            <p class="call-back-modal__container_bottom__day-slider_curent-month"></p>
-                        </div>
-                        <div class="call-back-modal__container_bottom__day-slider_item call-back-modal__container_bottom__day-slider_item5">
-                            <p class="call-back-modal__container_bottom__day-slider_curent-date"></p>
-                            <p class="call-back-modal__container_bottom__day-slider_curent-month"></p>
-                        </div>
-                        <div class="call-back-modal__container_bottom__day-slider_item call-back-modal__container_bottom__day-slider_item6">
-                            <p class="call-back-modal__container_bottom__day-slider_curent-date"></p>
-                            <p class="call-back-modal__container_bottom__day-slider_curent-month"></p>
-                        </div>
-                    </div>
-                    <div class="call-back-modal__container_bottom__right-sliders-container">
-                        <div class="call-back-modal__container_bottom__hours-slider">
-                            <p class="call-back-modal__container_bottom__hours-slider_hours">10</p>
-                            <p class="call-back-modal__container_bottom__hours-slider_hours">11</p>
-                            <p class="call-back-modal__container_bottom__hours-slider_hours">12</p>
-                            <p class="call-back-modal__container_bottom__hours-slider_hours">13</p>
-                            <p class="call-back-modal__container_bottom__hours-slider_hours">14</p>
-                            <p class="call-back-modal__container_bottom__hours-slider_hours">15</p>
-                            <p class="call-back-modal__container_bottom__hours-slider_hours">16</p>
-                            <p class="call-back-modal__container_bottom__hours-slider_hours">17</p>
-                            <p class="call-back-modal__container_bottom__hours-slider_hours">18</p>
-                            <p class="call-back-modal__container_bottom__hours-slider_hours">19</p>
-                            <p class="call-back-modal__container_bottom__hours-slider_hours">20</p>
-                        </div>
-                        <div class="call-back-modal__container_bottom__center">
-                            <img src="img/two-tock-modal.png" alt="" class="call-back-modal__container_bottom__center_img">
-                        </div>
-                        <div class="call-back-modal__container_bottom__minutes-slider">
-                            <p class="call-back-modal__container_bottom__hours-slider_minutes">00</p>
-                            <p class="call-back-modal__container_bottom__hours-slider_minutes">10</p>
-                            <p class="call-back-modal__container_bottom__hours-slider_minutes">20</p>
-                            <p class="call-back-modal__container_bottom__hours-slider_minutes">30</p>
-                            <p class="call-back-modal__container_bottom__hours-slider_minutes">40</p>
-                            <p class="call-back-modal__container_bottom__hours-slider_minutes">50</p>
-                        </div>
-                    </div>
-                </div>
-                <a href="#" class="call-back-modal__container_bottom_pol">Политика конфиденциальности</a>
-                <button class="call-back-modal__container_bottom_btn">
-                    отправить
-                </button>
-            </form>
-        </div>
-    </div>
-
-    <div class="mail-modal popup">
-        <div class="mail-modal-container">
-            <img src="img/modal-cross.png" alt="" class="popup-cross">
-            <div class="call-back-modal__container_top">
-                <h2 class="call-back-modal__container_top_main">Обратная связь</h2>
-            </div>
-            <form class="call-back-modal__container_bottom">
-                <input type="text" class="call-back-modal__container_bottom_input call-back-modal__container_bottom_input-mb" placeholder="Ваше имя">
-                <input type="tel" class="call-back-modal__container_bottom_input call-back-modal__container_bottom_input-mb" placeholder="Ваш телефон">
-                <input type="email" class="call-back-modal__container_bottom_input call-back-modal__container_bottom_input-mb" placeholder="Ваше e-mail">
-                <textarea placeholder="Сообщение" class="call-back-modal__container_bottom_textarea"></textarea>
-                <a href="#" class="call-back-modal__container_bottom_pol">Политика конфиденциальности</a>
-                <button class="call-back-modal__container_bottom_btn">
-                    отправить
-                </button>
-            </form>
-        </div>
-    </div>
-</section>
-
-<!--end modal-->
+    </section>
+</div>
 <script src="global-js/jquery-3.3.1.min.js"></script>
 <script src="global-js/jquery.mousewheel.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.0/js/ion.rangeSlider.min.js"></script>
+<script src="global-js/ion.rangeSlider.min.js"></script>
 <script src="owlcarousel/owl.carousel.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-<script src="global-js/left-buttons.js"></script>
+<script src="global-js/jquery.fancybox.min.js"></script>
 <script type="text/javascript" src="slick/slick.js"></script>
 <script src="global-js/parallax.min.js"></script>
-<script type="text/javascript" src="global-js/header.js"></script>
+<script src="global-js/left-buttons.js"></script>
 <script src="global-js/obj-card.js"></script>
+<script src="global-js/header.js"></script>
+<script src="global-js/sliders.js"></script>
 </body>
 </html>

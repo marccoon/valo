@@ -1,0 +1,152 @@
+{
+    "#2": {
+        "floor1": {
+            "bigImgSrc": "img/floor-scheme.png",
+            "1001": {
+                "stopro": "5 013 126,82 руб.",
+                "basePrice": "5 013 126,82 руб.",
+                "type": "Коммерческое",
+                "windowView": "На улицу",
+                "square": "181,35 м<sup>2</sup>",
+                "imgSrc": "img/apart-scheme.jpg",
+                "status": "Продано!"
+            },
+            "1002": {
+                "stopro": "5 013 126,82 руб.",
+                "basePrice": "5 013 126,82 руб.",
+                "type": "Коммерческое",
+                "windowView": "На улицу",
+                "square": "181,35 м<sup>2</sup>",
+                "imgSrc": "img/apart-scheme.jpg",
+                "status": ""
+            },
+            "1003": {
+                "stopro": "5 013 126,82 руб.",
+                "basePrice": "5 013 126,82 руб.",
+                "type": "Коммерческое",
+                "windowView": "На улицу",
+                "square": "181,35 м<sup>2</sup>",
+                "imgSrc": "img/apart-scheme.jpg",
+                "status": ""
+            },
+            "1004": {
+                "stopro": "5 013 126,82 руб.",
+                "basePrice": "5 013 126,82 руб.",
+                "type": "Коммерческое",
+                "windowView": "На улицу",
+                "square": "181,35 м<sup>2</sup>",
+                "imgSrc": "img/apart-scheme.jpg",
+                "status": ""
+            },
+            "1005": {
+                "stopro": "5 013 126,82 руб.",
+                "basePrice": "5 013 126,82 руб.",
+                "type": "Коммерческое",
+                "windowView": "На улицу",
+                "square": "181,35 м<sup>2</sup>",
+                "imgSrc": "img/apart-scheme.jpg",
+                "status": ""
+            }
+        },
+        "floor2": {
+            "bigImgSrc": "img/floor-scheme.png",
+
+            "2001": {
+                "stopro": "5 013 126,82 руб.",
+                "basePrice": "5 013 126,82 руб.",
+                "type": "Коммерческое",
+                "windowView": "На улицу",
+                "square": "181,35 м<sup>2</sup>",
+                "imgSrc": "img/apart-scheme.jpg",
+                "status": "Продано!"
+            },
+            "2002": {
+                "stopro": "5 013 126,82 руб.",
+                "basePrice": "5 013 126,82 руб.",
+                "type": "Коммерческое",
+                "windowView": "На улицу",
+                "square": "181,35 м<sup>2</sup>",
+                "imgSrc": "img/apart-scheme.jpg",
+                "status": ""
+            },
+            "2003": {
+                "stopro": "5 013 126,82 руб.",
+                "basePrice": "5 013 126,82 руб.",
+                "type": "Коммерческое",
+                "windowView": "На улицу",
+                "square": "181,35 м<sup>2</sup>",
+                "imgSrc": "img/apart-scheme.jpg",
+                "status": ""
+            },
+            "2004": {
+                "stopro": "5 013 126,82 руб.",
+                "basePrice": "5 013 126,82 руб.",
+                "type": "Коммерческое",
+                "windowView": "На улицу",
+                "square": "181,35 м<sup>2</sup>",
+                "imgSrc": "img/apart-scheme.jpg",
+                "status": ""
+            },
+            "2005": {
+                "stopro": "5 013 126,82 руб.",
+                "basePrice": "5 013 126,82 руб.",
+                "type": "Коммерческое",
+                "windowView": "На улицу",
+                "square": "181,35 м<sup>2</sup>",
+                "imgSrc": "img/apart-scheme.jpg",
+                "status": ""
+            }
+        },
+        "floor3": {
+            "bigImgSrc": "img/floor-scheme.png",
+
+            "3001": {
+                "stopro": "5 013 126,82 руб.",
+                "basePrice": "5 013 126,82 руб.",
+                "type": "Коммерческое",
+                "windowView": "На улицу",
+                "square": "181,35 м<sup>2</sup>",
+                "imgSrc": "img/apart-scheme.jpg",
+                "status": ""
+            },
+            "3002": {
+                "stopro": "5 013 126,82 руб.",
+                "basePrice": "5 013 126,82 руб.",
+                "type": "Коммерческое",
+                "windowView": "На улицу",
+                "square": "181,35 м<sup>2</sup>",
+                "imgSrc": "img/apart-scheme.jpg",
+                "status": ""
+            },
+            "3003": {
+                "stopro": "5 013 126,82 руб.",
+                "basePrice": "5 013 126,82 руб.",
+                "type": "Коммерческое",
+                "windowView": "На улицу",
+                "square": "181,35 м<sup>2</sup>",
+                "imgSrc": "img/apart-scheme.jpg",
+                "status": ""
+            },
+            "3004": {
+                "stopro": "5 013 126,82 руб.",
+                "basePrice": "5 013 126,82 руб.",
+                "type": "Коммерческое",
+                "windowView": "На улицу",
+                "square": "181,35 м<sup>2</sup>",
+                "imgSrc": "img/apart-scheme.jpg",
+                "status": ""
+            },
+            "3005": {
+                "stopro": "5 013 126,82 руб.",
+                "basePrice": "5 013 126,82 руб.",
+                "type": "Коммерческое",
+                "windowView": "На улицу",
+                "square": "181,35 м<sup>2</sup>",
+                "imgSrc": "img/apart-scheme.jpg",
+                "status": "Продано!"
+            }
+        }
+    }
+}
+
+

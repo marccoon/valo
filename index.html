@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
 <!--    funcybox-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="global-css/jquery.fancybox.min.css" />
 <!--    my-styles-->
     <link rel="stylesheet" href="global-css/preloader.css">
     <link rel="stylesheet" href="global-css/style.css">
@@ -22,157 +22,13 @@
     <link rel="stylesheet" href="global-css/footer-responsive.css">
     <link rel="stylesheet" href="global-css/responsive.css">
 </head>
-<header class="header" id="header">
-    <div class="header-wrapper">
-        <div class="header__left">
-            <a href="index.html"><img src="img/header-logo.png" alt="" class="header-img"></a>
-            <label>
-                <input type="checkbox" id="hamb" class="header__menu-checkbox">
-                <img src="img/ham.png" alt="menu" class="header__menu_btn">
-            </label>
-        </div>
-        <div class="header__center">
-            <ul class="header__center__lists">
-                <li class="header__center__lists_li">пн-пт: 10:00 – 19:00</li>
-                <li class="header__center__lists_li">сб-вс: 11:00 – 17:00</li>
-            </ul>
-            <ul class="header__center__lists-right">
-                <li class="header__center__lists_li-right"><a href="tel: +78122107057" class="header__center__lists_li-right_link">+7 (812) 210-70-57</a></li>
-                <li class="header__center__lists_li-right"><a href="tel: +78002229385" class="header__center__lists_li-right_link">+7 (800) 222-93-85</a></li>
-            </ul>
-        </div>
-        <div class="header__right-big">
-            <div class="header__right-big__container">
-                <a href="" class="header__right-big__container__item">
-                    <p class="header__right-big__container__item_counter">0</p>
-                </a>
-                <a href="calculator.html" class="header__right-big__container__item header__right-big__container__item2">
-
-                </a>
-                <input class="header__right-big__container__item header__right-big__container__item3">
-
-
-            </div>
-            <div class="header__right">
-                <img src="img/YIT.webp" alt="" class="header__right_img">
-                <img src="img/TMG.webp" alt="" class="header__right_img">
-            </div>
-        </div>
-    </div>
-
-    <menu class="header__menu">
-        <div class="header__menu-container">
-            <img src="img/hresteg.png" alt="Крестик" id="headerCross" class="header__menu_cross">
-            <div class="header-wrapper">
-                <div class="owl-carousel header-slider owl-theme">
-                    <div class="header-slider__item">
-                        <ul class="header-slider__item_lists">
-                            <li class="header-slider__item_lists_li-main"><a href="#" class="header-slider__item_lists_li-main_link">О проекте</a></li>
-                            <li class="header-slider__item_lists_li-line"></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link header-link-blue" href="#">Что такое VALO </a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Документы</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Архитектура</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Технологии</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="header-slider__item">
-                        <ul class="header-slider__item_lists">
-                            <li class="header-slider__item_lists_li-main"><a href="#" class="header-slider__item_lists_li-main_link">О КОМПАНИИ</a></li>
-                            <li class="header-slider__item_lists_li-line"></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">ГАЛС</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="services.html">VALO Service</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Блог компании </a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">FAQ</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="header-slider__item">
-                        <ul class="header-slider__item_lists">
-                            <li class="header-slider__item_lists_li-main"><a href="partners.html" class="header-slider__item_lists_li-main_link">ПАРТНЕРЫ VALO</a></li>
-                            <li class="header-slider__item_lists_li-line"></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">TMG Group</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">YIT</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">GLOBAL EM</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Mercure</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Hospitality management</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Еврономер</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Агентства</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="header-slider__item">
-                        <ul class="header-slider__item_lists">
-                            <li class="header-slider__item_lists_li-main"><a href="#" class="header-slider__item_lists_li-main_link">ВЫБОР АПАРТАМЕНТОВ</a></li>
-                            <li class="header-slider__item_lists_li-line header-slider__item_lists_li-line-30"></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="apartments.html">Планировки</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Выбор на 3D плане</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Коммерческие помещения</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Паркинг</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Отделка</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Оснащение</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="header-slider__item">
-                        <ul class="header-slider__item_lists">
-                            <li class="header-slider__item_lists_li-main"><a href="#" class="header-slider__item_lists_li-main_link">ИНВЕСТИРОВАНИЕ</a></li>
-                            <li class="header-slider__item_lists_li-line"></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Доходные программы</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Портфельные программы</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="header-slider__item">
-                        <ul class="header-slider__item_lists">
-                            <li class="header-slider__item_lists_li-main"><a href="#" class="header-slider__item_lists_li-main_link">КАК КУПИТЬ</a></li>
-                            <li class="header-slider__item_lists_li-line"></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Ипотека</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Рассрочка</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">100% оплата</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="trade-in.html">Trade-in</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="header-slider__item">
-                        <ul class="header-slider__item_lists">
-                            <li class="header-slider__item_lists_li-main"><a href="#" class="header-slider__item_lists_li-main_link">ХОД СТРОИТЕЛЬСТВА</a></li>
-                            <li class="header-slider__item_lists_li-line header-slider__item_lists_li-line-30"></li>
-                        </ul>
-                    </div>
-
-                    <div class="header-slider__item">
-                        <ul class="header-slider__item_lists">
-                            <li class="header-slider__item_lists_li-main"><a href="#" class="header-slider__item_lists_li-main_link">ПРЕИМУЩЕСТВА</a></li>
-                            <li class="header-slider__item_lists_li-line"></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="location.html">Локация</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#"> Услуги собственникам и арендаторам</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Инфраструктура</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Безопасность</a></li>
-                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Гостиничные технологии</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="header-slider__item">
-                        <ul class="header-slider__item_lists">
-                            <li class="header-slider__item_lists_li-main"><a href="#" class="header-slider__item_lists_li-main_link">КОНТАКТЫ</a></li>
-                            <li class="header-slider__item_lists_li-line"></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <p class="header_bottom-text">Используйте скролл</p>
-            <img src="img/header-menu-arr.png" alt="" class="header_bottom-img">
-        </div>
-    </menu>
-
-</header>
+<header class="header" id="header"></header>
 <body>
     <main>
         <section class="main-block">
-            <div class="owl-carousel main-slider owl-theme">
+            <div class="owl-carousel main-slider default-owl-slider owl-theme">
                 <div class="main-slide">
-                    <img src="img/ms-bg.webp" alt="" class="main-slider__background">
+                    <img src="img/ms-bg.jpg" alt="" class="main-slider__background">
                     <div class="main-wrapper">
                         <div class="main-slide__text-block">
                             <h1 class="main-slide_main">VALO</h1>
@@ -184,7 +40,7 @@
                 </div>
 
                 <div class="main-slide">
-                    <img src="img/loc1a.webp" alt="" class="main-slider__background">
+                    <img src="img/loc1a.jpg" alt="" class="main-slider__background">
                     <div class="main-wrapper">
                         <div class="main-slide__text-block">
                             <h1 class="main-slide_main">VALO 2</h1>
@@ -225,7 +81,7 @@
 
         <section class="complex-plan">
             <div class="complex-plan_mask" id="complexMask"></div>
-                <img src="img/complex-plan-bg.webp" alt="" class="complex-plan__img" usemap="#Map" id="qqqq">
+                <img src="img/complex-plan-bg.jpg" alt="" class="complex-plan__img" usemap="#Map" id="qqqq">
                 <map name="Map">
                     <area shape="poly" coords="676,433,913,360,991,387,991,680,950,800,850,850,685,756" href="#apartmentDescription"  id="corp1">
                     <area shape="poly" coords="880,370,1105,302,1203,396,1200,683,1113,722,1012,729,987,396" href="#apartmentDescription" id="corp2">
@@ -243,7 +99,7 @@
                 </div>
 
 
-<!--            modals-->
+<!--modals-->
                 <div class="complex-plan__modal first-modal">
                     <h3 class="complex-plan__modal_main">1 корпус, 1 секция</h3>
                     <p class="complex-plan__modal_main-description">121 квартира в продаже</p>
@@ -501,10 +357,10 @@
                         </div>
                     </div>
                     <div class="complex-plan__apartment-description__right">
-                        <div class="owl-carousel description-slider owl-theme">
+                        <div class="owl-carousel description-slider default-owl-slider owl-theme">
                             <div class="description-slider__slide">
-                                <a data-fancybox data-caption="Caption for single image" href="img/loc1a.webp">
-                                    <img src="img/loc1a.webp" alt="" class="description-slider__slide_img">
+                                <a data-fancybox  href="img/loc1a.jpg">
+                                    <img src="img/loc1a.jpg" alt="" class="description-slider__slide_img">
                                 </a>
                                 <div class="description-slider__slide__text">
                                     <h4 class="description-slider__slide__text_bold-text">Срок сдачи: </h4>
@@ -518,8 +374,8 @@
                                 </div>
                             </div>
                             <div class="description-slider__slide">
-                                <a data-fancybox data-caption="Caption for single image" href="img/loc2a.webp">
-                                    <img src="img/loc2a.webp" alt="" class="description-slider__slide_img">
+                                <a data-fancybox href="img/loc2a.jpg">
+                                    <img src="img/loc2a.jpg" alt="" class="description-slider__slide_img">
                                 </a>
                                 <div class="description-slider__slide__text">
                                     <h4 class="description-slider__slide__text_bold-text">2</h4>
@@ -571,10 +427,10 @@
                         </div>
                     </div>
                     <div class="complex-plan__apartment-description__right">
-                        <div class="owl-carousel description-slider owl-theme">
+                        <div class="owl-carousel description-slider default-owl-slider owl-theme">
                             <div class="description-slider__slide">
-                                <a data-fancybox data-caption="Caption for single image" href="img/loc1a.webp">
-                                    <img src="img/loc1a.webp" alt="" class="description-slider__slide_img">
+                                <a data-fancybox href="img/loc1a.jpg">
+                                    <img src="img/loc1a.jpg" alt="" class="description-slider__slide_img">
                                 </a>
                                 <div class="description-slider__slide__text">
                                     <h4 class="description-slider__slide__text_bold-text">Срок сдачи: </h4>
@@ -588,8 +444,8 @@
                                 </div>
                             </div>
                             <div class="description-slider__slide">
-                                <a data-fancybox data-caption="Caption for single image" href="img/loc2a.webp">
-                                    <img src="img/loc2a.webp" alt="" class="description-slider__slide_img">
+                                <a data-fancybox href="img/loc2a.jpg">
+                                    <img src="img/loc2a.jpg" alt="" class="description-slider__slide_img">
                                 </a>
                                 <div class="description-slider__slide__text">
                                     <h4 class="description-slider__slide__text_bold-text">2</h4>
@@ -642,10 +498,10 @@
                         </div>
                     </div>
                     <div class="complex-plan__apartment-description__right">
-                        <div class="owl-carousel description-slider owl-theme">
+                        <div class="owl-carousel description-slider default-owl-slider owl-theme">
                             <div class="description-slider__slide">
-                                <a data-fancybox data-caption="Caption for single image" href="img/loc1a.webp">
-                                    <img src="img/loc1a.webp" alt="" class="description-slider__slide_img">
+                                <a data-fancybox href="img/loc1a.jpg">
+                                    <img src="img/loc1a.jpg" alt="" class="description-slider__slide_img">
                                 </a>
                                 <div class="description-slider__slide__text">
                                     <h4 class="description-slider__slide__text_bold-text">Срок сдачи: </h4>
@@ -659,8 +515,8 @@
                                 </div>
                             </div>
                             <div class="description-slider__slide">
-                                <a data-fancybox data-caption="Caption for single image" href="img/loc2a.webp">
-                                    <img src="img/loc2a.webp" alt="" class="description-slider__slide_img">
+                                <a data-fancybox href="img/loc2a.jpg">
+                                    <img src="img/loc2a.jpg" alt="" class="description-slider__slide_img">
                                 </a>
                                 <div class="description-slider__slide__text">
                                     <h4 class="description-slider__slide__text_bold-text">2</h4>
@@ -713,10 +569,10 @@
                         </div>
                     </div>
                     <div class="complex-plan__apartment-description__right">
-                        <div class="owl-carousel description-slider owl-theme">
+                        <div class="owl-carousel description-slider default-owl-slider owl-theme">
                             <div class="description-slider__slide">
-                                <a data-fancybox data-caption="Caption for single image" href="img/loc1a.webp">
-                                    <img src="img/loc1a.webp" alt="" class="description-slider__slide_img">
+                                <a data-fancybox href="img/loc1a.jpg">
+                                    <img src="img/loc1a.jpg" alt="" class="description-slider__slide_img">
                                 </a>
                                 <div class="description-slider__slide__text">
                                     <h4 class="description-slider__slide__text_bold-text">Срок сдачи: </h4>
@@ -730,8 +586,8 @@
                                 </div>
                             </div>
                             <div class="description-slider__slide">
-                                <a data-fancybox data-caption="Caption for single image" href="img/loc2a.webp">
-                                    <img src="img/loc2a.webp" alt="" class="description-slider__slide_img">
+                                <a data-fancybox href="img/loc2a.jpg">
+                                    <img src="img/loc2a.jpg" alt="" class="description-slider__slide_img">
                                 </a>
                                 <div class="description-slider__slide__text">
                                     <h4 class="description-slider__slide__text_bold-text">2</h4>
@@ -784,10 +640,10 @@
                         </div>
                     </div>
                     <div class="complex-plan__apartment-description__right">
-                        <div class="owl-carousel description-slider owl-theme">
+                        <div class="owl-carousel description-slider default-owl-slider owl-theme">
                             <div class="description-slider__slide">
-                                <a data-fancybox data-caption="Caption for single image" href="img/loc1a.webp">
-                                    <img src="img/loc1a.webp" alt="" class="description-slider__slide_img">
+                                <a data-fancybox href="img/loc1a.jpg">
+                                    <img src="img/loc1a.jpg" alt="" class="description-slider__slide_img">
                                 </a>
                                 <div class="description-slider__slide__text">
                                     <h4 class="description-slider__slide__text_bold-text">Срок сдачи: </h4>
@@ -801,8 +657,8 @@
                                 </div>
                             </div>
                             <div class="description-slider__slide">
-                                <a data-fancybox data-caption="Caption for single image" href="img/loc2a.webp">
-                                    <img src="img/loc2a.webp" alt="" class="description-slider__slide_img">
+                                <a data-fancybox  href="img/loc2a.jpg">
+                                    <img src="img/loc2a.jpg" alt="" class="description-slider__slide_img">
                                 </a>
                                 <div class="description-slider__slide__text">
                                     <h4 class="description-slider__slide__text_bold-text">2</h4>
@@ -830,9 +686,9 @@
                         пространства под открытым небом. На внутренней территории «города отелей» VALO разместятся фонтаны и арт-объекты, световые
                         навигационные панели и дизайнерские фонари, будут оборудованы места для отдыха и велодорожка, ведущая прямо к центру города.
                     </p>
-                    <button class="public-space_btn main-page-bgn">
+                    <a class="public-space_btn main-page-bgn">
                         подробнее
-                    </button>
+                    </a>
                 </div>
             </div>
         </section>
@@ -891,7 +747,7 @@
                             </div>
                         </li>
                     </ul>
-                    <div class="owl-carousel why-valo-slider owl-theme">
+                    <div class="owl-carousel why-valo-slider default-owl-slider default-owl-slider owl-theme">
                         <div class="why-valo-right__content__lists__li">
                             <h4 class="why-valo-right__content__lists__li_main">
                                 НАДЁЖНО
@@ -1016,7 +872,7 @@
             <div class="valo-location__map-block_map_750">
                 <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa93edc434a882221e633bde84050af6dcca060b88685c8fa51003bb4012f2910&amp;source=constructor" width="100%" height="650" frameborder="0"></iframe></iframe></iframe>
             </div>
-            <div class="owl-carousel location-slider owl-theme">
+            <div class="owl-carousel location-slider default-owl-slider default-owl-slider owl-theme">
                 <div class="location-slider__item">
                     <p class="location-slider__item_top-text">НЕВСКИЙ <br> ПРОСПЕКТ</p>
                     <p class="location-slider__item_center-text">10 минут</p>
@@ -1065,32 +921,32 @@
                         комплекса
                     </h2>
                     <ul class="infrastructure__left__content__lists">
-                        <li class="infrastructure__left__content__lists__li">
+                        <li class="infrastructure__left__content__lists__li infrastructure__left__content__lists__li1">
                             Просторные лобби
                         </li>
-                        <li class="infrastructure__left__content__lists__li">
+                        <li class="infrastructure__left__content__lists__li infrastructure__left__content__lists__li2">
                             Фитнес-центр с бассейном
                         </li>
-                        <li class="infrastructure__left__content__lists__li">
+                        <li class="infrastructure__left__content__lists__li infrastructure__left__content__lists__li3">
                             Бизнес-центр, коворкинг, конференц-залы
                         </li>
-                        <li class="infrastructure__left__content__lists__li">
+                        <li class="infrastructure__left__content__lists__li infrastructure__left__content__lists__li4">
                             SPA-центр
                         </li>
-                        <li class="infrastructure__left__content__lists__li">
+                        <li class="infrastructure__left__content__lists__li infrastructure__left__content__lists__li5">
                             Подземная охраняемая парковка
                         </li>
-                        <li class="infrastructure__left__content__lists__li">
+                        <li class="infrastructure__left__content__lists__li infrastructure__left__content__lists__li6">
                             Благоустроенное общественное пространство под открытым небом
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="infrastructure__right">
-                <div class="owl-carousel infrastructure-slider owl-theme">
+                <div class="owl-carousel infrastructure-slider default-owl-slider owl-theme">
                     <div class="infrastructure-slider__item">
-                        <a data-fancybox data-caption="Caption for single image" href="img/loc1a.webp">
-                            <img src="img/loc1a.webp" alt="" class="description-slider__slide_img">
+                        <a data-fancybox  href="img/loc1a.jpg">
+                            <img src="img/loc1a.jpg" alt="" class="description-slider__slide_img">
                         </a>
                         <div class="infrastructure-slider__item_text-block">
                             <h4 class="infrastructure-slider__item_text-block_main">ЛОББИ</h4>
@@ -1099,8 +955,8 @@
                     </div>
 
                     <div class="infrastructure-slider__item">
-                        <a data-fancybox data-caption="Caption for single image" href="img/loc2a.webp">
-                            <img src="img/loc2a.webp" alt="" class="description-slider__slide_img">
+                        <a data-fancybox="" href="img/loc2a.jpg">
+                            <img src="img/loc2a.jpg" alt="" class="description-slider__slide_img">
                         </a>
                         <div class="infrastructure-slider__item_text-block">
                             <h4 class="infrastructure-slider__item_text-block_main">ЛОББИ</h4>
@@ -1113,10 +969,10 @@
 
         <section class="hostel-technology">
             <div class="hostel-technology__left">
-                <div class="owl-carousel hostel-slider owl-theme">
+                <div class="owl-carousel hostel-slider default-owl-slider owl-theme">
                     <div class="hostel-slider__item">
-                        <a data-fancybox data-caption="Caption for single image" href="img/loc1a.webp" style="height: 100%;">
-                            <img src="img/loc1a.webp" alt="" class="description-slider__slide_img">
+                        <a data-fancybox  href="img/loc1a.jpg" style="height: 100%;">
+                            <img src="img/loc1a.jpg" alt="" class="description-slider__slide_img">
                         </a>
                         <div class="hostel-slider__item__text-block">
                             <h4 class="hostel-slider__item__text-block_main">
@@ -1127,8 +983,8 @@
                     </div>
 
                     <div class="hostel-slider__item">
-                        <a data-fancybox data-caption="Caption for single image" href="img/loc2a.webp" style="height: 100%;">
-                            <img src="img/loc2a.webp" alt="" class="description-slider__slide_img">
+                        <a data-fancybox  href="img/loc2a.jpg" style="height: 100%;">
+                            <img src="img/loc2a.jpg" alt="" class="description-slider__slide_img">
                         </a>
                         <div class="hostel-slider__item__text-block">
                             <h4 class="hostel-slider__item__text-block_main">
@@ -1146,15 +1002,15 @@
                     и сервис
                 </h2>
                 <ul class="hostel-technology__right_lists">
-                    <li class="hostel-technology__right_lists_li">Три ресторана полного цикла с разной тематикой</li>
-                    <li class="hostel-technology__right_lists_li">Кафе</li>
-                    <li class="hostel-technology__right_lists_li">Служба ресепшн, консьерж-служба</li>
-                    <li class="hostel-technology__right_lists_li">Химчистка</li>
-                    <li class="hostel-technology__right_lists_li">Хранение багажа</li>
-                    <li class="hostel-technology__right_lists_li">Скоростной Wi-Fi</li>
-                    <li class="hostel-technology__right_lists_li">Служба клининга</li>
-                    <li class="hostel-technology__right_lists_li">Система контроля и управления доступом</li>
-                    <li class="hostel-technology__right_lists_li">Видеонаблюдение и охрана</li>
+                    <li class="hostel-technology__right_lists_li hostel-technology__right_lists_li1">Три ресторана полного цикла с разной тематикой</li>
+                    <li class="hostel-technology__right_lists_li hostel-technology__right_lists_li2">Кафе</li>
+                    <li class="hostel-technology__right_lists_li hostel-technology__right_lists_li3">Служба ресепшн, консьерж-служба</li>
+                    <li class="hostel-technology__right_lists_li hostel-technology__right_lists_li4">Химчистка</li>
+                    <li class="hostel-technology__right_lists_li hostel-technology__right_lists_li5">Хранение багажа</li>
+                    <li class="hostel-technology__right_lists_li hostel-technology__right_lists_li6">Скоростной Wi-Fi</li>
+                    <li class="hostel-technology__right_lists_li hostel-technology__right_lists_li7">Служба клининга</li>
+                    <li class="hostel-technology__right_lists_li hostel-technology__right_lists_li8">Система контроля и управления доступом</li>
+                    <li class="hostel-technology__right_lists_li hostel-technology__right_lists_li9">Видеонаблюдение и охрана</li>
                 </ul>
             </div>
         </section>
@@ -1165,7 +1021,7 @@
                 <div class="owl-carousel main-partners__slider owl-theme">
                     <div class="main-partners__slider__item">
                         <div class="main-partners__slider__item__top">
-                            <img src="img/YIT.webp" alt="" class="main-partners__slider__item__top_img">
+                            <img src="img/YIT.png" alt="" class="main-partners__slider__item__top_img">
                         </div>
                         <div class="main-partners__slider__item__bottom">
                             <a href="#" class="main-partners__slider__item__bottom_main">
@@ -1180,7 +1036,7 @@
 
                     <div class="main-partners__slider__item">
                         <div class="main-partners__slider__item__top">
-                            <img src="img/TMG.webp" alt="" class="main-partners__slider__item__top_img">
+                            <img src="img/TMG.png" alt="" class="main-partners__slider__item__top_img">
                         </div>
                         <div class="main-partners__slider__item__bottom">
                             <a href="#" class="main-partners__slider__item__bottom_main">
@@ -1195,7 +1051,7 @@
 
                     <div class="main-partners__slider__item">
                         <div class="main-partners__slider__item__top">
-                            <img src="img/YIT.webp" alt="" class="main-partners__slider__item__top_img">
+                            <img src="img/YIT.png" alt="" class="main-partners__slider__item__top_img">
                         </div>
                         <div class="main-partners__slider__item__bottom">
                             <a href="#" class="main-partners__slider__item__bottom_main">
@@ -1210,7 +1066,7 @@
 
                     <div class="main-partners__slider__item">
                         <div class="main-partners__slider__item__top">
-                            <img src="img/TMG.webp" alt="" class="main-partners__slider__item__top_img">
+                            <img src="img/TMG.png" alt="" class="main-partners__slider__item__top_img">
                         </div>
                         <div class="main-partners__slider__item__bottom">
                             <a href="#" class="main-partners__slider__item__bottom_main">
@@ -1225,7 +1081,7 @@
 
                     <div class="main-partners__slider__item">
                         <div class="main-partners__slider__item__top">
-                            <img src="img/YIT.webp" alt="" class="main-partners__slider__item__top_img">
+                            <img src="img/YIT.png" alt="" class="main-partners__slider__item__top_img">
                         </div>
                         <div class="main-partners__slider__item__bottom">
                             <a href="#" class="main-partners__slider__item__bottom_main">
@@ -1240,7 +1096,7 @@
 
                     <div class="main-partners__slider__item">
                         <div class="main-partners__slider__item__top">
-                            <img src="img/TMG.webp" alt="" class="main-partners__slider__item__top_img">
+                            <img src="img/TMG.png" alt="" class="main-partners__slider__item__top_img">
                         </div>
                         <div class="main-partners__slider__item__bottom">
                             <a href="#" class="main-partners__slider__item__bottom_main">
@@ -1278,7 +1134,7 @@
                 </div>
 
 
-                <div class="owl-carousel prof-company-slider owl-theme">
+                <div class="owl-carousel prof-company-slider default-owl-slider owl-theme">
                     <p class="prof-company__text-block_text">
                         Отвечает за комфорт проживания и предлагает полноценный гостиничный сервис
                     </p>
@@ -1300,7 +1156,7 @@
                 <div class="work-invest_sub-main-block">
                     <p class="work-invest_sub-main-block_p">Выберите одну из наших доходных программ, <br>
                         а остальное сделает управляющая компания VALO Service</p>
-                    <button class="work-invest_sub-main-block_btn">подробнее о программах</button>
+                    <a class="work-invest_sub-main-block_btn">подробнее о программах</a>
                 </div>
 
                 <div class="work-invest__cards">
@@ -1402,7 +1258,7 @@
                     *Предполагаемая доходность, в течение 5 лет.
                 </p>
 
-                <div class="owl-carousel work-invest-slider owl-theme">
+                <div class="owl-carousel work-invest-slider default-owl-slider owl-theme">
 
                         <div class="work-invest__cards__card">
                             <div class="work-invest__cards__card__top">
@@ -1509,7 +1365,7 @@
                         и сделают рассчет окупаемости</h3>
                     <button class="how-to-buy__managers_btn dn-750">оставить заявку</button>
                     <div class="how-to-buy-btn-container">
-                        <button class="how-to-buy__managers_btn">оставить заявку</button>
+                        <button class="how-to-buy__managers_btn ">оставить заявку</button>
                     </div>
                 </div>
                 <h2 class="how-to-buy_main">Как купить апартаменты Valo</h2>
@@ -1538,7 +1394,7 @@
 
         <section class="buy-variants">
             <div class="main-wrapper no-relative">
-                <div class="buy-variants__ipoteca" id="ipoteca">
+                <div class="buy-variants__ipoteca buy-variants-item" id="ipoteca">
                     <div class="buy-variants__ipoteca__top-block">
                         <h3 class="buy-variants__ipoteca__top-block_main">Ипотека</h3>
                         <button class="buy-variants__ipoteca__top-block_btn">Все банки</button>
@@ -1571,62 +1427,14 @@
                         </div>
 
                         <div class="buy-variants__banks_right">
-                            <div class="buy-variants__banks_right_item" id="bank1">
-                                <img src="img/1bank.png" alt="" class="buy-variants__banks_right_item_img">
-                            </div>
 
-                            <div class="buy-variants__banks_right_item" id="bank2">
-                                <img src="img/2bank.png" alt="" class="buy-variants__banks_right_item_img" >
-                            </div>
-
-                            <div class="buy-variants__banks_right_item" id="bank3">
-                                <img src="img/3bank.png" alt="" class="buy-variants__banks_right_item_img">
-                            </div>
-
-                            <div class="buy-variants__banks_right_item" id="bank4">
-                                <img src="img/4bank.png" alt="" class="buy-variants__banks_right_item_img">
-                            </div>
-
-                            <div class="buy-variants__banks_right_item" id="bank5">
-                                <img src="img/5bank.png" alt="" class="buy-variants__banks_right_item_img">
-                            </div>
-
-                            <div class="buy-variants__banks_right_item" id="bank6">
-                                <img src="img/6bank.png" alt="" class="buy-variants__banks_right_item_img">
-                            </div>
-
-                            <div class="buy-variants__banks_right_item" id="bank7">
-                                <img src="img/7bank.png" alt="" class="buy-variants__banks_right_item_img">
-                            </div>
-
-                            <div class="buy-variants__banks_right_item" id="bank8">
-                                <img src="img/8bank.png" alt="" class="buy-variants__banks_right_item_img">
-                            </div>
-
-                            <div class="buy-variants__banks_right_item" id="bank9">
-                                <img src="img/9bank.png" alt="" class="buy-variants__banks_right_item_img">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="buy-variants__ipoteca__bottom">
-                        <p class="buy-variants__ipoteca__bottom_text">
-                            Менеджер по ипотечному кредитованию поможет подобрать наиболее <span class="buy-variants__ipoteca__bottom_text_span">выгодные условия
-                            и сэкономит ваше время</span> на подготовку документов
-                        </p>
-                        <button class="buy-variants__ipoteca__bottom_btn dn-750">
-                            оставить заявку
-                        </button>
-                        <div class="buy-variants__ipoteca__bottom_btn-container">
-                            <button class="buy-variants__ipoteca__bottom_btn">
-                                оставить заявку
-                            </button>
                         </div>
                     </div>
                 </div>
 
 
 
-                <div id="rassrochka" class="buy-variants__rassrochka">
+                <div id="rassrochka" class="buy-variants__rassrochka buy-variants-item">
                     <h2 class="buy-variants__rassrochka_main">Беспроцентная рассрочка</h2>
                     <p class="buy-variants__rassrochka_sub_main">на время строительства</p>
 
@@ -1646,7 +1454,7 @@
                         </p>
                     </div>
 
-                    <div class="owl-carousel rassrochka-slider-slider owl-theme">
+                    <div class="owl-carousel rassrochka-slider-slider default-owl-slider owl-theme">
                         <p class="buy-variants__rassrochka__text-block_text">
                             Первоначальный взнос
                             от 30 до 50%
@@ -1667,22 +1475,9 @@
                         подробнее
                     </button>
 
-                    <div class="buy-variants__rassrchka__bottom">
-                        <p class="buy-variants__ipoteca__bottom_text">
-                            Менеджер отдела продаж поможет в <span class="buy-variants__ipoteca__bottom_text_span">подготовке документов</span>
-                        </p>
-                        <button class="buy-variants__ipoteca__bottom_btn dn-750">
-                            оставить заявку
-                        </button>
-                        <div class="buy-variants__ipoteca__bottom_btn-container">
-                            <button class="buy-variants__ipoteca__bottom_btn">
-                                оставить заявку
-                            </button>
-                        </div>
-                    </div>
                 </div>
 
-                <div id="stoPro" class="buy-variants__sto-pro">
+                <div id="stoPro" class="buy-variants__sto-pro buy-variants-item">
                     <h2 class="buy-variants__sto-pro_main">Единовременная оплата</h2>
                     <p class="buy-variants__sto-pro_sub-main">гарантирует:</p>
                     <div class="buy-variants__sto-pro__text-block">
@@ -1700,7 +1495,7 @@
                         </p>
                     </div>
 
-                    <div class="owl-carousel sto-pro-slider owl-theme">
+                    <div class="owl-carousel sto-pro-slider default-owl-slider owl-theme">
                         <p class="buy-variants__sto-pro__text-block_text">
                             Удобство и простоту оформления сделки
                         </p>
@@ -1723,22 +1518,9 @@
                         подробнее
                     </button>
 
-                    <div class="buy-variants__sto-pro__bottom">
-                        <p class="buy-variants__ipoteca__bottom_text">
-                            Менеджер отдела продаж поможет в <span class="buy-variants__ipoteca__bottom_text_span">подготовке документов</span>
-                        </p>
-                        <button class="buy-variants__ipoteca__bottom_btn dn-750">
-                            оставить заявку
-                        </button>
-                        <div class="buy-variants__ipoteca__bottom_btn-container">
-                            <button class="buy-variants__ipoteca__bottom_btn">
-                                оставить заявку
-                            </button>
-                        </div>
-                    </div>
                 </div>
 
-                <div id="tradeIn" class="buy-variants__trade-in">
+                <div id="tradeIn" class="buy-variants__trade-in buy-variants-item">
                     <h2 class="buy-variants__trade-in_main">Trade In</h2>
                     <p class="buy-variants__trade-in_sub-main">Новая услуга VALO – зачет имеющейся недвижимости
                         при покупке апартаментов 1 и 2 очереди!</p>
@@ -1746,28 +1528,40 @@
                     <p class="buy-variants__trade-in_second-text">Специально для таких покупателей
                         мы разработали программу VALO Trade-In!</p>
                     <button class="buy-variants__trade-in_btn">подробнее</button>
-
-                    <div class="buy-variants__trade-in__bottom">
-                        <p class="buy-variants__ipoteca__bottom_text">
-                            Менеджер отдела продаж поможет в <span class="buy-variants__ipoteca__bottom_text_span">подготовке документов</span>
-                        </p>
-                        <button class="buy-variants__ipoteca__bottom_btn dn-750">
-                            оставить заявку
-                        </button>
-                        <div class="buy-variants__ipoteca__bottom_btn-container">
-                            <button class="buy-variants__ipoteca__bottom_btn">
-                                оставить заявку
-                            </button>
-                        </div>
-                    </div>
+                </div>
+            </div>
+            <div class="buy-variants__ipoteca__bottom">
+                <p class="buy-variants__ipoteca__bottom_text">
+                    Менеджер по ипотечному кредитованию поможет подобрать наиболее <span class="buy-variants__ipoteca__bottom_text_span">выгодные условия
+                            и сэкономит ваше время</span> на подготовку документов
+                </p>
+                <button class="showMeCallBack buy-variants__ipoteca__bottom_btn dn-750">
+                    оставить заявку
+                </button>
+                <div class="buy-variants__ipoteca__bottom_btn-container">
+                    <button class="showMeCallBack buy-variants__ipoteca__bottom_btn">
+                        оставить заявку
+                    </button>
                 </div>
             </div>
         </section>
 
         <section class="construction-progress">
-            <div class="construction-progress__live-camera" id="camera1">
-                <iframe style="position: fixed;top: calc(50% - 225px);width: 800px;left: calc(50% - 400px);height: 450px; z-index: 1000" id="iframe" src="https://webcam.exdesign.ru/valo/?fluid" frameborder="0" allowfullscreen="1" scrolling="no"></iframe>
-                <img src="img/hresteg.png" alt="закрыть" id="closeVideoBtn" class="modal-cross">
+            <div class="construction-progress__live-camera popup" id="camera1">
+                <iframe src="https://webcam.exdesign.ru/apart-valo-1 (https://webcam.exdesign.ru/apart-valo-1/)/" width="800"
+                        height="450" align="left" frameborder="no" scrolling="no"
+                        allowfullscreen></iframe>
+                <img src="img/hresteg.png" alt="закрыть" class="modal-cross closeVideoBtn">
+            </div>
+            <div class="construction-progress__live-camera popup" id="camera2">
+                <iframe src="https://webcam.exdesign.ru/apart-valo-2 (https://webcam.exdesign.ru/apart-valo-2/)/"  align="left" frameborder="no" scrolling="no"
+                        allowfullscreen></iframe>
+                <img src="img/hresteg.png" alt="закрыть"  class="modal-cross closeVideoBtn">
+            </div>
+            <div class="construction-progress__live-camera popup" id="camera3">
+                <iframe src="https://webcam.exdesign.ru/apart-valo-3 (https://webcam.exdesign.ru/apart-valo-3/)/" frameborder="no" scrolling="no"
+                        allowfullscreen></iframe>
+                <img src="img/hresteg.png" alt="закрыть" class="modal-cross closeVideoBtn">
             </div>
             <div class="main-wrapper no-relative">
                 <div class="construction-progress__top-block">
@@ -1796,21 +1590,21 @@
                     </div>
 
                     <div class="construction-progress__photos">
-                        <div class="owl-carousel big-progress-slider owl-theme">
-                            <div class="big-progress-slider_item big-progress-slider_item-1" data-date="Май 2019" id="constSlide1">
-                                <a data-fancybox="" data-caption="Caption for single image" href="img/loc1a.webp" style="height: 100%;">
-                                    <img class="big-progress-slider_item-1" src="img/loc1a.webp" alt="">
+                        <div class="owl-carousel big-progress-slider default-owl-slider owl-theme">
+                            <div class="big-progress-slider_item big-progress-slider_item-1 index-slick" data-date="Май 2019" id="constSlide1">
+                                <a data-fancybox="gal"  href="img/loc1a.jpg" style="height: 100%;">
+                                    <img class="big-progress-slider_item-1-img" src="img/loc1a.jpg" alt="">
                                 </a>
-                                <a data-fancybox="" data-caption="Caption for single image" href="img/loc2a.webp" style="height: 100%;">
-                                    <img class="big-progress-slider_item-1" src="img/loc2a.webp" alt="">
+                                <a data-fancybox="gal" href="img/loc2a.jpg" style="height: 100%;">
+                                    <img class="big-progress-slider_item-1-img" src="img/loc2a.jpg" alt="">
                                 </a>
                             </div>
-                            <div class="big-progress-slider_item big-progress-slider_item-2" data-date="Июнь 2019">
-                                <a data-fancybox="" data-caption="Caption for single image" href="img/loc2a.webp" style="height: 100%;">
-                                    <img class="big-progress-slider_item-1" src="img/loc2a.webp" alt="">
+                            <div class="big-progress-slider_item big-progress-slider_item-2 index-slick" data-date="Июнь 2019">
+                                <a data-fancybox="gal2" href="img/loc2a.jpg" style="height: 100%;">
+                                    <img class="big-progress-slider_item-1-img" src="img/loc2a.jpg" alt="">
                                 </a>
-                                <a data-fancybox="" data-caption="Caption for single image" href="img/loc1a.webp" style="height: 100%;">
-                                    <img class="big-progress-slider_item-1" src="img/loc1a.webp" alt="">
+                                <a data-fancybox="gal2" href="img/loc1a.jpg" style="height: 100%;">
+                                    <img class="big-progress-slider_item-1-img" src="img/loc1a.jpg" alt="">
                                 </a>
                             </div>
                         </div>
@@ -1838,43 +1632,7 @@
         </section>
     </main>
 
-    <footer class="footer">
-        <div class="footer-wrapper">
-            <div class="footer-left">
-                <div class="footer__images">
-                    <img src="img/YIT.webp" alt="" class="footer__images_img">
-                    <img src="img/TMG.webp" alt="" class="footer__images_img">
-                    <p class="footer__images__text">Генеральный подрядчик:
-                        очередь 1 и 2 – YIT,
-                        очередь 3 – TMG Group</p>
-                </div>
-                <p class="footer-left__text">
-                    © 2018     ООО «ГАЛС» Сайт не является публичной офертой*
-                </p>
-            </div>
-
-            <div class="footer-right">
-                <div class="footer-right-social">
-                    <a href="https://www.youtube.com/"><img src="img/you.png" alt="" class="footer-right-social-img footer-right-social-img1"></a>
-                    <a href="https://www.instagram.com/"><img src="img/inst.png" alt="" class="footer-right-social-img footer-right-social-img2"></a>
-                    <a href="https://vk.com/"><img src="img/vkn.png" alt="" class="footer-right-social-img footer-right-social-img3"></a>
-                    <a href="https://www.facebook.com/"><img src="img/fac.png" alt="" class="footer-right-social-img footer-right-social-img4"></a>
-                </div>
-                <div class="footer-right__text-block">
-                    <ul class="footer-right__text-block__lists footer-right__text-block__lists-time">
-                        <li class="footer-right__text-block__lists_li">Отдел продаж:</li>
-                        <li class="footer-right__text-block__lists_li">пн-пт: 10:00 – 19:00,</li>
-                        <li class="footer-right__text-block__lists_li">сб-вс: 11:00 – 17:00</li>
-                    </ul>
-
-                    <ul class="footer-right__text-block__lists footer-right__text-block__lists-right">
-                        <li class="footer-right__text-block__lists_li">Разрешительная документация</li>
-                        <li class="footer-right__text-block__lists_li">Политика конфиденциальности</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <footer class="footer"></footer>
 
     <section class="left-buttons">
         <div class="left-buttons_btn-container" id="getCallBack">
@@ -1915,7 +1673,7 @@
                         <p class="call-back-modal__container__sliders_text_right">Время звонка</p>
                     </div>
                     <div class="call-back-modal__container_bottom__sliders">
-                        <div class="call-back-modal__container_bottom__day-slider">
+                        <div class="call-back-modal__container_bottom__day-slider call-back-modal-slider">
                             <div class="call-back-modal__container_bottom__day-slider_item call-back-modal__container_bottom__day-slider_item0">
                                 <p class="call-back-modal__container_bottom__day-slider_curent-date"></p>
                                 <p class="call-back-modal__container_bottom__day-slider_curent-month"></p>
@@ -1999,15 +1757,25 @@
             </div>
         </div>
     </section>
+
+    <section class="loader">
+        <div class="l_main">
+            <div class="l_square"><span></span><span></span><span></span></div>
+            <div class="l_square"><span></span><span></span><span></span></div>
+            <div class="l_square"><span></span><span></span><span></span></div>
+            <div class="l_square"><span></span><span></span><span></span></div>
+        </div>
+    </section>
 <script src="global-js/jquery-3.3.1.min.js"></script>
 <script src="global-js/jquery.mousewheel.min.js"></script>
-<script src="global-js/preloader.js"></script>
 <script src="owlcarousel/owl.carousel.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
 <script src="global-js/parallax.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-<script src="global-js/valo-main.js"></script>
+<script src="global-js/jquery.fancybox.min.js"></script>
+<script src="global-js/banks.js"></script>
 <script src="global-js/left-buttons.js"></script>
-<script type="text/javascript" src="global-js/header.js"></script>
+<script src="global-js/index.js"></script>
+<script src="global-js/header.js"></script>
+<script src="global-js/sliders.js"></script>
 </body>
 </html>

@@ -127,6 +127,21 @@
         width: auto;
     }
     /*Шаблон*/
+    /*Инфраструктура*/
+    .infrastructure-page {
+        width: auto;
+    }
+    /*Инфраструктура*/
+    /*ком выбор*/
+    .commerce-choose {
+        width: auto;
+    }
+    /*ком выбор*/
+    /*Апартаменты*/
+    .apartments-content {
+        width: 100%;
+    }
+    /*Апартаменты*/
 }
 @media screen and (max-width: 1577px) {
     /*trade-in*/
@@ -148,6 +163,15 @@
     .location-main_maska {
         display: none;
     }
+    .floor-choose__accordions {
+        background: #fff;
+    }
+    .active-sport__container__dd2 {
+        padding-left: 0;
+    }
+    .active-sport__container__dd {
+        width: auto;
+    }
     /*Локация*/
 }
 @media screen  and (max-width: 1517px) {
@@ -167,11 +191,41 @@
         width: auto;
     }
     .apartments-content {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 0;
+        padding-right: 0;
     }
     /*Апартаменты*/
-
+    /*Инфраструктура*/
+    .for-tourists__content_img {
+        display: none;
+    }
+    .for-tourists__content__text {
+        width: 1230px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+    }
+    .for-tourists__content__text_main {
+        width: auto;
+        max-width: none;
+    }
+    .for-tourists__content__text_ul {
+        width: auto;
+        max-width: none;
+    }
+    .active-sport_img {
+        display: none;
+    }
+    .long-time__container_img {
+        display: none;
+    }
+    .long-time__container__dd {
+        padding-left: 0;
+        width: 1230px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*Инфраструктура*/
 }
 @media screen and (max-width: 1450px)  {
     .complex-plan__img {
@@ -674,8 +728,7 @@
         bottom: -21px;
     }
     .buy-variants {
-        height: 1250px;
-        padding-bottom: 0;
+        padding-bottom: 95px;
         padding-top: 95px;
     }
     .buy-variants__trade-in_btn {
@@ -705,8 +758,6 @@
     .buy-variants__banks_right_item {
         width: 200px;
         height: 140px;
-        background-color: #fff;
-        opacity: .8;
         cursor: pointer;
         display: flex;
         justify-content: center;
@@ -988,7 +1039,9 @@
     .calculator__content__cards-slider__item_content {
         display: flex;
     }
-
+    .calculator__content__cards-slider {
+        max-height: 75px;
+    }
     .calculator__content__cards-slider__item_content_text {
         margin-left: 30px;
     }
@@ -1369,8 +1422,7 @@
         width: 640px;
     }
     .content-top-menu__item {
-        padding: 5px;
-        font-size: 12px;
+        display: none;
     }
     .team-container_main {
         font-size: 60px;
@@ -1543,6 +1595,499 @@
         padding-bottom: 65px;
     }
     /*Шаблон*/
+    /*инфраструктура*/
+    .infrastructure-page__first-slider__text {
+        height: 660px;
+    }
+    .infrastructure-page__first-slider__text {
+        align-items: flex-start;
+        padding-top: 90px;
+    }
+    .infrastructure-page__first-slider_slider {
+        bottom: 0;
+        left: 0;
+        top: auto;
+        width: 100%;
+    }
+    .infrastructure-page__first-slider_slider_item-right {
+        right: 50px;
+        bottom: 25px;
+        width: 50px;
+        height: 50px;
+    }
+    .infrastructure-page__first-slider_slider_item-left {
+        right: 100px;
+        bottom: 25px;
+        top: auto;
+        left: auto;
+        width: 50px;
+        height: 50px;
+    }
+    .infrastructure-page__first-slider__text_p {
+        width: 100%;
+    }
+    .project-in__container {
+        display: block;
+    }
+    .euro-lvl {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .for-tourists__content__text {
+        width: 640px;
+    }
+    .for-tourists__content__text_main {
+        width: auto;
+    }
+    .for-tourists__content__text_ul {
+        width: auto;
+        max-width: none;
+    }
+    .for-tourists__content {
+        height: 640px;
+    }
+    .active-sport {
+        padding-top: 90px;
+    }
+    .active-sport__container {
+        margin-top: 80px;
+    }
+    .long-time__container__dd {
+        width: 640px;
+    }
+    .long-time__container {
+        height: 795px;
+    }
+    .long-time {
+        padding-bottom: 70px;
+    }
+    /*инфраструктура*/
+    /*ком выбор*/
+    .commerce-choose__container__left {
+        display: none;
+    }
+    .commerce-choose__container {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .commerce-choose__container__right__container_p {
+        width: 290px;
+    }
+    .commerce-choose__container__right__container {
+        padding-left: 0;
+        display: flex;
+    }
+    .commerce-choose__container__right__container_long-btn1 {
+        margin-top: 0;
+    }
+    .commerce-choose__container__right__container_select {
+        display: block;
+    }
+    .calculator__content_form_dd-container {
+        justify-content: space-between;
+    }
+    .commerce-choose__container__right__container_long-select {
+        display: flex;
+        margin-top: 25px;
+        width: 45%;
+    }
+    .commerce-choose__top__corpus-info-left {
+        width: 285px;
+    }
+    .commerce-choose__top__corpus-info-center {
+        width: 355px;
+    }
+    .commerce-choose__top__corpus-info {
+        flex-wrap: wrap;
+    }
+    .commerce-choose__top__corpus-info-center_compas {
+        width: 75px;
+        height: 75px;
+        top: 20px;
+        right: 20px;
+    }
+    .commerce-choose__top__corpus-info {
+        height: auto;
+    }
+    .commerce-choose__top__corpus-info-right {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 150px;
+        padding-left: 0;
+    }
+    .commerce-choose__top__corpus-info-right_btn {
+        margin-top: 0;
+        margin-left: 45px;
+    }
+    .commerce-choose__top__corpus-info-left_triangle {
+        display: none;
+    }
+    .commerce-choose__top__corpus-info-right_triangle {
+        display: block;
+    }
+    .commerce-choose__container2 {
+        padding-bottom: 0;
+        flex-direction: column-reverse;
+
+    }
+    .commerce-choose__container__right__container {
+        display: block;
+        padding-top: 50px;
+    }
+    .commerce-choose__container__right__container_long-btn {
+        width: 45%;
+    }
+    .commerce-choose__container__right__container_long-btn2 {
+        width: 45%;
+    }
+    .commerce-choose__container__right__container_long-select3 {
+        width: 45%;
+        margin-top: 25px;
+    }
+    .commerce-choose__container__right__container_content {
+        display: flex;
+        justify-content: space-between;
+    }
+    .floor-choose__accordions {
+        background: #fff;
+    }
+    .commerce-choose__container__left2 {
+        display: block;
+        position: relative;
+        margin-top: 55px;
+        width: auto;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .commerce-choose__container__left__floor-scheme_img {
+        max-width: 600px;
+        max-height: 950px;
+    }
+    .apartment-li__left-column {
+        width: 50%;
+    }
+    .apartment-li__center-column {
+        width: 50%;
+        margin-left: 0;
+    }
+    .apartment-li {
+        flex-wrap: wrap;
+    }
+    .apartment-li__img_link {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+    /*ком выбор*/
+    /*стопро*/
+    .stopro-info {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .sto-pro-sub-main {
+        margin-top: 25px;
+        font-size: 18px;
+    }
+    .sto-pro__ul {
+        margin-bottom: 25px;
+    }
+    .sto-pro__ul_li {
+        font-size: 16px;
+    }
+    .stopro-info__left {
+        width: 100%;
+    }
+    .stopro-info__right {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .stopro-info__left__text {
+        padding-right: 15px;
+        margin-left: 260px;
+    }
+    /*стопро*/
+    /*Блог компании*/
+    .company-blog-container {
+        flex-direction: column;
+    }
+    .company-blog-container__left_ul_li {
+        padding-left: 0;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .company-blog-container__left_ul {
+        margin-bottom: 35px;
+    }
+    .company-blog-container__right {
+        width: 100%;
+    }
+    .company-blog-container__right_ul_li_img {
+        width: 162px;
+        min-width: 162px;
+        height: 100%;
+    }
+    .company-blog-container__right_ul_li {
+        height: 180px;
+        width: 100%;
+    }
+    .company-blog-container__right_ul_li_text {
+        padding: 0 20px 0 20px;
+        width: 478px;
+    }
+    .company-blog-container__right_ul_li_text_p {
+        height: 48px;
+        overflow-y: hidden;
+    }
+    .company-blog-container__right_ul_li_text_p-ab {
+        height: auto;
+    }
+    .company-blog-container__right_ul_li_text__bottom {
+        left: 20px;
+        bottom: 0;
+        padding-right: 85px;
+    }
+    /*Блог компании*/
+    /*Документы*/
+    .active-sport__container__dd3 {
+        width: 100% !important;
+    }
+    .floor-choose__accordions2 {
+        width: 100% ;
+    }
+    .document-text__link {
+        width: 275px;
+    }
+    /*Документы*/
+    /*Доходные программы*/
+    .profit-programs__cards  {
+        width: 390px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .profit-programs__cards .circle-next {
+        right: -120px;
+    }
+    .profit-programs__cards .circle-prev {
+        left: -120px;
+    }
+    /*Доходные программы*/
+    /*Портфельные программы*/
+    .portfolio-programs__cards_card {
+        width: 165px;
+    }
+    /*Портфельные программы*/
+    /*Ипотека*/
+    .buy-variants__ipoteca__bottom2 {
+        width: 100%;
+        position: static;
+    }
+    .buy-variants__banks2 {
+        margin-top: 35px;
+    }
+    .ipoteca-form-to-bank_input {
+        width: 305px;
+        height: 52px;
+        margin-right: 0;
+    }
+    .ipoteca-form-to-bank_btn {
+        width: 305px;
+        margin-left: auto;
+        margin-top: 20px;
+    }
+    .ipoteca-form-to-bank {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    /*Ипотека*/
+    /*Рассорочка*/
+    .installment-green-block {
+        background: #57b5bb;
+        margin-top: 30px;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    .installment-green-block__text {
+        margin-left: 0;
+        text-align: center;
+        height: 100%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .installment-green-block__text-l {
+        width: auto;
+    }
+    /*Рассорочка*/
+    /*Выбор апартов*/
+    .commerce-choose__container__left__floor-scheme_img-af {
+        max-height: 750px;
+    }
+    /*Выбор апартов*/
+    /*О Проекте*/
+    .company-blog-container__right_ul_li-about .company-blog-container__right_ul_li_img {
+        height: 180px;
+    }
+    .company-blog-container__right_ul_li_text_p-ab {
+        height: auto;
+        overflow: visible;
+    }
+    .company-blog-container__right_ul_li_text-ab {
+        height: auto;
+        overflow: visible;
+    }
+    .company-blog-container__right_ul_li-about {
+        height: auto;
+    }
+    .company-blog-container__right_ul_li-about .company-blog-container__right_ul_li_text__bottom-about {
+        margin-top: 20px;
+        position: static;
+    }
+    .company-blog-container__right_ul_li-about:hover  .company-blog-container__right_ul_li_text{
+        background-color: transparent;
+    }
+    .company-blog-container__right_ul_li-about:hover .company-blog-container__right_ul_li_text_main {
+        color: #fff;
+    }
+    .company-blog-container__right_ul_li-about:hover .company-blog-container__right_ul_li_text_main2 {
+        color: #57b5bb;
+    }
+    .company-blog-container__right_ul_li-about:hover .company-blog-container__right_ul_li_text_p {
+        color: #fff;
+    }
+    .company-blog-container__right_ul_li-about:hover .company-blog-container__right_ul_li_text__bottom_btn {
+        color: #fff;
+    }
+    .company-blog-container__right_ul_li-about:hover .company-blog-container__right_ul_li_text__bottom_btn::after {
+        content: url(../img/link-arr.png);
+    }
+    /*О Проекте*/
+    /*О компании*/
+    .about-company-slider{
+        height: 407px;
+    }
+    .about-company-slider__item__left {
+        width: 285px;
+        height: 407px;
+        min-width: 285px;
+    }
+    .about-company-slider__item__right {
+        height: 407px;
+        padding-left: 20px;
+        padding-right: 40px;
+    }
+    .about-company-slider__item__left_img {
+        min-height: 100%;
+        max-height: 100%;
+    }
+    .about-next {
+        top: auto;
+        left: auto;
+        right: 60px;
+        bottom: 12px;
+        width: 27px;
+        height: 27px;
+    }
+    .about-prev {
+        top: auto;
+        left: auto;
+        right: 105px;
+        bottom: 12px;
+        width: 27px;
+        height: 27px;
+    }
+    /*О компании*/
+    /*how to buy*/
+    .stopro-info22 {
+        margin-top: 0;
+        margin-bottom: 90px;
+    }
+    .stopro-info__bottom-link {
+        margin-left: 405px;
+    }
+    /*how to buy*/
+    /*апартаменты*/
+    .apartments-dropdowns-lists {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-column-gap: 22px;
+    }
+    .ranges {
+        flex-direction: column;
+    }
+    .first-range {
+        width: 100%;
+    }
+    .second-range {
+        width: 100%;
+        margin: 0;
+    }
+    .img-filters {
+        display: none;
+    }
+    .catalog-list {
+        display:  none !important;
+    }
+    .apartments-dropdowns-lists {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-column-gap: 22px;
+    }
+    .apartments-dropdowns-list {
+        width: 100%;
+    }
+    .apartments-card-block {
+        grid-template-columns: 100%;
+        justify-content: center;
+    }
+    .apartments-card {
+        width: 100%;
+    }
+    .apartments-img-block {
+        flex-direction: row;
+    }
+    .card-img-container {
+        background-color: rgba(100%, 100%, 100%, .76);
+        width: 50%;
+    }
+    .apartments-card {
+        height: 253px;
+    }
+    .card-btn {
+        display: none;
+    }
+    .apartments-card-text-container {
+        width: 50%;
+        background-color: #ffffff;
+        padding: 15px 15px 35px 15px;
+        flex-direction: column;
+    }
+    .apartments-card-text-block {
+        order: 5;
+    }
+    .apartments-card-text-block p{
+        font-size: 25px;
+        margin-top: 5px;
+    }
+    .apartments-card-text-block span{
+        font-size: 25px;
+    }
+    .apartments-card:hover .card-img-container {
+        background-color: rgba(87, 181, 187, .76);
+    }
+    .apartments-card:hover .apartments-card-text-container {
+        background-color: rgba(255,255,255,.3);
+    }
+    .responsive-950 {
+        display: none;
+    }
+    .dn-950 {
+        display: none;
+    }
+    .db-950 {
+        display: block;
+    }
+    /*апартаменты*/
 }
 @media screen and (max-width: 1200px)  {
     .complex-plan {
@@ -1639,6 +2184,234 @@
         display: none !important;
     }
     /*Карта объекта*/
+    /*Комм выбор*/
+    .buy-modal-container {
+        width: 304px;
+        height: 500px;
+        overflow-y: auto;
+        top: calc(50% - 250px);
+        left: calc(50% - 152px);
+        padding: 10px;
+    }
+    .buy-modal-container__btns-block_btn {
+        min-width: 60px;
+        max-width: 60px;
+        max-height: 60px;
+        min-height: 24px;
+        width: 60px;
+        height: 24px;
+        font-size: 8px;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    .buy-modal-container__btns-block {
+        right: 10px;
+        top: 5px;
+        left: auto;
+        width: 130px;
+    }
+    .buy-modal-container-main-first {
+        font-size: 18px !important;
+        line-height: 16px !important;
+        width: 100px !important;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0 !important;
+    }
+    .shab-mini-border-block__left-text_main-first {
+        font-size: 10px !important;
+        line-height: 10px !important;
+        width: 115px !important;
+        margin-top: 5px !important;
+        margin-bottom: 10px !important;
+        padding: 0 !important;
+    }
+    .buy-modal-container__ipoteca_p {
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .buy-modal-container__cross {
+        display: none;
+    }
+    .buy-modal-container__ipoteca_left {
+        padding-right: 0;
+        width: 100%;
+    }
+    .buy-modal-container__ipoteca_right {
+        width: auto;
+        padding: 0;
+    }
+    .shab-mini-border-block__left-text_main-second {
+        width: 100%;
+    }
+    .buy-modal-container__ipoteca {
+        flex-direction: column;
+    }
+    .buy-modal-container__ipoteca_ul_li {
+        font-size: 10px;
+        line-height: 10px;
+        margin-bottom: 5px;
+    }
+    .buy-modal-container__ipoteca_ul_li::before {
+        margin-right: 5px;
+    }
+    .buy-modal-container__ipoteca_button {
+        width: 100%;
+        height: 40px;
+        margin-top: 10px;
+    }
+    .buy-modal-container_h33 {
+        margin-top: 30px;
+        font-size: 10px !important;
+        line-height: 10px !important;
+    }
+    .buy-modal-container__ipoteca_right__current-bank {
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .buy-modal-container__ipoteca_right__current-bank_img {
+        margin-right: 20px;
+        margin-bottom: 20px;
+        width: 244px;
+    }
+    .buy-modal-container__ipoteca_right__current-bank_text {
+        position: relative;
+        top: 0;
+        font-size: 10px;
+    }
+    .buy-modal-container__ipoteca_right__current-bank_maxSumm {
+        position: relative;
+        top: 0;
+        left: 0;
+        font-size: 20px;
+    }
+    .buy-modal-container__ipoteca_right__current-bank_stav {
+        top: 0;
+        left: 0;
+        position: relative;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .buy-modal-container__ipoteca_right__current-bank_vznos {
+        top: 0;
+        left: 0;
+        position: relative;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .buy-modal-container__ipoteca_right__current-bank_srok {
+        top: 0;
+        left: 0;
+        position: relative;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .buy-modal-container__ipoteca_right__banks {
+        justify-content: space-around;
+    }
+    .buy-modal-container__ipoteca_right__banks_bank-card {
+        width: 130px;
+        height: 60px;
+        margin-right: 0;
+    }
+    .buy-modal-container__rass_left {
+        width: 100%;
+    }
+    .buy-modal-container__rass__blue-block {
+        width: 100%;
+        height: 126px;
+        margin-top: 20px;
+        background: #005A93;
+    }
+    .buy-modal-container__rass__blue-block_main {
+        font-size: 14px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .buy-modal-container__rass__blue-block_ul_li {
+        font-size: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 5px;
+    }
+    .buy-modal-container__rass__blue-block_container {
+        flex-direction: column;
+    }
+    .buy-modal-container__rass__blue-block_container_right {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .buy-modal-container-main-first4 {
+        margin-bottom: 30px !important;
+    }
+    .buy-modal-container__stopro_left {
+        width: 100%;
+    }
+    .buy-modal-container__stopro_left_flex {
+        flex-direction: column;
+    }
+    .buy-modal-container__stopro_right {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .buy-modal-container_description {
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+    .buy-modal-container__rass__blue-blocks2 {
+        flex-direction: column;
+    }
+    .buy-modal-container__rass__blue-block {
+        height: 90px;
+        width: 100%;
+    }
+    .buy-modal-container__rass__blue-blocks2 .buy-modal-container__rass__blue-block {
+        margin-left: auto;
+        margin-top: 10px;
+    }
+    .buy-modal-container__rass__blue-block_main {
+        font-size: 12px;
+    }
+    .buy-modal-container__rass__blue-block_p {
+        font-size: 10px;
+        margin-left: 20px;
+        margin-right: 10px;
+        width: auto;
+    }
+    .buy-modal-container__trade-in-container-trade {
+        flex-direction: column;
+    }
+    .buy-modal-container__trade-in_left {
+        width: auto;
+    }
+    .dn-1200 {
+        display: none;
+    }
+    .buy-modal-container-main-first13 {
+        width: 125px !important;
+        margin-bottom: 15px;
+    }
+    .buy-modal-container__trade-in_right {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+    .buy-modal-container__trade-in_right_ul_li:before {
+        content: '';
+    }
+    .buy-modal-container__trade-in_right_ul_li {
+        padding-left: 0;
+        margin-bottom: 10px;
+        font-size: 10px;
+        width: 100%;
+    }
+    .buy-modal-container__trade-in_right_ul {
+        margin-top: 0;
+    }
+    .buy-modal-container__ipoteca_p-2 {
+        margin-top: 15px;
+    }
+    /*Комм выбор*/
 }
 @media screen and (max-width: 1100px) {
     /*trade in*/
@@ -1729,16 +2502,6 @@
 }
 @media screen and (max-width: 1050px) {
     /*Апартаменты*/
-    .ranges {
-        flex-direction: column;
-    }
-    .first-range {
-        width: 100%;
-    }
-    .second-range {
-        margin: 0;
-        width: 100%;
-    }
     .filter-buttons {
         display: flex;
         flex-direction: column;
@@ -1766,13 +2529,20 @@
     .apartments-card-block {
         display: grid !important;
     }
-    .catalog-list {
-        display:  none !important;
-    }
+
     .img-filters {
         display: none;
     }
     /*Апартаменты*/
+    /*Избранное*/
+    .img-filters2_btn2 {
+        display: block;
+        position: relative;
+        bottom: 0;
+        margin-left: auto;
+        margin-top: 20px;
+    }
+    /*Избранное*/
 }
 @media screen and (max-width: 1000px) {
     /*Сервис*/
@@ -1844,67 +2614,7 @@
     /*Сервис*/
 }
 @media screen and (max-width: 950px) {
-    /*Апартаменты*/
-    .apartments-dropdowns-lists {
-        display: grid;
-        grid-template-columns: 45% 45%;
-        grid-column-gap: 22px;
-    }
-    .apartments-dropdowns-list {
-        width: 100%;
-    }
-    .apartments-card-block {
-        grid-template-columns: 100%;
-        justify-content: center;
-    }
-    .apartments-card {
-        width: 100%;
-    }
-    .apartments-img-block {
-        flex-direction: row;
-    }
-    .card-img-container {
-        background-color: rgba(100%, 100%, 100%, .76);
-        width: 50%;
-    }
-    .apartments-card {
-        height: 253px;
-    }
-    .card-btn {
-        display: none;
-    }
-    .apartments-card-text-container {
-        width: 50%;
-        background-color: #ffffff;
-        padding: 15px 15px 35px 15px;
-        flex-direction: column;
-    }
-    .apartments-card-text-block {
-        order: 5;
-    }
-    .apartments-card-text-block p{
-        font-size: 25px;
-        margin-top: 5px;
-    }
-    .apartments-card-text-block span{
-        font-size: 25px;
-    }
-    .apartments-card:hover .card-img-container {
-        background-color: rgba(87, 181, 187, .76);
-    }
-    .apartments-card:hover .apartments-card-text-container {
-        background-color: rgba(255,255,255,.3);
-    }
-    .responsive-950 {
-        display: none;
-    }
-    .dn-950 {
-        display: none;
-    }
-    .db-950 {
-        display: block;
-    }
-    /*Апартаменты*/
+
 }
 @media screen and (max-width: 768px)  {
     .complex-plan {
@@ -1912,6 +2622,33 @@
     }
 }
 @media screen and (max-width: 750px) {
+    .mail-modal-container {
+        height: auto;
+        width: 304px;
+        left: calc(50% - 152px);
+        top: calc(50% - 363px);
+    }
+    .call-back-modal__container_bottom_input {
+        width: 80%;
+        height: 35px;
+        font-size: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .call-back-modal__container_bottom_textarea {
+        width: 80%;
+        font-size: 10px;
+        height: 80px;
+        padding: 10px;
+
+    }
+    .call-back-modal__container_bottom_btn {
+        height: 36px;
+        font-size: 12px;
+    }
+    .call-back-modal__container_bottom {
+        padding-bottom: 20px;
+    }
     .content-top-menu {
         display: none;
     }
@@ -2577,24 +3314,28 @@
     .rassrochka-slider-slider .owl-prev {
         background: none !important;
         transform: rotate(0);
-        left: -40px;
+        left: -20px;
         top: -5px;
         position: absolute;
+        width: 13px;
     }
     .rassrochka-slider-slider .owl-prev:hover {
         background: none !important;
         transform: rotate(0);
+        width: 13px;
     }
     .rassrochka-slider-slider .owl-next {
         background: none !important;
         transform: rotate(0);
-        right: -40px;
+        right: -20px;
         top: -5px;
         position: absolute;
+        width: 13px;
     }
     .rassrochka-slider-slider .owl-next:hover {
         background: none !important;
         transform: rotate(0);
+        width: 20px;
     }
     .rassrochka-slider-slider .owl-prev span {
         font-size: 50px;
@@ -2614,14 +3355,14 @@
         margin-top: 50px;
     }
     .buy-variants__rassrochka_btn {
-        margin-top: 90px;
+        margin-top: 30px;
         height: 40px;
         width: 191px;
         font-size: 12px;
     }
     .buy-variants {
         padding-top: 75px;
-        height: 865px;
+        padding-bottom: 75px;
     }
     .buy-variants__banks {
         margin-top: 65px;
@@ -2641,24 +3382,28 @@
     .sto-pro-slider  .owl-prev {
         background: none !important;
         transform: rotate(0);
-        left: -40px;
+        left: -20px;
         top: -5px;
         position: absolute;
+        width: 13px;
     }
     .sto-pro-slider  .owl-prev:hover {
         background: none !important;
         transform: rotate(0);
+        width: 13px;
     }
     .sto-pro-slider  .owl-next {
         background: none !important;
         transform: rotate(0);
-        right: -40px;
+        right: -20px;
         top: -5px;
         position: absolute;
+        width: 13px;
     }
     .sto-pro-slider  .owl-next:hover {
         background: none !important;
         transform: rotate(0);
+        width: 13px;
     }
     .sto-pro-slider  .owl-prev span {
         font-size: 50px;
@@ -2675,7 +3420,7 @@
     }
     .buy-variants__sto-pro_text {
         font-size: 14px;
-        margin-top: 50px;
+        margin-top: 30px;
     }
     .buy-variants__trade-in_main {
         font-size: 24px;
@@ -2695,6 +3440,12 @@
         margin-top: 35px;
     }
     .buy-variants__trade-in_btn {
+        width: 191px;
+        height: 40px;
+        font-size: 12px;
+        margin-top: 35px;
+    }
+    .buy-variants__sto-pro_btn {
         width: 191px;
         height: 40px;
         font-size: 12px;
@@ -2777,6 +3528,9 @@
         height: 285px;
     }
     .big-progress-slider_item-1 {
+        height: 285px;
+    }
+    .big-progress-slider_item-1-img {
         height: 285px;
     }
     .big-progress-slider_item-2 {
@@ -2983,6 +3737,31 @@
         width: 94px;
         height: 30px;
         font-size: 11px;
+    }
+    .calculator__content_form_dd-container {
+        flex-direction: column;
+    }
+    .calculator__content_form_dd-container-dd2 {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .default-dropdown_span {
+        font-size: 12px;
+    }
+    .default-dropdown_ul_li_span {
+        font-size: 12px;
+    }
+    .default-dropdown_ul_li_checkbox ~ .default-dropdown_ul_li_checkbox_span {
+        width: 14px;
+        height: 14px;
+    }
+    .default-dropdown {
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .default-dropdown_ul {
+        top: 25px;
     }
     /*Калькулятор*/
     /*Локация*/
@@ -3678,10 +4457,10 @@
         top: calc(50% - 12px);
         width: 23px;
         height: 23px;
-        left: -23px;
+        left: -15px;
     }
     .circle-next{
-        right: -23px;
+        right: -15px;
         top: calc(50% - 12px);
         width: 23px;
         height: 23px;
@@ -3689,6 +4468,64 @@
     .shub-slider__container {
         padding-top: 27px;
         padding-bottom: 27px;
+    }
+    .shub-hover-photo__container__icon-block_icon {
+        width: 32px;
+        height: 32px;;
+    }
+    .shub-hover-photo__container__icon-block_text {
+        padding: 5px;
+        font-size: 9px;
+    }
+    .shub-hover-photo__container {
+        height: 240px;
+        top: 34px;
+    }
+    .shub-hover-photo {
+        height: 312px;
+        padding-top: 34px;
+        padding-bottom: 0;
+    }
+    .shub-hover-photo__container__icon-block1 {
+        top: 188px;
+        right: 8%;
+    }
+    .shub-hover-photo__container__icon-block2 {
+        top: 81px;
+        right: 14%;
+    }
+    .shub-hover-photo__container__icon-block3 {
+        top: 128px;
+        left: 26%;
+    }
+    .shub-hover-photo__container__icon-block4 {
+        top: 35px;
+        left: 14%;
+    }
+    .shub-hover-photo__container__icon-block5 {
+        top: 86px;
+        left: 1%;
+    }
+    .shub-hover-photo__container__description-block{
+        padding: 12px 30px 12px 22px;
+        height: auto;
+    }
+    .shub-hover-photo__container__description-block_main {
+        font-size: 17px;
+        margin-bottom: 8px;
+    }
+    .shub-hover-photo__container__description-block_ol_li {
+        font-size: 10px;
+    }
+    .shub-hover-photo__container__description-block_ol_li_p {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .shub-hover-photo__container__description-block_ol_li_span {
+        margin-right: 10px;
+    }
+    .shub-hover-photo__container {
+        overflow: auto;
     }
     .shab-quote__container_content_right_img {
         float: none;
@@ -3778,129 +4615,670 @@
     .shub-number-block {
         padding-top: 45px;
     }
+    .shub-hover-photo__container__icon-block {
+        max-width: 135px;
+    }
     /*Шаблон*/
-}
-@media screen  and (max-width: 650px) {
-    /*Карта объекта*/
-    .mobile-h2 {
-        font-size: 14px;
-        font-weight: 400;;
+    /*Инфраструктура*/
+    .infrastructure-page {
+        margin-top: 30px;
+        padding-bottom: 30px;
     }
-    .top-icon-mobile-first img{
-        width: 25px;
-        height: 35px;
+    .infrastructure-page__first-slider__text {
+        margin-top: 30px;
     }
-    .icons-block .top-icon-mobile-second img{
-        width: 28px;
-        height: 33px;
+    .infrastructure-page__first-slider__text_p {
+        font-size: 12px;
+        line-height: 14px;
     }
-    .icons-block .top-icon-mobile-third img {
-        width: 23px;
-        height: 26px;
+    .infrastructure-page__first-slider__text {
+        height: 425px;
+        padding-top: 30px;
     }
-    .icons-block .top-icon-mobile-fourth img {
-        width: 25px;
-        height: 26px;
-    }
-    .top-icon-mobile:not(:last-child) {
-        margin-right: 25px;
-    }
-    .calculator-hr {
-        margin-top: 15px;
+    .infrastructure-page__first-slider__text_p.mb-25 {
         margin-bottom: 15px;
     }
-    .calculator-block-content-top-text {
-        font-size: 14px;
+    .infrastructure-page__first-slider_slider {
+        height: 230px;
     }
-    .calculator-block-content-top-btn {
-        width: 185px;
-        height: 45px;
-        font-size: 15px;
-        font-weight: 300;
-        margin-top: 22px;
+    .infrastructure-page__first-slider_slider_item_img {
+        height: 230px;
     }
-    .left-calc {
-        margin-top: 20px;
-    }
-    .slider-one {
-        width: 480px;
-        height: 320px;
-        margin: 0 auto;
-    }
-    .card-obj .calc-slider-item {
-        width: 480px;
-        height: 320px;
-    }
-    .under-slider-compass {
+    .infrastructure-page__first-slider_slider_item__text-block {
         width: 100%;
-        height: 75px;
+        height: 110px;
+        padding-right: 110px;
+        padding-left: 20px;
     }
-    .compass {
-        width: 62px;
-        height: 62px;
+    .infrastructure-page__first-slider_slider_item__text-block_main {
+        font-size: 12px;
+        line-height: normal;
     }
-    .slider-nav-link {
+    .infrastructure-page__first-slider_slider_item__text-block_text {
+        font-size: 12px;
+        line-height: normal;
+    }
+    .infrastructure-page__first-slider_slider_item-right {
+        bottom: 40px;
+        right: 20px;
+        top: auto;
+        width: 35px;
         height: 35px;
     }
-    .slider-nav-link a {
-        font-size: 12px;
-        font-weight: 400;
+    .infrastructure-page__first-slider_slider_item-left {
+        bottom: 40px;
+        right: 60px;
+        top: auto;
+        width: 35px;
+        height: 35px;
+        left: auto;
     }
-    .good-description-block-left-list {
-        font-size: 10px;
+    .project-in {
+        padding-top: 30px;
+        padding-bottom: 40px;
     }
-    .good-description-block {
+    .project-in__container {
         width: 100%;
+        margin-bottom: 40px;
     }
-    .under-description-text {
-        margin-right: 0;
-        padding-right: 20px;
+    .project-in__container-prev {
+        width: 40px;
+        height: 40px;
+        left: 20px;
+        top: calc(50% - 20px);
     }
-    .profitability-program-block-left {
-        margin-left: 20px;
-        font-size: 10px;
+    .project-in__container-next {
+        width: 40px;
+        height: 40px;
+        right: 20px;
+        top: calc(50% - 20px);
     }
-    .profitability-program-block-right {
-        font-size: 10px;
+    .project-in__flex_text {
+        font-size: 14px;
     }
-    .good-description-block-bottom-first-text {
+    .euro-lvl__circles-flex {
         display: none;
     }
-    .good-description-block-bottom {
-        flex-direction: column;
+    .euro-lvl__description {
+        display: none;
     }
-    .good-description-block-bottom-first-img-2 {
+    .euro-lvl__circles-flex__mobile-slider {
         display: block;
     }
-    .good-description-block-bottom-first-img-1 {
+    .euro-lvl__circles-flex__mobile-slider__item {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+    }
+    .euro-lvl__circles-flex__mobile-slider__item__top {
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #57b5bb;
+        position: relative;
+        margin-bottom: 40px;
+    }
+    .euro-lvl__description_container_main {
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .infrastructure-page__first-slider_slider_item__text-block_text {
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+    }
+    .euro-lvl__circles-flex__mobile-slider__item__top_bottom {
+        height: 185px;
+        border-top: 2px solid #57b5bb;
+        border-bottom: 2px solid #57b5bb;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .euro-lvl__circles-flex_circle_pal {
+        display: block;
+    }
+    .euro-lvl__circles-flex__mobile-slider-prev {
+        background: url(../img/slider-no-bg-arr.png) no-repeat center center / 100% 100%;
+        transform: rotate(180deg);
+        width: 15px;
+        height: 22px;
+        position: absolute;
+        top: 28px;
+        left: 12px;
+        border: none;
+    }
+    .euro-lvl__circles-flex__mobile-slider-next {
+        background: url(../img/slider-no-bg-arr.png) no-repeat center center / 100% 100%;
+        width: 15px;
+        height: 22px;
+        position: absolute;
+        top: 28px;
+        right: 12px;
+        border: none;
+    }
+    .euro-lvl {
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+    .for-tourists__content__text .for-tourists__content__text_ul_li:nth-child(n+4) {
         display: none;
     }
-    .good-description-block-bottom-right-top-text {
-        font-size: 27px;
-        text-align: right;
+    .for-tourists__content__show-all {
+        display: block;
     }
-    .good-description-block-bottom-right-top-under-text {
-        font-size: 11px;
+    .for-tourists {
+        padding-top: 50px;
     }
-    .good-description-block-bottom-container {
+    .for-tourists__content {
+        padding-top: 35px;
+        height: auto;
+        padding-bottom: 35px;
+    }
+    .for-tourists__content__text {
+        width: 304px;
+    }
+    .for-tourists__content__text_main {
+        font-size: 12px !important;
+        line-height: 14px;
+        margin-bottom: 15px;
+    }
+    .for-tourists__content__text_ul_li {
+        font-size: 12px;
+        line-height: 14px;
+        padding-left: 20px;
+    }
+    .active-sport {
+        padding-top: 40px;
+    }
+    .active-sport__container {
+        margin-top: 40px;
+        height: 425px;
+    }
+    .active-sport__container__dd .for-tourists__content__text_main::after {
+        content: '';
+        background: transparent url(../img/dd.png) no-repeat center center;
+        width: 18px;
+        height: 12px;
+        position: absolute;
+        right: 0;
+        top: 6px;
+        border-radius: 0;
+    }
+    .ui-state-active.for-tourists__content__text_main::after {
+        background: transparent url(../img/activedd.png) no-repeat center center;
+    }
+    .active-sport__container__dd .for-tourists__content__text_main {
+        padding-right: 20px !important;
+    }
+    .long-time {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .long-time__container {
+        height: 700px;
+        margin-top: 40px;
+    }
+    .long-time__container__dd {
+        width: 304px;
+    }
+    /*Инфраструктура*/
+    /*коммерческий выбор*/
+    .commerce-choose__container {
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .commerce-choose__container__right__container {
+        flex-direction: column;
+    }
+    .commerce-choose__container__right__container_btn {
+        width: 100%;
+    }
+    .commerce-choose__container__right__container_content {
+        margin-top: 8px;
+    }
+    .commerce-choose__container__right__container_long-btn {
+        width: 100%;
+    }
+    .commerce-choose__container__right__container_select ~ .select2-container--default .select2-selection--single {
+        width: 100% !important;
+    }
+    .commerce-choose__container__right__container {
+        padding-top: 0;
+    }
+    .commerce-choose__bottom {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .calculator__content_form_select2 ~ .select2-container--default {
+        margin-left: 0;
+        margin-top: 10px !important;
+    }
+    .calculator__content__cards-slider .slick-slide {
+        max-height: 85px;
+    }
+    .commerce-choose__container__right__container_long-select {
+        width: 100%;
+        height: 52px;
+    }
+    .commerce-choose__container__right__container_long-select .default-dropdown_span {
+        font-size: 15px;
+    }
+    .commerce-choose__top__corpus-info-left {
+        width: 50%;
+        padding-left: 20px;
+        height: 150px;
+    }
+    .partners-wrapper-750-auto {
+        width: 100%;
+    }
+    .shab-main-floors {
+        display: none;
+    }
+    .commerce-choose {
+        padding-top: 0;
+    }
+    .commerce-choose__top__corpus-info-center {
+        width: 50%;
+        height: 150px;
+        padding-left: 20px;
+    }
+    .commerce-choose__top__corpus-info-left_ul_li {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .commerce-choose__top__corpus-info-center_li {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .commerce-choose__top__corpus-info-center_compas {
+        display: none;
+    }
+    .commerce-choose__top__corpus-info-right_btn {
+        margin-left: 10px;
         margin-right: 20px;
+        font-size: 14px;
+        width: 144px;
+        height: 40px;
+        min-width: 144px;
+    }
+    .commerce-choose__top__corpus-info-right {
+        height: 125px;
+    }
+    .commerce-choose__top__corpus-info-right_text {
+        font-size: 12px;
+        line-height: 14px;
         margin-left: 20px;
     }
-    .good-description-block-left-list {
+    .commerce-choose__container2 {
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .commerce-choose__container__left2 {
+        padding: 0;
+        height: 540px;
+        width: 100%;
+        margin-top: 0;
+    }
+    .commerce-choose__container__left__floor-scheme_img {
+        max-height: 480px;
+        max-width: 80%;
+    }
+    .commerce-choose__container__floors-btns {
+        bottom: auto;
+        top: 20px;
+        right: 20px;
+        flex-direction: column-reverse;
+    }
+    .commerce-choose__container__floors-btns2 {
+        height: 80px;
+    }
+    .commerce-choose__container__floors-btns_btn {
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        font-size: 12px;
+        min-width: 40px;
+        min-height: 40px;;
+    }
+    .commerce-choose__container__right__container_long-btn2 {
+        width: 100%;
+    }
+    .commerce-choose__container__right__container_content {
+        flex-direction: column;
+    }
+    .commerce-choose__container__right__container_long-select3 {
+        margin-top: 8px;
+    }
+    .floor-choose__accordions {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 0;
+        min-height: auto;
+    }
+    .apartment-li__left-column_ul_li {
+        font-size: 12px;
+        line-height: 36px;
+    }
+    .apartment-li__left-column_ul_status {
+        font-size: 20px;
+    }
+    .apartment-li__img {
+        width: auto;
+        max-width: 100%;
+        max-height: none;
+    }
+    .commerce-choose__bottom_p {
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 15px;
+    }
+    .call-back-modal__container {
+        width: 300px;
+        top: calc(50% - 240px);
+        left: calc(50% - 150px);
+        height: 480px;
+    }
+    .call-back-modal__container_top {
+        height: 50px;
+    }
+    .call-back-modal__container_bottom {
+        padding-top: 20px;
+        height: 430px;
+    }
+    .call-back-modal__container_top_main {
+        font-size: 18px;
+    }
+    .call-back-modal__container_bottom_pol {
+        margin-top: 80px;
+        margin-bottom: 10px;
+    }
+    .mail-modal .call-back-modal__container_bottom {
+        height: auto;
+    }
+    .mail-modal-container {
+        top: calc(50% - 194px);
+    }
+    .popup-cross {
+        position: absolute;
+        top: 15px;
+        right: 10px;
+        cursor: pointer;
+        width: 20px;
+    }
+    .shab-main44 {
+        padding-top: 20px;
+    }
+    /*коммерческий выбор*/
+    /*Стопро*/
+    .sto-pro-sub-main {
+        margin-top: 25px;
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+    .sto-pro__ul_li {
+         font-size: 14px;
+     }
+    .stopro-info__left {
+        background: #57b5bb;
+        height: 220px;
+    }
+    .stopro-info__right {
+        background: #57b5bb;
+        height: 220px;
+    }
+    .stopro-info__left__text {
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 0;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 18px;
+        width: 285px;
+    }
+    .stopro-info__left_main {
+        font-size: 24px;
+    }
+    .stopro-info__left__text_p {
+        font-size: 14px;
+    }
+    .partners-wrapper-stopro {
+        width: 100%;
+    }
+    .stopro-info_description {
+        font-size: 12px;
+    }
+    /*Стопро*/
+    /*FAQ*/
+    .for-tourists__content__text_text {
+        font-size: 12px;
+    }
+    /*FAQ*/
+    /*Избранное*/
+
+    .img-filters2_btn2 {
+        margin-left: 0;
+        margin-right: auto;
+    }
+    .company-blog-container__right_ul_li_img {
+        display: none;
+    }
+    /*Избранное*/
+    /*Блог компании*/
+    .company-blog-container__left_ul_li {
+        font-size: 14px;
+        line-height: 24px;
+        padding-left: 0;
+    }
+    .company-blog-container__left_ul {
+        margin-bottom: 35px;
+    }
+    .company-blog-container__right_ul_li:hover .company-blog-container__right_ul_li_text {
+        background: transparent;
+    }
+
+    .company-blog-container__right_ul_li {
+        height: auto;
+    }
+    .company-blog-container__right_ul_li_text_main {
+        font-size: 18px;
+        line-height: normal;
+        margin-bottom: 15px;
+    }
+    .company-blog-container__right_ul_li_text_p {
+        font-size: 14px;
+        line-height: normal;
+        margin-bottom: 15px;
+    }
+    .company-blog-container__right_ul_li_text__bottom {
+        position: relative;
+        left: 0;
+        bottom: 0;
+    }
+    .company-blog-container__right_ul_li_text__bottom_date {
+        font-size: 12px;
+        line-height: normal;
+    }
+    .company-blog-container__right_ul_li_text {
+        font-size: 16px;
+        line-height: normal;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .company-blog-container__right_ul_li_text__bottom {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .company-blog-container__right_ul_li {
+        margin-top: 55px;
+    }
+    .company-blog-container__left {
+        width: auto;
+    }
+    /*Блог компании*/
+    /*Документы*/
+    .floor-choose__accordions2 {
+        margin-top: 35px;
+    }
+    .document-text__link {
+        flex-direction: column;
+        width: 140px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .document-text__link_text {
+        width: auto;
+        text-align: center;
+        font-size: 10px;
+        line-height: normal;
+        margin-top: 5px;
+        margin-left: 0;
+    }
+    .document-text__link_img {
+        width: 30px;
+        height: 40px;
+    }
+    /*Документы*/
+    /*Доходные программы*/
+    .profit-programs__cards_card__top {
+        height: 60px;
+    }
+    .profit-programs__cards_card__top_main {
+        font-size: 20px;
+    }
+    .profit-programs__cards_card__top_text {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+    .profit-programs__cards_card__top_profit {
+        font-size: 18px;
+        margin-bottom: 35px;
+    }
+    .profit-programs__cards_card__top_profit_span {
+        font-size: 20px;
+    }
+    .profit-programs__cards_card__top_text_under {
+        margin-bottom: 35px;
+        font-size: 24px;
+    }
+    .profit-programs__cards_card__bottom-text {
+        font-size: 12px;
+    }
+    .profit-programs__cards_card {
+        height: 720px;
+        width: 240px;
+    }
+    .profit-programs__cards {
+        width: 240px;
+    }
+    .profit-programs__cards .circle-next {
+        right: -30px;
+    }
+    .profit-programs__cards .circle-prev {
+        left: -30px;
+    }
+    .profit-program-top-text1 {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    /*Доходные программы*/
+    /*Портфельные программы*/
+    .shab-mini-border-block__left-text_main-pl0 {
+        padding-right: 0;
+    }
+    .portfolio-programs__cards_card_text {
+        width: 175px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .profit-programs__cards_card__top2 {
+        height: 60px;
+    }
+    .portfolio-programs_p {
+        font-size: 16px;
+    }
+    .portfolio-programs__top-block_top {
+        font-size: 24px;
+    }
+    .portfolio-programs__top-block_bottom {
+        font-size: 12px;
+    }
+    .profit-programs__cards_card__bot {
+        padding: 15px;
+    }
+    .portfolio-programs__top-block {
+        margin-bottom: 20px;
+        height: 55px;
+        margin-top: 5px;
+    }
+    .portfolio-programs_persent {
+        font-size: 24px;
+        margin-top: 5px;
+    }
+    .portfolio-programs__center {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .portfolio-programs_p {
+        font-size: 16px;
+    }
+    .portfolio-programs__center_bold {
+        font-size: 18px;
+    }
+    .portfolio-programs_persent_bottom {
+        margin-bottom: 25px;
+    }
+    .profit-programs__cards {
+        margin-top: 30px;
+    }
+    /*Портфельные программы*/
+    /*Ипотека*/
+    .buy-variants__banks2 {
+        margin-top: 20px;
+    }
+    .ipoteca-form-to-bank_input {
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 12px;
+        height: 40px;
+    }
+    .ipoteca-form-to-bank_btn {
+        width: 100%;
+        height: 40px;
+        font-size: 12px;
+        margin-top: 0;
+    }
+    /*Ипотека*/
+    /*Рассрочка*/
+    .installment-green-block {
+        height: 280px;
         padding-left: 20px;
         padding-right: 20px;
     }
-    .left-calc {
-        width: 100%;
+    .installment-green-block__text_main {
+        font-size: 18px;
+        font-weight: 500;
     }
-    .partners-bottom__container__right__top_input:nth-child(2) {
-        margin-top: 5px;
+    .installment-green-block__text_little-text {
+        font-size: 12px;
     }
-    .partners-bottom__container__right {
-        width: auto;
-    }
-    .partners-bottom__container__right_textarea {
-        margin-top: 5px;
+    .installment-green-block__text_text {
+        font-size: 16px;
     }
     .partners-bottom__container__right__bottom {
         flex-direction: column;
@@ -3908,77 +5286,94 @@
     .partners-bottom__container__right__bottom_left {
         margin-right: 0;
         text-align: center;
-        font-size: 11px;
+        margin-bottom: 20px;
     }
     .partners-bottom__container__right__bottom_left_btn {
-        margin-top: 25px;
         margin-left: auto;
-        width: 136px;
-        height: 40px;
-        font-size: 14px;
     }
-    .shub-hover-photo__container__icon-block_icon {
-        width: 32px;
-        height: 32px;
-    }
-    .shub-hover-photo__container__icon-block_text {
-        padding: 5px;
-        font-size: 9px;
-    }
-    .shub-hover-photo__container {
-        height: 240px;
-        top: 34px;
-    }
-    .shub-hover-photo {
-        height: 312px;
-        padding-top: 34px;
-        padding-bottom: 0;
-    }
-    .shub-hover-photo__container__icon-block1 {
-        top: 188px;
-        right: 8%;
-    }
-    .shub-hover-photo__container__icon-block2 {
-        top: 81px;
-        right: 14%;
-    }
-    .shub-hover-photo__container__icon-block3 {
-        top: 128px;
-        left: 26%;
-    }
-    .shub-hover-photo__container__icon-block4 {
-        top: 35px;
-        left: 14%;
-    }
-    .shub-hover-photo__container__icon-block5 {
-        top: 86px;
-        left: 1%;
-    }
-    .shub-hover-photo__container__description-block{
-        padding: 12px 30px 12px 22px;
-        height: auto;
-    }
-    .shub-hover-photo__container__description-block_main {
-        font-size: 17px;
-        margin-bottom: 8px;
-    }
-    .shub-hover-photo__container__description-block_ol_li {
+    .partners-bottom__container__right__bottom_left {
         font-size: 10px;
     }
-    .shub-hover-photo__container__description-block_ol_li_p {
-        margin-top: 12px;
-        margin-bottom: 12px;
+    /*Рассрочка*/
+    /*Выбор апартов*/
+    .commerce-choose__container__left-afcommerce-choose__container__left-af {
+        padding-bottom: 100px;
     }
-    .shub-hover-photo__container__description-block_ol_li_span {
-        margin-right: 10px;
+    /*Выбор апартов*/
+    /*about company*/
+    .about-company-slider__item {
+        flex-direction: column;
+        height: auto;
     }
-    .shub-hover-photo__container {
-        overflow: auto;
+    .about-company-slider__item__left {
+        height: 350px;
+        width: 100%;
+        align-items: flex-start;
     }
-    /*Карта объекта*/
-}
-@media screen and (max-width: 550px) {
+    .about-company-slider__item__left_img {
+        height: auto;
+        min-height: auto;
+        max-height: none;
+        width: 100%;
+    }
+    .about-company-slider {
+        height: auto;
+    }
+    .about-company-slider__item__right {
+        padding: 20px 20px 80px 20px;
+        height: 420px;
+    }
+    .about-company-slider__item__right__main {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .about-company-slider__item__right__sub-main {
+        font-size: 18px;
+    }
+    .about-company-slider__item__right__text {
+        font-size: 15px;
+    }
+    .about-company-slider__item__right__center-text {
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    .about-next {
+        top: auto;
+        right: calc(50% - 43px);
+        bottom: 12px;
+        width: 33px;
+        height: 33px;
+    }
+    .about-prev {
+        top: auto;
+        left: calc(50% - 43px);
+        bottom: 12px;
+        width: 33px;
+        height: 33px;
+    }
+    /*about company*/
+    /*how-to-buy*/
+    .stopro-info__bottom-link {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .stopro-info__left2 {
+        justify-content: center;
+        padding-bottom: 0;
+    }
+    .stopro-info__bottom-link {
+        margin-top: 20px;
+    }
+    /*how-to-buy*/
     /*Апартаменты*/
+    /*Апартаменты*/
+    .card-img-container img{
+        max-height: 70px;
+    }
+    .apartments-dropdowns-lists-dd {
+        min-width: auto;
+    }
     .apartments-card {
         margin-top: 12px;
     }
@@ -4128,12 +5523,55 @@
         margin-bottom: 5px;
     }
     /*Апартаменты*/
-    /*Локация*/
-    .location-main-map {
-        background: url(../img/500.png) no-repeat center center / 100% 100%;
-    }
-    /*Локация*/
+    /*Апартаменты*/
+}
+@media screen  and (max-width: 650px) {
     /*Карта объекта*/
+    .mobile-h2 {
+        font-size: 14px;
+        font-weight: 400;;
+    }
+    .top-icon-mobile-first img{
+        width: 25px;
+        height: 35px;
+    }
+    .icons-block .top-icon-mobile-second img{
+        width: 28px;
+        height: 33px;
+    }
+    .icons-block .top-icon-mobile-third img {
+        width: 23px;
+        height: 26px;
+    }
+    .icons-block .top-icon-mobile-fourth img {
+        width: 25px;
+        height: 26px;
+    }
+    .top-icon-mobile:not(:last-child) {
+        margin-right: 25px;
+    }
+    .calculator-hr {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .calculator-block-content-top-text {
+        font-size: 14px;
+    }
+    .calculator-block-content-top-btn {
+        width: 185px;
+        height: 45px;
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 22px;
+    }
+    .left-calc {
+        margin-top: 20px;
+    }
+    .slider-one {
+        width: 480px;
+        height: 320px;
+        margin: 0 auto;
+    }
     .card-obj .slider-one {
         width: 320px;
         height: 240px;
@@ -4148,7 +5586,101 @@
     .card-obj .slider-one .owl-prev span {
         left: -15px;
     }
+    .under-slider-compass {
+        width: 100%;
+        height: 75px;
+    }
+    .compass {
+        width: 62px;
+        height: 62px;
+    }
+    .slider-nav-link {
+        height: 35px;
+    }
+    .slider-nav-link a {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .good-description-block-left-list {
+        font-size: 10px;
+    }
+    .good-description-block {
+        width: 100%;
+    }
+    .under-description-text {
+        margin-right: 0;
+        padding-right: 20px;
+    }
+    .profitability-program-block-left {
+        margin-left: 20px;
+        font-size: 10px;
+    }
+    .profitability-program-block-right {
+        font-size: 10px;
+    }
+    .good-description-block-bottom-first-text {
+        display: none;
+    }
+    .good-description-block-bottom {
+        flex-direction: column;
+    }
+    .good-description-block-bottom-first-img-2 {
+        display: block;
+    }
+    .good-description-block-bottom-first-img-1 {
+        display: none;
+    }
+    .good-description-block-bottom-right-top-text {
+        font-size: 27px;
+        text-align: right;
+    }
+    .good-description-block-bottom-right-top-under-text {
+        font-size: 11px;
+    }
+    .good-description-block-bottom-container {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .good-description-block-left-list {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .left-calc {
+        width: 100%;
+    }
+    .partners-bottom__container__right__top_input:nth-child(2) {
+        margin-top: 5px;
+    }
+    .partners-bottom__container__right {
+        width: auto;
+    }
+    .partners-bottom__container__right_textarea {
+        margin-top: 5px;
+    }
+    .partners-bottom__container__right__bottom {
+        flex-direction: column;
+    }
+    .partners-bottom__container__right__bottom_left {
+        margin-right: 0;
+        text-align: center;
+        font-size: 11px;
+    }
+    .partners-bottom__container__right__bottom_left_btn {
+        margin-top: 25px;
+        margin-left: auto;
+        width: 136px;
+        height: 40px;
+        font-size: 14px;
+    }
+
     /*Карта объекта*/
+}
+@media screen and (max-width: 550px) {
+    /*Локация*/
+    .location-main-map {
+        background: url(../img/500.png) no-repeat center center / 100% 100%;
+    }
+    /*Локация*/
 }
 @media screen and (max-width: 500px) {
     /*Сервис*/
@@ -4460,6 +5992,11 @@
         background-size: 100% 100%;
     }
     /*trade in*/
+    /*about company*/
+    .about-company-slider__item__left {
+        height: 150px;
+    }
+    /*about company*/
 }
 @media screen  and (max-width: 480px) {
     /*Карта объекта*/
@@ -4535,7 +6072,6 @@
         margin-left: 22px;
         margin-top: 35px;
         margin-bottom: 50px;
-
     }
     .base-price-block-second {
         margin-bottom: 10px;
@@ -4549,26 +6085,8 @@
     .base-price-block-second {
         margin-top: 5px;
     }
-
     /*Карта объекта*/
-    /*Модалка*/
-    .call-back-modal__container {
-        width: 100%;
-        top: calc(50% - 240px);
-        left: 0;
-        height: 480px;
-    }
-    .call-back-modal__container_top {
-        height: 50px;
-    }
-    .call-back-modal__container_top_main {
-        font-size: 25px;
-    }
-    .call-back-modal__container_bottom {
-        padding-top: 20px;
-        height: 430px;
-    }
-    /*Модалка*/
+
 }
 @media screen  and (max-width: 380px) {
     /*Карта объекта*/
@@ -4612,6 +6130,7 @@
     .slider-shopping .slick-next  {
         right: -10px;
     }
+
     /*Локация*/
 }
 
