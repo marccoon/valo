@@ -114,6 +114,8 @@ window.onload = function () {
     };
     $('#camera1Btn').click(function () {
         $('#camera1').fadeIn(1000);
+        $('.construction-progress__live-camera__container_in iframe').attr('height',  $('.construction-progress__live-camera__container_in').width() * 0.56)
+        // console.log()
     });
     $('.closeVideoBtn').click(function () {
         $('.popup').fadeOut(1000);
@@ -132,10 +134,5 @@ window.onload = function () {
             corpusButtons[i].textContent = (i + 1).toString();
         }
     }
-    $('.public-space').parallax({imageSrc: 'img/490.jpg'});
-    $('.valo-its').parallax({imageSrc: 'img/490.jpg'})
-    $('.valo-location').parallax({imageSrc: 'img/1130.jpg'})
-    $('.main-partners').parallax({imageSrc: 'img/756.jpg'})
-    $('.work-invest').parallax({imageSrc: 'img/768.jpg'})
     $('.loader').fadeOut(500)
 };

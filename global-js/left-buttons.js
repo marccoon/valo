@@ -90,7 +90,7 @@ if ($('left-buttons_btn-container')) {
     });
     document.addEventListener('keydown', function (evt) {
         if (evt.keyCode === 27) {
-            $('.popup, .header-open-menu').fadeOut(500);
+            $('.popup').fadeOut(500);
         }
     });
     $('.popup-cross').click(function () {

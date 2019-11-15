@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Сервис</title>
+    <title>VALO service</title>
     <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.css">
     <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
@@ -21,99 +21,255 @@
 </head>
 
 <body>
-<header class="header" id="header"></header>
+<header class="header" id="header">
+    <div class="header-wrapper header-open-menu">
+        <div class="header__left">
+            <a href="index.html"><img src="img/header-logo.png" alt="" class="header-img"></a>
+            <label>
+                <input type="checkbox" id="hamb" class="header__menu-checkbox">
+                <img src="img/ham.png" alt="menu" class="header__menu_btn">
+            </label>
+        </div>
+        <div class="header__center">
+            <ul class="header__center__lists">
+                <li class="header__center__lists_li">пн-пт: 10:00 – 19:00</li>
+                <li class="header__center__lists_li">сб-вс: 11:00 – 17:00</li>
+            </ul>
+            <ul class="header__center__lists-right">
+                <li class="header__center__lists_li-right"><a href="tel: +78122107057" class="header__center__lists_li-right_link">+7 (812) 210-70-57</a></li>
+                <li class="header__center__lists_li-right"><a href="tel: +78002229385" class="header__center__lists_li-right_link">+7 (800) 222-93-85</a></li>
+            </ul>
+        </div>
+        <div class="header__right-big">
+            <div class="header__right-big__container">
+                <a href="favourite.html" class="header__right-big__container__item">
+                    <p class="header__right-big__container__item_counter">0</p>
+                </a>
+                <a href="calculator.html" class="header__right-big__container__item header__right-big__container__item2">
+
+                </a>
+                <input class="header__right-big__container__item header__right-big__container__item3">
+            </div>
+            <div class="header__right">
+                <img src="img/YIT.png" alt="" class="header__right_img">
+                <img src="img/TMG.png" alt="" class="header__right_img">
+            </div>
+        </div>
+    </div>
+
+    <menu class="header__menu">
+        <div class="header__menu-container">
+            <img src="img/hresteg.png" alt="Крестик" id="headerCross" class="header__menu_cross">
+            <div class="header-wrapper">
+                <div class="owl-carousel header-slider owl-theme">
+                    <div class="header-slider__item">
+                        <ul class="header-slider__item_lists">
+                            <li class="header-slider__item_lists_li-main"><a href="about-project.html" class="header-slider__item_lists_li-main_link">О проекте</a></li>
+                            <li class="header-slider__item_lists_li-line"></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link header-link-blue" href="#">Что такое VALO </a></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="documents.html">Документы</a></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Архитектура</a></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Технологии</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="header-slider__item">
+                        <ul class="header-slider__item_lists">
+                            <li class="header-slider__item_lists_li-main"><a href="about-company.html" class="header-slider__item_lists_li-main_link">О КОМПАНИИ</a></li>
+                            <li class="header-slider__item_lists_li-line"></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">ГАЛС</a></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="services.html">VALO Service</a></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="company-blog.html">Блог компании </a></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="faq.html">FAQ</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="header-slider__item">
+                        <ul class="header-slider__item_lists">
+                            <li class="header-slider__item_lists_li-main"><a href="partners.html" class="header-slider__item_lists_li-main_link">ПАРТНЕРЫ VALO</a></li>
+                            <li class="header-slider__item_lists_li-line"></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">TMG Group</a></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">YIT</a></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">GLOBAL EM</a></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Mercure</a></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Hospitality management</a></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Еврономер</a></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Агентства</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="header-slider__item">
+                        <ul class="header-slider__item_lists">
+                            <li class="header-slider__item_lists_li-main"><a href="#" class="header-slider__item_lists_li-main_link">ВЫБОР АПАРТАМЕНТОВ</a></li>
+                            <li class="header-slider__item_lists_li-line header-slider__item_lists_li-line-30"></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="apartments.html">Планировки</a></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Выбор на 3D плане</a></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="commerce-choose.html">Коммерческие помещения</a></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Паркинг</a></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Отделка</a></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Оснащение</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="header-slider__item">
+                        <ul class="header-slider__item_lists">
+                            <li class="header-slider__item_lists_li-main"><a href="investment-in-apartments.html" class="header-slider__item_lists_li-main_link">ИНВЕСТИРОВАНИЕ</a></li>
+                            <li class="header-slider__item_lists_li-line"></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="profit-programs.html">Доходные программы</a></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="portfolio-programs.html">Портфельные программы</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="header-slider__item">
+                        <ul class="header-slider__item_lists">
+                            <li class="header-slider__item_lists_li-main"><a href="how-to-buy.html" class="header-slider__item_lists_li-main_link">КАК КУПИТЬ</a></li>
+                            <li class="header-slider__item_lists_li-line"></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="ipoteca.html">Ипотека</a></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="instalment.html">Рассрочка</a></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="stopro.html">100% оплата</a></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="trade-in.html">Trade-in</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="header-slider__item">
+                        <ul class="header-slider__item_lists">
+                            <li class="header-slider__item_lists_li-main"><a href="#" class="header-slider__item_lists_li-main_link">ХОД СТРОИТЕЛЬСТВА</a></li>
+                            <li class="header-slider__item_lists_li-line header-slider__item_lists_li-line-30"></li>
+                        </ul>
+                    </div>
+
+                    <div class="header-slider__item">
+                        <ul class="header-slider__item_lists">
+                            <li class="header-slider__item_lists_li-main"><a href="advantages.html" class="header-slider__item_lists_li-main_link">ПРЕИМУЩЕСТВА</a></li>
+                            <li class="header-slider__item_lists_li-line"></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="location.html">Локация</a></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#"> Услуги собственникам и арендаторам</a></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="infrastructure.html">Инфраструктура</a></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Безопасность</a></li>
+                            <li class="header-slider__item_lists_li-link"><a class="header-link" href="#">Гостиничные технологии</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="header-slider__item">
+                        <ul class="header-slider__item_lists">
+                            <li class="header-slider__item_lists_li-main"><a href="#" class="header-slider__item_lists_li-main_link">КОНТАКТЫ</a></li>
+                            <li class="header-slider__item_lists_li-line"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p class="header_bottom-text">Используйте скролл</p>
+            <img src="img/header-menu-arr.png" alt="" class="header_bottom-img">
+        </div>
+    </menu>
+</header>
 <div class="service-body">
     <div class="fixed-bg loc-fixed"></div>
     <main>
         <section class="services-container">
-            <div class="services-content">
-                <div class="service-wrapper">
-                    <div class="content-top-menu">
-                        <a href="#" class="content-top-menu__item">
-                            Item 1
-                        </a>
+                <section class="infrastructure-page__top">
+                    <div class="partners-wrapper">
+                        <div class="content-top-menu">
+                            <a href="#" class="content-top-menu__item">
+                                ГАЛС
+                            </a>
 
-                        <a href="#" class="content-top-menu__item">
-                            Item 2
-                            Item 2
-                            Item 2
-                            Item 2
-                        </a>
+                            <a href="#" class="content-top-menu__item content-top-menu__item-checked">
+                                VALO Service
+                            </a>
 
-                        <a href="#" class="content-top-menu__item">
-                            Item 3
-                            Item 3
-                            Item 3
-                        </a>
+                            <a href="company-blog.html" class="content-top-menu__item">
+                                Блог компании
+                            </a>
 
-                        <a href="#" class="content-top-menu__item">
-                            Item 4
-                            Item 4
-                        </a>
+                            <a href="#" class="content-top-menu__item">
+                                FAQ
+                            </a>
+                        </div>
+
+                        <div class="bread">
+                            <span class="bread-span"><a href="index.html">Главная</a></span>
+                            <span class="bread-span"><a href="#">Преимущества</a></span>
+                            <span class="bread-span"><a href="infrastructure.html">VALO service</a></span>
+                        </div>
+                        <h1 class="shab-main">
+                            VALO service
+                        </h1>
                     </div>
-                    <div class="services-bread">
-                        <span class="services-bread-span"><a href="index.html">Главная</a></span>
-                        <span class="services-bread-span"><a href="#">О проекте</a></span>
-                        <span class="services-bread-span"><a href="services.html">Управляющая компания ООО «ВАЛО Сервис»</a></span>
-                    </div>
-                    <h1 class="shab-main">VALO Service</h1>
-                </div>
+                </section>
 
                 <div class="services-about-company">
-                    <div class="services-about-company-text">
-                        <h2 class="services-about-company-text-main">О КОМПАНИИ VALO SERVICE</h2>
-                        <p class="services-about-company-text-p">
-                            Собственная управляющая компания — еще одно из неоспоримых преимуществ комплекса апарт-отелей VALO. УК «Вало Сервис» предоставляет полный объем сервисов по управлению апартаментами собственника — от гостиничной загрузки до эксплуатации.
-                        </p>
-                        <p class="services-about-company-text-p">
-                            «Вало Сервис» — профессиональная управляющая компания, основанная специалистами, имеющими колоссальный опыт работы в гостиничном бизнесе. Возглавляет компанию Константин Сторожев, председатель экспертного совета по апартаментам Российской гильдии управляющих и девелоперов (РГУД). В качестве консультанта по гостиничному сервису в проект приглашен Блейк Андерсон-Бунтз, руководитель компании Hospitality Management. За комплексное оснащение номеров также отвечают профессионалы своего дела – компания «Еврономер». Таким образом, вместе с партнерами УК «Вало Сервис» выстраивает качественное управление в соответствии с европейскими и мировыми стандартами сферы гостеприимства.
-                        </p>
-                        <p class="services-about-company-text-p">
-                            Сигнализация, видеонаблюдение, уборка номеров, содержание оборудования и мебели в идеальном состоянии — за все это и за многое другое будет отвечать управляющая компания. Ни одна проблема собственников апартаментов или гостей комплекса не останется без внимания и будет решена в максимально короткие сроки!
-                        </p>
-
-                    </div>
-                    <div class="services-about-company-img">
-                        <img src="img/about-img.png" alt="" class="services-about-company-img-image">
+                    <div class="partners-wrapper">
+                        <div class="services-about-company-text">
+                            <h2 class="services-about-company-text-main">О КОМПАНИИ VALO SERVICE</h2>
+                            <p class="shab-text black-text">
+                                Собственная управляющая компания — еще
+                                одно из неоспоримых преимуществ комплекса
+                                апарт-отелей VALO. УК «Вало Сервис»
+                                предоставляет полный объем сервисов
+                                по управлению апартаментами
+                                собственника — от гостиничной
+                                загрузки до эксплуатации.
+                            </p>
+                            <p class="shab-text black-text">
+                                «Вало Сервис» — профессиональная
+                                управляющая компания, основанная
+                                специалистами, имеющими колоссальный
+                                опыт работы в гостиничном бизнесе.
+                                Возглавляет компанию Константин Сторожев,
+                                председатель экспертного совета по апартаментам
+                                Российской гильдии управляющих и девелоперов (РГУД).
+                                В качестве консультанта по гостиничному сервису в проект
+                                приглашен Блейк Андерсон-Бунтз, руководитель компании Hospitality
+                                Management. За комплексное оснащение номеров также
+                                отвечают профессионалы своего дела – компания «Еврономер».
+                                Таким образом, вместе с партнерами УК «Вало Сервис» выстраивает
+                                качественное управление в соответствии с европейскими и
+                                мировыми стандартами сферы гостеприимства.
+                            </p>
+                            <p class="shab-text black-text">
+                                Сигнализация, видеонаблюдение, уборка номеров,
+                                содержание оборудования и мебели в идеальном
+                                состоянии — за все это и за многое другое будет
+                                отвечать управляющая компания. Ни одна проблема
+                                собственников апартаментов или гостей комплекса
+                                не останется без внимания и будет решена в
+                                максимально короткие сроки!
+                            </p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="service-faq-block">
-                    <div class="service-wrapper">
-                        <div class="service-faq-photo-text-block">
-                            <div class="service-faq-photo-text-block-photo">
-                                <img src="img/storozhev-photo.png" alt="" class="service-faq-photo-text-block-photo-image">
-                            </div>
-                            <div class="service-faq-photo-text">
-                                <p class="service-faq-photo-text-p">
-                                    Если раньше лучшим способом сохранить деньги была покупка квартиры, то теперь инвесторы предпочитают приобретать апартаменты.
-                                    Студии в застраиваемых кварталах становятся все менее ликвидны. Кроме того, собственники не готовы к большому количеству
-                                    юридических и бытовых проблем с арендаторами. В апарт-отелях все эти вопросы решает управляющая компания, она же гарантирует
-                                    получение стабильного дохода. О том, какие еще задачи выполняют управляющие компании в апартаментах, рассказывает Константин
-                                    Сторожев, генеральный директор «Вало-Сервис».
+            <div class="shab-quote">
+                <div class="partners-wrapper">
+                    <div class="shab-quote__container">
+                        <div class="shab-quote__container_content">
+                            <img src="img/mcircle.png" alt="" class="shab-quote__container_content_right_img">
+                            <div class="shab-quote__container_content_left">
+                                <p class="shup-text-auto-lh-italic">
+                                    Если раньше лучшим способом сохранить деньги была покупка квартиры,
+                                    то теперь инвесторы предпочитают приобретать апартаменты.
+                                    Студии в застраиваемых кварталах становятся все менее ликвидны.
+                                    Кроме того, собственники не готовы к большому количеству
+                                    юридических и бытовых проблем с арендаторами. В апарт-отелях
+                                    все эти вопросы решает управляющая компания, она же
+                                    гарантирует получение стабильного дохода. О том, какие
+                                    еще задачи выполняют управляющие компании в апартаментах,
+                                    рассказывает Константин Сторожев, генеральный директор «Вало-Сервис».
                                 </p>
-                                <div class="service-faq-photo-autor-description">
-                                    <p class="service-faq-photo-text-autor">
-                                        Константин Сторожев
-                                    </p>
-                                    <p class="service-faq-photo-text-description">
-                                        Генеральный директор компании VALO Service
-                                    </p>
-                                </div>
 
-
-                                <div class="faq-photo-img"></div>
-                                <div class="service-faq-photo-text-triangle">
-                                    <div class="service-faq-photo-text-triangle-in">
-                                    </div>
-                                </div>
+                                <p class="shup-autor mt-25">
+                                    Константин Сторожев <br>
+                                    Генеральный директор компании VALO Service
+                                </p>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
 
-
-                    <div class="service-accordion-block">
-                        <div class="service-wrapper">
+            <div class="service-accordion-block">
+                        <div class="partners-wrapper">
                             <div class="active-sport__container__dd active-sport__container__dd3">
                                 <h3 class="for-tourists__content__text_main for-tourists__content__text_main4">
                                     Можно ли обойтись без управляющей компании?
@@ -162,24 +318,25 @@
                             </div>
                         </div>
                     </div>
-                </div>
 
                 <div class="service-tasks">
                     <div class="service-tasks-left">
-                        <h2 class="service-task-main">Задачи, которые решает УК</h2>
+                        <div class="partners-wrapper desktop-no-width">
+                            <h2 class="service-task-main">Задачи, которые решает УК</h2>
 
-                        <ul class="service-task-lists">
-                            <li class="service-task-list">Поиск арендаторов, в т. ч. работа на всех профессиональных площадках бронирования</li>
-                            <li class="service-task-list">Сотрудничество с корпоративными клиентами</li>
-                            <li class="service-task-list">Обеспечение гостиничного сервиса</li>
-                            <li class="service-task-list">Решение всех вопросов, которые могут возникнуть между собственником и арендатором</li>
-                            <li class="service-task-list">Ведение необходимой документации</li>
-                            <li class="service-task-list">Оплата коммунальных услуг</li>
-                            <li class="service-task-list">Техническое обслуживание апартаментов</li>
-                            <li class="service-task-list">Контроль за сохранностью имущества</li>
-                            <li class="service-task-list">Организация телеком услуг: интернет и телевидение</li>
-                            <li class="service-task-list">Реклама и PR</li>
-                        </ul>
+                            <ul class="service-task-lists">
+                                <li class="service-task-list">Поиск арендаторов, в т. ч. работа на всех профессиональных площадках бронирования</li>
+                                <li class="service-task-list">Сотрудничество с корпоративными клиентами</li>
+                                <li class="service-task-list">Обеспечение гостиничного сервиса</li>
+                                <li class="service-task-list">Решение всех вопросов, которые могут возникнуть между собственником и арендатором</li>
+                                <li class="service-task-list">Ведение необходимой документации</li>
+                                <li class="service-task-list">Оплата коммунальных услуг</li>
+                                <li class="service-task-list">Техническое обслуживание апартаментов</li>
+                                <li class="service-task-list">Контроль за сохранностью имущества</li>
+                                <li class="service-task-list">Организация телеком услуг: интернет и телевидение</li>
+                                <li class="service-task-list">Реклама и PR</li>
+                            </ul>
+                        </div>
 
                         <div class="owl-carousel slider-two default-owl-slider owl-theme">
                             <div class="slider-two-item">
@@ -215,8 +372,6 @@
                         </div>
                     </div>
 
-
-
                     <div class="service-tasks-rigth">
                         <div class="owl-carousel slider-one default-owl-slider owl-theme">
                             <div class="slider-one-item">
@@ -230,7 +385,7 @@
                 </div>
 
                 <div class="why-we-block">
-                    <div class="service-wrapper">
+                    <div class="partners-wrapper">
                         <div class="why-we-content">
                             <h2 class="why-we-main">Почему стоит доверять УК «ВАЛО СЕРВИС»? </h2>
                             <div class="best-block">
@@ -258,36 +413,36 @@
                                     </p>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="owl-carousel slider-third owl-theme">
-                                <div class="third-slider-item">
-                                    <div class="best-card">
-                                        <img class="best-card-img" src="img/cup.png" alt="">
-                                        <p class="best-card-text">
-                                            Опыт и профессионализм сотрудников: более 20 лет в гостиничном бизнесе,
-                                            более 10 лет работы в сфере недвижимости
-                                        </p>
-                                    </div>
+                        <div class="owl-carousel slider-third owl-theme">
+                            <div class="third-slider-item">
+                                <div class="best-card">
+                                    <img class="best-card-img" src="img/cup.png" alt="">
+                                    <p class="best-card-text">
+                                        Опыт и профессионализм сотрудников: более 20 лет в гостиничном бизнесе,
+                                        более 10 лет работы в сфере недвижимости
+                                    </p>
                                 </div>
+                            </div>
 
-                                <div class="third-slider-item">
-                                    <div class="best-card">
-                                        <img class="best-card-img" src="img/news.png" alt="">
-                                        <p class="best-card-text">
-                                            Опыт и профессионализм сотрудников: более 20 лет в гостиничном бизнесе,
-                                            более 10 лет работы в сфере недвижимости
-                                        </p>
-                                    </div>
+                            <div class="third-slider-item">
+                                <div class="best-card">
+                                    <img class="best-card-img" src="img/news.png" alt="">
+                                    <p class="best-card-text">
+                                        Опыт и профессионализм сотрудников: более 20 лет в гостиничном бизнесе,
+                                        более 10 лет работы в сфере недвижимости
+                                    </p>
                                 </div>
+                            </div>
 
-                                <div class="third-slider-item">
-                                    <div class="best-card">
-                                        <img class="best-card-img" src="img/circle.png" alt="">
-                                        <p class="best-card-text">
-                                            Опыт и профессионализм сотрудников: более 20 лет в гостиничном бизнесе,
-                                            более 10 лет работы в сфере недвижимости
-                                        </p>
-                                    </div>
+                            <div class="third-slider-item">
+                                <div class="best-card">
+                                    <img class="best-card-img" src="img/circle.png" alt="">
+                                    <p class="best-card-text">
+                                        Опыт и профессионализм сотрудников: более 20 лет в гостиничном бизнесе,
+                                        более 10 лет работы в сфере недвижимости
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -295,7 +450,7 @@
                 </div>
 
                 <div class="company-structure-block">
-                    <div class="service-wrapper">
+                    <div class="partners-wrapper">
                         <h2 class="company-structure-main">СТРУКТУРА УПРАВЛЯЮЩЕЙ КОМПАНИИ</h2>
                         <div class="company-structure-content">
                             <div class="company-structure-card">
@@ -440,28 +595,64 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="service-form">
-                    <div class="service-wrapper">
-                        <h2 class="service-form-main">«Вало Сервис» приглашает на работу</h2>
-
-                        <form action="" class="service-form-form">
-                            <div class="service-form-input-block">
-                                <input placeholder="Ваше имя" type="text" class="service-input service-input-name">
-                                <input placeholder="Телефон" type="text" class="service-input service-input-phone">
-                            </div>
-                            <textarea placeholder="Сообщение" class="service-textarea"></textarea>
-                            <button class="service-form-btn">Отправить</button>
-                        </form>
-                    </div>
+            <div class="trade-in__scheme-of-work__callback">
+                <div class="trade-in-wrapper">
+                    <h2 class="trade-in__scheme-of-work_callback_main">
+                        ЗАЯВКА НА КОНСУЛЬТАЦИЮ
+                    </h2>
+                    <form action="" class="location-form__form">
+                        <div class="location-form__form__inputs">
+                            <input type="text" class="location-form__form__inputs_input location-form__form__inputs_input-name" placeholder="Ваше имя">
+                            <input type="text" class="location-form__form__inputs_input location-form__form__inputs_input-phone" placeholder="Телефон">
+                        </div>
+                        <textarea class="location-form__textarea" placeholder="Сообщение"></textarea>
+                        <button class="location-form__btn">
+                            ОТПРАВИТЬ
+                        </button>
+                    </form>
                 </div>
             </div>
-</div>
-</section>
-</main>
+    </section>
 
+</main>
 </div>
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="footer-left">
+                <div class="footer__images">
+                    <img src="img/YIT.png" alt="" class="footer__images_img">
+                    <img src="img/TMG.png" alt="" class="footer__images_img">
+                    <p class="footer__images__text">Генеральный подрядчик:
+                        очередь 1 и 2 – YIT,
+                        очередь 3 – TMG Group</p>
+                </div>
+                <p class="footer-left__text">
+                    © 2018     ООО «ГАЛС» Сайт не является публичной офертой*
+                </p>
+            </div>
+
+            <div class="footer-right">
+                <div class="footer-right-social">
+                    <a href=""><img src="img/you.png" alt="" class="footer-right-social-img footer-right-social-img1"></a>
+                    <a href=""><img src="img/inst.png" alt="" class="footer-right-social-img footer-right-social-img2"></a>
+                    <a href=""><img src="img/vkn.png" alt="" class="footer-right-social-img footer-right-social-img3"></a>
+                    <a href=""><img src="img/fac.png" alt="" class="footer-right-social-img footer-right-social-img4"></a>
+                </div>
+                <div class="footer-right__text-block">
+                    <ul class="footer-right__text-block__lists footer-right__text-block__lists-time">
+                        <li class="footer-right__text-block__lists_li">Отдел продаж:</li>
+                        <li class="footer-right__text-block__lists_li">пн-пт: 10:00 – 19:00,</li>
+                        <li class="footer-right__text-block__lists_li">сб-вс: 11:00 – 17:00</li>
+                    </ul>
+
+                    <ul class="footer-right__text-block__lists footer-right__text-block__lists-right">
+                        <li class="footer-right__text-block__lists_li">Разрешительная документация</li>
+                        <li class="footer-right__text-block__lists_li">Политика конфиденциальности</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
     <section class="left-buttons">
         <div class="left-buttons_btn-container" id="getCallBack">
             <div class="left-buttons_btn-container_mask"></div>

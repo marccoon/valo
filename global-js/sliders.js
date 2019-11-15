@@ -95,11 +95,8 @@ if ($('.slider-four')) {
             0:{
                 items:1
             },
-            650: {
+            1250: {
                 items: 2
-            },
-            950: {
-                items: 3
             }
         }
     });
@@ -107,6 +104,13 @@ if ($('.slider-four')) {
 //slick
 if ($('.index-slick')) {
     $('.index-slick').slick();
+}
+if ($('.index-slick-1250')) {
+    if (windowWidth < 1250)
+    $('.index-slick-1250').slick({
+        prevArrow:`<button type="button" class="circle-prev"></button>`,
+        nextArrow: `<button type="button" class="circle-next"></button>`,
+    });
 }
 // about-company
 if ($('.about-slick')) {

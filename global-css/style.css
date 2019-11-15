@@ -73,6 +73,9 @@ body {
 .stopro-bg {
     background: url(../img/stopro-bg.jpg) no-repeat center center / cover;
 }
+.contacts-bg {
+    background: url(../img/contacts-bg.png) no-repeat center center / cover;
+}
 .main-wrapper {
     margin: 0 auto;
     width: 1230px;
@@ -178,11 +181,11 @@ body {
 .valo-its{
     position: relative;
     margin-top: -83px;
-    margin-top: -83px;
     height: 490px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background: url(../img/490.jpg) no-repeat center center / cover;
 }
 .valo-its_main {
     font-size: 60px;
@@ -676,7 +679,7 @@ map {
 .public-space {
     height: 490px;
     min-height: 490px;
-    background: transparent;
+    background: url(../img/490.jpg) no-repeat center center / cover;
 }
 .public-space-bg {
     width: 100%;
@@ -763,8 +766,7 @@ map {
 }
 .valo-location {
     height: 1130px;
-    -webkit-background-size: cover;
-    background-size: cover;
+    background: url(../img/1130.jpg) no-repeat center center / cover;
 }
 .valo-location_main {
     color: #ffffff;
@@ -1303,11 +1305,10 @@ map {
     top: -5px;
 }
 .main-partners {
-    -webkit-background-size: cover;
-    background-size: cover;
     height: 756px;
     padding-top: 85px;
     padding-bottom: 115px;
+    background: url(../img/756.jpg) no-repeat center center / cover;
 }
 .main-partners__main {
     color: #ffffff;
@@ -1483,8 +1484,7 @@ map {
 .work-invest {
     padding-top: 110px;
     padding-bottom: 175px;
-    -webkit-background-size: cover;
-    background-size: cover;
+    background: url(../img/768.jpg) no-repeat center center / cover;
 }
 .work-invest_main {
     color: #ffffff;
@@ -2298,6 +2298,25 @@ map {
     cursor: pointer;
     width: 135px;
     height: 52px;
+}
+.construction-progress__live-camera__container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.construction-progress__live-camera__container iframe {
+    width: 100%;
+    height: 100%;
+    display: block !important;
+}
+.construction-progress__live-camera__container_in {
+    width: 800px;
+    height: 450px;
 }
 .construction-progress__bottom-block__right-block__form_input_submit:hover {
     color: rgba(87, 181, 187, 1);
@@ -5587,14 +5606,10 @@ map {
 .ui-icon-triangle-1-e {
     display: none !important;
 }
-.service-body p {
-    margin: 0;
-    padding: 0;
-    line-height: normal;
-}
 .service-wrapper {
-    padding-left: 190px;
-    padding-right: 190px;
+    width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .services-container {
     /*background: url("../img/services-img.png");*/
@@ -5639,11 +5654,11 @@ map {
 .services-about-company {
     background-color: #ffffff;
     margin-top: 60px;
-    max-height: 650px;
+    padding-bottom: 20px;
 }
 .services-about-company-text {
-    margin-left: 190px;
-    margin-right: 50px;
+    width: 535px;
+    margin-right: auto;
 }
 .services-about-company-text-main {
     padding-top: 60px;
@@ -5657,6 +5672,7 @@ map {
 .services-about-company {
     display: flex;
     justify-content: space-between;
+    background: #fff url(../img/about-img.png) no-repeat right top / 50% 100%;
 }
 .services-about-company-text-p {
     color: #1c2840;
@@ -5717,7 +5733,9 @@ map {
     color: #1c2840;
     font-size: 16px;
     font-style: italic;
-    margin: 55px 70px 0 60px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 30px !important;
 }
 .service-faq-photo-autor-description {
     float: right;
@@ -5801,15 +5819,13 @@ map {
     font-size: 31px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-left: 190px;
     margin-top: 80px;
     margin-bottom: 55px;
+    width: 590px;
+    margin-left: auto;
 }
-.service-task-lists {
-    margin-left: 190px;
-}
+
 .service-task-list {
-    margin-left: 0;
     color: #ffffff;
     font-size: 16px;
     font-weight: 400;
@@ -5818,7 +5834,17 @@ map {
     margin-right: 100px;
     list-style: none;
 }
+.service-task-lists {
+    width: 590px;
+    margin-left: auto;
+}
 .service-body .slider-one {
+    height: 100%;
+}
+.slider-img {
+    height: 100%;
+}
+.slider-one-item {
     height: 100%;
 }
 .service-task-list::before {
@@ -5916,6 +5942,9 @@ map {
     display: grid;
     grid-template-columns: 278px 278px 278px 278px;
     justify-content: space-between;
+}
+.company-structure-block {
+    padding-bottom: 50px;
 }
 .company-structure-card {
     margin-top: 30px;
@@ -6812,7 +6841,7 @@ map {
 /*menu top*/
 .content-top-menu {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .content-top-menu__item {
     display: inline-block;
@@ -7174,6 +7203,11 @@ map {
 }
 .shab-quote__container {
     padding-top: 50px;
+}
+.shab-quote__container_content_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .mb-25 {
     margin-bottom: 25px;
@@ -7795,11 +7829,13 @@ map {
     background-color: #fff;
     padding-left: 50px;
     padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-top: 38px;
-    height: 200px;
+    height: auto;
 }
 .euro-lvl__description_container {
     display: none;
@@ -7891,6 +7927,9 @@ map {
     top: 0;
     right: 0;
     height: 100%;
+}
+.active-sport__container__dd .for-tourists__content__text_main {
+    padding-right: 45px !important;
 }
 .active-sport__container__dd .for-tourists__content__text_main::after {
     content: '';
@@ -8804,7 +8843,6 @@ map {
     margin-left: 245px;
     padding-top: 55px;
     padding-right: 10px;
-
 }
 .stopro-info__left__text_p {
     color: #fff;
@@ -9480,3 +9518,285 @@ map {
     color: #1c2840;
 }
 /*how to buy*/
+/*advantages*/
+.shab-text-mb {
+    margin-bottom: 30px;
+}
+.shab-mini-main {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.adbatages-green-text-container-text {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+.advantages-green-blocks__block_left {
+    height: 100%;
+    width: 235px;
+    background: url(../img/adv-urban.png) center center / 100% 100%;
+}
+.advantages-green-blocks__block {
+    height: 300px;
+    display: flex;
+}
+.advantages-green-blocks__block_right {
+    background-color: #57b5bb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 365px;
+    flex-direction: column;
+}
+.advantages-green-blocks__block_right_main {
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.advantages-green-blocks__block_right_text {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+.advantages-green-blocks__block_left2 {
+    background: url(../img/credo.png) center center / 100% 100%;
+}
+.advantages-green-blocks__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.advantages-icons {
+    margin-top: 55px;
+    padding-bottom: 120px;
+}
+.advantages-icons__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 140px;
+}
+.advantages-icons__block-text {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 10px;
+}
+.advantages-icons__container {
+    display: flex;
+    justify-content: space-between;
+}
+.advantages-icons__block-text1 {
+    margin-top: 28px;
+}
+.advantages-icons__block-text3 {
+    margin-top: 13px;
+}
+.advantages-icons__block-text4 {
+    margin-top: 14px;
+}
+.advantages-icons__block-text5 {
+    margin-top: 22px;
+}
+.advantages-icons__block-text6 {
+    margin-top: 7px;
+}
+/*advantages*/
+/*investment-im-apartments*/
+.investment-in-apartments-container__main {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+
+    margin-right: 45px;
+}
+.investment-in-apartments-container {
+    display: flex;
+    margin-top: 50px;
+    align-items: flex-start;
+    margin-bottom: 55px;
+}
+.investment-in-apartments__columns__column_text {
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
+}
+.investment-in-apartments__columns__column_img {
+    margin-right: 25px;
+    width: 54px;
+}
+.investment-in-apartments__columns__column {
+    display: flex;
+    width: 600px;
+    align-items: center;
+}
+.investment-in-apartments__columns__column:nth-child(n + 3) {
+    margin-top: 35px;
+}
+.investment-in-apartments__columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.investment-in-apartments__columns {
+    margin-top: 60px;
+    padding-bottom: 120px;
+}
+
+/*investment-im-apartments*/
+/*contacts*/
+.contacts-buttons__button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: 120px;
+    height: 38px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.contacts-buttons__button:hover {
+    background-color: #57b5bb;
+}
+.contacts-buttons__button-selected {
+    background-color: #57b5bb;
+}
+.contacts-buttons__container {
+    display: flex;
+}
+.contacts-buttons__button1 {
+    margin-right: 40px;
+}
+.contacts-buttons {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.office-container__left {
+    width: 50%;
+    height: 380px;
+    background-color: #57b5bb;
+}
+.office-container__left__content_li_big-text {
+    font-size: 24px;
+    color: #fff;
+}
+.office-container__left__content_li_little-text {
+    line-height: 22px;
+    font-size: 20px;
+    color: #fff;
+}
+.office-container__left__content_li {
+    margin-bottom: 25px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+.office-container__left__content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.office-container__left__content_li_little-text_link {
+    color: #fff;
+    text-decoration: none;
+}
+.office-container__left__content_li-mb0 {
+    margin-bottom: 0;
+}
+.office-container__right {
+    width: 50%;
+    height: 380px;
+}
+.office-container  {
+    display: flex;
+}
+.office-container__left__content2 {
+    display: none;
+}
+.office-container {
+    margin-bottom: 55px;
+}
+.office-hr {
+    background-color: #fff;
+    height: 6px;
+    margin-bottom: 40px;
+}
+.office-bottom__left_main {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.office-bottom__left__social_link {
+    display: block;
+    width: 41px;
+    height: 41px;
+    margin-right: 15px;
+}
+.office-bottom__left__social_1 {
+    background: url(../img/by.png) no-repeat center center / 100% 100%;
+}
+.office-bottom__left__social_1:hover {
+    background: url(../img/byd.png) no-repeat center center / 100% 100%;
+}
+.office-bottom__left__social_2 {
+    background: url(../img/by2.png) no-repeat center center / 100% 100%;
+}
+.office-bottom__left__social_2:hover {
+    background: url(../img/byd2.png) no-repeat center center / 100% 100%;
+}
+.office-bottom__left__social_3 {
+    background: url(../img/by3.png) no-repeat center center / 100% 100%;
+}
+.office-bottom__left__social_3:hover {
+    background: url(../img/byd3.png) no-repeat center center / 100% 100%;
+}
+.office-bottom__left__social_4 {
+    background: url(../img/by4.png) no-repeat center center / 100% 100%;
+    margin-right: 0;
+}
+.office-bottom__left__social_4:hover {
+    background: url(../img/byd4.png) no-repeat center center / 100% 100%;
+}
+.office-bottom__left__social {
+    display: flex;
+    margin-top: 40px;
+}
+.office-bottom__left {
+    width: 50%;
+}
+.office-bottom__right {
+    width: 50%;
+}
+.office-bottom__right_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    width: 211px;
+    height: 56px;
+    background: #57b5bb;
+    border: none;
+}
+.office-bottom {
+    display: flex;
+    padding-bottom: 90px;
+}
+.office-container__right_mobile {
+    display: none;
+}
+.desktop-no-width {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+/*contacts*/

@@ -91,11 +91,6 @@
     .services-content {
         width: auto;
     }
-    .services-about-company-text {
-        margin-left: 45px;
-        margin-right: 45px;
-        width: auto;
-    }
     .services-about-company {
         height: auto;
     }
@@ -351,24 +346,6 @@
         margin-top: 10px;
         margin-bottom: 0 !important;
     }
-    .service-tasks {
-        margin-top: 45px;
-    }
-    .service-tasks {
-        flex-direction: column;
-    }
-    .service-tasks-left {
-        width: 100%;
-    }
-    .service-tasks-rigth {
-        width: 100%;
-    }
-    .service-task-main {
-        margin: 75px 0 70px 50px;
-    }
-    .service-tasks-left {
-        height: auto;
-    }
     .service-task-lists {
         margin-left: 50px;
         margin-bottom: 115px;
@@ -381,13 +358,6 @@
     }
     .owl-theme .owl-nav {
         margin-top: 0;
-    }
-    .best-block {
-        display: none !important;
-    }
-    .service-body .slider-third {
-        margin-top: 55px;
-        display: block !important;
     }
     .service-body .slider-third .owl-item img{
         width: 104px;
@@ -419,7 +389,7 @@
         position: absolute;
         width: 10px;
         height: 52px;
-        right: -10px;
+        right: -20px;
         top: 15px;
     }
     .service-body .slider-third .owl-prev {
@@ -429,13 +399,11 @@
         position: absolute;
         width: 10px;
         height: 52px;
-        left: -10px;
+        left: -20px;
         top: 15px;
         transform: rotate(180deg);
     }
-    .company-structure-content {
-        display: none;
-    }
+
     .service-body .slider-four-item {
         width: 278px;
         margin-left: auto;
@@ -468,9 +436,7 @@
         top: 140px;
         transform: rotate(180deg);
     }
-    .service-body .slider-four {
-        display: block !important;
-    }
+
     /*Сервис*/
 }
 @media screen and (max-width: 1400px)  {
@@ -878,12 +844,6 @@
     }
     .construction-progress__photos {
         width: 100%;
-    }
-    .construction-progress__live-camera iframe{
-        width: 600px !important;
-        left: calc(50% - 300px) !important;
-        height: 300px !important;
-        top: calc(50% - 150px) !important;
     }
     .big-progress-slider .owl-next span {
         top: -791px;
@@ -1507,6 +1467,7 @@
         height: 175px;
         margin-left: 35px;
         float: right;
+        margin-bottom: 15px;
     }
     .shab-quote__container_content {
         display: block;
@@ -2088,8 +2049,137 @@
         display: block;
     }
     /*апартаменты*/
+    /*преимущества*/
+    .advantages-green-blocks__container {
+        flex-direction: column;
+    }
+    .advantages-green-blocks__block2 {
+        margin-top: 35px;
+    }
+    .advantages-icons__block {
+        display: flex !important;
+    }
+    .advantages-icons__block-text {
+        width: 140px;
+    }
+    .advantages-icons__container {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .advantages-green-blocks__block_right {
+        width: 405px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .advantages-icons {
+        padding-bottom: 45px;
+        margin-top: 30px;
+    }
+    /*преимущества*/
+    /*инвестиции в апартаменты*/
+    .investment-in-apartments__columns {
+        width: 585px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 0;
+        margin-top: 0;
+    }
+    .investment-in-apartments__columns__column {
+        margin-top: 0;
+        display: flex !important;
+    }
+    .investment-in-apartments {
+        padding-bottom: 100px;
+    }
+    .investment-in-apartments-container {
+        align-items: center;
+    }
+    /*инвестиции в апартаменты*/
+    /*контакты*/
+    .office-container {
+        flex-direction: column;
+    }
+    .office-container__left {
+        width: 100%;
+    }
+    .office-container__right {
+        width: 100%;
+    }
+    .office-bottom {
+        flex-direction: column;
+        padding-bottom: 60px;
+    }
+    .office-bottom__right {
+        margin-top: 60px;
+    }
+    .office-bottom__left {
+        width: 100%;
+    }
+    .office-bottom__right {
+        width: 100%;
+    }
+    /*контакты*/
+    /*service*/
+    .services-about-company {
+        height: auto;
+        background: #fff;
+    }
+    .services-about-company-text {
+        width: 100%;
+    }
+    .shab-quote__container_content_left {
+        display: block;
+    }
+    .service-tasks {
+        margin-top: 45px;
+    }
+    .service-tasks {
+        flex-direction: column;
+    }
+    .service-tasks-rigth {
+        width: 100%;
+    }
+    .service-tasks-left {
+        height: auto;
+        width: 100%;
+    }
+    .desktop-no-width {
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .service-task-main {
+        margin-left: 0;
+        width: auto;
+    }
+    .service-task-lists {
+        margin-left: 0;
+        margin-bottom: 50px;
+        width: auto;
+    }
+    .service-body .third-slider-item .best-card {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .service-body .slider-four {
+        display: block !important;
+    }
+    .company-structure-content {
+        display: none;
+    }
+    .service-body .slider-third {
+        margin-top: 55px;
+        display: block !important;
+    }
+    .best-block {
+        display: none !important;
+    }
+    /*service*/
 }
 @media screen and (max-width: 1200px)  {
+
     .complex-plan {
         overflow-x: scroll;
     }
@@ -2614,7 +2704,10 @@
     /*Сервис*/
 }
 @media screen and (max-width: 950px) {
-
+    .construction-progress__live-camera__container_in {
+        width: 300px;
+        height: 169px;
+    }
 }
 @media screen and (max-width: 768px)  {
     .complex-plan {
@@ -3518,12 +3611,6 @@
     .construction-progress_cameras__choose-camera__buttons {
         margin-top: 25px;
     }
-    .construction-progress__live-camera iframe{
-        width: 300px !important;
-        height: 174px !important;
-        left: calc(50% - 150px) !important;
-        top: calc(50% - 87px) !important;
-    }
     .big-progress-slider {
         height: 285px;
     }
@@ -4103,16 +4190,13 @@
         display: none;
     }
     .service-tasks-left {
-        height: 360px;
+        height: 400px;
     }
     .service-body .slider-two {
         display: block !important;
     }
     .service-body .slider-two .service-task-list::before {
         content: '';
-    }
-    .service-task-main {
-
     }
     .service-input {
         width: 50% !important;
@@ -5522,8 +5606,140 @@
     .variants label:first-child {
         margin-bottom: 5px;
     }
-    /*Апартаменты*/
-    /*Апартаменты*/
+    /*Преймущества*/
+    .shab-text-mb {
+        margin-bottom: 20px;
+    }
+    .advantages-green-blocks__container {
+        margin-top: 30px;
+    }
+    .advantages-green-blocks-wrapper {
+        width: auto;
+    }
+    .advantages-green-blocks__block_left {
+        display: none;
+    }
+    .advantages-green-blocks__block {
+        width: 100%;
+        height: 265px;
+    }
+    .advantages-green-blocks__block_right_main {
+        font-size: 26px;
+    }
+    .advantages-green-blocks__block_right_text {
+        font-size: 16px;
+        width: 285px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .advantages-icons__container {
+        width: 100%;
+    }
+    .advantages-green-blocks__block2 {
+        margin-top: 30px;
+    }
+    .advantages-green-blocks__block_right {
+        width: 100%;
+
+    }
+    /*Преймущества*/
+    /*инвестирование*/
+    .investment-in-apartments-container {
+        margin-top: 40px;
+        align-items: flex-end;
+        margin-bottom: 30px;
+    }
+    .investment-in-apartments-container__main {
+        font-size: 18px;
+        margin-right: 20px;
+    }
+    .investment-in-apartments-container_img {
+        width: 75px;
+    }
+    .shab-mini-main {
+        font-size: 18px;
+    }
+    .investment-in-apartments__columns {
+        width: 285px;
+    }
+    .investment-in-apartments__columns__column_img {
+        width: 95px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .investment-in-apartments__columns__column {
+        flex-direction: column;
+    }
+    .investment-in-apartments__columns__column_text {
+        width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .investment-in-apartments {
+        padding-bottom: 10px;
+    }
+    /*инвестирование*/
+    /*Контакты*/
+    .contacts-buttons__container {
+        justify-content: space-between;
+    }
+    .contacts-buttons__button1 {
+        margin-right: 0;
+    }
+    .office-container__left__content_li_big-text {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .office-container__left__content_li_little-text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .office-container__left__content_li {
+        margin-bottom: 15px;
+    }
+    .office-container__left__content_li-mb0 {
+        margin-bottom: 0;
+    }
+    .office-container__right {
+        height: 320px;
+    }
+    .office-container__right_mobile {
+        display: block;
+    }
+    .office-container__right_desctop {
+        display: none;
+    }
+    .office-container {
+        margin-bottom: 60px;
+    }
+    .office-hr {
+        height: 3px;
+        margin-bottom: 25px;
+    }
+    .office-bottom__left_main {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .office-bottom__left__social {
+        margin-top: 10px;
+    }
+    .office-bottom__right {
+        margin-top: 35px;
+    }
+    .office-bottom__right_btn {
+        width: 150px;
+        height: 46px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    /*Контакты*/
+    .service-body .third-slider-item .best-card {
+        width: 285px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 @media screen  and (max-width: 650px) {
     /*Карта объекта*/
@@ -5706,10 +5922,6 @@
         padding-top: 30px;
         margin-bottom: 20px;
     }
-    .services-about-company-text {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
     .services-about-company-text-p {
         font-size: 11px;
     }
@@ -5732,8 +5944,7 @@
         font-size: 11px;
     }
     .service-task-main {
-        font-size: 31px;
-        margin: 55px 20px 55px 20px;
+        font-size: 18px;
     }
     .service-task-list {
         font-size: 11px;
@@ -5806,9 +6017,7 @@
         font-size: 31px;
         margin-top: 55px;
     }
-    .service-body .slider-four {
 
-    }
     .service-body .slider-four .owl-next {
         background: url("../img/two-slider-arrow.png") no-repeat !important;
         -webkit-background-size: 100% 100%;
