@@ -1,24 +1,24 @@
-// функция для подсветки корпуса и показа блока с инфой
-function showMask (corp, modal, addedClass) {
-    corp.hover(function () {
-            $('#complexMask').addClass(addedClass)
-            modal.show()
-        },
-        function () {
-            $('#complexMask').removeClass(addedClass)
-            modal.hide()
-        });
-}
-function getColor (input, button, nb1, nb2, nb3, nb4) {
-    if ($(input).prop('checked')){
-        $(button).addClass('white-bg');
-        $(nb1).removeClass('white-bg');
-        $(nb2).removeClass('white-bg');
-        $(nb3).removeClass('white-bg');
-        $(nb4).removeClass('white-bg');
-    }
-}
 window.onload = function () {
+    // функция для подсветки корпуса и показа блока с инфой
+    function showMask (corp, modal, addedClass) {
+        corp.hover(function () {
+                $('#complexMask').addClass(addedClass)
+                modal.show()
+            },
+            function () {
+                $('#complexMask').removeClass(addedClass)
+                modal.hide()
+            });
+    }
+    function getColor (input, button, nb1, nb2, nb3, nb4) {
+        if ($(input).prop('checked')){
+            $(button).addClass('white-bg');
+            $(nb1).removeClass('white-bg');
+            $(nb2).removeClass('white-bg');
+            $(nb3).removeClass('white-bg');
+            $(nb4).removeClass('white-bg');
+        }
+    }
     showMask ($('#corp1'), $('.first-modal'), 'complex-plan__img__corp-1-hover');
     showMask ($('#corp2'), $('.second-modal'), 'complex-plan__img__corp-2-hover');
     showMask ($('#corp3'), $('.third-modal'), 'complex-plan__img__corp-3-hover');

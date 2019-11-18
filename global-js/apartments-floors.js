@@ -1,15 +1,16 @@
-// Переменная для банков в модалке
-let bankNumber = 1;
+window.onload = function () {
+    // Переменная для банков в модалке
+    let bankNumber = 1;
 // Создание новой карточки банка
     function newCard (imgSrc, attr) {
-    let bankCardTemplateContainer = `
+        let bankCardTemplateContainer = `
     <div class="buy-modal-container__ipoteca_right__banks_bank-card" data-bank-number="bank${attr}">
         <img src="${imgSrc}" alt="" class="buy-modal-container__ipoteca_right__banks_bank-card_img">
     </div>
     
     `;
-    $('.buy-modal-container__ipoteca_right__banks').append(bankCardTemplateContainer)
-}
+        $('.buy-modal-container__ipoteca_right__banks').append(bankCardTemplateContainer)
+    }
 //JSON с КОРПУСАМИ в переменную
     var corpusesJSON = (function () {
         var corpusesJSON = null;
@@ -200,7 +201,6 @@ let bankNumber = 1;
 `
         $('.commerce-choose__container__floors-btns').append(floorsBtnsTemplate)
     }
-    window.onload = function () {
         //Берём хэш корпуса, из URL, который мы получили перейдя на страницу
         // с выбором этажей из страницы с корпусами или с неё же.
         var hash = window.location.hash;

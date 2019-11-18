@@ -1,42 +1,42 @@
-const counters = document.querySelector('.shub-number-block');
-function chooseFurniture (clickBtn, showBlock) {
-    let hideArray = [];
-    for (var i = 0; i < arguments.length; i++) {
-        if (i > 1) {
-            hideArray.push(arguments[i]);
-        }
-    }
-    $(clickBtn).click(function () {
-        for (var i = 0; i < hideArray.length; i++) {
-            let currentHideBlock = hideArray[i];
-            if ($(window).width() > '1250') {
-                $(currentHideBlock).animate({
-                    'left': -700
-                });
-            } else {
-                $(currentHideBlock).animate({
-                    'left': -1250
-                });
-            }
-        }
-        setTimeout(function () {
-            if (
-                $(clickBtn).hasClass('shub-hover-photo__container__icon-block2') &&  $(window).width() > '1250' ||
-                $(clickBtn).hasClass('shub-hover-photo__container__icon-block3') && $(window).width() > '1250'
-            )
-            {
-                $(showBlock).animate({
-                    'left': 610
-                })
-            } else {
-                $(showBlock).animate({
-                    'left': 0
-                })
-            }
-        },500)
-    });
-};
 window.onload = function () {
+    const counters = document.querySelector('.shub-number-block');
+    function chooseFurniture (clickBtn, showBlock) {
+        let hideArray = [];
+        for (var i = 0; i < arguments.length; i++) {
+            if (i > 1) {
+                hideArray.push(arguments[i]);
+            }
+        }
+        $(clickBtn).click(function () {
+            for (var i = 0; i < hideArray.length; i++) {
+                let currentHideBlock = hideArray[i];
+                if ($(window).width() > '1250') {
+                    $(currentHideBlock).animate({
+                        'left': -700
+                    });
+                } else {
+                    $(currentHideBlock).animate({
+                        'left': -1250
+                    });
+                }
+            }
+            setTimeout(function () {
+                if (
+                    $(clickBtn).hasClass('shub-hover-photo__container__icon-block2') &&  $(window).width() > '1250' ||
+                    $(clickBtn).hasClass('shub-hover-photo__container__icon-block3') && $(window).width() > '1250'
+                )
+                {
+                    $(showBlock).animate({
+                        'left': 610
+                    })
+                } else {
+                    $(showBlock).animate({
+                        'left': 0
+                    })
+                }
+            },500)
+        });
+    };
     windowWidth = $(window).width();
     $('.shub-hover-photo__container__description-block_cross').click(function () {
         if (windowWidth > '1250') {

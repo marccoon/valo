@@ -1,9 +1,8 @@
-
-function showDiscription (showEl) {
-    $('.euro-lvl__description_container').hide();
-    $(showEl).show();
-}
 window.onload = function () {
+    function showDiscription (showEl) {
+        $('.euro-lvl__description_container').hide();
+        $(showEl).show();
+    }
     $('.euro-lvl__circles-flex_circle').click(function () {
         if (!$(this).hasClass('euro-lvl__circles-flex_circle-active')) {
             $('.euro-lvl__circles-flex_circle').removeClass('euro-lvl__circles-flex_circle-active');

@@ -1,9 +1,9 @@
-function changeTeam () {
+window.onload = function () {
+    function changeTeam () {
         $('.team-container__cards_container').hide();
         $('.team-container__buttons_btn').css('background', 'rgba(255,255,255,.6')
-}
-window.onload = function () {
-        $('.team-container__buttons_btn').click(function () {
+    }
+    $('.team-container__buttons_btn').click(function () {
             changeTeam()
             $(this).css('background', '#fff')
             if ($(this).hasClass('sale-team-btn')) {

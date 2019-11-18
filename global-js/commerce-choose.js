@@ -1,46 +1,47 @@
-let bankNumber = 1;
-function newCard (imgSrc, attr) {
-    let bankCardTemplateContainer = `
+window.onload = function () {
+    let bankNumber = 1;
+    function newCard (imgSrc, attr) {
+        let bankCardTemplateContainer = `
 <div class="buy-modal-container__ipoteca_right__banks_bank-card" data-bank-number="bank${attr}">
     <img src="${imgSrc}" alt="" class="buy-modal-container__ipoteca_right__banks_bank-card_img">
 </div>
 
 `;
-    $('.buy-modal-container__ipoteca_right__banks').append(bankCardTemplateContainer)
-}
-var draw = SVG('corpusesSVGContainer').size('100%', '100%');
-var corpusesJSON = (function () {
-    var corpusesJSON = null;
-    $.ajax({
-        'async': false,
-        'global': false,
-        'url': 'commerce-choose.json',
-        'dataType': "json",
-        'success': function (data) {
-            corpusesJSON = data;
-        }
-    });
-    return corpusesJSON;
-})();
-function newSVGCorp (container, SVGcontainer, coordinates, color, uniqueClass, firstMain, firstSquare, firstPrice, secondMain, secondSquare, secondPrice, thirdMain, thirdSquare, thirdPrice, uniqueDescriptionClass, descriptionPositionLeft, descriptionPositionTop, link) {
-    var newcorp = SVGcontainer.polygon(coordinates)
-        .attr({ fill: color })
-        .addClass('svg-corpus')
-        .addClass(uniqueClass);
-    $(container).prepend(newDescriptionForSVGCorp(firstMain, firstSquare, firstPrice, secondMain, secondSquare, secondPrice, thirdMain, thirdSquare, thirdPrice, uniqueDescriptionClass));
-    $('.' + uniqueClass).hover(function () {
-        $('.' + uniqueDescriptionClass).css('display', 'flex')
-    }, function () {
-        $('.' + uniqueDescriptionClass).css('display', 'none')
-    })
-    $('.' + uniqueDescriptionClass).css('left', descriptionPositionLeft).css('top', descriptionPositionTop)
-    $('.' + uniqueClass).click(function () {
-        location.href = link;
-    });
-}
-function newDescriptionForSVGCorp (firstMain, firstSquare, firstPrice, secondMain, secondSquare, secondPrice, thirdMain, thirdSquare, thirdPrice, uniqueDescriptionClass) {
-    var description =
-        `
+        $('.buy-modal-container__ipoteca_right__banks').append(bankCardTemplateContainer)
+    }
+    var draw = SVG('corpusesSVGContainer').size('100%', '100%');
+    var corpusesJSON = (function () {
+        var corpusesJSON = null;
+        $.ajax({
+            'async': false,
+            'global': false,
+            'url': 'commerce-choose.json',
+            'dataType': "json",
+            'success': function (data) {
+                corpusesJSON = data;
+            }
+        });
+        return corpusesJSON;
+    })();
+    function newSVGCorp (container, SVGcontainer, coordinates, color, uniqueClass, firstMain, firstSquare, firstPrice, secondMain, secondSquare, secondPrice, thirdMain, thirdSquare, thirdPrice, uniqueDescriptionClass, descriptionPositionLeft, descriptionPositionTop, link) {
+        var newcorp = SVGcontainer.polygon(coordinates)
+            .attr({ fill: color })
+            .addClass('svg-corpus')
+            .addClass(uniqueClass);
+        $(container).prepend(newDescriptionForSVGCorp(firstMain, firstSquare, firstPrice, secondMain, secondSquare, secondPrice, thirdMain, thirdSquare, thirdPrice, uniqueDescriptionClass));
+        $('.' + uniqueClass).hover(function () {
+            $('.' + uniqueDescriptionClass).css('display', 'flex')
+        }, function () {
+            $('.' + uniqueDescriptionClass).css('display', 'none')
+        })
+        $('.' + uniqueDescriptionClass).css('left', descriptionPositionLeft).css('top', descriptionPositionTop)
+        $('.' + uniqueClass).click(function () {
+            location.href = link;
+        });
+    }
+    function newDescriptionForSVGCorp (firstMain, firstSquare, firstPrice, secondMain, secondSquare, secondPrice, thirdMain, thirdSquare, thirdPrice, uniqueDescriptionClass) {
+        var description =
+            `
            <div class="commerce-choose__container__left_img-container__discription ${uniqueDescriptionClass}">
            
            <div class="commerce-choose__container__left_img-container__discription_row">
@@ -89,47 +90,31 @@ function newDescriptionForSVGCorp (firstMain, firstSquare, firstPrice, secondMai
            <div class="commerce-choose__container__left_img-container__discription_triangle"></div>
        </div>
     `
-    return description;
-}
-var banksConfigJSON = (function () {
-    var banksConfigJSON = null;
-    $.ajax({
-        'async': false,
-        'global': false,
-        'url': 'data.json',
-        'dataType': "json",
-        'success': function (data) {
-            banksConfigJSON = data;
-        }
-    });
-    return banksConfigJSON;
-})();
-for (key in banksConfigJSON) {
-    newCard(banksConfigJSON[key].img, bankNumber)
-    bankNumber++
-    if (key == 'bank1'){
-        $('.buy-modal-container__ipoteca_right__banks_bank-card').addClass('buy-modal-container__ipoteca_right__banks_bank-card-checked')
+        return description;
     }
-}
-$('.buy-modal-container__ipoteca_right__banks_bank-card').eq(0).addClass('buy-modal-container__ipoteca_right__banks_bank-card-checked')
-for (key in banksConfigJSON) {
-    if ('bank1' == key) {
-        $('.buy-modal-container__ipoteca_right__current-bank_img').attr('src', banksConfigJSON[key].img)
-        if (banksConfigJSON[key].maxSum !== '∞') {
-            $('.buy-modal-container__ipoteca_right__current-bank_maxSumm').text(banksConfigJSON[key].maxSum + ' млн. руб.')
-        } else {
-            $('.buy-modal-container__ipoteca_right__current-bank_maxSumm').text(banksConfigJSON[key].maxSum)
-        }
-        $('.buy-modal-container__ipoteca_right__current-bank_stav').text('Ставка ' + banksConfigJSON[key].vznos)
-        $('.buy-modal-container__ipoteca_right__current-bank_vznos').text('Взнос ' +banksConfigJSON[key].stav)
-        $('.buy-modal-container__ipoteca_right__current-bank_srok').text('Срок ' + banksConfigJSON[key].srok)
-    }
-}
-$('.buy-modal-container__ipoteca_right__banks_bank-card').click(function () {
+    var banksConfigJSON = (function () {
+        var banksConfigJSON = null;
+        $.ajax({
+            'async': false,
+            'global': false,
+            'url': 'data.json',
+            'dataType': "json",
+            'success': function (data) {
+                banksConfigJSON = data;
+            }
+        });
+        return banksConfigJSON;
+    })();
     for (key in banksConfigJSON) {
-        if ($(this).data('bank-number') == key) {
-            $('.buy-modal-container__ipoteca_right__banks_bank-card').removeClass('buy-modal-container__ipoteca_right__banks_bank-card-checked')
-            $(this).addClass('buy-modal-container__ipoteca_right__banks_bank-card-checked')
+        newCard(banksConfigJSON[key].img, bankNumber)
+        bankNumber++
+        if (key == 'bank1'){
+            $('.buy-modal-container__ipoteca_right__banks_bank-card').addClass('buy-modal-container__ipoteca_right__banks_bank-card-checked')
+        }
+    }
+    $('.buy-modal-container__ipoteca_right__banks_bank-card').eq(0).addClass('buy-modal-container__ipoteca_right__banks_bank-card-checked')
+    for (key in banksConfigJSON) {
+        if ('bank1' == key) {
             $('.buy-modal-container__ipoteca_right__current-bank_img').attr('src', banksConfigJSON[key].img)
             if (banksConfigJSON[key].maxSum !== '∞') {
                 $('.buy-modal-container__ipoteca_right__current-bank_maxSumm').text(banksConfigJSON[key].maxSum + ' млн. руб.')
@@ -141,8 +126,23 @@ $('.buy-modal-container__ipoteca_right__banks_bank-card').click(function () {
             $('.buy-modal-container__ipoteca_right__current-bank_srok').text('Срок ' + banksConfigJSON[key].srok)
         }
     }
-});
-window.onload = function () {
+    $('.buy-modal-container__ipoteca_right__banks_bank-card').click(function () {
+        for (key in banksConfigJSON) {
+            if ($(this).data('bank-number') == key) {
+                $('.buy-modal-container__ipoteca_right__banks_bank-card').removeClass('buy-modal-container__ipoteca_right__banks_bank-card-checked')
+                $(this).addClass('buy-modal-container__ipoteca_right__banks_bank-card-checked')
+                $('.buy-modal-container__ipoteca_right__current-bank_img').attr('src', banksConfigJSON[key].img)
+                if (banksConfigJSON[key].maxSum !== '∞') {
+                    $('.buy-modal-container__ipoteca_right__current-bank_maxSumm').text(banksConfigJSON[key].maxSum + ' млн. руб.')
+                } else {
+                    $('.buy-modal-container__ipoteca_right__current-bank_maxSumm').text(banksConfigJSON[key].maxSum)
+                }
+                $('.buy-modal-container__ipoteca_right__current-bank_stav').text('Ставка ' + banksConfigJSON[key].vznos)
+                $('.buy-modal-container__ipoteca_right__current-bank_vznos').text('Взнос ' +banksConfigJSON[key].stav)
+                $('.buy-modal-container__ipoteca_right__current-bank_srok').text('Срок ' + banksConfigJSON[key].srok)
+            }
+        }
+    });
     $('.buy-modal-container__btns-block_btn').click(function () {
         if ($(this).hasClass('ipoteca-btnn')) {
             $('.buy-modal-container__btns-block_btn').removeClass('buy-modal-container__btns-block_btn-select')
@@ -166,7 +166,6 @@ window.onload = function () {
             $('.buy-modal-container__trade-in').show()
         }
     });
-
     $('.buy-modal-container__ipoteca_button').click(function () {
         $('.popup').fadeOut(500)
         setTimeout(function () {
