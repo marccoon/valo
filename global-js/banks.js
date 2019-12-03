@@ -15,7 +15,7 @@ function newCard (imgSrc, attr) {
         $.ajax({
             'async': false,
             'global': false,
-            'url': 'data.json',
+            'url': 'jsons/data.json',
             'dataType': "json",
             'success': function (data) {
                 banksConfigJSON = data;

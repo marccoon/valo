@@ -10,6 +10,9 @@
     }
 }
 @media screen and (max-width: 750px){
+    .footer {
+        height: 115px;
+    }
     .footer-wrapper {
         width: 285px;
     }

@@ -1,21 +1,24 @@
 window.onload = function () {
-    let bankNumber = 1;
-    function newCard (imgSrc, attr) {
-        let bankCardTemplateContainer = `
-<div class="buy-modal-container__ipoteca_right__banks_bank-card" data-bank-number="bank${attr}">
-    <img src="${imgSrc}" alt="" class="buy-modal-container__ipoteca_right__banks_bank-card_img">
-</div>
+let bankNumber = 1;
 
-`;
-        $('.buy-modal-container__ipoteca_right__banks').append(bankCardTemplateContainer)
-    }
+function newCard (imgSrc, attr) {
+    let bankCardTemplateContainer = `
+        <div class="buy-modal-container__ipoteca_right__banks_bank-card" data-bank-number="bank${attr}">
+            <img src="${imgSrc}" alt="" class="buy-modal-container__ipoteca_right__banks_bank-card_img">
+        </div>`;
+
+    $('.buy-modal-container__ipoteca_right__banks').append(bankCardTemplateContainer)
+}
+
     var draw = SVG('corpusesSVGContainer').size('100%', '100%');
+
+    // JSON с корпусами координатами SVG и ифной
     var corpusesJSON = (function () {
         var corpusesJSON = null;
         $.ajax({
             'async': false,
             'global': false,
-            'url': 'commerce-choose.json',
+            'url': 'jsons/commerce-choose.json',
             'dataType': "json",
             'success': function (data) {
                 corpusesJSON = data;
@@ -23,7 +26,12 @@ window.onload = function () {
         });
         return corpusesJSON;
     })();
-    function newSVGCorp (container, SVGcontainer, coordinates, color, uniqueClass, firstMain, firstSquare, firstPrice, secondMain, secondSquare, secondPrice, thirdMain, thirdSquare, thirdPrice, uniqueDescriptionClass, descriptionPositionLeft, descriptionPositionTop, link) {
+
+    function newSVGCorp (container, SVGcontainer, coordinates,
+                         color, uniqueClass, firstMain, firstSquare,
+                         firstPrice, secondMain, secondSquare, secondPrice,
+                         thirdMain, thirdSquare, thirdPrice, uniqueDescriptionClass,
+                         descriptionPositionLeft, descriptionPositionTop, link, toLS) {
         var newcorp = SVGcontainer.polygon(coordinates)
             .attr({ fill: color })
             .addClass('svg-corpus')
@@ -36,9 +44,11 @@ window.onload = function () {
         })
         $('.' + uniqueDescriptionClass).css('left', descriptionPositionLeft).css('top', descriptionPositionTop)
         $('.' + uniqueClass).click(function () {
+            localStorage.setItem('corpus', toLS)
             location.href = link;
         });
     }
+
     function newDescriptionForSVGCorp (firstMain, firstSquare, firstPrice, secondMain, secondSquare, secondPrice, thirdMain, thirdSquare, thirdPrice, uniqueDescriptionClass) {
         var description =
             `
@@ -92,12 +102,14 @@ window.onload = function () {
     `
         return description;
     }
+
+    // json с инфой об ипотеках и банках
     var banksConfigJSON = (function () {
         var banksConfigJSON = null;
         $.ajax({
             'async': false,
             'global': false,
-            'url': 'data.json',
+            'url': 'jsons/data.json',
             'dataType': "json",
             'success': function (data) {
                 banksConfigJSON = data;
@@ -105,6 +117,7 @@ window.onload = function () {
         });
         return banksConfigJSON;
     })();
+
     for (key in banksConfigJSON) {
         newCard(banksConfigJSON[key].img, bankNumber)
         bankNumber++
@@ -112,6 +125,8 @@ window.onload = function () {
             $('.buy-modal-container__ipoteca_right__banks_bank-card').addClass('buy-modal-container__ipoteca_right__banks_bank-card-checked')
         }
     }
+
+    //Делаем первый банк выбранным
     $('.buy-modal-container__ipoteca_right__banks_bank-card').eq(0).addClass('buy-modal-container__ipoteca_right__banks_bank-card-checked')
     for (key in banksConfigJSON) {
         if ('bank1' == key) {
@@ -126,6 +141,8 @@ window.onload = function () {
             $('.buy-modal-container__ipoteca_right__current-bank_srok').text('Срок ' + banksConfigJSON[key].srok)
         }
     }
+
+    //Меняем инфу о банке при клике
     $('.buy-modal-container__ipoteca_right__banks_bank-card').click(function () {
         for (key in banksConfigJSON) {
             if ($(this).data('bank-number') == key) {
@@ -143,6 +160,8 @@ window.onload = function () {
             }
         }
     });
+
+    //Выбираем вариант покупки в модалке
     $('.buy-modal-container__btns-block_btn').click(function () {
         if ($(this).hasClass('ipoteca-btnn')) {
             $('.buy-modal-container__btns-block_btn').removeClass('buy-modal-container__btns-block_btn-select')
@@ -166,15 +185,19 @@ window.onload = function () {
             $('.buy-modal-container__trade-in').show()
         }
     });
+
     $('.buy-modal-container__ipoteca_button').click(function () {
         $('.popup').fadeOut(500)
         setTimeout(function () {
             $('.mail-modal').fadeIn(500)
         },500)
     });
+
     $('.showMeBigModal').click(function () {
         $('.buy-modal').fadeIn(500)
     });
+
+    // Загружаем инфу о копусах в JSON
     if ($(window).width() > '1250') {
         for (key in corpusesJSON) {
             newSVGCorp(
@@ -195,9 +218,10 @@ window.onload = function () {
                 corpusesJSON[key].uniqueDescriptionClass,
                 corpusesJSON[key].descriptionPositionLeft,
                 corpusesJSON[key].descriptionPositionTop,
-                corpusesJSON[key].link
+                corpusesJSON[key].link,
+                corpusesJSON[key].toLS
             )
         }
     }
     $('.loader').fadeOut(500)
-}
+};

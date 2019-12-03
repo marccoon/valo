@@ -161,6 +161,12 @@ $('.partners-main__global__container__slider').slick({
     arrows: true,
     responsive: [
         {
+            breakpoint: 1450,
+            settings: {
+                slidesToShow: 3
+            }
+        },
+        {
             breakpoint: 1250,
             settings: {
                 slidesToShow: 2
