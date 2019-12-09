@@ -2,7 +2,13 @@ window.onload = function () {
     // Переменная для банков в модалке
     let bankNumber = 1;
 
+    var img = document.querySelector('.commerce-choose__container__floors-btns_img');
     var currentCorpus =  'corpus2';
+    var currentFloor = 'floor4';
+    if (localStorage.getItem('floor')) {
+        currentFloor = localStorage.getItem('floor');
+    }
+
     if (localStorage.getItem('corpus')) {
         currentCorpus = localStorage.getItem('corpus');
     }
@@ -34,21 +40,6 @@ window.onload = function () {
         return corpusesJSON;
     })();
 
-    //JSON с этажами в переменную
-    var corpusFloorsJSON = (function () {
-        var corpusFloorsJSON = null;
-        $.ajax({
-            'async': false,
-            'global': false,
-            'url': 'jsons/apartmentsFloorsJSON.json',
-            'dataType': "json",
-            'success': function (data) {
-                corpusFloorsJSON = data;
-            }
-        });
-        return corpusFloorsJSON;
-    })();
-
     //Добавляем описание КОРПУСА верх страницы из JSON-а с корпусами
     function corpusInfo(termOfDelivery, keyCollection, corpNumber,
                         section, paymentMethod, revenueProgram) {
@@ -75,78 +66,6 @@ window.onload = function () {
       </ul>`;
 
      $('.commerce-choose__top__corpus-info-center').append(corpusDescriptionTemplate);
-    }
-
-    // Добавлем описание АПАРТАМЕНТА в аккордеон внизу страницы из JSON-а с Этажами
-    function commerceDescriptionToAccordion (number, stopro, basePrice, type, view, square, img, status, furniture) {
-        let commerceAparDescriptionTemplate = `
-    <h3 class="for-tourists__content__text_main for-tourists__content__text_main-af">
-                    НОМЕР АПАРТАМЕНТА ${number}
-                </h3>
-                <ul class="for-tourists__content__text_ul for-tourists__content__text_ul2">
-                    <li class="apartment-li">
-                        <div class="apartment-li__left-column">
-                            <ul class="apartment-li__left-column_ul">
-                                <li class="apartment-li__left-column_ul_li apartment-li__left-column_ul_li_b">
-                                    Цена при 100%
-                                </li>
-                                <li class="apartment-li__left-column_ul_li ">
-                                    Цена базовая
-                                </li>
-                                <li class="apartment-li__left-column_ul_li">
-                                    Тип помещения
-                                </li>
-                                <li class="apartment-li__left-column_ul_li apartment-li__left-column_ul_li_b">
-                                    Номер помещения
-                                </li>
-                                <li class="apartment-li__left-column_ul_li">
-                                    Вид из окна
-                                </li>
-                                <li class="apartment-li__left-column_ul_li apartment-li__left-column_ul_li_b">
-                                    Общая площадь
-                                </li>                                
-                                <li class="apartment-li__left-column_ul_li apartment-li__left-column_ul_li_b">
-                                    Цена с меблировкой
-                                </li>
-                                <li class="apartment-li__left-column_ul_li apartment-li__left-column_ul_li_b">
-                                    <span class="apartment-li__left-column_ul_status">${status}</span>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="apartment-li__center-column">
-                            <ul class="apartment-li__left-column_ul">
-                                <li class="apartment-li__left-column_ul_li apartment-li__left-column_ul_li_b">
-                                    ${stopro}
-                                </li>
-                                <li class="apartment-li__left-column_ul_li ">
-                                    ${basePrice}
-                                </li>
-                                <li class="apartment-li__left-column_ul_li">
-                                     ${type}
-                                </li>
-                                <li class="apartment-li__left-column_ul_li apartment-li__left-column_ul_li_b">
-                                    ${number}
-                                </li>
-                                <li class="apartment-li__left-column_ul_li">
-                                    ${view}
-                                </li>
-                                <li class="apartment-li__left-column_ul_li apartment-li__left-column_ul_li_b">
-                                   ${square}
-                                </li>
-                                <li class="apartment-li__left-column_ul_li apartment-li__left-column_ul_li_b">
-                                   ${furniture}
-                                </li>
-                            </ul>
-                        </div>
-                        <a href="${img}" data-fancybox="" class="apartment-li__img_link">
-                            <img src="${img}" alt="" class="apartment-li__img">
-                        </a>
-                    </li>
-                </ul>
-    `;
-
-    $('.active-sport__container__dd-af').append(commerceAparDescriptionTemplate);
     }
 
     // JSON с инфой про банки для модалки
@@ -220,11 +139,9 @@ window.onload = function () {
         $('.commerce-choose__container__floors-btns').append(floorsBtnsTemplate)
     }
 
-
-
-        var floorsCounter = 0;
-        var floorsArray = [];
-        var secondFloorsArray = [];
+    var floorsCounter = 0;
+    var floorsArray = [];
+    var secondFloorsArray = [];
 
         // Выгружаем из JSON-а инфу о корпусе ввеху страницы
         for (key in corpusesJSON) {
@@ -278,38 +195,7 @@ window.onload = function () {
 
         $('.buy-modal-container__cross').click(function () {
             $('.popup').fadeOut(500)
-        })
-
-        for (key in corpusFloorsJSON) {
-            if (currentCorpus == key) {
-                for (i in corpusFloorsJSON[key]) {
-                    floorsCounter++
-                    let currentFloorName = i;
-                    floorsArray.push(currentFloorName);
-                    secondFloorsArray.push(corpusFloorsJSON[key][i].dataFloor);
-                    if ($('.commerce-choose__container__left__floor-scheme_img').attr('src') == '') {
-                        $('.commerce-choose__container__left__floor-scheme_img').attr('src', corpusFloorsJSON[key][i].bigImgSrc)
-                    }
-                    for (j in corpusFloorsJSON[key][i]) {
-                        if (j !== 'bigImgSrc' && j !== 'dataFloor') {
-                            if (i == floorsArray[0]) {
-                                commerceDescriptionToAccordion(
-                                    j,
-                                    corpusFloorsJSON[key][i][j].stopro,
-                                    corpusFloorsJSON[key][i][j].basePrice,
-                                    corpusFloorsJSON[key][i][j].type,
-                                    corpusFloorsJSON[key][i][j].windowView,
-                                    corpusFloorsJSON[key][i][j].square,
-                                    corpusFloorsJSON[key][i][j].imgSrc,
-                                    corpusFloorsJSON[key][i][j].status,
-                                    corpusFloorsJSON[key][i][j].furniture
-                                );
-                            }
-                        }
-                    }
-                }
-            }
-        }
+        });
 
         $('.active-sport__container__dd').accordion({
             heightStyle: "content",
@@ -325,6 +211,8 @@ window.onload = function () {
         }
 
         $('.commerce-choose__container__floors-btns_btn').eq(0).addClass('commerce-choose__container__floors-btns_btn-selected')
+
+        //ТУТ НАЧАЛО ПОДГРУЗКА АККОРДИОНОВ ПРИ КЛИКЕ НА КНОПКУ
 
         $('.commerce-choose__container__floors-btns_btn').click(function () {
             if ($(this).hasClass('commerce-choose__container__floors-btns_btn-selected')) {
@@ -366,16 +254,18 @@ window.onload = function () {
             });
         });
 
+        // ТУТ КОНЕЦ
+
         $('.default-dropdown_ul_li_link').click(function () {
             localStorage.setItem('corpus', $(this).data('location'))
         });
 
-        if (localStorage.getItem('floor')) {
+        if (currentFloor) {
             let floorsBtns = document.querySelectorAll('.commerce-choose__container__floors-btns_btn');
             for (let i = 0; i < floorsBtns.length; i++) {
                 let currentBtnData = floorsBtns[i];
                 currentBtnData = $(currentBtnData).data('floor');
-                if (currentBtnData == localStorage.getItem('floor')) {
+                if (currentBtnData == currentFloor) {
                     let currentBtn = floorsBtns[i];
                     currentBtn.scrollIntoView(true);
                     $(currentBtn).trigger('click');
@@ -384,5 +274,47 @@ window.onload = function () {
             }
         }
 
-        $('.loader').fadeOut(500)
+
+
+    // Новый код
+    //JSON с этажами в переменную
+    var corpusFloorsJSON = (function () {
+        var corpusFloorsJSON = null;
+        $.ajax({
+            'async': false,
+            'global': false,
+            'url': 'jsons/apartmentsFloorsJSON.json',
+            'dataType': "json",
+            'success': function (data) {
+                corpusFloorsJSON = data;
+            }
+        });
+        return corpusFloorsJSON;
+    })();
+
+
+    function addSVG() {
+        var imgWidthPersent = $('.commerce-choose__container__floors-btns_img').width() / 100;
+        var imgHeigthPersent = $('.commerce-choose__container__floors-btns_img').height() / 100;
+
+        // if (!draw) {
+        //     var draw = SVG('svgContainer').size('100%', '100%');
+        // }
+
+    }
+
+    img.onload = function () {
+        $('.commerce-choose__container__left commerce-choose__container__left2')
+            .height($('.commerce-choose__container__floors-btns_img').height());
+
+        for (let key in corpusFloorsJSON) {
+            $('.commerce-choose__container__floors-btns_img').attr('src', corpusFloorsJSON[currentCorpus][currentFloor].bigImgSrc);
+        }
+
+
+
+    };
+    addSVG();
+    // Новый код конец
+    $('.loader').fadeOut(500)
 };

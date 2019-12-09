@@ -3710,7 +3710,7 @@
         },
         "floor5": {
             "dataFloor": "5",
-            "bigImgSrc": "img/floor-scheme.png",
+            "bigImgSrc": "img/af1.png",
 
             "5001": {
                 "stopro": "5 013 126,82 руб.",
@@ -3765,8 +3765,7 @@
         },
         "floor6": {
             "dataFloor": "6",
-            "bigImgSrc": "img/apartments-img.png",
-
+            "bigImgSrc": "img/af1.png",
             "6001": {
                 "stopro": "5 013 126,82 руб.",
                 "basePrice": "5 013 126,82 руб.",
@@ -3820,8 +3819,7 @@
         },
         "floor7": {
             "dataFloor": "7",
-            "bigImgSrc": "img/floor-scheme.png",
-
+            "bigImgSrc": "img/af1.png",
             "7001": {
                 "stopro": "5 013 126,82 руб.",
                 "basePrice": "5 013 126,82 руб.",
@@ -3875,8 +3873,7 @@
         },
         "floor8": {
             "dataFloor": "8",
-            "bigImgSrc": "img/floor-scheme.png",
-
+            "bigImgSrc": "img/af1.png",
             "8001": {
                 "stopro": "5 013 126,82 руб.",
                 "basePrice": "5 013 126,82 руб.",
@@ -3930,8 +3927,7 @@
         },
         "floor9": {
             "dataFloor": "9",
-            "bigImgSrc": "img/floor-scheme.png",
-
+            "bigImgSrc": "img/af1.png",
             "9001": {
                 "stopro": "5 013 126,82 руб.",
                 "basePrice": "5 013 126,82 руб.",
@@ -3985,8 +3981,7 @@
         },
         "floor10": {
             "dataFloor": "10",
-            "bigImgSrc": "img/floor-scheme.png",
-
+            "bigImgSrc": "img/af1.png",
             "1001": {
                 "stopro": "5 013 126,82 руб.",
                 "basePrice": "5 013 126,82 руб.",
@@ -4040,8 +4035,7 @@
         },
         "floor11": {
             "dataFloor": "11",
-            "bigImgSrc": "img/floor-scheme.png",
-
+            "bigImgSrc": "img/af1.png",
             "1101": {
                 "stopro": "5 013 126,82 руб.",
                 "basePrice": "5 013 126,82 руб.",
@@ -4095,8 +4089,7 @@
         },
         "floor12": {
             "dataFloor": "12",
-            "bigImgSrc": "img/floor-scheme.png",
-
+            "bigImgSrc": "img/af1.png",
             "1201": {
                 "stopro": "5 013 126,82 руб.",
                 "basePrice": "5 013 126,82 руб.",
@@ -4150,8 +4143,7 @@
         },
         "floor13": {
             "dataFloor": "13",
-            "bigImgSrc": "img/floor-scheme.png",
-
+            "bigImgSrc": "img/af1.png",
             "1301": {
                 "stopro": "5 013 126,82 руб.",
                 "basePrice": "5 013 126,82 руб.",
@@ -4205,8 +4197,7 @@
         },
         "floor14": {
             "dataFloor": "14",
-            "bigImgSrc": "img/floor-scheme.png",
-
+            "bigImgSrc": "img/af1.png",
             "1401": {
                 "stopro": "5 013 126,82 руб.",
                 "basePrice": "5 013 126,82 руб.",
@@ -4260,8 +4251,7 @@
         },
         "floor15": {
             "dataFloor": "15",
-            "bigImgSrc": "img/floor-scheme.png",
-
+            "bigImgSrc": "img/af1.png",
             "1501": {
                 "stopro": "5 013 126,82 руб.",
                 "basePrice": "5 013 126,82 руб.",
@@ -4315,8 +4305,7 @@
         },
         "floor16": {
             "dataFloor": "16",
-            "bigImgSrc": "img/floor-scheme.png",
-
+            "bigImgSrc": "img/af1.png",
             "1601": {
                 "stopro": "5 013 126,82 руб.",
                 "basePrice": "5 013 126,82 руб.",
@@ -4370,8 +4359,7 @@
         },
         "floor17": {
             "dataFloor": "17",
-            "bigImgSrc": "img/floor-scheme.png",
-
+            "bigImgSrc": "img/af1.png",
             "1701": {
                 "stopro": "5 013 126,82 руб.",
                 "basePrice": "5 013 126,82 руб.",
@@ -4425,8 +4413,7 @@
         },
         "floor18": {
             "dataFloor": "18",
-            "bigImgSrc": "img/floor-scheme.png",
-
+            "bigImgSrc": "img/af1.png",
             "1801": {
                 "stopro": "5 013 126,82 руб.",
                 "basePrice": "5 013 126,82 руб.",

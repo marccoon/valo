@@ -8289,20 +8289,16 @@ map {
     color: #fff;
 }
 .commerce-choose__container2 {
-    height:1175px;
     background: #1c2840 url(../img/video-presentation-bg.png) no-repeat center center / cover;
     position: relative;
     display: flex;
 }
 .commerce-choose__container__left__floor-scheme {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: 100%;
 }
 .commerce-choose__container__left__floor-scheme_img {
-    max-width: 100%;
+    max-width: 80%;
 }
 .commerce-choose__top__corpus-info-left {
     background-color: #57b5bb;
@@ -9360,6 +9356,11 @@ map {
 
 /*loader*/
 /*apartments floors*/
+.commerce-choose__container__floors-btns_img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
 .active-sport__container__dd-af {
     padding-left: 0;
 }
