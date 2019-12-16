@@ -8035,14 +8035,11 @@ map {
 }
 .commerce-choose__container__left {
     width: 62.5%;
-    height: 100%;
+    min-width: 62.5%;
+    padding-top: 40px;
+    padding-bottom: 40px;
     background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 0;
-    top: 0;
+    position: relative;
 }
 .commerce-choose__container__left_img-container {
     width: 660px;
@@ -8115,7 +8112,6 @@ map {
     margin-right: auto;
 }
 .commerce-choose__container__right__container {
-    padding-left: 838px;
     padding-top: 82px;
 }
 .commerce-choose__container__right__container_p {
@@ -9356,10 +9352,19 @@ map {
 
 /*loader*/
 /*apartments floors*/
-.commerce-choose__container__floors-btns_img {
+.commerce-choose__container__left-for-img {
     width: 80%;
-    display: block;
     margin: 0 auto;
+    position: relative;
+}
+.commerce-choose__container__left-for-img svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+}
+.commerce-choose__container__floors-btns_img {
+    width: 100%;
 }
 .active-sport__container__dd-af {
     padding-left: 0;
@@ -10016,5 +10021,28 @@ area {
 }
 .visual-floors-dd {
     top: 52px;
+}
+.description-apart {
+    background: rgba(13, 35, 63, 0.9);
+    position: fixed;
+    pointer-events: none;
+    min-width: 360px;
+    z-index: 500000000;
+    justify-content: space-between;
+    padding: 20px;
+    display: none;
+}
+.description-apart__ul_li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.description-apart__ul-left {
+    margin-right: 20px;
+}
+.z2001 {
+    z-index: 2001;
 }
 /*visual-floors*/

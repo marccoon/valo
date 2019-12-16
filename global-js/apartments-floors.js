@@ -1,17 +1,20 @@
 window.onload = function () {
-    // Переменная для банков в модалке
-    let bankNumber = 1;
 
+    // ТУТ ВСЁ ЧТО КАСАЕТСЯ БАНКОВ =======================================================================================
+    // Переменная для банков в модалке
+    var bankNumber = 1;
+    var colorForClass = 0;
     var img = document.querySelector('.commerce-choose__container__floors-btns_img');
     var currentCorpus =  'corpus2';
-    var currentFloor = 'floor4';
+    var currentFloor =  'floor4';
     if (localStorage.getItem('floor')) {
-        currentFloor = localStorage.getItem('floor');
+       currentFloor = localStorage.getItem('floor');
     }
 
     if (localStorage.getItem('corpus')) {
         currentCorpus = localStorage.getItem('corpus');
     }
+
 
     // Создание новой карточки банка
     function newCard (imgSrc, attr) {
@@ -83,6 +86,7 @@ window.onload = function () {
         return banksConfigJSON;
     })();
 
+
     // Добавляем информацию первого банка в большое окно
     for (key in banksConfigJSON) {
         newCard(banksConfigJSON[key].img, bankNumber)
@@ -129,19 +133,227 @@ window.onload = function () {
         }
     });
 
+    // КОНЕЦ ВСЕГО, ЧТО КАСАЕТСЯ БАНКОВ =======================================================================================
+
     function floorsBtnsToDOM(floorNumber, data) {
-        let floorsBtnsTemplate = `
+            let floorsBtnsTemplate = `
     <button class="commerce-choose__container__floors-btns_btn" data-floor="floor${data}">
         ${floorNumber}
         этаж
     </button>`;
+            $('.commerce-choose__container__floors-btns').append(floorsBtnsTemplate)
+        }
 
-        $('.commerce-choose__container__floors-btns').append(floorsBtnsTemplate)
-    }
+        var floorsCounter = 0;
+        var floorsArray = [];
+        var secondFloorsArray = [];
 
-    var floorsCounter = 0;
-    var floorsArray = [];
-    var secondFloorsArray = [];
+        // Новый код
+        //JSON с этажами в переменную
+        var corpusFloorsJSON = (function () {
+            var corpusFloorsJSON = null;
+            $.ajax({
+                'async': false,
+                'global': false,
+                'url': 'jsons/apartmentsFloorsJSON.json',
+                'dataType': "json",
+                'success': function (data) {
+                    corpusFloorsJSON = data;
+                }
+            });
+            return corpusFloorsJSON;
+        })();
+
+        for (key in corpusFloorsJSON[currentCorpus]) {
+            floorsCounter++
+            let currentFloorName = key;
+            floorsArray.push(currentFloorName);
+            secondFloorsArray.push(corpusFloorsJSON[currentCorpus][key].dataFloor);
+        }
+
+        if (!draw) {
+            var draw = SVG('svgContainer').size('100%', '100%');
+        }
+
+        function addSVG (coords, color, className, type, view, square, basePrice, stoPro, furniture, status, link, apartNumber) {
+            let imgWidthPersent = $('.commerce-choose__container__floors-btns_img').width() / 100;
+            let imgHeigthPersent = $('.commerce-choose__container__floors-btns_img').height() / 100;
+            let defaultCoordsArr = (coords.split(','));
+            let percentArray = [];
+            let newCoords = "";
+
+
+            //В зависимости от корпуса, этажа и размера картинки находим 1% от их размера
+            //Картинки разного размера. Это делается для сохраниния пропорций и корректного
+            // отображения SVG
+            if (currentCorpus === 'section1') {
+                for (var i = 0; i < defaultCoordsArr.length; i++) {
+                    if (i % 2 !== 1) {
+                        percentArray.push(defaultCoordsArr[i] / 38.52)
+                    } else {
+                        percentArray.push(defaultCoordsArr[i] / 40.96)
+                    }
+                }
+            } else if (currentCorpus === 'section2' || currentCorpus === 'section3') {
+                for (var i = 0; i < defaultCoordsArr.length; i++) {
+                    if (i % 2 !== 1) {
+                        percentArray.push(defaultCoordsArr[i] / 40.96)
+                    } else {
+                        percentArray.push(defaultCoordsArr[i] / 33.96)
+                    }
+                }
+            } else if (currentCorpus === 'section4') {
+                for (var i = 0; i < defaultCoordsArr.length; i++) {
+                    if (i % 2 !== 1) {
+                        percentArray.push(defaultCoordsArr[i] / 34.73)
+                    } else {
+                        percentArray.push(defaultCoordsArr[i] / 40.96)
+                    }
+                }
+            } else if (currentCorpus === 'corpus2') {
+                for (var i = 0; i < defaultCoordsArr.length; i++) {
+                    if (i % 2 !== 1) {
+                        percentArray.push(defaultCoordsArr[i] / 10.69)
+                    } else {
+                        percentArray.push(defaultCoordsArr[i] / 39.11)
+                    }
+                }
+            } else if (currentCorpus === 'corpus3') {
+                for (var i = 0; i < defaultCoordsArr.length; i++) {
+                    if (i % 2 !== 1) {
+                        percentArray.push(defaultCoordsArr[i] / 11.45)
+                    } else {
+                        percentArray.push(defaultCoordsArr[i] / 39.31)
+                    }
+                }
+            } else if (currentCorpus === 'corpus4') {
+                for (var i = 0; i < defaultCoordsArr.length; i++) {
+                    if (i % 2 !== 1) {
+                        percentArray.push(defaultCoordsArr[i] / 11.96)
+                    } else {
+                        percentArray.push(defaultCoordsArr[i] / 39.40)
+                    }
+                }
+            } else if (currentCorpus === 'corpus5') {
+                for (var i = 0; i < defaultCoordsArr.length; i++) {
+                    if (i % 2 !== 1) {
+                        percentArray.push(defaultCoordsArr[i] / 10.15)
+                    } else {
+                        percentArray.push(defaultCoordsArr[i] / 39.01)
+                    }
+                }
+            }
+
+            // Пересчитываем координаты в соответствии с размером картинки
+            for (var i = 0; i < percentArray.length; i++) {
+                if (i % 2 !== 1) {
+                    newCoords += Math.round(imgWidthPersent * percentArray[i])+ ',';
+                } else {
+                    newCoords += Math.round(imgHeigthPersent * percentArray[i]) + ',';
+                }
+            }
+
+            // убираем последниюю запятую в массиве, чтобы SVG.js не лагал
+            newCoords = newCoords.slice(0, -1);
+
+            //Рисуем новый полигон
+            let currentClass = 'visual-floor-svg-' + className;
+
+            let polygon = draw.polygon(newCoords)
+                .fill('transparent')
+                .addClass(currentClass)
+                .addClass('visual-floor-svg');
+
+            //Принаведении на этот полигон показываем SVG
+            $('.' + currentClass).hover(function () {
+                $(this).attr('fill', color);
+                $('#aType').text(type);
+                $('#aView').text(view);
+                $('#aSquare').text('').append(square);
+                $('#aBasePrice').text(basePrice);
+                $('#aStoProPrice').text(stoPro);
+                $('#aFurniturePrice').text(furniture);
+                $('#aStatus').text(status);
+                $('#aNumber').text(apartNumber);
+                $('.description-apart').css('left', this.getBoundingClientRect().x + 110)
+                    .css('top', this.getBoundingClientRect().y)
+                    .css('display', 'flex');
+            }, function () {
+                $(this).attr('fill', 'transparent');
+                $('.description-apart').hide()
+            });
+
+            $('.' + currentClass).click(function () {
+                location.href = link;
+            })
+        }
+
+        for (var i = 0; i < secondFloorsArray.length; i++) {
+            if (secondFloorsArray[i] >= 10) {
+                floorsBtnsToDOM(secondFloorsArray[i], secondFloorsArray[i])
+            } else {
+                floorsBtnsToDOM('0' + secondFloorsArray[i], secondFloorsArray[i])
+            }
+        }
+
+        $('.commerce-choose__container__floors-btns_img').attr('src', corpusFloorsJSON[currentCorpus][currentFloor].bigImgSrc);
+
+        $('.commerce-choose__container__floors-btns_btn').eq(0).addClass('commerce-choose__container__floors-btns_btn-selected')
+
+        $('.commerce-choose__container__floors-btns_btn').click(function () {
+
+            $('polygon').remove();
+            $('.commerce-choose__container__floors-btns_btn').removeClass('commerce-choose__container__floors-btns_btn-selected');
+
+            $(this).addClass('commerce-choose__container__floors-btns_btn-selected');
+            currentFloor = $(this).data('floor');
+
+            $('.commerce-choose__container__floors-btns_img').attr('src', corpusFloorsJSON[currentCorpus][currentFloor].bigImgSrc);
+            $('#svgContainer').height($('.commerce-choose__container__floors-btns_img').height())
+        });
+
+        img.onload = function () {
+            for (key in corpusFloorsJSON[currentCorpus][currentFloor]) {
+                if (key !== 'dataFloor' && key !== 'bigImgSrc') {
+                    addSVG(
+                        corpusFloorsJSON[currentCorpus][currentFloor][key].coords,
+                        corpusFloorsJSON[currentCorpus][currentFloor][key].color,
+                        colorForClass,
+                        corpusFloorsJSON[currentCorpus][currentFloor][key].type,
+                        corpusFloorsJSON[currentCorpus][currentFloor][key].windowView,
+                        corpusFloorsJSON[currentCorpus][currentFloor][key].square,
+                        corpusFloorsJSON[currentCorpus][currentFloor][key].basePrice,
+                        corpusFloorsJSON[currentCorpus][currentFloor][key].stopro,
+                        corpusFloorsJSON[currentCorpus][currentFloor][key].furniture,
+                        corpusFloorsJSON[currentCorpus][currentFloor][key].status,
+                        corpusFloorsJSON[currentCorpus][currentFloor][key].link,
+                        key
+                    );
+                    colorForClass++;
+                }
+            }
+
+            $('#svgContainer').height($('.commerce-choose__container__floors-btns_img').height())
+        };
+
+        $('.default-dropdown_ul_li_link').click(function () {
+            localStorage.setItem('corpus', $(this).data('location'))
+        });
+
+        if (currentFloor) {
+            let floorsBtns = document.querySelectorAll('.commerce-choose__container__floors-btns_btn');
+            for (let i = 0; i < floorsBtns.length; i++) {
+                let currentBtnData = floorsBtns[i];
+                currentBtnData = $(currentBtnData).data('floor');
+                if (currentBtnData === currentFloor) {
+                    let currentBtn = floorsBtns[i];
+                    currentBtn.scrollIntoView(true);
+                    $(currentBtn).trigger('click');
+                    localStorage.removeItem('floor');
+                }
+            }
+        }
+     // Новый код конец
 
         // Выгружаем из JSON-а инфу о корпусе ввеху страницы
         for (key in corpusesJSON) {
@@ -197,124 +409,5 @@ window.onload = function () {
             $('.popup').fadeOut(500)
         });
 
-        $('.active-sport__container__dd').accordion({
-            heightStyle: "content",
-            collapsible: true
-        });
-
-        for (var i = 0; i < secondFloorsArray.length; i++) {
-            if (secondFloorsArray[i] >= 10) {
-                floorsBtnsToDOM(secondFloorsArray[i], secondFloorsArray[i])
-            } else {
-                floorsBtnsToDOM('0' + secondFloorsArray[i], secondFloorsArray[i])
-            }
-        }
-
-        $('.commerce-choose__container__floors-btns_btn').eq(0).addClass('commerce-choose__container__floors-btns_btn-selected')
-
-        //ТУТ НАЧАЛО ПОДГРУЗКА АККОРДИОНОВ ПРИ КЛИКЕ НА КНОПКУ
-
-        $('.commerce-choose__container__floors-btns_btn').click(function () {
-            if ($(this).hasClass('commerce-choose__container__floors-btns_btn-selected')) {
-                return
-            }
-            $('.active-sport__container__dd').accordion( "destroy" );
-            $('.active-sport__container__dd').empty();
-            $('.commerce-choose__container__floors-btns_btn').removeClass('commerce-choose__container__floors-btns_btn-selected');
-            $(this).addClass('commerce-choose__container__floors-btns_btn-selected');
-            for (var q = 0; q < floorsArray.length; q++) {
-                let currentFloor = $(this).data('floor')
-                if (currentFloor == floorsArray[q]) {
-                    for (i in corpusFloorsJSON[key]) {
-                        $('.commerce-choose__container__left__floor-scheme_img').attr('src', corpusFloorsJSON[key][currentFloor].bigImgSrc)
-                        for (j in corpusFloorsJSON[key][currentFloor]) {
-                            if (j !== 'bigImgSrc' && j !== 'dataFloor') {
-                                if (i == currentFloor) {
-                                    commerceDescriptionToAccordion(
-                                        j,
-                                        corpusFloorsJSON[key][i][j].stopro,
-                                        corpusFloorsJSON[key][i][j].basePrice,
-                                        corpusFloorsJSON[key][i][j].type,
-                                        corpusFloorsJSON[key][i][j].windowView,
-                                        corpusFloorsJSON[key][i][j].square,
-                                        corpusFloorsJSON[key][i][j].imgSrc,
-                                        corpusFloorsJSON[key][i][j].status,
-                                        corpusFloorsJSON[key][i][j].furniture
-                                    );
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-
-            $('.active-sport__container__dd').accordion({
-                heightStyle: "content",
-                collapsible: true
-            });
-        });
-
-        // ТУТ КОНЕЦ
-
-        $('.default-dropdown_ul_li_link').click(function () {
-            localStorage.setItem('corpus', $(this).data('location'))
-        });
-
-        if (currentFloor) {
-            let floorsBtns = document.querySelectorAll('.commerce-choose__container__floors-btns_btn');
-            for (let i = 0; i < floorsBtns.length; i++) {
-                let currentBtnData = floorsBtns[i];
-                currentBtnData = $(currentBtnData).data('floor');
-                if (currentBtnData == currentFloor) {
-                    let currentBtn = floorsBtns[i];
-                    currentBtn.scrollIntoView(true);
-                    $(currentBtn).trigger('click');
-                    localStorage.removeItem('floor');
-                }
-            }
-        }
-
-
-
-    // Новый код
-    //JSON с этажами в переменную
-    var corpusFloorsJSON = (function () {
-        var corpusFloorsJSON = null;
-        $.ajax({
-            'async': false,
-            'global': false,
-            'url': 'jsons/apartmentsFloorsJSON.json',
-            'dataType': "json",
-            'success': function (data) {
-                corpusFloorsJSON = data;
-            }
-        });
-        return corpusFloorsJSON;
-    })();
-
-
-    function addSVG() {
-        var imgWidthPersent = $('.commerce-choose__container__floors-btns_img').width() / 100;
-        var imgHeigthPersent = $('.commerce-choose__container__floors-btns_img').height() / 100;
-
-        // if (!draw) {
-        //     var draw = SVG('svgContainer').size('100%', '100%');
-        // }
-
-    }
-
-    img.onload = function () {
-        $('.commerce-choose__container__left commerce-choose__container__left2')
-            .height($('.commerce-choose__container__floors-btns_img').height());
-
-        for (let key in corpusFloorsJSON) {
-            $('.commerce-choose__container__floors-btns_img').attr('src', corpusFloorsJSON[currentCorpus][currentFloor].bigImgSrc);
-        }
-
-
-
-    };
-    addSVG();
-    // Новый код конец
     $('.loader').fadeOut(500)
 };

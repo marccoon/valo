@@ -1723,8 +1723,8 @@
         position: relative;
         margin-top: 55px;
         width: auto;
-        padding-bottom: 50px;
-        padding-top: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .commerce-choose__container__left__floor-scheme_img {
         max-width: 600px;
@@ -1887,6 +1887,16 @@
     /*Выбор апартов*/
     .commerce-choose__container__left__floor-scheme_img-af {
         max-height: 750px;
+    }
+    .commerce-choose__container__right {
+        width: 640px;
+    }
+    .description-apart {
+        display: none !important;
+    }
+    .commerce-choose__bottom {
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
     /*Выбор апартов*/
     /*О Проекте*/
@@ -5118,7 +5128,8 @@
     }
     .commerce-choose__container__left2 {
         padding: 0;
-        height: 540px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         width: 100%;
         margin-top: 0;
     }
@@ -5127,13 +5138,19 @@
         max-width: 80%;
     }
     .commerce-choose__container__floors-btns {
-        bottom: auto;
-        top: 20px;
-        right: 20px;
+        right: 10px;
+        top: auto;
+        bottom: -110px;
         flex-direction: column-reverse;
     }
+    .commerce-choose__container__floors-btns_btn {
+        background-color: #fff;
+    }
+    .commerce-choose__container__floors-btns_btn-selected {
+        background-color: rgba(87, 181, 187, 1);
+    }
     .commerce-choose__container__floors-btns2 {
-        height: 100px;
+        height: 95px;
     }
     .commerce-choose__container__floors-btns_btn {
         width: 40px;
@@ -5489,6 +5506,9 @@
     /*Выбор апартов*/
     .commerce-choose__container__left-afcommerce-choose__container__left-af {
         padding-bottom: 100px;
+    }
+    .commerce-choose__container__left-for-img {
+        width: 100%;
     }
     /*Выбор апартов*/
     /*about company*/
@@ -5910,6 +5930,9 @@
     }
     .visual-floors-dd {
         top: 52px;
+    }
+    .commerce-choose__container__right {
+        width: 285px;
     }
     /*visual floors*/
 }
