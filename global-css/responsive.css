@@ -2294,7 +2294,30 @@
     .visual-dd {
         height: 52px;
     }
+    .commerce-choose__container__right__container_p {
+        width: auto;
+    }
     /*visual-floors*/
+    /*агенства*/
+    .agencies-flex {
+        padding-bottom: 50px;
+    }
+    .agencies-lists__item {
+
+    }
+    .agencies-lists__item:nth-child(6n + 6) {
+        margin-right: 45px;
+    }
+    .agencies-lists__item:nth-child(3n + 3) {
+        margin-right: 0;
+    }
+    .agencies-lists__item:nth-child(n+7) {
+        margin-top: 45px;
+    }
+    .agencies-lists__item:nth-child(n+4) {
+        margin-top: 45px;
+    }
+    /*агенства*/
 }
 @media screen and (max-width: 1200px)  {
     .complex-plan {
@@ -5935,6 +5958,41 @@
         width: 285px;
     }
     /*visual floors*/
+    /*агенства*/
+    .agencies-flex-social {
+        width: 40px;
+        height: 40px;
+        margin-right: 16px;
+    }
+    .agencies-flex-btn {
+        width: 168px;
+        height: 40px;
+        font-size: 12px;
+    }
+    .agencies-flex {
+        padding-bottom: 45px;
+    }
+    .agencies-photo {
+        padding-top: 40px;
+    }
+    .agencies-lists__item {
+        width: 130px;
+        height: 72px;
+        margin-right: 0 !important;
+    }
+    .agencies-lists {
+        justify-content: space-between;
+    }
+    .agencies-lists__item:nth-child(n + 3) {
+        margin-top: 20px;
+    }
+    .agencies-news {
+        margin-top: 30px;
+    }
+    .agencies-news .shab-mini-border-block__left-text_main {
+        margin-bottom: 30px;
+    }
+    /*агенства*/
 }
 @media screen  and (max-width: 650px) {
     /*Карта объекта*/

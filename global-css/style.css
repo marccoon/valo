@@ -8118,6 +8118,7 @@ map {
     font-size: 18px;
     line-height: 24px;
     color: #ffffff;
+    width: 400px;
 }
 .commerce-choose__container__right__container_btn {
     font-size: 15px;
@@ -10046,3 +10047,105 @@ area {
     z-index: 2001;
 }
 /*visual-floors*/
+/*Агенства*/
+.ttu {
+    text-transform: uppercase;
+}
+.agencies-flex-social {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-right: 22px;
+}
+.agencies-flex-social1 {
+    background: url(../img/biginsta.png) no-repeat center center / 100% 100%;
+}
+.agencies-flex-social1:hover {
+    background: url(../img/biginsta-hover.png) no-repeat center center / 100% 100%;
+}
+.agencies-flex-social2 {
+    background: url(../img/bigvk.png) no-repeat center center / 100% 100%;
+}
+.agencies-flex-social2:hover {
+    background: url(../img/bigvk-hover.png) no-repeat center center / 100% 100%;
+}
+.agencies-flex-btn {
+    width: 220px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: rgba(87, 181, 187, .62);
+}
+.agencies-flex-btn:hover {
+    color: rgba(87, 181, 187, 1);
+    background-color: #fff;
+    border: 1px solid rgba(87, 181, 187, 1);
+}
+.agencies-flex {
+    display: flex;
+    margin-top: 25px;
+    padding-bottom: 105px;
+}
+.agencies-photo {
+    padding-top: 105px;
+}
+.agencies-lists__item {
+    width: 180px;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+.agencies-lists__item_img {
+    max-height: 90%;
+    max-width: 90%;
+}
+.agencies-lists {
+    display: flex;
+    flex-wrap: wrap;
+}
+.agencies-lists__item:nth-child(6n + 6) {
+    margin-right: 0;
+}
+.agencies-lists__item:nth-child(n+7) {
+    margin-top: 20px;
+}
+.agencies-news {
+    width: 100%;
+}
+.agencies-news .company-blog-container__right_ul_li {
+    width: 100%;
+}
+.agencies-news-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    background: transparent;
+    width: 100px;
+    height: 38px;
+    margin-top: 30px;
+}
+.agencies-news-btn:hover {
+    background-color: #1c2840;
+}
+.agencies-news {
+    margin-top: 80px;
+}
+.agencies-news .shab-mini-border-block__left-text_main {
+    margin-bottom: 40px;
+}
+/*Агенства*/
