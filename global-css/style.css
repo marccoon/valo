@@ -87,6 +87,9 @@ body {
     font-weight: 700;
     position: relative;
     overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 .owl-carousel .owl-item img.main-slider__background {
     position: absolute;
@@ -10134,13 +10137,13 @@ area {
     text-transform: uppercase;
     font-size: 14px;
     color: #fff;
-    background: transparent;
+    background: #1c2840;
     width: 100px;
     height: 38px;
     margin-top: 30px;
 }
 .agencies-news-btn:hover {
-    background-color: #1c2840;
+    background-color: rgba(87, 181, 187, 1);
 }
 .agencies-news {
     margin-top: 80px;
