@@ -572,7 +572,8 @@
         flex-direction: column;
     }
     .valo-location__map-block_map {
-        width: 100%;
+        width: 100% !important;
+        height: 500px;
     }
     .valo-location__map-block_map iframe {
         width: 100%;
@@ -2940,6 +2941,11 @@
         height: 45px !important;
         -webkit-background-size: contain !important;
         background-size: contain !important;
+    }
+    .location-slider {
+        width: 285px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .main-slider .owl-next  {
         left: calc(50% - 142px);
