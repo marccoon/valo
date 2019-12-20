@@ -2,7 +2,7 @@
 // Если же слайдер запускается после события,например: Клик по кнопке, то он находится в JS файле страницы.
 //  Слайдер шапки находится в header.js
 // Слайдеры в модальных окнах, находятся в left-buttons
-let windowWidth = $(window).width();
+let windowWidth = document.documentElement.clientWidth;
 // owl carousel
 if ($('.default-owl-slider')) {
     $('.default-owl-slider').owlCarousel({
@@ -10,7 +10,6 @@ if ($('.default-owl-slider')) {
         dots: false,
         nav: true,
         autoplay: false,
-        lazyLoad: true,
         items: 1
     });
 }
@@ -50,7 +49,7 @@ $('.slider-two').owlCarousel({
             items:4
         }
     }
-})
+});
 
 // trade-in and s-page
 if (windowWidth <= '1250') {
@@ -117,6 +116,7 @@ if ($('.about-slick')) {
     $('.about-slick').slick({
         prevArrow:`<button type="button" class="circle-prev about-prev"></button>`,
         nextArrow: `<button type="button" class="circle-next about-next"></button>`,
+        infinite: false
     });
 }
 //infrastructure
@@ -182,7 +182,7 @@ $('.partners-main__global__container__slider').slick({
 });
 //portfolio-programs
 if ($('.profit-programs__cards')) {
-    if ($(window).width() <= '1250'){
+    if (windowWidth <= '1250'){
         $('.profit-programs__cards').slick({
             prevArrow:`<button type="button" class="circle-prev"></button>`,
             nextArrow: `<button type="button" class="circle-next"></button>`,
@@ -218,6 +218,7 @@ if ($('.shub-slider') || $('.shub-slider2')) {
         ]
     });
 }
+
 if (windowWidth <= '1250') {
     if (!$('.s-1250-slider').hasClass('slick-initialized')) {
         $('.s-1250-slider').slick({

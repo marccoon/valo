@@ -485,15 +485,12 @@
         width: 640px;
     }
     .main-slider .owl-next {
-        bottom: 210px;
-        left: -270px;
+        bottom: 140px;
+        left: calc(50% - 320px);
     }
     .main-slider .owl-prev {
-        bottom: 210px;
-        left: -260px;
-    }
-    .main-slide {
-        padding-bottom: 220px;
+        bottom: 140px;
+        left: calc(50% - 320px);
     }
     .valo-its {
         height: 610px;
@@ -2861,6 +2858,12 @@
         left: calc(50% - 152px);
         top: calc(50% - 363px);
     }
+    .main-slide {
+        height: 500px;
+    }
+    .height {
+        height: auto;
+    }
     .call-back-modal__container_bottom_input {
         width: 80%;
         height: 35px;
@@ -2925,8 +2928,8 @@
         margin-top: 47px;
     }
     .main-slider .owl-prev {
-        left: -90px;
-        top: -220px;
+        left: calc(50% - 142px);
+        bottom: 100px;
         width: 45px !important;
         height: 45px !important;
         -webkit-background-size: contain !important;
@@ -2939,8 +2942,8 @@
         background-size: contain !important;
     }
     .main-slider .owl-next  {
-        left: -95px;
-        top: -220px;
+        left: calc(50% - 142px);
+        bottom: 100px;
         width: 45px !important;
         height: 45px !important;
         -webkit-background-size: contain !important;
@@ -2952,12 +2955,8 @@
         -webkit-background-size: contain !important;
         background-size: contain !important;
     }
-    .main-block {
-        height: 510px;
-    }
     .valo-its {
         height: 465px;
-        margin-top: 133px;
     }
     .valo-its_main {
         font-size: 24px;
@@ -3725,9 +3724,6 @@
     }
     .construction-progress__top-block_p {
         margin-top: 60px;
-    }
-    .construction-progress_cameras__choose-camera {
-        height: 285px;
     }
     .big-progress-slider .owl-prev span {
         top: -425px;

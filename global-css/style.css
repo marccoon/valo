@@ -82,9 +82,10 @@ body {
     position: relative;
 }
 .main-slide {
-    padding-top: 180px;
-    padding-bottom: 260px;
+    height: 800px;
     font-weight: 700;
+    display: flex;
+    align-items: center;
     position: relative;
     overflow: hidden;
     background-size: cover;
@@ -151,8 +152,16 @@ body {
     -webkit-background-size: 100% 100% !important;
     background-size: 100% 100% !important;
     position: relative;
-    bottom: 250px;
-    left: -567px;
+    bottom: 150px;
+    left: calc(50% - 615px);
+}
+.construction-progress__photos_img {
+    height: 100%;
+    width: 100%;
+}
+.construction-progress__photos_fancy {
+    display: block;
+    height: 100%;
 }
 .main-slider .owl-next:hover {
     transform: rotate(0);
@@ -162,6 +171,9 @@ body {
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
 }
+.valo-location__map-block_map {
+    width: 616px !important;
+}
 .main-slider .owl-prev {
     transform: rotate(0);
     width: 62px;
@@ -170,8 +182,8 @@ body {
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
     position: relative;
-    bottom: 250px;
-    left: -555px;
+    bottom: 150px;
+    left: calc(50% - 615px);
 }
 .main-slider .owl-prev:hover {
     transform: rotate(180deg);
@@ -181,9 +193,11 @@ body {
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
 }
+.main-slider .owl-nav {
+    height: 0;
+}
 .valo-its{
     position: relative;
-    margin-top: -83px;
     height: 490px;
     display: flex;
     flex-direction: column;
@@ -808,7 +822,7 @@ map {
     display: flex;
 }
 .valo-location__map-block_map {
-    width: 616px;
+    min-width: 50%;
 }
 .valo-location__map-block_right {
     background: rgba(87, 181, 187, .7);
@@ -1325,6 +1339,8 @@ map {
     justify-content: center;
     align-items: center;
     background: #fff;
+    margin-left: auto;
+    margin-right: auto;
 }
 .main-partners__slider__item__bottom {
     background-color: rgba(255,255,255,.8);
@@ -1337,6 +1353,8 @@ map {
     height: 240px;
     width: 285px;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .main-partners__slider__item__top_img {
     align-items: center;
@@ -1519,6 +1537,9 @@ map {
     align-items: center;
     justify-content: center;
     text-decoration: none;
+}
+.main-block {
+    height: auto;
 }
 .work-invest_sub-main-block_btn:hover {
     background-color: #fff;
@@ -2091,12 +2112,13 @@ map {
 }
 .construction-progress_cameras__choose-camera {
     width: 50%;
-    height: 650px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: url(../img/green-bg.jpg);
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .construction-progress_cameras__choose-camera_main {
     color: #ffffff;
@@ -2131,10 +2153,9 @@ map {
 }
 .construction-progress__photos {
     width: 50%;
-    height: 650px;
 }
 .big-progress-slider_item {
-    width: 100%;
+    width: 100% !important;
     height: 650px !important;
     display: flex !important;
     justify-content: center;
@@ -2202,7 +2223,6 @@ map {
 }
 .big-progress-slider_item-1-img {
     height: 650px;
-    width: auto !important;
 }
 .big-progress-slider .slick-prev {
     cursor: pointer;
@@ -10150,5 +10170,11 @@ area {
 }
 .agencies-news .shab-mini-border-block__left-text_main {
     margin-bottom: 40px;
+}
+.owl-carousel .owl-item .owl-lazy:not([src]), .owl-carousel .owl-item .owl-lazy[src^=""] {
+    max-height: none !important;
+}
+.owl-lazy {
+    opacity: 1 !important;
 }
 /*Агенства*/

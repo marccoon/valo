@@ -37,6 +37,7 @@ window.onload = function () {
             'scrollZoom',
             'rulerControl'
         ]);
+
         var myPin = new ymaps.GeoObjectCollection({}, {});
         var stations = new ymaps.GeoObjectCollection({}, {});
         var med = new ymaps.GeoObjectCollection({}, {});
@@ -472,6 +473,7 @@ window.onload = function () {
         myPin.add(placemark1)
 
         myMap.geoObjects.add(stations).add(med).add(mus).add(parks).add(teatrs).add(shops).add(schools).add(metros).add(myPin);
+
         stations.options.set('visible', false);
         med.options.set('visible', false);
         mus.options.set('visible', false);
@@ -480,6 +482,7 @@ window.onload = function () {
         shops.options.set('visible', false);
         schools.options.set('visible', false);
         metros.options.set('visible', false);
+
         mapBtnClick('#stationBtn','location-main__buttons_button-click', 'img/loc-map1.png','img/loc-map11.png', stations);
         mapBtnClick('#medBtn','location-main__buttons_button-click-opacity', 'img/loc-map2.png','img/loc-map22.png', med);
         mapBtnClick('#musBtn','location-main__buttons_button-click-opacity', 'img/loc-map3.png','img/loc-map33.png', mus);
@@ -499,6 +502,7 @@ window.onload = function () {
                 $('.location-metro-container__metro-map_mask').removeClass(addedClass);
             });
     }
+
     showLocationMask('.location-metro-container__lists_li-first', 'location-mask-1');
     showLocationMask('.location-metro-container__lists_li-2', 'location-mask-2');
     showLocationMask('.location-metro-container__lists_li-3', 'location-mask-3');
@@ -506,6 +510,7 @@ window.onload = function () {
     showLocationMask('.location-metro-container__lists_li-5', 'location-mask-5');
     showLocationMask('.location-metro-container__lists_li-6', 'location-mask-6');
     showLocationMask('.location-metro-container__lists_li-7', 'location-mask-7');
+
     $('.location-loc__cards__card1').hover(function(){
         $('.location-loc__cards__card__left_img1').attr('src','img/loc-chem1.png');
     },function(){

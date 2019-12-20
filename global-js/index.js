@@ -27,6 +27,7 @@ window.onload = function () {
     showMask ($('#corp6'), $('.six-modal'), 'complex-plan__img__corp-6-hover');
     showMask ($('#corp7'), $('.seven-modal'), 'complex-plan__img__corp-7-hover');
     showMask ($('#corp8'), $('.eight-modal'), 'complex-plan__img__corp-8-hover');
+
     $('#corp1Btn').change(function () {getColor('#corp1Btn', '#firstCorp','#secondCorp','#thirdCorp','#fourCorp','#fiveCorp')});
     $('#corp2Btn').change(function () {getColor('#corp2Btn', '#secondCorp','#firstCorp','#thirdCorp','#fourCorp','#fiveCorp')});
     $('#corp3Btn').change(function () {getColor('#corp3Btn', '#thirdCorp','#secondCorp','#firstCorp','#fourCorp','#fiveCorp')});
@@ -96,36 +97,22 @@ window.onload = function () {
             $('#tradeIn').fadeIn(1000);
         }
     });
-    // Отображение даты на слайдере
-    let globalSlider = document.querySelector('.big-progress-slider');
-    let leftBtn = globalSlider.querySelector('.owl-prev');
-    let rightBtn = globalSlider.querySelector('.owl-next');
-    leftBtn.onclick = function () {
-        let currentSlide = globalSlider.querySelector('.active');
-        let currentElem = currentSlide.querySelector('.big-progress-slider_item');
-        let currentData = $(currentElem).data('date');
-        constructionText.textContent = currentData;
-    };
-    rightBtn.onclick = function () {
-        let currentSlide = globalSlider.querySelector('.active');
-        let currentElem = currentSlide.querySelector('.big-progress-slider_item');
-        let currentData = $(currentElem).data('date');
-        constructionText.textContent = currentData;
-    };
+
+
+
     $('#camera1Btn').click(function () {
         $('#camera1').fadeIn(1000);
         $('.construction-progress__live-camera__container_in iframe').attr('height',  $('.construction-progress__live-camera__container_in').width() * 0.56)
-        // console.log()
     });
     $('.closeVideoBtn').click(function () {
         $('.popup').fadeOut(1000);
     });
-    $('#camera2Btn').click(function () {
-        $('#camera2').fadeIn(1000);
-    });
-    $('#camera3Btn').click(function () {
-        $('#camera3').fadeIn(1000);
-    });
+    // $('#camera2Btn').click(function () {
+    //     $('#camera2').fadeIn(1000);
+    // });
+    // $('#camera3Btn').click(function () {
+    //     $('#camera3').fadeIn(1000);
+    // });
 
 
     let corpusButtons = document.querySelectorAll('.complex-plan__choose-corp__buttons_label_btn');
@@ -134,5 +121,38 @@ window.onload = function () {
             corpusButtons[i].textContent = (i + 1).toString();
         }
     }
+
+
     $('.loader').fadeOut(500)
+
+    function init(){
+        var myMap = new ymaps.Map("indexMap", {
+                center: [59.885247874191926,30.36760814613051],
+                zoom: 14,
+                controls: ['typeSelector', 'zoomControl']
+            },
+            {
+                suppressMapOpenBlock: true
+            });
+
+        myMap.behaviors.disable([
+            'scrollZoom',
+            'rulerControl'
+        ]);
+
+        var myPin = new ymaps.GeoObjectCollection({}, {});
+
+        placemark1 = new ymaps.Placemark([59.885247874191926,30.36760814613051], {},{
+            iconLayout: 'default#image',
+            iconImageHref: 'img/metka1.png',
+            iconImageSize: [61, 81],
+            iconImageOffset: [-33, -72],
+        });
+
+        myPin.add(placemark1);
+        myMap.geoObjects.add(myPin)
+    }
+
+    ymaps.ready(init);
+
 };
