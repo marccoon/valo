@@ -13,6 +13,17 @@ if ($('.default-owl-slider')) {
         items: 1
     });
 }
+
+if ($('.work-invest__cards')) {
+    $('.work-invest__cards').owlCarousel({
+        loop: true,
+        dots: false,
+        nav: true,
+        autoplay: false,
+        items: 3
+    })
+}
+
 if ($('.main-partners__slider')) {
     $('.main-partners__slider').owlCarousel({
         loop: true,

@@ -654,9 +654,6 @@
     .work-invest_sub-main-block_btn {
         margin-top: 45px;
     }
-    .work-invest__cards {
-        display: none;
-    }
     .work-invest__bottom-description {
         display: none;
     }
@@ -2903,6 +2900,9 @@
     }
     .work-invest__cards__card {
         height: auto;
+        width: 420px !important;
+        margin-left: auto;
+        margin-right: auto;
     }
     .work-invest {
         padding-top: 65px;

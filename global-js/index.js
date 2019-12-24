@@ -69,6 +69,7 @@ window.onload = function () {
             $('#fiveCorp').addClass('white-bg');
         }
     });
+
     $('#rassBtn, #stoProBtn').click(function () {
         $('.default-owl-slider').owlCarousel({
             loop: true,
@@ -82,6 +83,7 @@ window.onload = function () {
             }
         });
     });
+
     $('.how-to-buy__choose-buttons').change(function () {
         if ($('#ipotecaCheck').prop('checked')) {
             $('.buy-variants-item').hide()
@@ -107,12 +109,12 @@ window.onload = function () {
     $('.closeVideoBtn').click(function () {
         $('.popup').fadeOut(1000);
     });
-    // $('#camera2Btn').click(function () {
-    //     $('#camera2').fadeIn(1000);
-    // });
-    // $('#camera3Btn').click(function () {
-    //     $('#camera3').fadeIn(1000);
-    // });
+    $('#camera2Btn').click(function () {
+        $('#camera2').fadeIn(1000);
+    });
+    $('#camera3Btn').click(function () {
+        $('#camera3').fadeIn(1000);
+    });
 
 
     let corpusButtons = document.querySelectorAll('.complex-plan__choose-corp__buttons_label_btn');
