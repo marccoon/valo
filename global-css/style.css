@@ -216,7 +216,7 @@ body {
     width: 50px;
     height: 50px;
     background: url(../img/resp-arr2.png) no-repeat center center / 100% 100% !important;
-    transform: rotate(180deh);
+    transform: rotate(180deg);
 }
 .main-slider .owl-prev:hover {
     transform: rotate(180deg);
@@ -405,6 +405,7 @@ map {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
 }
 .complex-plan__choose-corp__buttons_label_btn:hover {
     background: rgba(255,255,255,1);
@@ -1355,7 +1356,6 @@ map {
     top: -5px;
 }
 .main-partners {
-    height: 756px;
     padding-top: 85px;
     padding-bottom: 115px;
     background: url(../img/756.jpg) no-repeat center center / cover;
@@ -1429,7 +1429,7 @@ map {
     -webkit-background-size: 100% 100% !important;
     background-size: 100% 100% !important;
     position: absolute;
-    bottom: 175px;
+    top: calc(50% - 25px);
     left: -70px;
 }
 .main-partners__slider .owl-prev:hover {
@@ -1448,7 +1448,7 @@ map {
     -webkit-background-size: 100% 100% !important;
     background-size: 100% 100% !important;
     position: absolute;
-    bottom: 175px;
+    top: calc(50% - 25px);
     right: -70px;
 }
 .main-partners__slider .owl-next:hover {
@@ -1587,7 +1587,7 @@ map {
     width: 390px;
     height: 500px;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
 }
 .work-invest__cards__card__top {
     background-color: #ef4c8e;
@@ -10212,4 +10212,5 @@ area {
 .owl-lazy {
     opacity: 1 !important;
 }
+
 /*Агенства*/

@@ -10,6 +10,7 @@ window.onload = function () {
                 modal.hide()
             });
     }
+
     function getColor (input, button, nb1, nb2, nb3, nb4) {
         if ($(input).prop('checked')){
             $(button).addClass('white-bg');
@@ -19,6 +20,7 @@ window.onload = function () {
             $(nb4).removeClass('white-bg');
         }
     }
+
     showMask ($('#corp1'), $('.first-modal'), 'complex-plan__img__corp-1-hover');
     showMask ($('#corp2'), $('.second-modal'), 'complex-plan__img__corp-2-hover');
     showMask ($('#corp3'), $('.third-modal'), 'complex-plan__img__corp-3-hover');
@@ -34,7 +36,14 @@ window.onload = function () {
     $('#corp4Btn').change(function () {getColor('#corp4Btn', '#fourCorp','#thirdCorp','#secondCorp','#firstCorp','#fiveCorp')});
     $('#corp5Btn').change(function () {getColor('#corp5Btn', '#fiveCorp','#thirdCorp','#secondCorp','#firstCorp','#fourCorp')});
 
+    $('.complex-plan__choose-corp__buttons_label').click(function () {
+        topy  = $('#description').offset().top;
+        $('body,html').animate({scrollTop: topy}, 500);
+
+    });
+
     $('.complex-plan').click(function (e) {
+
         if (e.target === corp1) {
             $('#corp1Btn').prop('checked', true);
             $('.complex-plan__choose-corp__buttons_label_btn').removeClass('white-bg');
@@ -115,15 +124,6 @@ window.onload = function () {
     $('#camera3Btn').click(function () {
         $('#camera3').fadeIn(1000);
     });
-
-
-    let corpusButtons = document.querySelectorAll('.complex-plan__choose-corp__buttons_label_btn');
-    if ($(window).width() <= '750'){
-        for (var i = 0; i < corpusButtons.length; i++) {
-            corpusButtons[i].textContent = (i + 1).toString();
-        }
-    }
-
 
     $('.loader').fadeOut(500)
 

@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="1287" column="35" selection-start-line="1287" selection-start-column="24" selection-end-line="1287" selection-end-column="35" />
+            <state relative-caret-position="470">
+              <caret line="1242" column="46" selection-start-line="1242" selection-start-column="28" selection-end-line="1242" selection-end-column="46" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -38,8 +38,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/global-js/visual.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-169">
+            <state relative-caret-position="510">
               <caret line="30" column="128" selection-start-line="30" selection-start-column="128" selection-end-line="30" selection-end-column="128" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/global-js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/global-js/apartments-floors.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5933">
+              <caret line="349" column="30" selection-start-line="349" selection-start-column="30" selection-end-line="349" selection-end-column="52" />
+              <folding>
+                <marker date="1576457846225" expanded="true" signature="14981:14982" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/global-css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="1589" column="24" selection-start-line="1589" selection-start-column="24" selection-end-line="1589" selection-end-column="24" />
+            <state relative-caret-position="706">
+              <caret line="10215" column="4" selection-start-line="10215" selection-start-column="4" selection-end-line="10215" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -56,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/global-css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="2902" column="32" selection-start-line="2902" selection-start-column="32" selection-end-line="2902" selection-end-column="32" />
+            <state relative-caret-position="267">
+              <caret line="2944" column="18" selection-start-line="2944" selection-start-column="18" selection-end-line="2944" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -65,56 +86,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/global-js/sliders.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+            <state relative-caret-position="528">
+              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../alex cms/js/global.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="156" selection-start-line="156" selection-end-line="202" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stopro.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/team.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trade-in.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/visual.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -132,36 +108,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>main-block</find>
-      <find>@</find>
-      <find>valo-its</find>
-      <find>1250</find>
-      <find>.main-slider .owl-next</find>
-      <find>constructionText</find>
-      <find>owl-nav</find>
-      <find>fancy</find>
-      <find>fancy&quot;</find>
-      <find>.construction-progress_cameras__choose-camera</find>
-      <find>construction-progress_cameras__choose-camera</find>
-      <find>.valo-location__map-block_map</find>
-      <find>main-wrapper</find>
-      <find>map</find>
-      <find>750</find>
       <find>camera2</find>
       <find>header__bottom-container__right_label</find>
-      <find>work-invest-slider</find>
       <find>work-invest__cards__card__bottom</find>
       <find>default-owl-slider</find>
       <find>work-invest__cards&quot;</find>
       <find>.work-invest__cards</find>
-      <find>.work-invest__cards</find>
       <find>Инвестиции, которые работают</find>
-      <find>work-invest__cards</find>
       <find />
       <find>owl-next</find>
+      <find>27</find>
       <find>qweqwe</find>
-      <find>work-invest__cards</find>
+      <find>1</find>
       <find>.work-invest__cards__card</find>
+      <find>.complex-plan__choose-corp</find>
+      <find>.complex-plan__choose-corp__buttons</find>
+      <find>650</find>
+      <find>750</find>
+      <find>firstCorp</find>
+      <find>corp1Btn</find>
+      <find>complex-plan__choose-corp__buttons_label</find>
+      <find>complex-plan__choose-corp__buttons_label_btn</find>
+      <find>complex-plan__choose-corp__buttons</find>
+      <find>hostel-technology</find>
+      <find>.main-partners__slider .owl-next</find>
+      <find>work-invest-slider</find>
+      <find>1250</find>
+      <find>work-invest</find>
+      <find>work-invest__cards</find>
+      <find>work-invest__cards__card</find>
+      <find>.main-partners__slider .owl-prev</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -173,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/Downloads/Telegram Desktop/section (1) (3).json" />
         <option value="$USER_HOME$/Downloads/Telegram Desktop/section (1) (4).json" />
         <option value="$PROJECT_DIR$/global-js/visual.js" />
         <option value="$PROJECT_DIR$/global-js/commerce-floors.js" />
@@ -218,11 +193,12 @@
         <option value="$PROJECT_DIR$/trade-in.html" />
         <option value="$PROJECT_DIR$/visual.html" />
         <option value="$PROJECT_DIR$/visual-floor.html" />
-        <option value="$PROJECT_DIR$/global-js/index.js" />
         <option value="$PROJECT_DIR$/../alex cms/js/script.js" />
-        <option value="$PROJECT_DIR$/global-css/responsive.css" />
+        <option value="$PROJECT_DIR$/../alex cms/js/global.js" />
+        <option value="$PROJECT_DIR$/global-js/index.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/global-js/sliders.js" />
+        <option value="$PROJECT_DIR$/global-css/responsive.css" />
         <option value="$PROJECT_DIR$/global-css/style.css" />
       </list>
     </option>
@@ -238,7 +214,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,10 +226,16 @@
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="global-css" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="global-js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -365,18 +346,19 @@
       <workItem from="1576841097082" duration="1287000" />
       <workItem from="1576849105687" duration="3196000" />
       <workItem from="1576857803601" duration="1833000" />
-      <workItem from="1577177788129" duration="5654000" />
+      <workItem from="1577177788129" duration="16881000" />
+      <workItem from="1577275927922" duration="3351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="306580000" />
+    <option name="totallyTimeSpent" value="321158000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22497366" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22497366" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -457,16 +439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8279">
           <caret line="487" column="7" selection-start-line="487" selection-start-column="3" selection-end-line="487" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/global-js/apartments-floors.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3468">
-          <caret line="204" column="54" selection-start-line="204" selection-start-column="54" selection-end-line="204" selection-end-column="54" />
-          <folding>
-            <marker date="1576457846225" expanded="true" signature="14981:14982" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -686,13 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/global-js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1887">
-          <caret line="111" column="19" lean-forward="true" selection-start-line="111" selection-start-column="19" selection-end-line="111" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stopro.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -707,13 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trade-in.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/visual.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -721,31 +679,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/global-js/visual.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-169">
-          <caret line="30" column="128" selection-start-line="30" selection-start-column="128" selection-end-line="30" selection-end-column="128" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../alex cms/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
+        <state relative-caret-position="744">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../alex cms/js/global.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="156" selection-start-line="156" selection-end-line="202" selection-end-column="3" />
+        <state relative-caret-position="781">
+          <caret line="32" selection-start-line="32" selection-end-line="40" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trade-in.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global-js/visual.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="128" selection-start-line="30" selection-start-column="128" selection-end-line="30" selection-end-column="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global-js/apartments-floors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5933">
+          <caret line="349" column="30" selection-start-line="349" selection-start-column="30" selection-end-line="349" selection-end-column="52" />
+          <folding>
+            <marker date="1576457846225" expanded="true" signature="14981:14982" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global-js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="1287" column="35" selection-start-line="1287" selection-start-column="24" selection-end-line="1287" selection-end-column="35" />
+        <state relative-caret-position="470">
+          <caret line="1242" column="46" selection-start-line="1242" selection-start-column="28" selection-end-line="1242" selection-end-column="46" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -755,8 +737,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/global-js/sliders.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        <state relative-caret-position="528">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -765,15 +747,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/global-css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="2902" column="32" selection-start-line="2902" selection-start-column="32" selection-end-line="2902" selection-end-column="32" />
+        <state relative-caret-position="267">
+          <caret line="2944" column="18" selection-start-line="2944" selection-start-column="18" selection-end-line="2944" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/global-css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="1589" column="24" selection-start-line="1589" selection-start-column="24" selection-end-line="1589" selection-end-column="24" />
+        <state relative-caret-position="706">
+          <caret line="10215" column="4" selection-start-line="10215" selection-start-column="4" selection-end-line="10215" selection-end-column="4" />
         </state>
       </provider>
     </entry>

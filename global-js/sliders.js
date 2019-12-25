@@ -20,9 +20,18 @@ if ($('.work-invest__cards')) {
         dots: false,
         nav: true,
         autoplay: false,
-        items: 3
+        items: 3,
+        responsive: {
+            0: {
+                items: 1
+            },
+            1251: {
+                items: 3
+            }
+        }
     })
 }
+
 
 if ($('.main-partners__slider')) {
     $('.main-partners__slider').owlCarousel({
