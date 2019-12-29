@@ -2377,6 +2377,19 @@
         z-index: 1;
     }
     /*404*/
+    /*404v2*/
+    .error-page2 {
+        background: url(../img/404v2.png) no-repeat top center / cover;
+    }
+    .mobile-404 {
+        margin-top: 60px;
+        font-size: 247px;
+        font-weight: 900;
+        text-align: center;
+        color: #fff;
+        display: block;
+    }
+    /*404v2*/
 }
 @media screen and (max-width: 1200px)  {
     .complex-plan {
@@ -6122,6 +6135,11 @@
         width: 100%;
     }
     /*404*/
+    /*404v2*/
+    .mobile-404 {
+        font-size: 146px;
+    }
+    /*404v2*/
 }
 @media screen  and (max-width: 650px) {
     /*Карта объекта*/

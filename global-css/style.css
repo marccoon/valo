@@ -10276,3 +10276,27 @@ area {
 }
 
 /*404*/
+/*404v2*/
+.error-page2 {
+    background: url(../img/404v2.png) no-repeat center top  / cover;
+}
+.error-page2 .error-section_main {
+    color: #fff;
+}
+.error-page2 .error-section__main_sub-main {
+    color: #fff;
+}
+.error-section__content__right_text {
+    font-size: 300px;
+    color: #fff;
+    font-weight: 900;
+}
+.error-section__buttons-abs {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.mobile-404 {
+    display: none;
+}
+/*404v2*/
