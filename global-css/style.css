@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
 
 * {
     padding: 0;
@@ -10214,3 +10214,65 @@ area {
 }
 
 /*Агенства*/
+/*404*/
+.error-section {
+    height: calc(100vh - 265px);
+    background: url(../img/404.png) no-repeat center center / cover;
+}
+.error-section__content {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.error-section_main {
+    font-size: 100px;
+    color: #1c2840;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+.error-section__main_sub-main {
+    font-size: 24px;
+    color: #1c2840;
+    margin-top: 20px;
+}
+.error-section_btn {
+    width: 300px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #57b5bb;
+    border: 1px solid transparent;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 45px;
+}
+.error-section_btn:hover {
+    background: #fff;
+    color: #57b5bb;
+    border: 1px solid #57b5bb;
+}
+.error-section__content__right_404 {
+    font-size: 300px;
+    color: #1c2840;
+    font-weight: 900;
+}
+.error-section__content__right {
+    margin-left: 80px;
+}
+.error-section__buttons {
+    display: flex;
+    margin-top: 145px;
+    width: 100%;
+    justify-content: space-between;
+}
+.error-section__content__left {
+    width: 100%;
+}
+.error-section__content__left_img {
+    display: none;
+}
+
+/*404*/

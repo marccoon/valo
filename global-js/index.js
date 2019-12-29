@@ -37,13 +37,16 @@ window.onload = function () {
     $('#corp5Btn').change(function () {getColor('#corp5Btn', '#fiveCorp','#thirdCorp','#secondCorp','#firstCorp','#fourCorp')});
 
     $('.complex-plan__choose-corp__buttons_label').click(function () {
-        topy  = $('#description').offset().top;
+        let topy  = $('#description').offset().top;
         $('body,html').animate({scrollTop: topy}, 500);
-
     });
 
-    $('.complex-plan').click(function (e) {
+    $('.how-to-buy__choose-buttons_radio').click(function () {
+        let topy  = $('.buy-variants').offset().top;
+        $('body,html').animate({scrollTop: topy}, 500);
+    })
 
+    $('.complex-plan').click(function (e) {
         if (e.target === corp1) {
             $('#corp1Btn').prop('checked', true);
             $('.complex-plan__choose-corp__buttons_label_btn').removeClass('white-bg');
@@ -110,24 +113,32 @@ window.onload = function () {
     });
 
 
+    $('.construction-progress_cameras__choose-camera__buttons_btn').click(function () {
+        if ($(this).attr('id') === 'camera1Btn') {
+            $('.construction-progress__live-camera').fadeIn(1000);
+            $('.construction-progress__live-camera__container_in iframe')
+                .attr('src','https://webcam.exdesign.ru/valo/?fluid')
+                .attr('height',  $('.construction-progress__live-camera__container_in').width() * 0.56);
+        } else if ($(this).attr('id') === 'camera2Btn') {
+            $('.construction-progress__live-camera').fadeIn(1000);
+            $('.construction-progress__live-camera__container_in iframe')
+                .attr('src','https://webcam.exdesign.ru/valo-2/?fluid')
+                .attr('height',  $('.construction-progress__live-camera__container_in').width() * 0.56);
+        } else if ($(this).attr('id') === 'camera3Btn') {
+            $('.construction-progress__live-camera').fadeIn(1000);
+            $('.construction-progress__live-camera__container_in iframe')
+                .attr('src','https://webcam.exdesign.ru/valo-3/?fluid')
+                .attr('height',  $('.construction-progress__live-camera__container_in').width() * 0.56);
+        }
+    });
 
-    $('#camera1Btn').click(function () {
-        $('#camera1').fadeIn(1000);
-        $('.construction-progress__live-camera__container_in iframe').attr('height',  $('.construction-progress__live-camera__container_in').width() * 0.56)
-    });
-    $('.closeVideoBtn').click(function () {
-        $('.popup').fadeOut(1000);
-    });
-    $('#camera2Btn').click(function () {
-        $('#camera2').fadeIn(1000);
-    });
-    $('#camera3Btn').click(function () {
-        $('#camera3').fadeIn(1000);
+    $('.modal-cross').click(function () {
+        $('.construction-progress__live-camera').fadeOut(1000);
     });
 
-    $('.loader').fadeOut(500)
+    $('.loader').fadeOut(500);
 
-    function init(){
+    function init() {
         var myMap = new ymaps.Map("indexMap", {
                 center: [59.885247874191926,30.36760814613051],
                 zoom: 14,

@@ -2329,6 +2329,54 @@
         margin-top: 45px;
     }
     /*агенства*/
+    /*404*/
+    .error-section {
+        background: url(../img/4042.png) center center /  cover;
+        height: calc(100vh - 265px);
+        position: relative;
+    }
+    .error-section_main {
+        margin-top: 50px;
+    }
+    .error-section__content {
+        align-items: normal;
+    }
+    .error-section__content__left_img {
+        display: block;
+        margin-top: 55px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        pointer-events: none;
+    }
+    .error-section__buttons {
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+        z-index: 1;
+        position: absolute;
+        width: 640px;
+        bottom: 0;
+    }
+    .error-section__buttons .content-top-menu__item {
+        display: block;
+        margin-top: 20px;
+    }
+    .error-section {
+        min-height: 885px;
+    }
+    .error-section_main {
+        position: relative;
+        z-index: 1;
+    }
+    .error-section__main_sub-main {
+        position: relative;
+        z-index: 1;
+    }
+    .error-section_btn {
+        position: relative;
+        z-index: 1;
+    }
+    /*404*/
 }
 @media screen and (max-width: 1200px)  {
     .complex-plan {
@@ -6059,6 +6107,21 @@
         width: 20px;
     }
     /*плеер*/
+    /*404*/
+    .error-section_btn {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .error-section__buttons {
+        display: none;
+    }
+    .error-section {
+        min-height: 100vh;
+    }
+    .error-section__content__left_img {
+        width: 100%;
+    }
+    /*404*/
 }
 @media screen  and (max-width: 650px) {
     /*Карта объекта*/
