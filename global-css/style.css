@@ -10219,6 +10219,7 @@ area {
 .error-section {
     height: calc(100vh - 265px);
     background: url(../img/404.png) no-repeat center center / cover;
+    min-height: 550px;
 }
 .error-section__content {
     display: flex;

@@ -269,7 +269,7 @@ window.onload = function () {
             } else {
                 for (var i = 0; i < defaultCoordsArr.length; i++) {
                     if (i % 2 !== 1) {
-                        percentArray.push(defaultCoordsArr[i] / 11.31)
+                        percentArray.push(defaultCoordsArr[i] / 10.69)
                     } else {
                         percentArray.push(defaultCoordsArr[i] / 39.11)
                     }
