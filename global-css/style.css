@@ -9441,7 +9441,7 @@ map {
 }
 .commerce-choose__container__floors-btns2 {
     height: 400px;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 .commerce-choose__container__floors-btns2 {
     justify-content: normal;
@@ -10097,6 +10097,7 @@ area {
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
+    height: 30px;
 }
 .description-apart__ul-left {
     margin-right: 20px;

@@ -148,7 +148,6 @@ window.onload = function () {
         var floorsArray = [];
         var secondFloorsArray = [];
 
-        // Новый код
         //JSON с этажами в переменную
         var corpusFloorsJSON = (function () {
             var corpusFloorsJSON = null;
@@ -353,7 +352,6 @@ window.onload = function () {
                 }
             }
         }
-     // Новый код конец
 
         // Выгружаем из JSON-а инфу о корпусе ввеху страницы
         for (key in corpusesJSON) {
