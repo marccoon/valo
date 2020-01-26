@@ -163,7 +163,6 @@ window.onload = function () {
         return corpusFloorsJSON;
     })();
 
-    console.log(corpusFloorsJSON)
     for (key in corpusFloorsJSON[currentCorpus]) {
         floorsCounter++
         let currentFloorName = key;
@@ -176,202 +175,401 @@ window.onload = function () {
     }
 
     function addSVG (coords, color, className, type, view, square, basePrice, stoPro, status, link, apartNumber) {
-        let imgWidthPersent = $('.commerce-choose__container__floors-btns_img').width() / 100;
-        let imgHeigthPersent = $('.commerce-choose__container__floors-btns_img').height() / 100;
-        let defaultCoordsArr = (coords.split(','));
-        let percentArray = [];
-        let newCoords = "";
+        if (status === 'Продано!') {
+            let imgWidthPersent = $('.commerce-choose__container__floors-btns_img').width() / 100;
+            let imgHeigthPersent = $('.commerce-choose__container__floors-btns_img').height() / 100;
+            let defaultCoordsArr = (coords.split(','));
+            let percentArray = [];
+            let newCoords = "";
 
-        //В зависимости от корпуса, этажа и размера картинки находим 1% от их размера
-        //Картинки разного размера. Это делается для сохраниния пропорций и корректного
-        // отображения SVG
-        if (currentCorpus === 'section1') {
-            if (currentFloor === "floor1") {
-                for (var i = 0; i < defaultCoordsArr.length; i++) {
-                    if (i % 2 !== 1) {
-                        percentArray.push(defaultCoordsArr[i] / 17.05)
-                    } else {
-                        percentArray.push(defaultCoordsArr[i] / 15.98)
+            //В зависимости от корпуса, этажа и размера картинки находим 1% от их размера
+            //Картинки разного размера. Это делается для сохраниния пропорций и корректного
+            // отображения SVG
+            if (currentCorpus === 'section1') {
+                if (currentFloor === "floor1") {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 17.05)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 15.98)
+                        }
+                    }
+                } else {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 17.34)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 16.18)
+                        }
                     }
                 }
-            } else {
-                for (var i = 0; i < defaultCoordsArr.length; i++) {
-                    if (i % 2 !== 1) {
-                        percentArray.push(defaultCoordsArr[i] / 17.34)
-                    } else {
-                        percentArray.push(defaultCoordsArr[i] / 16.18)
+            } else if (currentCorpus === 'section2') {
+                if (currentFloor === "floor1") {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 24.06)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 15.95)
+                        }
+                    }
+                } else {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 23.99)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 16.58)
+                        }
+                    }
+                }
+            }else if (currentCorpus === 'section3') {
+                if (currentFloor === "floor1") {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 22.17)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 15.87)
+                        }
+                    }
+                } else {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 24.12)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 18.28)
+                        }
+                    }
+                }
+            } else if (currentCorpus === 'section4') {
+                if (currentFloor === "floor1") {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 16.52)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 15.45)
+                        }
+                    }
+                } else {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 15.98)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 15.44)
+                        }
+                    }
+                }
+            } else if (currentCorpus === 'corpus2') {
+                if (currentFloor === 'floor1') {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 11.24)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 39.11)
+                        }
+                    }
+                } else {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 10.69)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 39.11)
+                        }
+                    }
+                }
+            } else if (currentCorpus === 'corpus3') {
+                if (currentFloor === 'floor1') {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 11.31)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 39.31)
+                        }
+                    }
+                } else {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 10.75)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 39.31)
+                        }
+                    }
+                }
+            } else if (currentCorpus === 'corpus4') {
+                if (currentFloor === 'floor1') {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 11.75)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 39.40)
+                        }
+                    }
+                } else {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 11.25)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 39.40)
+                        }
+                    }
+                }
+            } else if (currentCorpus === 'corpus5') {
+                if (currentFloor === 'floor1') {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 12.85)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 39.59)
+                        }
+                    }
+                } else {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 11.81)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 39.01)
+                        }
                     }
                 }
             }
-        } else if (currentCorpus === 'section2') {
-            if (currentFloor === "floor1") {
-                for (var i = 0; i < defaultCoordsArr.length; i++) {
-                    if (i % 2 !== 1) {
-                        percentArray.push(defaultCoordsArr[i] / 24.06)
-                    } else {
-                        percentArray.push(defaultCoordsArr[i] / 15.95)
+
+            // Пересчитываем координаты в соответствии с размером картинки
+            for (var i = 0; i < percentArray.length; i++) {
+                if (i % 2 !== 1) {
+                    newCoords += Math.round(imgWidthPersent * percentArray[i])+ ',';
+                } else {
+                    newCoords += Math.round(imgHeigthPersent * percentArray[i]) + ',';
+                }
+            }
+
+            // убираем последниюю запятую в массиве, чтобы SVG.js не лагал
+            newCoords = newCoords.slice(0, -1);
+
+            //Рисуем новый полигон
+            let currentClass = 'visual-floor-svg-' + className;
+
+            let polygon = draw.polygon(newCoords)
+                .fill('transparent')
+                .addClass(currentClass)
+                .addClass('visual-floor-svg');
+
+            //Принаведении на этот полигон показываем SVG
+            $('.' + currentClass).hover(function () {
+                $(this).attr('fill', 'rgba(118, 118, 118, 0.79)');
+                $('#bSquare').text('').append(square);
+                $('#bStatus').text('Нет в наличии');
+                $('#bNumber').text(apartNumber);
+                $('.description-apart.sold').css('display', 'flex');
+            }, function () {
+                $(this).attr('fill', 'transparent');
+                $('.description-apart.sold').hide()
+            });
+
+            $('.' + currentClass).mousemove(function (event) {
+                $('.description-apart.sold')
+                    .css('left', event.clientX + 10)
+                    .css('top', event.clientY + 10)
+            });
+        } else {
+            let imgWidthPersent = $('.commerce-choose__container__floors-btns_img').width() / 100;
+            let imgHeigthPersent = $('.commerce-choose__container__floors-btns_img').height() / 100;
+            let defaultCoordsArr = (coords.split(','));
+            let percentArray = [];
+            let newCoords = "";
+
+            //В зависимости от корпуса, этажа и размера картинки находим 1% от их размера
+            //Картинки разного размера. Это делается для сохраниния пропорций и корректного
+            // отображения SVG
+            if (currentCorpus === 'section1') {
+                if (currentFloor === "floor1") {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 17.05)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 15.98)
+                        }
+                    }
+                } else {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 17.34)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 16.18)
+                        }
                     }
                 }
-            } else {
-                for (var i = 0; i < defaultCoordsArr.length; i++) {
-                    if (i % 2 !== 1) {
-                        percentArray.push(defaultCoordsArr[i] / 23.99)
-                    } else {
-                        percentArray.push(defaultCoordsArr[i] / 16.58)
+            } else if (currentCorpus === 'section2') {
+                if (currentFloor === "floor1") {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 24.06)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 15.95)
+                        }
+                    }
+                } else {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 23.99)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 16.58)
+                        }
+                    }
+                }
+            } else if (currentCorpus === 'section3') {
+                if (currentFloor === "floor1") {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 22.17)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 15.87)
+                        }
+                    }
+                } else {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 24.12)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 18.28)
+                        }
+                    }
+                }
+            } else if (currentCorpus === 'section4') {
+                if (currentFloor === "floor1") {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 16.52)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 15.45)
+                        }
+                    }
+                } else {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 15.98)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 15.44)
+                        }
+                    }
+                }
+            } else if (currentCorpus === 'corpus2') {
+                if (currentFloor === 'floor1') {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 11.24)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 39.11)
+                        }
+                    }
+                } else {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 10.69)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 39.11)
+                        }
+                    }
+                }
+            } else if (currentCorpus === 'corpus3') {
+                if (currentFloor === 'floor1') {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 11.31)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 39.31)
+                        }
+                    }
+                } else {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 10.75)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 39.31)
+                        }
+                    }
+                }
+            } else if (currentCorpus === 'corpus4') {
+                if (currentFloor === 'floor1') {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 11.75)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 39.40)
+                        }
+                    }
+                } else {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 11.25)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 39.40)
+                        }
+                    }
+                }
+            } else if (currentCorpus === 'corpus5') {
+                if (currentFloor === 'floor1') {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 12.85)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 39.59)
+                        }
+                    }
+                } else {
+                    for (var i = 0; i < defaultCoordsArr.length; i++) {
+                        if (i % 2 !== 1) {
+                            percentArray.push(defaultCoordsArr[i] / 11.81)
+                        } else {
+                            percentArray.push(defaultCoordsArr[i] / 39.01)
+                        }
                     }
                 }
             }
-        }else if (currentCorpus === 'section3') {
-            if (currentFloor === "floor1") {
-                for (var i = 0; i < defaultCoordsArr.length; i++) {
-                    if (i % 2 !== 1) {
-                        percentArray.push(defaultCoordsArr[i] / 22.17)
-                    } else {
-                        percentArray.push(defaultCoordsArr[i] / 15.87)
-                    }
-                }
-            } else {
-                for (var i = 0; i < defaultCoordsArr.length; i++) {
-                    if (i % 2 !== 1) {
-                        percentArray.push(defaultCoordsArr[i] / 24.12)
-                    } else {
-                        percentArray.push(defaultCoordsArr[i] / 18.28)
-                    }
+
+            // Пересчитываем координаты в соответствии с размером картинки
+            for (var i = 0; i < percentArray.length; i++) {
+                if (i % 2 !== 1) {
+                    newCoords += Math.round(imgWidthPersent * percentArray[i])+ ',';
+                } else {
+                    newCoords += Math.round(imgHeigthPersent * percentArray[i]) + ',';
                 }
             }
-        } else if (currentCorpus === 'section4') {
-            if (currentFloor === "floor1") {
-                for (var i = 0; i < defaultCoordsArr.length; i++) {
-                    if (i % 2 !== 1) {
-                        percentArray.push(defaultCoordsArr[i] / 16.52)
-                    } else {
-                        percentArray.push(defaultCoordsArr[i] / 15.45)
-                    }
-                }
-            } else {
-                for (var i = 0; i < defaultCoordsArr.length; i++) {
-                    if (i % 2 !== 1) {
-                        percentArray.push(defaultCoordsArr[i] / 15.98)
-                    } else {
-                        percentArray.push(defaultCoordsArr[i] / 15.44)
-                    }
-                }
-            }
-        } else if (currentCorpus === 'corpus2') {
-            if (currentFloor === 'floor1') {
-                for (var i = 0; i < defaultCoordsArr.length; i++) {
-                    if (i % 2 !== 1) {
-                        percentArray.push(defaultCoordsArr[i] / 11.24)
-                    } else {
-                        percentArray.push(defaultCoordsArr[i] / 39.11)
-                    }
-                }
-            } else {
-                for (var i = 0; i < defaultCoordsArr.length; i++) {
-                    if (i % 2 !== 1) {
-                        percentArray.push(defaultCoordsArr[i] / 10.69)
-                    } else {
-                        percentArray.push(defaultCoordsArr[i] / 39.11)
-                    }
-                }
-            }
-        } else if (currentCorpus === 'corpus3') {
-            if (currentFloor === 'floor1') {
-                for (var i = 0; i < defaultCoordsArr.length; i++) {
-                    if (i % 2 !== 1) {
-                        percentArray.push(defaultCoordsArr[i] / 11.31)
-                    } else {
-                        percentArray.push(defaultCoordsArr[i] / 39.31)
-                    }
-                }
-            } else {
-                for (var i = 0; i < defaultCoordsArr.length; i++) {
-                    if (i % 2 !== 1) {
-                        percentArray.push(defaultCoordsArr[i] / 10.75)
-                    } else {
-                        percentArray.push(defaultCoordsArr[i] / 39.31)
-                    }
-                }
-            }
-        } else if (currentCorpus === 'corpus4') {
-            if (currentFloor === 'floor1') {
-                for (var i = 0; i < defaultCoordsArr.length; i++) {
-                    if (i % 2 !== 1) {
-                        percentArray.push(defaultCoordsArr[i] / 11.75)
-                    } else {
-                        percentArray.push(defaultCoordsArr[i] / 39.40)
-                    }
-                }
-            } else {
-                for (var i = 0; i < defaultCoordsArr.length; i++) {
-                    if (i % 2 !== 1) {
-                        percentArray.push(defaultCoordsArr[i] / 11.25)
-                    } else {
-                        percentArray.push(defaultCoordsArr[i] / 39.40)
-                    }
-                }
-            }
-        } else if (currentCorpus === 'corpus5') {
-            if (currentFloor === 'floor1') {
-                for (var i = 0; i < defaultCoordsArr.length; i++) {
-                    if (i % 2 !== 1) {
-                        percentArray.push(defaultCoordsArr[i] / 12.85)
-                    } else {
-                        percentArray.push(defaultCoordsArr[i] / 39.59)
-                    }
-                }
-            } else {
-                for (var i = 0; i < defaultCoordsArr.length; i++) {
-                    if (i % 2 !== 1) {
-                        percentArray.push(defaultCoordsArr[i] / 11.81)
-                    } else {
-                        percentArray.push(defaultCoordsArr[i] / 39.01)
-                    }
-                }
-            }
+
+            // убираем последниюю запятую в массиве, чтобы SVG.js не лагал
+            newCoords = newCoords.slice(0, -1);
+
+            //Рисуем новый полигон
+            let currentClass = 'visual-floor-svg-' + className;
+
+            let polygon = draw.polygon(newCoords)
+                .fill('transparent')
+                .addClass(currentClass)
+                .addClass('visual-floor-svg');
+
+            //Принаведении на этот полигон показываем SVG
+            $('.' + currentClass).hover(function (event) {
+                $(this).attr('fill', color);
+                $('#aType').text(type);
+                $('#aView').text(view);
+                $('#aSquare').text('').append(square);
+                $('#aBasePrice').text(basePrice);
+                $('#aStoProPrice').text(stoPro);
+                $('#aStatus').text(status);
+                $('#aNumber').text(apartNumber);
+                $('.description-apart.sale').css('display', 'flex');
+            }, function () {
+                $(this).attr('fill', 'transparent');
+                $('.description-apart.sale').hide()
+            });
+
+            $('.' + currentClass).mousemove(function (e) {
+                $('.description-apart.sale')
+                    .css('left', event.clientX + 10)
+                    .css('top', event.clientY + 10)
+            });
+
+            $('.' + currentClass).click(function () {
+                location.href = link;
+            })
         }
-
-        // Пересчитываем координаты в соответствии с размером картинки
-        for (var i = 0; i < percentArray.length; i++) {
-            if (i % 2 !== 1) {
-                newCoords += Math.round(imgWidthPersent * percentArray[i])+ ',';
-            } else {
-                newCoords += Math.round(imgHeigthPersent * percentArray[i]) + ',';
-            }
-        }
-
-        // убираем последниюю запятую в массиве, чтобы SVG.js не лагал
-        newCoords = newCoords.slice(0, -1);
-
-        //Рисуем новый полигон
-        let currentClass = 'visual-floor-svg-' + className;
-
-        let polygon = draw.polygon(newCoords)
-            .fill('transparent')
-            .addClass(currentClass)
-            .addClass('visual-floor-svg');
-
-        //Принаведении на этот полигон показываем SVG
-        $('.' + currentClass).hover(function () {
-            $(this).attr('fill', color);
-            $('#aType').text(type);
-            $('#aView').text(view);
-            $('#aSquare').text('').append(square);
-            $('#aBasePrice').text(basePrice);
-            $('#aStoProPrice').text(stoPro);
-            $('#aStatus').text(status);
-            $('#aNumber').text(apartNumber);
-            $('.description-apart').css('left', this.getBoundingClientRect().x + 110)
-                .css('top', this.getBoundingClientRect().y)
-                .css('display', 'flex');
-        }, function () {
-            $(this).attr('fill', 'transparent');
-            $('.description-apart').hide()
-        });
-
-        $('.' + currentClass).click(function () {
-            location.href = link;
-        })
     }
 
     for (var i = 0; i < secondFloorsArray.length; i++) {

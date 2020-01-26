@@ -9141,7 +9141,9 @@ map {
     font-weight: 700;
 }
 .profit-programs__cards_card {
-    width: 390px;
+    width: 390px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
     height: 830px;
 }
 .profit-programs__cards_card1 {
@@ -9196,6 +9198,12 @@ map {
     justify-content: space-between;
     margin-top: 60px;
     padding-bottom: 60px;
+}
+.profit-programs__cards-arr-left {
+    left: 10px;
+}
+.profit-programs__cards-arr-right {
+    right: 10px;
 }
 .profit-programs__cards_card2 {
     background-color: #4177bb;

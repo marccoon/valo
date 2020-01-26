@@ -1848,6 +1848,10 @@
     .profit-programs__cards .circle-prev {
         left: -120px;
     }
+    .profit-programs__cards_card {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
     /*Доходные программы*/
     /*Портфельные программы*/
     .portfolio-programs__cards_card {
@@ -5537,7 +5541,7 @@
     }
     .profit-programs__cards_card {
         height: 720px;
-        width: 240px;
+        width: 240px !important;
     }
     .profit-programs__cards {
         width: 240px;

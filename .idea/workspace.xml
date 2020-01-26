@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2928e9c-2b8c-4773-a3f9-b7e0b0b56b7d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apartments-floors.html" beforeDir="false" afterPath="$PROJECT_DIR$/apartments-floors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commerce-floors.html" beforeDir="false" afterPath="$PROJECT_DIR$/commerce-floors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/global-css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/global-css/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/global-css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/global-css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/global-js/apartments-floors.js" beforeDir="false" afterPath="$PROJECT_DIR$/global-js/apartments-floors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/global-js/commerce-floors.js" beforeDir="false" afterPath="$PROJECT_DIR$/global-js/commerce-floors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/global-js/sliders.js" beforeDir="false" afterPath="$PROJECT_DIR$/global-js/sliders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsons/apartmentsFloorsJSON.json" beforeDir="false" afterPath="$PROJECT_DIR$/jsons/apartmentsFloorsJSON.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsons/corpusFloorsJSON.json" beforeDir="false" afterPath="$PROJECT_DIR$/jsons/corpusFloorsJSON.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profit-programs.html" beforeDir="false" afterPath="$PROJECT_DIR$/profit-programs.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,10 +31,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/instalment.html">
+        <entry file="file://$PROJECT_DIR$/apartments-floors.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            <state relative-caret-position="561">
+              <caret line="285" column="18" lean-forward="true" selection-start-line="285" selection-start-column="18" selection-end-line="285" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -33,44 +42,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/commerce-floors.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="280" column="134" selection-start-line="280" selection-start-column="81" selection-end-line="280" selection-end-column="134" />
+            <state relative-caret-position="-723">
+              <caret line="227" column="44" lean-forward="true" selection-start-line="227" selection-start-column="44" selection-end-line="227" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/visual.html">
+        <entry file="file://$PROJECT_DIR$/instalment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/global-css/responsive.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="5212" column="22" selection-start-line="5212" selection-start-column="22" selection-end-line="5212" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/404v2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="711">
-              <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/global-js/commerce-floors.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="273" column="68" selection-start-line="273" selection-start-column="68" selection-end-line="273" selection-end-column="68" />
+            <state relative-caret-position="17">
+              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -78,20 +60,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/global-js/apartments-floors.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="333" selection-start-line="333" selection-end-line="333" />
+            <state relative-caret-position="759">
+              <caret line="376" selection-start-line="376" selection-end-line="376" selection-end-column="58" />
               <folding>
-                <marker date="1577712437464" expanded="true" signature="14960:14961" ph="..." />
+                <marker date="1580046509616" expanded="true" signature="20504:20505" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsons/corpusFloorsJSON.json">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/global-js/commerce-floors.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-139">
-              <caret line="1533" column="66" selection-start-line="1533" selection-start-column="66" selection-end-line="1533" selection-end-column="66" />
+            <state relative-caret-position="567">
+              <caret line="366" column="44" selection-start-line="366" selection-start-column="44" selection-end-line="366" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -99,8 +81,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jsons/apartmentsFloorsJSON.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="44" />
+            <state relative-caret-position="649">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsons/commerce-choose.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsons/corpusFloorsJSON.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -108,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/global-css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="10221" column="21" selection-start-line="10221" selection-start-column="21" selection-end-line="10221" selection-end-column="21" />
+            <state relative-caret-position="282">
+              <caret line="10091" column="19" selection-start-line="10091" selection-start-column="1" selection-end-line="10091" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -127,20 +123,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>left-b</find>
-      <find>error-section_btn</find>
-      <find>.footer</find>
-      <find>error-section</find>
-      <find>error-section__buttons</find>
-      <find>.error-section__buttons</find>
-      <find>error-section__content__left_img</find>
-      <find>error-section__content</find>
-      <find>.error-page2</find>
-      <find>650</find>
-      <find>1200</find>
-      <find>commerce-choose__container__right__container_text commerce-choose__container__right__container_text2</find>
-      <find>default-dropdown_ul_li_link</find>
-      <find>bigImgSrc</find>
       <find>furn</find>
       <find>aFurniturePrice</find>
       <find>цена с</find>
@@ -157,6 +139,20 @@
       <find>коммер</find>
       <find>404v2</find>
       <find>.error-section</find>
+      <find>loader</find>
+      <find>index-slick</find>
+      <find>profit-programs__cards_card</find>
+      <find>profit-programs__cards</find>
+      <find>profit-programs__cards</find>
+      <find>1230</find>
+      <find>.profit-programs</find>
+      <find>.profit-programs__cards_card</find>
+      <find>.profit-programs__cards_card</find>
+      <find>color</find>
+      <find>status</find>
+      <find>description-apart</find>
+      <find>aType</find>
+      <find>description-apart</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -178,7 +174,6 @@
         <option value="$PROJECT_DIR$/agencies.html" />
         <option value="$PROJECT_DIR$/apartments.html" />
         <option value="$PROJECT_DIR$/apartments-choose.html" />
-        <option value="$PROJECT_DIR$/apartments-floors.html" />
         <option value="$PROJECT_DIR$/calculator.html" />
         <option value="$PROJECT_DIR$/commerce-choose.html" />
         <option value="$PROJECT_DIR$/company-blog.html" />
@@ -193,7 +188,6 @@
         <option value="$PROJECT_DIR$/location.html" />
         <option value="$PROJECT_DIR$/obj-card.html" />
         <option value="$PROJECT_DIR$/partners.html" />
-        <option value="$PROJECT_DIR$/profit-programs.html" />
         <option value="$PROJECT_DIR$/portfolio-programs.html" />
         <option value="$PROJECT_DIR$/s-page1.html" />
         <option value="$PROJECT_DIR$/services.html" />
@@ -204,7 +198,6 @@
         <option value="$PROJECT_DIR$/visual-floor.html" />
         <option value="$PROJECT_DIR$/../alex cms/js/script.js" />
         <option value="$PROJECT_DIR$/../alex cms/js/global.js" />
-        <option value="$PROJECT_DIR$/global-js/sliders.js" />
         <option value="$PROJECT_DIR$/global-js/index.js" />
         <option value="$PROJECT_DIR$/global-js/404.js" />
         <option value="$PROJECT_DIR$/index.html" />
@@ -212,12 +205,15 @@
         <option value="$PROJECT_DIR$/404.html" />
         <option value="$PROJECT_DIR$/404v2.html" />
         <option value="$PROJECT_DIR$/instalment.html" />
-        <option value="$PROJECT_DIR$/jsons/apartmentsFloorsJSON.json" />
-        <option value="$PROJECT_DIR$/global-js/apartments-floors.js" />
-        <option value="$PROJECT_DIR$/jsons/corpusFloorsJSON.json" />
-        <option value="$PROJECT_DIR$/commerce-floors.html" />
-        <option value="$PROJECT_DIR$/global-css/responsive.css" />
+        <option value="$PROJECT_DIR$/profit-programs.html" />
+        <option value="$PROJECT_DIR$/global-js/sliders.js" />
         <option value="$PROJECT_DIR$/global-css/style.css" />
+        <option value="$PROJECT_DIR$/global-css/responsive.css" />
+        <option value="$PROJECT_DIR$/jsons/apartmentsFloorsJSON.json" />
+        <option value="$PROJECT_DIR$/apartments-floors.html" />
+        <option value="$PROJECT_DIR$/commerce-floors.html" />
+        <option value="$PROJECT_DIR$/jsons/corpusFloorsJSON.json" />
+        <option value="$PROJECT_DIR$/global-js/apartments-floors.js" />
         <option value="$PROJECT_DIR$/global-js/commerce-floors.js" />
       </list>
     </option>
@@ -233,6 +229,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,11 +237,25 @@
               <item name="frontend" type="b2602c69:ProjectViewProjectNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="global-css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="global-js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="jsons" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -361,12 +372,14 @@
       <workItem from="1577631224060" duration="9708000" />
       <workItem from="1577707613858" duration="4131000" />
       <workItem from="1577738830546" duration="4250000" />
-      <workItem from="1577987011660" duration="7834000" />
+      <workItem from="1577987011660" duration="8455000" />
+      <workItem from="1579255409959" duration="767000" />
+      <workItem from="1579949515979" duration="8680000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="361982000" />
+    <option name="totallyTimeSpent" value="372050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -414,9 +427,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/global-js/portfolio-programs.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/global-js/location.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
@@ -571,13 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profit-programs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/portfolio-programs.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -624,16 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/global-js/sliders.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -690,24 +683,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apartments-floors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14365">
-          <caret line="845" selection-start-line="845" selection-end-line="845" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsons/visual-floors.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20768">
           <caret line="1004" column="5" selection-start-line="1004" selection-start-column="5" selection-end-line="1004" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/instalment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -718,62 +697,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsons/apartmentsFloorsJSON.json">
+    <entry file="file://$PROJECT_DIR$/profit-programs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="488">
+          <caret line="200" column="46" selection-start-line="200" selection-start-column="24" selection-end-line="200" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/global-js/apartments-floors.js">
+    <entry file="file://$PROJECT_DIR$/global-js/sliders.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="333" selection-start-line="333" selection-end-line="333" />
+        <state relative-caret-position="467">
+          <caret line="185" column="31" lean-forward="true" selection-start-line="185" selection-start-column="31" selection-end-line="185" selection-end-column="31" />
           <folding>
-            <marker date="1577712437464" expanded="true" signature="14960:14961" ph="..." />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsons/corpusFloorsJSON.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-139">
-          <caret line="1533" column="66" selection-start-line="1533" selection-start-column="66" selection-end-line="1533" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commerce-floors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="280" column="134" selection-start-line="280" selection-start-column="81" selection-end-line="280" selection-end-column="134" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/global-css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="5212" column="22" selection-start-line="5212" selection-start-column="22" selection-end-line="5212" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/404v2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
+        <state relative-caret-position="861">
+          <caret line="5543" column="32" selection-start-line="5543" selection-start-column="32" selection-end-line="5543" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/global-css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="10221" column="21" selection-start-line="10221" selection-start-column="21" selection-end-line="10221" selection-end-column="21" />
+        <state relative-caret-position="282">
+          <caret line="10091" column="19" selection-start-line="10091" selection-start-column="1" selection-end-line="10091" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404v2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="186" selection-start-line="186" selection-end-line="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsons/apartmentsFloorsJSON.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsons/commerce-choose.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsons/corpusFloorsJSON.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instalment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apartments-floors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="285" column="18" lean-forward="true" selection-start-line="285" selection-start-column="18" selection-end-line="285" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commerce-floors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-723">
+          <caret line="227" column="44" lean-forward="true" selection-start-line="227" selection-start-column="44" selection-end-line="227" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global-js/apartments-floors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="376" selection-start-line="376" selection-end-line="376" selection-end-column="58" />
+          <folding>
+            <marker date="1580046509616" expanded="true" signature="20504:20505" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/global-js/commerce-floors.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="273" column="68" selection-start-line="273" selection-start-column="68" selection-end-line="273" selection-end-column="68" />
+        <state relative-caret-position="567">
+          <caret line="366" column="44" selection-start-line="366" selection-start-column="44" selection-end-line="366" selection-end-column="44" />
         </state>
       </provider>
     </entry>

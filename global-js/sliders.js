@@ -174,6 +174,20 @@ if ($('.infrastructure-page__first-slider_slider')) {
         slidesToShow: 1,
     });
 }
+
+$('.profit-programs__cards').slick({
+    prevArrow:`<button type="button" class="circle-prev profit-programs__cards-arr-left"></button>`,
+    nextArrow: `<button type="button" class="circle-next profit-programs__cards-arr-right"></button>`,
+    slidesToShow: 3,
+    responsive: [
+        {
+            breakpoint: 1250,
+            settings: {
+                slidesToShow: 1
+            }
+        }
+        ]
+});
 //partners
 $('.partners-main__global__container__slider').slick({
     slidesToShow: 4,
