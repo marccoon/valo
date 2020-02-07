@@ -8169,6 +8169,9 @@ map {
     margin-left: auto;
     margin-right: auto;
 }
+.commerce-choose__container__right .partners-wrapper {
+    width: auto;
+}
 .commerce-choose__container__right__container {
     padding-top: 82px;
 }
