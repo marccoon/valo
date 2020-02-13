@@ -264,9 +264,10 @@ window.onload = function () {
                     .addClass(currentClass)
                     .addClass('visual-floor-svg');
 
+                $('.' + currentClass).attr('fill', 'rgba(118, 118, 118, 0.59)');
                 //Принаведении на этот полигон показываем SVG
                 $('.' + currentClass).hover(function () {
-                    $(this).attr('fill', 'rgba(118, 118, 118, 0.79)');
+                    $(this).attr('fill', 'rgba(118, 118, 118, 0.59)');
                     $('#bSquare').text('').append(square);
                     $('#bStatus').text('Нет в наличии');
                     $('#bNumber').text(apartNumber);
@@ -274,7 +275,7 @@ window.onload = function () {
                         .css('top', this.getBoundingClientRect().y)
                         .css('display', 'flex');
                 }, function () {
-                    $(this).attr('fill', 'transparent');
+                    $(this).attr('fill', 'rgba(118, 118, 118, 0.59)');
                     $('.description-apart.sold').hide()
                 });
 
