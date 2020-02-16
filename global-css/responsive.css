@@ -137,6 +137,11 @@
         width: 100%;
     }
     /*Апартаменты*/
+    /*Аренда*/
+    .rent__top__container__triangle {
+        display: none;
+    }
+    /*Аренда*/
 }
 @media screen and (max-width: 1577px) {
     /*trade-in*/
@@ -2394,6 +2399,54 @@
         display: block;
     }
     /*404v2*/
+    /*Аренда*/
+    .rent__top__container__text {
+        padding: 10px;
+        text-align: center;
+    }
+    .rent__container {
+        flex-direction: column;
+        height: auto;
+    }
+    .rent__container__item {
+        width: 100%;
+        height: 325px;
+    }
+    .rent__container__item:hover {
+        width: auto;
+    }
+    .rent__container__item__mask {
+        opacity: 1;
+    }
+    .rent__container__item__mask__content {
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .rent__container__item__mask__content.right {
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .rent__container__center {
+        display: none;
+    }
+    /*Аренда*/
+    /*ход строительства*/
+    .building__cameras__container {
+        flex-wrap: wrap;
+    }
+    .shub-slider_item__name-mask {
+        width: 500px;
+        height: 340px;
+    }
+    .building__time {
+        margin-right: 70px;
+    }
+    .building__cameras__container__card:nth-child(n+3) {
+        margin-top: 30px;
+    }
+    /*ход строительства*/
 }
 @media screen and (max-width: 1200px)  {
     .complex-plan {
@@ -6147,6 +6200,71 @@
         font-size: 146px;
     }
     /*404v2*/
+    /*Аренда*/
+    .rent__container__item__mask__content {
+        width: 285px;
+    }
+    .rent__container__item  {
+        height: 200px;
+    }
+    .rent__container__item__mask__content__big-text {
+        font-size: 24px;
+    }
+    .rent__container__item__mask__content__small-text {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .rent__container__item__mask__content__btn {
+        width: 200px;
+        height: 35px;
+        font-size: 12px;
+    }
+    .rent__container__item__mask__content.right {
+        width: 285px;
+    }
+    .rent__top__container__text {
+        font-size: 14px;
+    }
+    .rent__top {
+        height: auto;
+        padding: 10px;
+    }
+    /*Аренда*/
+    /*ход строительства*/
+    .building__cameras__container__card {
+        width: 130px;
+    }
+    .building__cameras__container__card_img {
+        width: 100%;
+    }
+    .building__cameras__container__card_btn {
+        margin-bottom: 15px;
+    }
+    .building__cameras__container__card:nth-child(n+3) {
+        margin-top: 15px;
+    }
+    .building__cameras {
+        margin-top: 35px;
+    }
+    .building__time {
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .building__time__img {
+        width: 40px;
+        height: 40px;
+    }
+    .building__time {
+        margin-bottom: 20px;
+    }
+    .building__bold-text {
+        font-size: 14px;
+    }
+    .building__text {
+        font-size: 14px;
+    }
+    /*ход строительства*/
 }
 @media screen  and (max-width: 650px) {
     /*Карта объекта*/

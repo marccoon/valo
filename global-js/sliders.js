@@ -245,8 +245,8 @@ if ($('.shub-slider') || $('.shub-slider2')) {
             {
                 breakpoint: 1250,
                 settings: {
+                    rows: 1,
                     slidesToShow: 1,
-                    rows: 1
                 }
             },
         ]

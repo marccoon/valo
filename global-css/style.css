@@ -10313,3 +10313,200 @@ area {
     display: none;
 }
 /*404v2*/
+/*Аренда*/
+.rent__top {
+    position: relative;
+    background: url(../img/rent-top.png) center center / cover;
+    height: 148px;
+    padding: 25px 28px;
+}
+.rent__top__container {
+    border: 2px solid #e5e6ec;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rent__top__container__text {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+}
+.rent__top__container__triangle {
+    background: url(../img/let.png) center center / 100% 100%;
+    position: absolute;
+    bottom: -23px;
+    left: calc(50% - 790px);
+    width: 43px;
+    height: 23px;
+    z-index: 1;
+}
+.rent__top__container__triangle.right {
+    background: url(../img/rit.png) center center / 100% 100%;
+    left: calc(50% + 157px);
+    width: 43px;
+    height: 23px;
+}
+.rent__container {
+    height: 328px;
+    display: flex;
+}
+.rent__container__center {
+    width: 4px;
+    background: #1c2840;
+}
+.rent__container__item {
+    width: calc(50% - 2px);
+    background: url(../img/laf.png) center center / cover;
+    height: 100%;
+    transition: .3s linear;
+}
+.rent__container__item:hover {
+    width: 60%;
+}
+.rent__container__item.right {
+    background: url(../img/lar.png) center center / cover;
+}
+.rent__container__item__mask {
+    opacity: 0;
+    height: 100%;
+    background: rgba(28, 40, 64, .5);
+    transition: .3s linear;
+}
+.rent__container__item:hover .rent__container__item__mask {
+    opacity: 1;
+}
+.rent__container__item__mask__content {
+    width: 615px;
+    margin-left: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.rent__container__item__mask__content__big-text {
+    color: #fff;
+    font-weight: 700;
+    font-size: 44px;
+}
+.rent__container__item__mask__content__small-text {
+    font-size: 28px;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.rent__container__item__mask__content__btn {
+    border: none;
+    background-color: rgba(87, 181, 187, .62);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 338px;
+    height: 66px;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.rent__container__item__mask__content__btn:hover {
+    color: rgba(87, 181, 187, 1);
+    background: #fff;
+}
+.rent__container__item__mask__content.right {
+    margin-left: 155px;
+    margin-right: auto;
+    width: auto;
+}
+/*Аренда*/
+/*Ход строительства*/
+.building {
+    padding-bottom: 55px;
+}
+.building__bold-text {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+}
+.building__text {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.building__text:last-child {
+    margin-bottom: 0;
+}
+.building__time__arr-left {
+    display: block;
+    width: 11px;
+    height: 18px;
+    background: url(../img/m-a-w.png) no-repeat center center / 100% 100%;
+    transform: rotate(180deg);
+    margin-right: 20px;
+}
+.building__time__arr-left:hover {
+    background: url(../img/m-a-w-r.png) no-repeat center center / 100% 100%;
+    transform: rotate(0);
+}
+.building__time__arr-right {
+    display: block;
+    width: 11px;
+    height: 18px;
+    background: url(../img/m-a-w.png) no-repeat center center / 100% 100%;
+    margin-left: 20px;
+}
+.building__time__arr-right:hover {
+    background: url(../img/m-a-w-r.png) no-repeat center center / 100% 100%;
+    transform: rotate(180deg);
+}
+.building__time {
+    display: flex;
+    align-items: center;
+    width: 215px;
+    margin: 45px 55px 30px auto;
+}
+.building__time__img {
+    margin-right: 20px;
+}
+.building__time__year {
+    font-size: 18px;
+    font-weight: 700;
+    color: #57b5bb;
+}
+.shub-slider_item__name-mask {
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    font-weight: 700;
+    color: #fff;
+    pointer-events: none;
+    position: absolute;
+    width: 320px;
+    height: 200px;
+    justify-content: center;
+}
+.building__cameras {
+    margin-top: 75px;
+}
+.building__cameras__container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.building__cameras__container__card {
+    width: 284px;
+}
+.building__cameras__container__card_btn {
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #1c2840;
+    height: 52px;
+    width: 100%;
+    background: rgba(255, 255, 255, .62);
+    margin-bottom: 25px;
+}
+/*Ход строительства*/
