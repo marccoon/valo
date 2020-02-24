@@ -6,49 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b2928e9c-2b8c-4773-a3f9-b7e0b0b56b7d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404v2.html" beforeDir="false" afterPath="$PROJECT_DIR$/404v2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-company.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-company.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-project.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-project.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advantages.html" beforeDir="false" afterPath="$PROJECT_DIR$/advantages.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/agencies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apartments-choose.html" beforeDir="false" afterPath="$PROJECT_DIR$/apartments-choose.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apartments-floors.html" beforeDir="false" afterPath="$PROJECT_DIR$/apartments-floors.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apartments.html" beforeDir="false" afterPath="$PROJECT_DIR$/apartments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/building-month.html" beforeDir="false" afterPath="$PROJECT_DIR$/building-month.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/building-year.html" beforeDir="false" afterPath="$PROJECT_DIR$/building-year.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/calculator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commerce-choose.html" beforeDir="false" afterPath="$PROJECT_DIR$/commerce-choose.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commerce-floors.html" beforeDir="false" afterPath="$PROJECT_DIR$/commerce-floors.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company-blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/company-blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents.html" beforeDir="false" afterPath="$PROJECT_DIR$/documents.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favourite.html" beforeDir="false" afterPath="$PROJECT_DIR$/favourite.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global-css/header-responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/global-css/header-responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global-css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/global-css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global-css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/global-css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global-css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/global-css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global-js/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/global-js/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/how-to-buy.html" beforeDir="false" afterPath="$PROJECT_DIR$/how-to-buy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ham.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/ham.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure.html" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalment.html" beforeDir="false" afterPath="$PROJECT_DIR$/instalment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/investment-in-apartments.html" beforeDir="false" afterPath="$PROJECT_DIR$/investment-in-apartments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipoteca.html" beforeDir="false" afterPath="$PROJECT_DIR$/ipoteca.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/location.html" beforeDir="false" afterPath="$PROJECT_DIR$/location.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj-card.html" beforeDir="false" afterPath="$PROJECT_DIR$/obj-card.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partners.html" beforeDir="false" afterPath="$PROJECT_DIR$/partners.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-programs.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-programs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profit-programs.html" beforeDir="false" afterPath="$PROJECT_DIR$/profit-programs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s-page1.html" beforeDir="false" afterPath="$PROJECT_DIR$/s-page1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stopro.html" beforeDir="false" afterPath="$PROJECT_DIR$/stopro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/team.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trade-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/trade-in.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visual-floor.html" beforeDir="false" afterPath="$PROJECT_DIR$/visual-floor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visual.html" beforeDir="false" afterPath="$PROJECT_DIR$/visual.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/global-js/left-buttons.js" beforeDir="false" afterPath="$PROJECT_DIR$/global-js/left-buttons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mercure.html" beforeDir="false" afterPath="$PROJECT_DIR$/mercure.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,29 +22,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profit-programs.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mercure.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="609" selection-start-line="609" selection-end-line="609" />
+            <state relative-caret-position="346">
+              <caret line="248" column="25" selection-start-line="248" selection-start-column="25" selection-end-line="248" selection-end-column="25" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trade-in.html">
+        <entry file="file://$PROJECT_DIR$/global-js/header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="657">
-              <caret line="563" column="10" selection-start-line="563" selection-start-column="10" selection-end-line="563" selection-end-column="10" />
+            <state relative-caret-position="467">
+              <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/visual.html">
+        <entry file="file://$PROJECT_DIR$/global-js/left-buttons.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="671">
-              <caret line="400" column="10" selection-start-line="400" selection-start-column="10" selection-end-line="400" selection-end-column="10" />
+            <state relative-caret-position="278">
+              <caret line="55" column="90" selection-start-line="55" selection-start-column="90" selection-end-line="55" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -93,17 +56,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/s-page1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
+            <state relative-caret-position="24735">
               <caret line="1455" selection-start-line="1455" selection-end-line="1455" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/visual-floor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="654">
-              <caret line="415" column="10" selection-start-line="415" selection-start-column="10" selection-end-line="415" selection-end-column="10" />
+            <state relative-caret-position="323">
+              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -111,7 +74,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partners.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="688">
+            <state relative-caret-position="11713">
               <caret line="689" selection-start-line="689" selection-end-line="689" />
             </state>
           </provider>
@@ -120,7 +83,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio-programs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
+            <state relative-caret-position="10285">
               <caret line="605" column="10" selection-start-line="605" selection-start-column="10" selection-end-line="605" selection-end-column="10" />
             </state>
           </provider>
@@ -129,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
+            <state relative-caret-position="13991">
               <caret line="823" column="10" selection-start-line="823" selection-start-column="10" selection-end-line="823" selection-end-column="10" />
             </state>
           </provider>
@@ -138,7 +101,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stopro.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="688">
+            <state relative-caret-position="8381">
               <caret line="493" column="10" selection-start-line="493" selection-start-column="10" selection-end-line="493" selection-end-column="10" />
             </state>
           </provider>
@@ -147,7 +110,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="657">
+            <state relative-caret-position="13396">
               <caret line="788" column="10" selection-start-line="788" selection-start-column="10" selection-end-line="788" selection-end-column="10" />
             </state>
           </provider>
@@ -166,8 +129,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>accor-leader__container__right__content</find>
-      <find>.accor-leader__container__right__content__ul_li</find>
       <find>infrastructure__left__content__lists__li7</find>
       <find>infrastructure-slider__item</find>
       <find>infrastructure__right</find>
@@ -196,6 +157,8 @@
       <find>search-section</find>
       <find>650</find>
       <find>search-section__input</find>
+      <find>invest-to-mercure__container__btn</find>
+      <find>getCallBack</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -207,7 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/global-js/404.js" />
         <option value="$PROJECT_DIR$/global-css/footer.css" />
         <option value="$PROJECT_DIR$/jsons/apartmentsFloorsJSON.json" />
         <option value="$PROJECT_DIR$/jsons/corpusFloorsJSON.json" />
@@ -246,7 +208,6 @@
         <option value="$PROJECT_DIR$/investment-in-apartments.html" />
         <option value="$PROJECT_DIR$/ipoteca.html" />
         <option value="$PROJECT_DIR$/location.html" />
-        <option value="$PROJECT_DIR$/mercure.html" />
         <option value="$PROJECT_DIR$/obj-card.html" />
         <option value="$PROJECT_DIR$/partners.html" />
         <option value="$PROJECT_DIR$/portfolio-programs.html" />
@@ -258,6 +219,8 @@
         <option value="$PROJECT_DIR$/trade-in.html" />
         <option value="$PROJECT_DIR$/visual.html" />
         <option value="$PROJECT_DIR$/visual-floor.html" />
+        <option value="$PROJECT_DIR$/global-js/left-buttons.js" />
+        <option value="$PROJECT_DIR$/mercure.html" />
       </list>
     </option>
   </component>
@@ -410,15 +373,16 @@
       <workItem from="1581853339606" duration="13623000" />
       <workItem from="1581925802367" duration="1960000" />
       <workItem from="1582459902242" duration="14591000" />
-      <workItem from="1582528635346" duration="13759000" />
+      <workItem from="1582528635346" duration="14619000" />
+      <workItem from="1582547528021" duration="876000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="427553000" />
+    <option name="totallyTimeSpent" value="429289000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22497366" />
@@ -463,13 +427,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/global-js/commerce-floors.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="352" selection-start-line="352" selection-end-line="352" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsons/apartmentsFloorsJSON.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -536,13 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="11066" column="18" selection-start-line="11066" selection-start-column="18" selection-end-line="11066" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/global-js/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -739,17 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mercure.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="869" selection-start-line="869" selection-end-line="869" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/obj-card.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="657">
@@ -757,73 +696,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partners.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="689" selection-start-line="689" selection-end-line="689" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio-programs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="605" column="10" selection-start-line="605" selection-start-column="10" selection-end-line="605" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/profit-programs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="609" selection-start-line="609" selection-end-line="609" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/s-page1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="1455" selection-start-line="1455" selection-end-line="1455" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="823" column="10" selection-start-line="823" selection-start-column="10" selection-end-line="823" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stopro.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="493" column="10" selection-start-line="493" selection-start-column="10" selection-end-line="493" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/team.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="788" column="10" selection-start-line="788" selection-start-column="10" selection-end-line="788" selection-end-column="10" />
+        <state relative-caret-position="233">
+          <caret line="451" column="59" selection-start-line="451" selection-start-column="48" selection-end-line="451" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trade-in.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
+        <state relative-caret-position="9571">
           <caret line="563" column="10" selection-start-line="563" selection-start-column="10" selection-end-line="563" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/visual.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
+        <state relative-caret-position="6800">
           <caret line="400" column="10" selection-start-line="400" selection-start-column="10" selection-end-line="400" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s-page1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24735">
+          <caret line="1455" selection-start-line="1455" selection-end-line="1455" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/visual-floor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="415" column="10" selection-start-line="415" selection-start-column="10" selection-end-line="415" selection-end-column="10" />
+        <state relative-caret-position="323">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partners.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11713">
+          <caret line="689" selection-start-line="689" selection-end-line="689" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio-programs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10285">
+          <caret line="605" column="10" selection-start-line="605" selection-start-column="10" selection-end-line="605" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13991">
+          <caret line="823" column="10" selection-start-line="823" selection-start-column="10" selection-end-line="823" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stopro.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8381">
+          <caret line="493" column="10" selection-start-line="493" selection-start-column="10" selection-end-line="493" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13396">
+          <caret line="788" column="10" selection-start-line="788" selection-start-column="10" selection-end-line="788" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global-js/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global-js/left-buttons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="55" column="90" selection-start-line="55" selection-start-column="90" selection-end-line="55" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mercure.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="248" column="25" selection-start-line="248" selection-start-column="25" selection-end-line="248" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
