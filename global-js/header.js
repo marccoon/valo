@@ -40,11 +40,12 @@ $('.header__right-big__container__item3').click(function () {
     }
 });
 $(document).mouseup(function (e) {
-    let container = $(".header__right-big__container__item3");
+    let container = $(".search-section");
     if (container.has(e.target).length === 0){
-        $('.header__right-big__container__item3').removeClass('header__right-big__container__item3-active');
-        $('.header__right-big__container__item3').val('');
+        $('.search-section').slideUp()
+        $('.search-section__input').val('')
     }
+
 });
 $('.showMeCallBack, .how-to-buy__managers_btn').click(function () {
     $('.mail-modal').fadeIn(500)
@@ -55,4 +56,9 @@ $('.default-dropdown').hover(function () {
 });
 $('.default-dropdown').click(function () {
     $(this).children('.default-dropdown').css('top', $(this).innerHeight() + 3)
+});
+
+$('.left-buttons_btn4').click(function () {
+        $('.search-section').slideDown()
+        $(this).addClass('active')
 });

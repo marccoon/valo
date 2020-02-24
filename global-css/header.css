@@ -44,6 +44,18 @@
 .header__center__lists_li-right {
     list-style: none;
 }
+.header__center__social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 28px;
+}
+.header__center__social_link {
+    margin-right: 8px;
+}
+.header__center__social_link:last-child {
+    margin-right: 0;
+}
 .header__center__lists_li-right_link {
     color: #355b91;
     font-size: 16px;
@@ -68,6 +80,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.header__right.one {
+    margin-right: 40px;
+}
+.header__right.one img:nth-child(2) {
+    margin-top: 13px;
 }
 .header__right_img {
     width: 58px;

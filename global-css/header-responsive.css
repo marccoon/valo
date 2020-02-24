@@ -48,8 +48,14 @@
     .header__right-big__container__item3-active {
         width: 240px;
     }
+    .header__center__social {
+        display: none;
+    }
 }
 @media screen and (max-width: 750px) {
+    .header__right.one {
+        margin-right: 0;
+    }
     .header-wrapper {
         width: 285px;
     }
@@ -85,8 +91,7 @@
         height: 20px;
     }
     .header__menu_btn {
-        width: 29px;
-        height: 25px;
+        width: 75px;
         margin-left: 14px;
     }
     .header-slider {
@@ -134,5 +139,14 @@
     }
     .header__menu {
         padding-top: 10px;
+    }
+    .header__right.one {
+        margin-right: 10px;
+    }
+    .header__right.one img {
+        height: 20px;
+    }
+    .header__right.one img:nth-child(2) {
+        margin-top: 5px;
     }
 }

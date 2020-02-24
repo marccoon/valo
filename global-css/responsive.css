@@ -646,7 +646,7 @@
         display: none;
     }
     .hostel-technology__right_lists {
-        width: 640px;
+        width: 620px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -2447,6 +2447,75 @@
         margin-top: 30px;
     }
     /*ход строительства*/
+    /*mercure*/
+    .infrastructure__left__content.mercure {
+        text-align: center;
+        width: 620px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .accor-leader {
+        height: auto;
+    }
+    .accor-leader__container {
+        flex-direction: column;
+    }
+    .accor-leader__container__left {
+        height: 500px;
+        width: 100%;
+    }
+    .accor-leader__container__right {
+        width: 100%;
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .accor-leader__container__right__content {
+        width: 620px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hostel-technology__right_main2 {
+        width: 620px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .why-mercure {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .why-mercure__container__top {
+        height: auto;
+        padding: 20px;
+        background: #fff;
+    }
+    .why-mercure__container__top__main {
+        padding: 0;
+        font-size: 40px;
+        line-height: normal;
+        width: 100%;
+    }
+    .why-mercure__container__bottom__card:nth-child(n + 3) {
+        margin-bottom: 65px;
+    }
+    .why-mercure__container__bottom__card:nth-child(n + 4) {
+        margin-bottom: 0;
+    }
+    .profit-mercure {
+        padding: 40px 0;
+    }
+    .profit-mercure__container {
+        flex-direction: column;
+    }
+    .profit-mercure__container__left {
+        width: 100%;
+    }
+    .profit-mercure__container__right {
+        width: 100%;
+    }
+    .search-section__input {
+        width: 620px;
+    }
+    /*mercure*/
 }
 @media screen and (max-width: 1200px)  {
     .complex-plan {
@@ -3481,7 +3550,7 @@
     }
     .hostel-technology__right_lists_li {
         font-size: 12px;
-        padding-left: 50px;
+        padding-left: 58px;
         margin-bottom: 30px;
     }
     .hostel-technology__right {
@@ -6265,6 +6334,236 @@
         font-size: 14px;
     }
     /*ход строительства*/
+    /*mercure*/
+    .main-slide_sub-main.mercure {
+        font-size: 30px;
+        line-height: normal;
+    }
+    .main-slide_main-description.mercure {
+        font-size: 16px;
+    }
+    .invest-to-mercure__container_main {
+        font-size: 40px;
+        line-height: normal;
+    }
+    .invest-to-mercure__container_logo {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    .invest-to-mercure {
+        -webkit-background-size: 100% 100%;
+        background-size:  auto 100%;
+    }
+    .invest-to-mercure__container__btn {
+        width: 100%;
+        padding-left: 10px;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        height: auto;
+    }
+    .infrastructure-slider__item.mercure {
+        height: 337px !important;
+    }
+    .infrastructure-slider__item_text-block.mercure {
+        padding: 20px;
+    }
+    .infrastructure-slider__item_text-block_main.mercure {
+        padding-right: 75px;
+    }
+    .infrastructure-slider__item_text-block_text.mercure {
+        padding-right: 75px;
+    }
+    .infrastructure__left.mercure {
+        height: auto;
+        padding: 20px 0;
+    }
+    .infrastructure__left__content.mercure {
+        width: 285px;
+    }
+    .mercure-stars__big-text {
+        font-size: 16px;
+        line-height: normal;
+    }
+    .border-mercure-text {
+        font-size: 14px;
+        line-height: normal;
+    }
+    .mercure-stars__text {
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: normal;
+    }
+    .border-mercure__numbers {
+        flex-direction: column;
+        text-align: center;
+    }
+    .border-mercure__numbers_container:first-child {
+        margin-right: 0;
+    }
+    .border-mercure__numbers_container {
+        margin-right: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .border-mercure__big-number {
+        font-size: 40px;
+    }
+    .border-mercure__big-description {
+        margin-left: 0;
+        font-size: 12px;
+    }
+    .accor-leader__container__right__content {
+        width: 285px;
+    }
+    .accor-leader__container__right__content__ul_li {
+        font-size: 12px;
+        padding-left: 25px;
+    }
+    .accor-leader__container__right__content__ul_li::before {
+        width: 12px;
+        top: 5px;
+    }
+    .first-mercure__container__main {
+        font-size: 25px;
+        line-height: normal;
+    }
+    .first-mercure__container .mercure-stars__big-text {
+        font-size: 14px;
+    }
+    .mercure-stars__big-text {
+        margin-top: 25px;
+    }
+    .first-mercure {
+        padding: 30px 0;
+        height: auto;
+    }
+    .infrastructure__left.mercure2 {
+        height: auto !important;
+        padding: 30px 0;
+    }
+    .infrastructure__left__content.mercure2 {
+        height: auto !important;
+    }
+    .infrastructure__left__content__lists.mercure {
+        margin-top: 30px;
+    }
+    .infrastructure-slider__item.mercure2 {
+        height: 300px !important;
+    }
+    .infrastructure__right.mercure2 {
+        height: 300px !important;
+    }
+    .hostel-technology__right_main2 {
+        width: 285px;
+        font-size: 18px;
+        line-height: normal;
+    }
+    .hostel-technology__left.mercure {
+        height: 300px !important;
+    }
+    .hostel-slider__item.mercure {
+        height: 300px;
+    }
+    .why-mercure__container__top {
+        padding: 10px;
+    }
+    .why-mercure__container__top__main {
+        font-size: 16px;
+    }
+    .why-mercure__container__bottom {
+        padding: 10px;
+    }
+    .why-mercure__container__bottom__card__top img {
+        width: 25px;
+        height: 25px;
+    }
+    .why-mercure__container__bottom__card__top_main {
+        font-size: 14px;
+        line-height: normal;
+        margin-left: 10px;
+    }
+    .why-mercure__container__bottom__card__description {
+        font-size: 12px;
+        line-height: normal;
+    }
+    .why-mercure__container__bottom__card__top {
+        margin-bottom: 10px;
+    }
+    .why-mercure__container__bottom__card {
+        margin-bottom: 15px;
+    }
+    .why-mercure__container__bottom__card:nth-child(n+3){
+        margin-bottom: 15px;
+    }
+    .profit-mercure__container__left__top_main {
+        font-size: 16px;
+        line-height: normal;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .profit-mercure__container__left__top {
+        height: auto;
+        padding: 10px;
+    }
+    .profit-mercure__container__left__bottom {
+        padding: 10px;
+    }
+    .profit-mercure__container__left__bottom__ul_li_p-bold {
+        font-size: 14px;
+        line-height: normal;
+    }
+    .profit-mercure__container__left__bottom__ul_li_p-light {
+        font-size: 14px;
+        line-height: normal;
+    }
+    .profit-mercure__container__left__bottom__ul_li {
+        margin-bottom: 10px;
+    }
+    .profit-mercure__container__right {
+        padding: 10px;
+    }
+    .profit-mercure__container__right_white-main {
+        line-height: normal;
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .profit-mercure__container__right_green-main {
+        font-size: 18px;
+        line-height: normal;
+    }
+    .profit-mercure__container__right_text {
+        font-size: 12px;
+        line-height: normal;
+    }
+    .profit-mercure__container__right__form {
+        width: auto;
+    }
+    .profit-mercure__container__right__form_input {
+        height: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .profit-mercure__container__right__form__btn {
+        font-size: 14px;
+        height: 30px;
+    }
+    .search-section__input {
+        width: 285px;
+        font-size: 20px;
+        height: 30px;
+        -webkit-background-size: 20px 20px;
+        background-size: 20px 20px;
+    }
+    .search-section {
+        height: 55px;
+
+    }
+    /*mercure*/
 }
 @media screen  and (max-width: 650px) {
     /*Карта объекта*/
