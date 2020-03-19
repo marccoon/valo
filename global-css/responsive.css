@@ -1843,7 +1843,7 @@
     /*Документы*/
     /*Доходные программы*/
     .profit-programs__cards  {
-        width: 390px;
+        width: 350px !important;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1856,6 +1856,17 @@
     .profit-programs__cards_card {
         margin-left: 0 !important;
         margin-right: 0 !important;
+    }
+    .pp-white-container {
+        background: #fff;
+    }
+    .profit-program-top-text1 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .profit-program-top-text2 {
+        margin-left: 0;
+        margin-right: 0;
     }
     /*Доходные программы*/
     /*Портфельные программы*/
@@ -5637,11 +5648,36 @@
     }
     /*Документы*/
     /*Доходные программы*/
-    .profit-programs__cards_card__top {
-        height: 60px;
-    }
     .profit-programs__cards_card__top_main {
         font-size: 20px;
+        padding: 10px;
+        width: 200px;
+        line-height: normal;
+    }
+    .profit-programs__cards_card__top__profit {
+        padding: 10px;
+        line-height: normal;
+        font-size: 18px;
+    }
+    .pp-term {
+        font-size: 12px;
+        line-height: normal;
+    }
+    .pp-term span {
+        font-size: 14px;
+        line-height: normal;
+    }
+    .pp-term.available {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .pp-prices span {
+        font-size: 14px;
+        padding: 5px 5px;
+    }
+    .profit-programs__cards_card__top__profit span {
+        font-size: 20px;
+        line-height: normal;
     }
     .profit-programs__cards_card__top_text {
         font-size: 20px;
@@ -5662,17 +5698,31 @@
         font-size: 12px;
     }
     .profit-programs__cards_card {
-        height: 720px;
-        width: 240px !important;
+        width: 285px !important;
+        height: 660px;
+    }
+    .pp-btn {
+        width: 200px;
+        height: 38px;
+        font-size: 14px;
+    }
+    .pp-white-container {
+        padding: 15px;
+    }
+    .pp-white-container__green {
+        padding: 15px;
+    }
+    .profit-programs__cards__container {
+        padding: 0;
     }
     .profit-programs__cards {
-        width: 240px;
+        width: 100% !important;
     }
     .profit-programs__cards .circle-next {
-        right: -30px;
+        right: -10px;
     }
     .profit-programs__cards .circle-prev {
-        left: -30px;
+        left: -10px;
     }
     .profit-program-top-text1 {
         margin-bottom: 15px;
@@ -5688,9 +5738,6 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .profit-programs__cards_card__top2 {
-        height: 60px;
-    }
     .portfolio-programs_p {
         font-size: 16px;
     }
@@ -5702,6 +5749,7 @@
     }
     .profit-programs__cards_card__bot {
         padding: 15px;
+        height: 420px;
     }
     .portfolio-programs__top-block {
         margin-bottom: 20px;
@@ -5724,9 +5772,6 @@
     }
     .portfolio-programs_persent_bottom {
         margin-bottom: 25px;
-    }
-    .profit-programs__cards {
-        margin-top: 30px;
     }
     /*Портфельные программы*/
     /*Ипотека*/

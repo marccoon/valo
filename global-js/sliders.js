@@ -186,7 +186,7 @@ $('.profit-programs__cards').slick({
                 slidesToShow: 1
             }
         }
-        ]
+     ]
 });
 //partners
 $('.partners-main__global__container__slider').slick({
@@ -214,25 +214,6 @@ $('.partners-main__global__container__slider').slick({
         }
     ]
 });
-//portfolio-programs
-if ($('.profit-programs__cards')) {
-    if (windowWidth <= '1250'){
-        $('.profit-programs__cards').slick({
-            prevArrow:`<button type="button" class="circle-prev"></button>`,
-            nextArrow: `<button type="button" class="circle-next"></button>`,
-        })
-    }
-}
-if ($('.portfolio-programs__cards')) {
-    if ($(window).width() <= '750'){
-        if ($('.portfolio-programs__cards')) {
-            $('.portfolio-programs__cards').slick({
-                prevArrow:`<button type="button" class="circle-prev"></button>`,
-                nextArrow: `<button type="button" class="circle-next"></button>`,
-            })
-        }
-    }
-}
 //s-page
 if ($('.shub-slider') || $('.shub-slider2')) {
     $('.shub-slider, .shub-slider2').slick({

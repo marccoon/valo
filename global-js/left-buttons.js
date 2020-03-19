@@ -96,7 +96,7 @@ if ($('left-buttons_btn-container')) {
     $('.popup-cross').click(function () {
         $('.popup').fadeOut(500);
     })
-    $('#getMail').click(function () {
+    $('#getMail, .pp-btn').click(function () {
         $('.mail-modal').fadeIn(500)
     });
 }

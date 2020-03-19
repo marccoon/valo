@@ -50,10 +50,12 @@ $(document).mouseup(function (e) {
 $('.showMeCallBack, .how-to-buy__managers_btn').click(function () {
     $('.mail-modal').fadeIn(500)
 });
+
 //Все дропдауны на сайте
 $('.default-dropdown').hover(function () {
     $(this).children('.default-dropdown').css('top', $(this).innerHeight() + 3)
 });
+
 $('.default-dropdown').click(function () {
     $(this).children('.default-dropdown').css('top', $(this).innerHeight() + 3)
 });

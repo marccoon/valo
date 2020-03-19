@@ -9345,34 +9345,88 @@ map {
 }
 /*Документы*/
 /*Доходные программы*/
+
+.pp-white-container {
+    background: #fff url(../img/pp.png) no-repeat left bottom;
+    padding: 70px 60px 50px 60px;
+    margin-top: 45px;
+}
 .profit-program-top-text1 {
-    margin-top: 20px;
     margin-bottom: 30px;
+    color: #3f3f3f;
+    margin-left: 160px;
+    margin-right: 50px;
+    font-size: 22px;
+    line-height: normal;
+}
+.profit-program-top-text2 {
+    color: #3f3f3f;
+    margin-left: 160px;
+    margin-right: 50px;
+}
+.pp-white-container__green {
+    padding:  20px 45px;
+    margin-top: 40px;
+    background: rgba(87, 181, 187, .91);;
+}
+.pp-white-container__green-text {
+    font-size: 22px;
+    line-height: 28px;
+    color: #fff;
 }
 .profit-program-top-text1_strong {
     font-weight: 700;
 }
 .profit-programs__cards_card {
-    width: 390px !important;
+    width: 350px !important;
     margin-left: 10px !important;
     margin-right: 10px !important;
-    height: 830px;
+    height: 900px;
+    background: #fff;
+    border: 1px solid #aeaeae;
 }
 .profit-programs__cards_card1 {
     background-color: #ad467c;
 }
 .profit-programs__cards_card__top {
-    height: 80px;
-    background-color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding-top: 32px;
 }
 .profit-programs__cards_card__top_main {
-    font-size: 40px;
+    padding: 22px 35px;
+    color: #fff;
+    font-size: 32px;
+    line-height: 37px;
+    width: 250px;
+    box-shadow: 12.343px 16.989px 27px 0px rgba(0, 0, 0, 0.33);
+}
+.pp-term {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3f3f3f;
+}
+.pp-term span {
+    font-size: 20px;
+    line-height: 24px;
     font-weight: 700;
-    text-align: center;
-    color: #d04d8b;
+}
+.pp-term.available {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.profit-programs__cards_card__top_main span {
+    font-weight: 700;
+}
+.profit-programs__cards_card__top__profit {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 24px 25px 20px 35px;
+    width: 210px;
+}
+.profit-programs__cards_card__top__profit span {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: normal;
 }
 .profit-programs__cards_card__top_text {
     text-align: center;
@@ -9398,24 +9452,80 @@ map {
     margin-bottom: 40px;
 }
 .profit-programs__cards_card__bot {
-    padding: 21px;
+    padding: 31px;
+    height: 550px;
+}
+.pp-prices {
+    margin-top: 6px;
+    margin-left: -4px;
+}
+.pp-prices span {
+    padding: 10px 5px;
+    font-size: 17px;
+    color: #3f3f3f;
+    border: 1px solid #aeaeae;
+    border-radius: 5px 5px;
+    display: inline-block;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+.pp-price-from {
+    display: flex;
+    font-size: 17px;
+    line-height: 21px;
+    color: #3f3f3f;
+    margin-top: 15px;
+    text-decoration: none;
+    margin-bottom: 35px;
+}
+.pp-price-from span {
+    font-weight: 700;
+    white-space: nowrap;
+}
+.pp-price-from .dots {
+    display: block;
+    border-bottom: 1px dotted #3f3f3f;
+    width: 100%;
+    position: relative;
+    top: -4px;
+}
+.pp-btn {
+    font-size: 17px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 53px;
+    background: #57b5bb;
+    border: none;
+    cursor: pointer;
+    margin-top: auto;
 }
 .profit-programs__cards_card__bottom-text {
-    color: #fff;
     font-size: 16px;
     font-weight: 300;
+    color: #3f3f3f;
 }
 .profit-programs__cards {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 60px;
-    padding-bottom: 60px;
+    background: #ededed;
+    width: 100% !important;
+}
+.profit-programs__cards__container {
+    padding: 60px;
+    background: #ededed;
+    margin-top: 40px;
 }
 .profit-programs__cards-arr-left {
-    left: 10px;
+    left: -50px;
+    background: url(../img/resp-arr2.png) no-repeat center center / 100% 100%;
+    transform: rotate(180deg);
 }
 .profit-programs__cards-arr-right {
-    right: 10px;
+    right: -50px;
+    background: url(../img/resp-arr2.png) no-repeat center center / 100% 100%;
+    transform: rotate(0);
 }
 .profit-programs__cards_card2 {
     background-color: #4177bb;
