@@ -301,7 +301,7 @@ body {
     margin-top: 45px;
 }
 .complex-plan {
-    height: 940px;
+    height: 837px;
     position: relative;
     overflow: hidden;
     max-width: 1920px;
@@ -545,6 +545,11 @@ map {
 .eight-modal {
     left: 1070px;
     top: 10px;
+}
+.eight-modal .complex-plan__modal_triangle {
+    left: -36px;
+    top: 45%;
+    transform: rotate(90deg);
 }
 /*конец стилей при наведении*/
 .complex-plan__apartment-description {
