@@ -769,9 +769,24 @@
         margin-right: 0;
     }
     .construction-progress {
-        margin-top: 308px;
         padding-bottom: 380px;
         position: relative;
+    }
+    .main-news {
+        margin-top: 308px;
+        padding: 60px 0 60px 0;
+    }
+    .news-cards-container {
+        flex-wrap: wrap;
+        margin-left: -40px;
+    }
+    .news-card {
+        margin-left: 40px;
+        width: 300px;
+        height: 300px;
+    }
+    .news-card:nth-child(n + 3) {
+        margin-top: 40px;
     }
     .buy-variants__rassrochka__text-block {
         display: none;
@@ -2527,6 +2542,123 @@
         width: 620px;
     }
     /*mercure*/
+    /*obj-card*/
+    .main-calc-container {
+        flex-direction: column;
+    }
+    .card-obj .slider-one {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .under-slider {
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card-obj .slider-nav-link {
+        width: 450px;
+    }
+    .good-description-block__bp-container {
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .good-description-block__bp {
+        width: 463px;
+    }
+    .good-description-block__square {
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .good-description-block-left {
+        margin-left: auto;
+        margin-right: auto;
+        width: 640px;
+    }
+    .calculator-block-content-main-left {
+        width: 100%;
+        text-align: center;
+    }
+    .good-description-block-green {
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .under-description-text {
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .obj-card-desscription {
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .under-descr-block {
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+    }
+    .under-descr-block__card:nth-child(n + 3) {
+        margin-top: 20px;
+    }
+    .obj-card-map {
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .under-map-block {
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column-reverse;
+    }
+    .under-map-block__right {
+        margin-left: auto;
+        width: 100%;
+    }
+    .under-map-block__left {
+        width: 640px;
+        margin-top: 20px;
+    }
+    .similar-apartments {
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+    }
+    .obj-card-map-main-flex {
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .similar-apartments-card {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .obj-card-map-main {
+        margin-left: auto;
+        margin-right: auto;
+        width: 640px;
+    }
+    .obj-card-main-link {
+        margin-left: 0;
+        margin-top: 10px;
+        display: block;
+    }
+    .obj-card-testimonials {
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        left: -15px;
+    }
+    /*obj-card*/
 }
 @media screen and (max-width: 1200px)  {
     .complex-plan {
@@ -2584,20 +2716,12 @@
     .left-calc {
         margin: 0 auto;
     }
-    .under-slider {
-        flex-direction: column;
-    }
-    .under-slider-compass {
-        width: 100%;
-    }
+
     .calculator-block-content-right-top {
         justify-content: center;
         margin-top: 20px;
     }
-    .card-obj .slider-nav-link {
-        width: 100%;
-        margin-top: 1px !important;
-    }
+
     .slider-nav-link {
         text-align: center;
     }
@@ -2606,11 +2730,6 @@
     }
     .slider-nav-link a {
         margin-left: 0;
-    }
-    .good-description-block {
-        margin: 0 auto;
-        width: 585px;
-        margin-top: 40px;
     }
     .watch-obj {
         float: none;
@@ -3979,8 +4098,31 @@
         display: block;
     }
     .construction-progress {
-        margin-top: 189px;
         padding-top: 55px;
+    }
+    .main-news {
+        margin-top: 189px;
+    }
+    .news-card {
+        width: 285px;
+        height: 285px;
+        margin-left: 0;
+    }
+    .news-card:nth-child(n+2) {
+        margin-top: 20px;
+    }
+    .news-cards-container {
+        margin-left: 0;
+    }
+    .main-news-top {
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+    .main-news-btn {
+        margin-top: 20px;
+        width: 100%;
+        height: 40px;
+        font-size: 12px;
     }
     .construction-progress__top-block__main {
         font-size: 24px;
@@ -6609,6 +6751,119 @@
 
     }
     /*mercure*/
+    /*obj-card*/
+    .under-slider {
+        width: 285px;
+        flex-direction: column;
+    }
+    .under-slider-compass {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .card-obj .slider-nav-link {
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    .card-obj .slider-nav-link:not(:first-child) {
+        margin-top: 0;
+    }
+    .good-description-block__bp-container {
+        flex-direction: column;
+        width: 285px;
+    }
+    .good-description-block__bp {
+        width: 100%
+    }
+    .good-description-block__bp-right {
+        flex-direction: row;
+        margin-left: 0;
+        margin-top: 5px;
+        display: flex;
+    }
+    .good-description-block__bp-right-status {
+        width: calc(50% - 5px);
+        height: 134px;
+    }
+    .good-description-block__bp-right-calc {
+        width: 50%;
+        margin-left: 5px;
+        margin-top: 0;
+    }
+    .good-description-block__square {
+        width: 285px;
+        flex-direction: column;
+        align-items: normal;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 20px;
+    }
+    .good-description-block-left {
+        width: 285px;
+        padding: 5px;
+        margin-top: 20px;
+    }
+    .good-description-block-green {
+        width: 285px;
+        padding: 5px;
+        background: #57b5bb;
+    }
+    .under-description-text {
+        width: 285px;
+        margin-top: 20px;
+    }
+    .obj-card-desscription {
+        margin-top: 0;
+        width: 285px;
+    }
+    .under-descr-block {
+        padding: 5px;
+        width: 285px;
+    }
+    .under-descr-block__card {
+        width: 285px;
+        height: 285px;
+        margin-bottom: 20px;
+    }
+    .under-descr-block__card:last-child {
+        margin-bottom: 0;
+    }
+    .obj-card-map-main {
+        width: 285px;
+    }
+    .obj-card-map {
+        width: 285px;
+        height: 385px;
+    }
+    .under-map-block {
+        width: 285px;
+    }
+    .under-map-block__right {
+        padding: 5px;
+        background: rgba(100%, 100%, 100%, .75);
+    }
+    .under-map-block__left {
+        width: 285px;
+        margin-top: 20px;
+    }
+    .obj-card-map-main-flex {
+        margin-top: 20px;
+        width: 285px;
+    }
+    .similar-apartments-card {
+        width: 285px;
+        height: 285px;
+    }
+    .similar-apartments-card-img {
+        max-width: 100%;
+        max-height: 140px;
+    }
+    .similar-apartments {
+        width: 285px;
+    }
+    .obj-card-testimonials {
+        width: 285px;
+    }
+    /*obj-card*/
 }
 @media screen  and (max-width: 650px) {
     /*Карта объекта*/

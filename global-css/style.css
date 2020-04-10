@@ -5192,29 +5192,28 @@ map {
 .good-description-block {
     margin-top: 25px;
     padding-bottom: 30px;
-    width: 513px;
-    background-color: rgba(100%, 100%, 100%, .75);
 }
 .main-calc-container {
     display: flex;
     justify-content: space-between;
 }
 .good-description-block-left {
-    margin-top: 30px;
+    background-color: rgba(100%, 100%, 100%, .75);
+    padding: 30px 40px;
+    margin-bottom: 13px;
 }
 .good-description-block-left-list {
-    color: #c3518c;
+    color: #1c2840;
     font-size: 16px;
     font-weight: 300;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 30px;
-    padding-right: 30px;
+    display: flex;
+    align-items: center;
 }
-.good-description-block-left-list:hover {
-    background-color: rgba(87, 181, 187, .75);
+.good-description-block-left-list span {
+    width: 50%;
+    display: inline-block;
 }
 .good-description-block-left-main {
     font-weight: 700;
@@ -5224,11 +5223,10 @@ map {
 }
 .under-description-text {
     margin-top: 15px;
-    margin-right: 50px;
     text-align: right;
-    color: #1c2840;
-    font-size: 11px;
-    font-weight: 300;
+    color: #57b5bb;
+    font-size: 14px;
+    font-weight: 400;
 }
 .profitability-program-block {
     display: flex;
@@ -5322,6 +5320,7 @@ map {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    cursor: pointer;
 }
 .card-obj .slider-nav-link:not(:first-child) {
     margin-top: 12px;
@@ -5334,11 +5333,10 @@ map {
     text-transform: uppercase;
     text-decoration: none;
 }
-.card-obj .slider-nav-link a:hover {
-    color: #c3518c;
-    font-size: 15px;
-    font-weight: 700;
-    text-decoration: underline;
+.slider-nav-link img {
+    margin-right: 5px;
+    position: relative;
+    bottom: -3px;
 }
 .second-img img{
     cursor: pointer;
@@ -11201,3 +11199,375 @@ area {
     height: 100%;
 }
 /*mercure*/
+/*main-news*/
+.main-news {
+    background: #bfe2e4;
+    padding: 105px 0 95px 0;
+    margin-top: 95px;
+}
+.news-main {
+    color: #1f3c51;
+    font-size: 60px;
+}
+.main-news-btn {
+    background-color: rgba(87, 181, 187, .62);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 236px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.main-news-btn:hover {
+    color: rgba(87, 181, 187, 1);
+    background: #fff;
+}
+.main-news-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.news-cards-container {
+    display: flex;
+    margin-left: -30px;
+}
+.news-card {
+    margin-left: 30px;
+    width: 285px;
+    height: 285px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-decoration: none;
+    transition: 3s;
+}
+.news-card-main {
+    margin-bottom: 25px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 27px;
+}
+.news-card-date {
+    font-size: 16px;
+    color: #fff;
+}
+.news-card:hover {
+    -webkit-background-size: 150% auto !important;
+    background-size: 150% auto !important;
+}
+/*main-news*/
+/* obj-card */
+.good-description-block__bp {
+    width: 387px;
+    padding: 30px 40px;
+    background-color: rgba(100%, 100%, 100%, .75);
+}
+.good-description-block__bp-text {
+    font-size: 16px;
+    color: #1c2840;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+.good-description-block__bp-price {
+    color: #1c2840;
+    font-size: 37px;
+    margin-bottom: 20px;
+}
+.good-description-block-btn {
+    background: #c3518c;
+    color: #fff;
+    font-size: 19px;
+    width: 100%;
+    height: 52px;
+    cursor: pointer;
+    border: none;
+}
+.good-description-block__bp-container {
+    display: flex;
+}
+.good-description-block__bp-right {
+    margin-left: 13px;
+}
+.good-description-block__bp-right-status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1c2840;
+    font-size: 16px;
+    background-color: rgba(100%, 100%, 100%, .75);
+    width: 164px;
+    height: 62px;
+}
+.good-description-block__bp-right-calc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #1c2840;
+    font-size: 16px;
+    background-color: rgba(100%, 100%, 100%, .75);
+    width: 164px;
+    height: 134px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.good-description-block__bp-right-calc img {
+    margin-bottom: 10px;
+}
+.good-description-block__bp-right-calc span {
+    text-align: center;
+}
+.good-description-block__square {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 15px;
+    height: 100px;
+}
+.good-description-block__square-text {
+    color: #fff;
+    font-size: 16px;
+}
+.good-description-block__square-text span {
+    font-weight: 700;
+}
+.good-description-block__square-border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px 19px;
+    border: 1px solid #fff;
+    transition: .3s;
+    cursor: pointer;
+    background: transparent;
+}
+.good-description-block__square-border:hover {
+    background: #57b5bb;
+}
+.good-description-block-green {
+    background: #57b5bb url(../img/rub.png) no-repeat left center;
+    height: 142px;
+    padding-left: 65px;
+}
+.good-description-block-green-ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.good-description-block-green-ul-li {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.good-description-block-green-ul-li span,
+.good-description-block-green-ul-li a {
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    width: 50%;
+    display: inline-block;
+}
+.good-description-block-green-ul-li .plan {
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 20px;
+}
+.good-description-block-green-ul-li .price {
+    font-size: 20px;
+    font-weight: 400;
+}
+.good-description-block-green-ul-li.profit {
+    margin-top: 20px;
+}
+.obj-card-desscription {
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.under-descr-block {
+    background: rgba(255,255,255, .3);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.under-descr-block__card-description {
+    font-size: 20px;
+    color: #1c2840;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    background: rgba(255,255,255, .8);
+    padding: 18px;
+    width: 100%;
+}
+.under-descr-block__card {
+    display: flex;
+    align-items: flex-end;
+    width: 275px;
+    height: 215px;
+    text-decoration: none;
+}
+.obj-card-map-main {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    line-height: normal;
+    color: #fff;
+}
+.obj-card-map {
+    height: 470px;
+}
+.under-map-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 85px;
+}
+.under-map-block__left {
+    width: 687px;
+    font-size: 16px;
+    color: #c8ccd1;
+    font-weight: 400;
+    line-height: 24px;
+}
+.under-map-block__right {
+    background: rgba(100%, 100%, 100%, .75) url(../img/raw.png) no-repeat right center;
+    margin-left: 60px;
+    padding: 25px 215px 25px 30px;
+    width: 515px;
+}
+.under-map-block__right-text {
+    font-size: 20px;
+    line-height: 25px;
+    color: #1c2840;
+}
+.under-map-block__right-tel {
+    font-size: 30px;
+    line-height: 40px;
+    color: #c3518c;
+    font-weight: 400;
+    text-decoration: none;
+    display: block;
+}
+.obj-card-main-link {
+    font-size: 16px;
+    color: #ffffff;
+    display: inline-block;
+    margin-left: 70px;
+}
+.obj-card-map-main-flex {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    line-height: normal;
+    color: #fff;
+}
+.similar-apartments {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.similar-apartments-card {
+    background: rgba(100%, 100%, 100%, .75);
+    width: 380px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #888888;
+}
+.similar-apartments-card-img {
+    max-width: 100%;
+    max-height: 255px;
+    width: 100%;
+}
+.similar-apartments-card-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 255px;
+    width: 100%;
+}
+.similar-apartments-card__description-li {
+    font-size: 16px;
+    font-weight: 300;
+    color: #1c2840;
+}
+.similar-apartments-card__description-li span {
+    font-weight: 700;
+}
+.similar-apartments-card__description-container {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.similar-apartments-card__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.similar-apartments-card__right-btn {
+    border: 1px solid #1c2840;
+    color: #1c2840;
+    background: #fff;
+    padding: 16px;
+    text-transform: uppercase;
+    font-weight: 300;
+    transition: .5s;
+    cursor: pointer;
+}
+.similar-apartments-card__right a {
+    margin-left: auto;
+}
+.similar-apartments-card__right-btn:hover {
+    color: #fff;
+    background: #1c2840;
+}
+.obj-card-testimonials {
+    display: flex;
+    margin-left: -15px;
+    flex-wrap: wrap;
+}
+.obj-card-testimonials_link {
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding: 16px 18px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    transition: .5s;
+    text-decoration: none;
+}
+.obj-card-testimonials_link:hover {
+    background: #57b5bb;
+}
+.left-calc {
+    position: relative;
+}
+.left-calc-fav-img {
+    position: absolute;
+    top: 0;
+    z-index: 20000;
+    right: 0;
+}
+.left-calc-fav-img {
+    position: absolute;
+    top: 40px;
+    z-index: 20000;
+    right: 20px;
+}
+/* obj-card */

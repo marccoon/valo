@@ -1,6 +1,5 @@
 window.onload = function () {
     let creditVariatsBlock = document.querySelector('.credit-variants-block'),
-        calcBottomSlider = document.querySelector('.calc-bottom-slider'),
         countBtn = document.querySelector('.ipoteca-btn');
 
     $(creditVariatsBlock).change(function () {
@@ -73,7 +72,7 @@ window.onload = function () {
         calcResult.textContent = Math.round(Number((startPrice / 100 * calcPersent) + Number(startPrice)) / month) + " р." ;
     });
 
-    $('.second-img').click(function () {
+    $('.good-description-block__bp-right-calc').click(function () {
         $('.modal-calc').fadeIn(500);
     });
 
@@ -83,7 +82,9 @@ window.onload = function () {
     rangesMinMax(firstRange, '.irs-min', '.irs-max', '.irs-single');
     rangesMinMaxSecond(secondRange, '.irs-min', '.irs-max', '.irs-single');
 
-
+    $('#modal3D').click(function () {
+        $('.modal-3d').fadeIn(500)
+    })
     $('.loader').fadeOut(500)
 };
 

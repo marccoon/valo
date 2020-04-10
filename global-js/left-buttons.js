@@ -53,7 +53,7 @@ if ($('left-buttons_btn-container')) {
             currentDate = new Date();
         }
     }
-    $('#getCallBack, .calculator-block-content-top-btn, .invest-to-mercure__container__btn').click(function () {
+    $('#getCallBack, .calculator-block-content-top-btn, .invest-to-mercure__container__btn, .good-description-block-btn').click(function () {
         delSlider('.call-back-modal__container_bottom__day-slider')
         delSlider('.call-back-modal__container_bottom__hours-slider')
         delSlider('.call-back-modal__container_bottom__minutes-slider')
