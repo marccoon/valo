@@ -83,7 +83,13 @@ window.onload = function () {
     rangesMinMaxSecond(secondRange, '.irs-min', '.irs-max', '.irs-single');
 
     $('#modal3D').click(function () {
-        $('.modal-3d').fadeIn(500)
+        $('.modal-3d').css({
+            display: 'flex',
+            opacity: 0
+        })
+            .animate({
+                opacity: 1
+            }, 500)
     })
     $('.loader').fadeOut(500)
 };

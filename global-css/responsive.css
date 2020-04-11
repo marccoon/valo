@@ -2658,6 +2658,9 @@
         position: relative;
         left: -15px;
     }
+    .modal-3d-container {
+        width: 640px;
+    }
     /*obj-card*/
 }
 @media screen and (max-width: 1200px)  {
@@ -6863,6 +6866,12 @@
     .obj-card-testimonials {
         width: 285px;
     }
+    .modal-3d-container {
+        width: 320px;
+    }
+    .modal-3d-container iframe {
+        height: 400px;
+    }
     /*obj-card*/
 }
 @media screen  and (max-width: 650px) {
@@ -6946,10 +6955,6 @@
     }
     .good-description-block {
         width: 100%;
-    }
-    .under-description-text {
-        margin-right: 0;
-        padding-right: 20px;
     }
     .profitability-program-block-left {
         margin-left: 20px;

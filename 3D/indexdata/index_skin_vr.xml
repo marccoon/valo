@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.20.2">
+
+    
+  <!-- Spot Style - Вперед -->
+
+
+  <style name="IconВперед"
+         url="%FIRSTXML%/spots/spot0_user_defaultpoint01.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIconВперед"
+         onout="onoutIconВперед"
+
+
+         />
+  <action name="onhoverIconВперед">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconВперед">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Logo -->
+<!-- id : logo -->
+<!-- ********** -->
+
+
+
+
+
+<!-- ********** -->
+<!-- Previous/Next Keys -->
+<!-- id : prevNextKeys -->
+<!-- ********** -->
+
+
+<events name="prevNextKeysEvents" 
+	keep="true" 
+	onkeyup="if(keycode == 33,loadPreviousScene();
+,if(keycode == 34,loadNextScene();
+););" 
+	/>
+
+  <!-- ********************************* -->
+  <!--        VR PREV NEXT               -->
+  <!-- Based on krpano sample  tour code -->
+  <!-- ********************************* -->
+<style name="vrprevnextspotstyle"    depth="800" distorted="true" ath="0" atv="45" visible="true" devices="html5"  onover="vrprevnextOnOver();" onout="vrprevnextOnOut();"/>
+<style name="vrprevnextbtnspotstyle" depth="800" distorted="true" ath="0" atv="45" visible="true" devices="html5"  onover="vrprevnextOnOver();" onout="vrprevnextOnOut();" zorder="6" crop="0|0|60|60" onovercrop="0|60|60|60" ondowncrop="0|120|60|60" width="40" height="40"/>
+<hotspot name="vr_menu_bg" style="vrprevnextspotstyle" keep="true" zorder="5" url="%FIRSTXML%/graphics/vr-prevnext/transparent.png" width="300" height="90" handcursor="false" devices="html5"  />
+<hotspot name="vrprevnextBtnPrevScene" style="vrprevnextbtnspotstyle" keep="true" url="%FIRSTXML%/graphics/vr-prevnext/btn_previous_scene.png" ox="-30" onclick="loadPreviousScene();
+" devices="html5"/>
+<hotspot name="vrprevnextBtnNextScene" style="vrprevnextbtnspotstyle" keep="true" url="%FIRSTXML%/graphics/vr-prevnext/btn_next_scene.png"     ox="+30" onclick="loadNextScene();
+" devices="html5"/>
+<action name="vrprevnextOnOver" devices="html5">
+  callwith(hotspot[vrprevnextBtnPrevScene], tween(alpha|depth,1.0|650); ); 
+  callwith(hotspot[vrprevnextBtnNextScene], tween(alpha|depth,1.0|650); );
+</action>
+<action name="vrprevnextOnOut" devices="html5">
+  callwith(hotspot[vrprevnextBtnPrevScene], tween(alpha|depth,0.75|800); ); 
+  callwith(hotspot[vrprevnextBtnNextScene], tween(alpha|depth,0.75|800); );
+</action>
+<events name="vrprevnextevents" onviewchange="vrprevnextOnViewChange();" keep="true" devices="html5"/>
+<action name="vrprevnextOnViewChange" type="Javascript" devices="html5">
+<![CDATA[
+  var hs1 = krpano.get("hotspot[vr_menu_bg]");
+  var hs3 = krpano.get("hotspot[vrprevnextBtnPrevScene]");
+  var hs4 = krpano.get("hotspot[vrprevnextBtnNextScene]");
+ 
+  if (!hs1.hovering )
+  {
+    var f = 0.01;  // follow speed factor
+    var h = krpano.view.hlookat;
+    var v = krpano.view.vlookat;
+    var hsh = hs1.ath;
+    var hsv = hs1.atv;
+ 
+    // map to -180 to +180
+    h = (h -(h|0)) + (((h|0) +360180)%360) - 180.0;
+    hsh = (hsh-(hsh|0)) + (((hsh|0)+360180)%360) - 180.0;
+ 
+    // get the shortest horizontal distance
+    dh = h - hsh;
+    dh += (dh>180) ? -360 : (dh<-180) ? 360 : 0
+ 
+    // follow slowing horizontally
+    hsh += dh*f;
+ 
+    // fade out when farther away
+    var a = Math.abs(v - hs1.atv) / 90.0;
+    a = 0.5 * Math.max(1.0 - 2.0*Math.sqrt(a), 0);
+ 
+    // move up the more looking down
+    v = 45 + v + 10.0 - v*1.5;
+    hsv = hsv*(1-f) + v*f;
+ 
+    // set everything
+    if(!hs3.hovering) hs3.alpha = a;
+    if(!hs4.hovering) hs4.alpha = a;
+    hs4.ath = hs3.ath = hs1.ath = hsh;
+    hs4.atv = hs3.atv = hs1.atv = hsv;
+  }
+]]>
+</action>
+
+  <!-- Fullscreen Management -->
+  <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);set(fullscreen,false);</action>
+  <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);set(fullscreen,true);</action>
+  <action name="switchFullScreen">if(tour_fullscreen,exitFullScreen();,enterFullScreen(););</action>
+
+  
+  <events name="krpanoExitFullscreenEvent"
+    onexitfullscreen="if(tour_fullscreen,exitFullScreenChangeEvent(););"
+    keep="true" />
+
+  <action name="exitFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,false);events.dispatch(onexitfullscreen);</action>
+
+  <!-- Hide / Show Thumbnails -->
+  <action name="hideTourThumbnails">set(tour_displaythumbnails, false);events.dispatch(hidetourthumbnails);</action>
+  <action name="showTourThumbnails">set(tour_displaythumbnails, true); events.dispatch(showtourthumbnails);</action>
+
+
+  <!-- Hide / Show Controls -->
+  <action name="hideTourControls">set(tour_displaycontrols, false);events.dispatch(hidetourcontrols);</action>
+  <action name="showTourControls">set(tour_displaycontrols, true); events.dispatch(showtourcontrols);</action>
+
+
+<action name="viewControlZoomIn">
+	if(%1,
+		if(%2,
+			if(%2 LT view.fovmin,
+				zoomto(get(view.fovmin));
+			,
+				if(%2 LT view.fov,
+					zoomto(%2);
+				);
+			);
+		,
+			set(fov_moveforce, -1);
+			delayedcall(0.1, viewControlZoomStop());
+		);
+	,
+		set(fov_moveforce, -1);
+	);
+</action>
+<action name="viewControlZoomOut">
+	if(%1,
+		if(%2,
+			if(%2 GT view.fovmax,
+				zoomto(get(view.fovmax));
+			,
+				if(%2 GT view.fov,
+					zoomto(%2);
+				);
+			);
+		,
+			set(fov_moveforce, +1);
+			delayedcall(0.1, viewControlZoomStop());
+		);
+	,
+		set(fov_moveforce, +1);
+	);
+</action>
+<action name="viewControlZoomStop">
+	set(fov_moveforce, 0);
+</action>
+
+<action name="viewControlMoveUp">
+	if(%1,
+		if(%2,
+			set(isfullvertical, false);
+			ifnot(scene[get(xml.scene)].planar,
+				sub(viewvfov, panoview.vmax, panoview.vmin);
+				if (viewvfov == 180,
+					set(isfullvertical, true);
+				);
+			);
+			if(isfullvertical == false AND calc(view.vlookat-%2) LT view.vlookatmin,
+				moveto(get(view.hlookat), get(view.vlookatmin));
+			,
+				moveto(get(view.hlookat), calc(view.vlookat-%2));
+			);
+		,
+			set(vlookat_moveforce, -1);
+			delayedcall(0.1, viewControlMoveVertStop());
+		);
+	,
+		set(vlookat_moveforce, -1);
+	);
+</action>
+<action name="viewControlMoveDown">
+	if(%1,
+		if(%2,
+			set(isfullvertical, false);
+			ifnot(scene[get(xml.scene)].planar,
+				sub(viewvfov, panoview.vmax, panoview.vmin);
+				if (viewvfov == 180,
+					set(isfullvertical, true);
+				);
+			);
+			if(sceneisfull360 == false AND calc(view.vlookat+%2) GT view.vlookatmax,
+				moveto(get(view.hlookat), get(view.vlookatmax));
+			,
+				moveto(get(view.hlookat), calc(view.vlookat+%2));
+			);
+		,
+			set(vlookat_moveforce, +1);
+			delayedcall(0.1, viewControlMoveVertStop());
+		);
+	,
+		set(vlookat_moveforce, +1);
+	);
+</action>
+<action name="viewControlMoveLeft">
+	if(%1,
+		if(%2,
+			set(isfullhorizontal, false);
+			ifnot(scene[get(xml.scene)].planar,
+				sub(viewhfov, panoview.hmax, panoview.hmin);
+				if (viewhfov == 360,
+					set(isfullhorizontal, true);
+				);
+			);
+			if(isfullhorizontal == false AND calc(view.hlookat-%2) LT view.hlookatmin,
+				moveto(get(view.hlookatmin), get(view.vlookat));
+			,
+				moveto(calc(view.hlookat-%2), get(view.vlookat));
+			);
+		,
+			set(hlookat_moveforce, -1);
+			delayedcall(0.1, viewControlMoveHoriStop());
+		);
+	,
+		set(hlookat_moveforce, -1);
+	);
+</action>
+<action name="viewControlMoveRight">
+	if(%1,
+		if(%2,
+			set(isfullhorizontal, false);
+			ifnot(scene[get(xml.scene)].planar,
+				sub(viewhfov, panoview.hmax, panoview.hmin);
+				if (viewhfov == 360,
+					set(isfullhorizontal, true);
+				);
+			);
+			if(isfullhorizontal == false AND calc(view.hlookat+%2) GT view.hlookatmax,
+				moveto(get(view.hlookatmax), get(view.vlookat));
+			,
+				moveto(calc(view.hlookat+%2), get(view.vlookat));
+			);
+		,
+			set(hlookat_moveforce, +1);
+			delayedcall(0.1, viewControlMoveHoriStop());
+			
+		);
+	,
+		set(hlookat_moveforce, +1);
+	);
+</action>
+<action name="viewControlMoveHoriStop">
+	set(hlookat_moveforce, 0);
+</action>
+<action name="viewControlMoveVertStop">
+	set(vlookat_moveforce, 0);
+</action>
+
+</krpano>

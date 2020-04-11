@@ -11570,4 +11570,12 @@ area {
     z-index: 20000;
     right: 20px;
 }
+.modal-3d {
+    align-items: center;
+    justify-content: center;
+}
+.modal-3d-container {
+    width: 800px;
+    height: 500px;
+}
 /* obj-card */
