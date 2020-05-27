@@ -2546,6 +2546,10 @@
     .main-calc-container {
         flex-direction: column;
     }
+    .card-obj .slider-one-thumbs {
+        margin-left: auto;
+        margin-right: auto;
+    }
     .card-obj .slider-one {
         margin-left: auto;
         margin-right: auto;
@@ -4954,7 +4958,7 @@
     .partners-bottom__container__right__top {
         flex-direction: column;
         width: auto;
-        
+
     }
     .partners-bottom__container__right {
         width: 285px;
@@ -6916,10 +6920,17 @@
     .left-calc {
         margin-top: 20px;
     }
+    .left-calc-fav-img {
+        left: calc(50% + 115px);
+        top: 30px;
+    }
     .slider-one {
         width: 480px;
         height: 320px;
         margin: 0 auto;
+    }
+    .card-obj .slider-one-thumbs {
+        width: 320px;
     }
     .card-obj .slider-one {
         width: 320px;
@@ -6928,6 +6939,10 @@
     .card-obj .calc-slider-item {
         width: 320px;
         height: 240px;
+    }
+    .slider-one-thumbs .calc-slider-item {
+        width: 100px;
+        height: 100px;
     }
     .card-obj .slider-one .owl-next span {
         right: -15px;

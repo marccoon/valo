@@ -11560,15 +11560,9 @@ area {
 }
 .left-calc-fav-img {
     position: absolute;
-    top: 0;
-    z-index: 20000;
-    right: 0;
-}
-.left-calc-fav-img {
-    position: absolute;
     top: 40px;
     z-index: 20000;
-    right: 20px;
+    right: 40px;
 }
 .modal-3d {
     align-items: center;
@@ -11577,5 +11571,55 @@ area {
 .modal-3d-container {
     width: 800px;
     height: 500px;
+}
+
+.slider-one-thumbs .calc-slider-item {
+    width: 189px;
+    height: 189px;
+    cursor: pointer;
+}
+
+.slider-one-thumbs {
+    margin-top: 20px;
+}
+
+.slider-one-thumbs .owl-item {
+    border: 3px solid white;
+}
+
+.slider-one-thumbs .owl-item.current {
+    border: 3px solid #57b5bb;
+}
+
+
+.slider-one-thumbs {
+    width: 585px;
+}
+
+
+.card-obj .slider-one-thumbs .owl-next span {
+    width: 10px;
+    height: 52px;
+    color: transparent;
+    background: url(../img/arr-slide.png);
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-70%);
+    right: -20px;
+}
+
+.card-obj .slider-one-thumbs .owl-prev span {
+    width: 10px;
+    height: 52px;
+    color: transparent;
+    background: url(../img/arr-slide1.png);
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-70%);
+    left: -20px;
 }
 /* obj-card */
