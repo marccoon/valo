@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/global-css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/global-css/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/global-css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/global-css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global-js/sliders.js" beforeDir="false" afterPath="$PROJECT_DIR$/global-js/sliders.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj-card.html" beforeDir="false" afterPath="$PROJECT_DIR$/obj-card.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +51,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\valo" />
       <recent name="C:\Users\Молодое Зло\Desktop\frontend\jsons" />
       <recent name="C:\Users\Молодое Зло\Desktop\frontend\global-js" />
     </key>
@@ -166,7 +166,8 @@
       <workItem from="1586532892572" duration="1530000" />
       <workItem from="1586572184191" duration="1659000" />
       <workItem from="1586976152966" duration="1022000" />
-      <workItem from="1590584931906" duration="7600000" />
+      <workItem from="1590584931906" duration="9112000" />
+      <workItem from="1591808670216" duration="13395000" />
     </task>
     <servers />
   </component>
@@ -187,10 +188,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1586994509746">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1590612961719">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586994509746" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590612961719" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1586976186680">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -199,9 +200,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="0" width="738" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1590585952671" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1590599757833">
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1591816234887">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1590599757833" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1591816234887" />
+    <state x="425" y="66" width="670" height="676" key="search.everywhere.popup" timestamp="1591818684206">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="66" width="670" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591818684206" />
   </component>
 </project>

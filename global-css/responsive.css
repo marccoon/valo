@@ -479,6 +479,12 @@
     /*Локация*/
 }
 @media screen and (max-width: 1250px) {
+    .visit-dots {
+        display: none;
+    }
+    .visit-card {
+        width: calc(50% - 28px);
+    }
     .work-invest {
         padding-bottom: 90px;
         padding-top: 130px;
@@ -3190,6 +3196,9 @@
     }
 }
 @media screen and (max-width: 750px) {
+    .visit-card {
+        width: calc(100% - 28px);
+    }
     .mail-modal-container {
         height: auto;
         width: 304px;
