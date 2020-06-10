@@ -2,6 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2928e9c-2b8c-4773-a3f9-b7e0b0b56b7d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/global-js/visit-show-room.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/visit/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/visit/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/visit/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/visit/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/visit/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/visit/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/visit/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/visit/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/visit/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/visit/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/visit/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/visit/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/visit/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visit-show-room.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/global-css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/global-css/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/global-css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/global-css/style.css" afterDir="false" />
@@ -21,8 +36,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="tsconfig.json" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -167,7 +182,7 @@
       <workItem from="1586572184191" duration="1659000" />
       <workItem from="1586976152966" duration="1022000" />
       <workItem from="1590584931906" duration="9112000" />
-      <workItem from="1591808670216" duration="13395000" />
+      <workItem from="1591808670216" duration="13637000" />
     </task>
     <servers />
   </component>
