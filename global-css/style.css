@@ -11713,3 +11713,9 @@ area {
 .visit-dot.active {
     background: #fff;
 }
+
+.blocked {
+    overflow: hidden;
+}
+
+

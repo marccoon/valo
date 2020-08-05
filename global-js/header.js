@@ -4,34 +4,14 @@ window.onresize = function(event) {
     $('.loader').height(heigth)
 };
 $('.header__menu_btn').click(function () {
-    $('.header__menu').fadeIn(500);
+    $('.header__menu__mobile').fadeIn(500);
+    $('body, html').addClass('blocked')
 });
 $('.header__menu_cross').click(function () {
-    $('.header__menu').fadeOut(500);
+    $('.header__menu__mobile').fadeOut(500);
+    $('body, html').removeClass('blocked')
 });
-var owl = $('.header-slider');
-owl.owlCarousel({
-    loop:true,
-    dots: false,
-    nav:true,
-    margin:10,
-    responsive:{
-        1360:{
-            items:4
-        },
-        0:{
-            items:2
-        }
-    }
-});
-owl.on('mousewheel', '.owl-stage', function (e) {
-    if (e.deltaY>0) {
-        owl.trigger('next.owl');
-    } else {
-        owl.trigger('prev.owl');
-    }
-    e.preventDefault();
-});
+
 $('.header__right-big__container__item3').click(function () {
     if ($('.header__right-big__container__item3').hasClass('header__right-big__container__item3-active')) {
         $('.header__right-big__container__item3').removeClass('header__right-big__container__item3-active')
@@ -64,3 +44,18 @@ $('.left-buttons_btn4').click(function () {
         $('.search-section').slideDown()
         $(this).addClass('active')
 });
+
+$('.header__mobile-item').click(function (e) {
+    if ($(e.target).hasClass('header__mobile-item-arrow') && !$(this).hasClass('active')) {
+        $('.header__mobile-item').removeClass('active')
+        $('.header__mobile-item-arrow').removeClass('active')
+        $('.header__mobile-list-in').slideUp(300)
+        $(this).addClass('active')
+        $(this).find('.header__mobile-item-arrow').addClass('active')
+        $(this).find('.header__mobile-list-in').slideDown(300)
+    } else if ($(e.target).hasClass('header__mobile-item-arrow') && $(this).hasClass('active')) {
+        $(this).removeClass('active')
+        $(this).find('.header__mobile-item-arrow').removeClass('active')
+        $(this).find('.header__mobile-list-in').slideUp(300)
+    }
+})
