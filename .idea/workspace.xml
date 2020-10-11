@@ -1,54 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2928e9c-2b8c-4773-a3f9-b7e0b0b56b7d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3D/3D.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404v2.html" beforeDir="false" afterPath="$PROJECT_DIR$/404v2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-company.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-company.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-project.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-project.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advantages.html" beforeDir="false" afterPath="$PROJECT_DIR$/advantages.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/agencies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apartments-choose.html" beforeDir="false" afterPath="$PROJECT_DIR$/apartments-choose.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apartments-floors.html" beforeDir="false" afterPath="$PROJECT_DIR$/apartments-floors.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apartments.html" beforeDir="false" afterPath="$PROJECT_DIR$/apartments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/building-month.html" beforeDir="false" afterPath="$PROJECT_DIR$/building-month.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/building-year.html" beforeDir="false" afterPath="$PROJECT_DIR$/building-year.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/calculator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commerce-choose.html" beforeDir="false" afterPath="$PROJECT_DIR$/commerce-choose.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commerce-floors.html" beforeDir="false" afterPath="$PROJECT_DIR$/commerce-floors.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company-blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/company-blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents.html" beforeDir="false" afterPath="$PROJECT_DIR$/documents.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favourite.html" beforeDir="false" afterPath="$PROJECT_DIR$/favourite.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global-css/header-responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/global-css/header-responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global-css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/global-css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global-css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/global-css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global-js/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/global-js/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global-js/left-buttons.js" beforeDir="false" afterPath="$PROJECT_DIR$/global-js/left-buttons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/how-to-buy.html" beforeDir="false" afterPath="$PROJECT_DIR$/how-to-buy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure.html" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalment.html" beforeDir="false" afterPath="$PROJECT_DIR$/instalment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/investment-in-apartments.html" beforeDir="false" afterPath="$PROJECT_DIR$/investment-in-apartments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipoteca.html" beforeDir="false" afterPath="$PROJECT_DIR$/ipoteca.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/location.html" beforeDir="false" afterPath="$PROJECT_DIR$/location.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mercure.html" beforeDir="false" afterPath="$PROJECT_DIR$/mercure.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj-card.html" beforeDir="false" afterPath="$PROJECT_DIR$/obj-card.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partners.html" beforeDir="false" afterPath="$PROJECT_DIR$/partners.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-programs.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-programs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profit-programs.html" beforeDir="false" afterPath="$PROJECT_DIR$/profit-programs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s-page1.html" beforeDir="false" afterPath="$PROJECT_DIR$/s-page1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stopro.html" beforeDir="false" afterPath="$PROJECT_DIR$/stopro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/team.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trade-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/trade-in.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visit-show-room.html" beforeDir="false" afterPath="$PROJECT_DIR$/visit-show-room.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visual-floor.html" beforeDir="false" afterPath="$PROJECT_DIR$/visual-floor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visual.html" beforeDir="false" afterPath="$PROJECT_DIR$/visual.html" afterDir="false" />
-    </list>
+    <list default="true" id="b2928e9c-2b8c-4773-a3f9-b7e0b0b56b7d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,6 +23,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TSKGf8b2vxcVbQM8qG8kPJA8x9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -87,14 +41,17 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Работа\valo-master\jsons" />
       <recent name="C:\Users\user\Desktop\valo" />
       <recent name="C:\Users\Молодое Зло\Desktop\frontend\jsons" />
       <recent name="C:\Users\Молодое Зло\Desktop\frontend\global-js" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -213,11 +170,19 @@
       <workItem from="1596479220604" duration="12090000" />
       <workItem from="1596519476315" duration="2072000" />
       <workItem from="1596652105452" duration="7951000" />
+      <workItem from="1601835971520" duration="15530000" />
+      <workItem from="1601887503161" duration="58000" />
+      <workItem from="1601921647248" duration="1192000" />
+      <workItem from="1601929309199" duration="8095000" />
+      <workItem from="1601975081923" duration="147000" />
+      <workItem from="1602016551712" duration="6805000" />
+      <workItem from="1602061960261" duration="29000" />
+      <workItem from="1602336693279" duration="15240000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -236,29 +201,27 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1596487163038" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1596523183469">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="686" y="211" key="FileChooserDialogImpl" timestamp="1602061986839">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596523183469" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1592299737656">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1592299737656" />
+    <state x="686" y="211" key="FileChooserDialogImpl/0.0.1920.1040/-1920.63.1920.1040@0.0.1920.1040" timestamp="1602061986839" />
     <state x="0" y="0" width="1077" height="565" key="dock-window-1" timestamp="1596480442951">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="0" width="1077" height="565" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1596480442951" />
-    <state x="0" y="0" width="738" height="824" key="find.popup" timestamp="1596660033811">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="0" y="0" width="923" height="1040" key="find.popup" timestamp="1601838503904">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="0" width="738" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1596660033811" />
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1591816234887">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="0" y="0" width="923" height="1040" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601838503904" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1601935698379">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1591816234887" />
-    <state x="425" y="66" width="670" height="676" key="search.everywhere.popup" timestamp="1591818684206">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601935698379" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602337132898">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="425" y="66" width="670" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591818684206" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602337132898" />
   </component>
 </project>

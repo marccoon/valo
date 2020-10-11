@@ -7389,6 +7389,7 @@ map {
     font-weight: 700;
     color: #fff;
     font-size: 40px;
+    line-height: 120%;
 }
 .shab-photo-in-text {
     padding-top: 60px;
@@ -11718,4 +11719,36 @@ area {
     overflow: hidden;
 }
 
+.commerce-big-container {
+    width: 100%;
+    padding: 50px 20px;
+    background: #fff;
+}
+
+.img-container-retail {
+    position: relative;
+}
+
+.img-container-retail svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.img-container-retail svg polygon {
+    pointer-events: auto;
+}
+
+.commerce-svg-container__title {
+    font-size: 27px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.commerce-svg-container__content {
+    margin-bottom: 30px;
+}
 

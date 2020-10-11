@@ -599,7 +599,7 @@ window.onload = function () {
 
     img.onload = function () {
         for (key in corpusFloorsJSON[currentCorpus][currentFloor]) {
-            if (key !== 'dataFloor' && key !== 'bigImgSrc') {
+            if (key !== 'bigImgSrc' && key !== 'bigImgSrcHorizontal' && key !== 'dataFloor') {
                 addSVG(
                     corpusFloorsJSON[currentCorpus][currentFloor][key].coords,
                     corpusFloorsJSON[currentCorpus][currentFloor][key].color,
