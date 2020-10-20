@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2928e9c-2b8c-4773-a3f9-b7e0b0b56b7d" name="Default Changelist" comment="" />
+    <list default="true" id="b2928e9c-2b8c-4773-a3f9-b7e0b0b56b7d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/global-css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/global-css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/global-css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/global-css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/global-js/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/global-js/header.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +46,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -177,7 +183,8 @@
       <workItem from="1601975081923" duration="147000" />
       <workItem from="1602016551712" duration="6805000" />
       <workItem from="1602061960261" duration="29000" />
-      <workItem from="1602336693279" duration="15240000" />
+      <workItem from="1602336693279" duration="17821000" />
+      <workItem from="1603232611498" duration="414000" />
     </task>
     <servers />
   </component>
@@ -201,11 +208,16 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1596487163038" />
-    <state x="686" y="211" key="FileChooserDialogImpl" timestamp="1602061986839">
+    <state x="686" y="211" key="FileChooserDialogImpl" timestamp="1602409647129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596523183469" />
     <state x="686" y="211" key="FileChooserDialogImpl/0.0.1920.1040/-1920.63.1920.1040@0.0.1920.1040" timestamp="1602061986839" />
+    <state x="686" y="211" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602409647129" />
+    <state x="417" y="162" key="SettingsEditor" timestamp="1602408782051">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="417" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602408782051" />
     <state x="0" y="0" width="1077" height="565" key="dock-window-1" timestamp="1596480442951">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -219,9 +231,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601935698379" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602337132898">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603232899637">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602337132898" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603232899637" />
   </component>
 </project>

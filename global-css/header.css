@@ -292,6 +292,12 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.fixed-menu {
+    position: fixed;
+    top: 0;
+}
+
 @media screen and (max-width: 1250px) {
     .header__menu {
         display: none;

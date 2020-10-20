@@ -59,3 +59,12 @@ $('.header__mobile-item').click(function (e) {
         $(this).find('.header__mobile-list-in').slideUp(300)
     }
 })
+
+$(window).scroll(function () {
+    if ($(this).scrollTop() > 115) {
+        console.log(1)
+        $('.header__menu').addClass('fixed-menu')
+    } else {
+        $('.header__menu').removeClass('fixed-menu')
+    }
+})
