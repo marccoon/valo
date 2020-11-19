@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Главная</title>
+    <link rel="stylesheet" href="global-css/ion.rangeSlider.min.css">
     <!--slick carousel -->
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <!--owl-carousel-->
@@ -711,23 +712,77 @@
         </ul>
     </menu>
 </header>
-
     <main>
         <section class="main-block">
             <div class="owl-carousel main-slider default-owl-slider owl-theme">
-                <!--Ссылку для изображения вставляйте сюда-->
                 <div class="main-slide" style="background-image: url(img/ms-bg.jpg)">
                     <div class="main-wrapper">
-                        <div class="main-slide__text-block">
-                            <h1 class="main-slide_main">VALO</h1>
-                            <h2 class="main-slide_sub-main">Лучший строящийся отель <br class="dn-800"> в Санкт-Петербурге</h2>
-                            <p class="main-slide_main-description">Мы объединили апарт-отели самых успешных международных форматов.</p>
-                            <button class="main-slide__content_btn main-page-bgn">Подробнее</button>
+                        <div class="main-slide__flex-container">
+                            <div class="main-slide__content">
+                                <ul class="main-slide__list">
+                                    <li class="main-slide__item">
+                                        <img class="main-slide__item__icon" src="img/main-1.png" alt="urban">
+
+                                        <div>
+                                            <h2 class="main-slide__item__title">
+                                                Лучший комплекс апартаментов
+                                                бизнес-класса
+                                            </h2>
+
+                                            <p class="main-slide__item__description">
+                                                Победитель в конкурсе Urban Awards 2020
+                                            </p>
+                                        </div>
+                                    </li>
+
+                                    <li class="main-slide__item">
+                                        <img class="main-slide__item__icon" src="img/main-2.png" alt="urban">
+
+                                        <div>
+                                            <h2 class="main-slide__item__title">
+                                                Ипотека 4,5%
+                                            </h2>
+
+                                            <p class="main-slide__item__description">
+                                                Субсидированная ипотека на весь период кредитования от банка Совкомбанк
+                                            </p>
+                                        </div>
+                                    </li>
+
+                                    <li class="main-slide__item">
+                                        <img class="main-slide__item__icon" src="img/main-3.png" alt="urban">
+
+                                        <div>
+                                            <h2 class="main-slide__item__title">
+                                                Гарантируем доход
+                                            </h2>
+
+                                            <p class="main-slide__item__description">
+                                                В корпусе 2 и 5 выведены в продажу апартаменты с гарантированным доходом
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="main-slide__video-container">
+                                <div class="main-slide__video-btn">
+                                    <img class="main-slide__video-btn__play" src="img/video-btn-play.png" alt="">
+
+                                    <div class="main-slide__video-text">
+                                        Обзор комплекса <br>
+                                        апарт-отелей VALO
+                                    </div>
+                                </div>
+
+                                <button class="main-slide__video-container__btn">
+                                    получить профессиональную консультацию
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <!--Ссылку для изображения вставляйте сюда-->
                 <div class="main-slide" style="background-image: url(img/Test.jpg)">
                     <div class="main-wrapper">
                         <div class="main-slide__text-block ">
@@ -741,28 +796,463 @@
             </div>
         </section>
 
-        <section class="valo-its">
+        <div class="popup youtube-popup">
+            <div class="main-wrapper youtube-popup__wrapper">
+                <iframe width="100%" height="100%"   src="https://www.youtube.com/embed/Spu6OlAZHUo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <section class="chart">
             <div class="main-wrapper">
-                <h2 class="valo-its_main">VALO — это не просто апарт-отель</h2>
-                <p class="valo-its_text">
-                    VALO — это не просто апарт-отель; это целый «город отелей», сформированный из самых успешных международных
-                    гостиничных форматов. Уже на этапе проектирования и строительства мы выстраиваем качественный гостиничный сервис, который
-                    привлечет гостей в VALO и, как следствие, сделает апартаменты доходным инструментом для инвесторов!
+                <p class="chart__subtitle">Время купить апартаменты в СПб в VALO</p>
+                <h2 class="chart__title">
+                    Покупка доходных апартаментов
+                    – это долгосрочное инвестирование
+                </h2>
+
+                <p class="chart__green-text">
+                    Рост стоимости апартаментов VALO (1 и 2 очередь)
+                    <a href="#">Прогнозируемая доходность</a>
                 </p>
-                <button class="main-page-bgn valo-its_btn">Выбрать апартаменты</button>
+
+                <div class="chart-container">
+                    <canvas height="218" id="chart"></canvas>
+
+                    <div class="chart-container__next-price">
+                        Следующее <br>
+                        повышение <br>
+                        цен <br>
+                        16.11.2020
+                    </div>
+                </div>
+
+                <div class="chart__bottom">
+                    <div class="chart__bottom__col">
+                        На 12.10.2020 минимальная стоимость <br>
+                        апартаментов (с оснащением)
+
+                        <span class="chart__bottom__green-text">4 400 000 ₽</span>
+                    </div>
+
+                    <div class="chart__bottom__col">
+                        Доходность <br>
+                        годовых
+
+                        <span class="chart__bottom__green-text">от 8-12.5%</span>
+                    </div>
+
+                    <button class="chart__bottom__btn">
+                        получить полные расчеты
+                    </button>
+                </div>
             </div>
         </section>
 
-        <section class="presentation-video">
-            <div class="main-wrapper h-100 presentation-video__container">
-                <div class="presentation-video__text-block">
-                    <h2 class="presentation-video_main">Лучше один раз увидеть!</h2>
-                    <p class="presentation-video_text">Посмотрите презентацию проекта VALO в формате 360</p>
-                    <button class="main-page-bgn presentation-video_btn">Выбрать апартаменты</button>
+        <section class="apart-profit">
+            <div class="main-wrapper">
+                <h2 class="apart-profit__title">Доходность апартаментов VALO *</h2>
+
+                <div class="apart-profit__table__container">
+                    <table class="apart-profit__table">
+                        <thead class="apart-profit__table__head">
+                        <tr>
+                            <td class="apart-profit__table__head__td"></td>
+                            <td class="apart-profit__table__head__td">Гарант</td>
+                            <td class="apart-profit__table__head__td">Progressive</td>
+                            <td class="apart-profit__table__head__td">Mercure</td>
+                        </tr>
+                        </thead>
+
+                        <tr class="apart-profit__table__tr">
+                            <td class="apart-profit__table__td apart-profit__table__td_title">2 корпус</td>
+                            <td class="apart-profit__table__td">
+                                <p class="apart-profit__table__bold-text">44 000 – 47 000 ₽/мес</p>
+                                <p class="apart-profit__table__text">Апартаменты
+                                    <span class="apart-profit__table__text-green">от 5 640 000 ₽</span>
+                                </p>
+                            </td>
+                            <td class="apart-profit__table__td"></td>
+                            <td class="apart-profit__table__td">
+                                <p class="apart-profit__table__bold-text">43 500 – 53 400 ₽/мес</p>
+                                <p class="apart-profit__table__text">Апартаменты
+                                    <span class="apart-profit__table__text-green">от 5 640 000 ₽</span>
+                                </p>
+                            </td>
+                        </tr>
+
+                        <tr class="apart-profit__table__tr">
+                            <td class="apart-profit__table__td apart-profit__table__td_title">3 корпус</td>
+                            <td class="apart-profit__table__td"></td>
+                            <td class="apart-profit__table__td">
+                                <p class="apart-profit__table__bold-text">40 000 – 47 600 ₽/мес</p>
+                                <p class="apart-profit__table__text">Апартаменты
+                                    <span class="apart-profit__table__text-green">от 4 010 000 ₽</span>
+                                </p>
+                            </td>
+                            <td class="apart-profit__table__td"></td>
+                        </tr>
+
+                        <tr class="apart-profit__table__tr">
+                            <td class="apart-profit__table__td apart-profit__table__td_title">4 корпус</td>
+                            <td class="apart-profit__table__td"></td>
+                            <td class="apart-profit__table__td">
+                                <p class="apart-profit__table__bold-text">46 000 – 71 600 ₽/мес</p>
+                                <p class="apart-profit__table__text">Апартаменты
+                                    <span class="apart-profit__table__text-green">от 3 730 000 ₽</span>
+                                </p>
+                            </td>
+                            <td class="apart-profit__table__td"></td>
+                        </tr>
+
+                        <tr class="apart-profit__table__tr">
+                            <td class="apart-profit__table__td apart-profit__table__td_title">5 корпус</td>
+                            <td class="apart-profit__table__td">
+                                <p class="apart-profit__table__bold-text">30 000 – 40 000 ₽/мес</p>
+                                <p class="apart-profit__table__text">Апартаменты
+                                    <span class="apart-profit__table__text-green">от 4 080 000 ₽</span>
+                                </p>
+                            </td>
+                            <td class="apart-profit__table__td">
+                                <p class="apart-profit__table__bold-text">34 000 – 44 000 ₽/мес</p>
+                                <p class="apart-profit__table__text">Апартаменты
+                                    <span class="apart-profit__table__text-green">от от 3 815 000 ₽</span>
+                                </p>
+                            </td>
+                            <td class="apart-profit__table__td"></td>
+                        </tr>
+                    </table>
                 </div>
 
-                <div class="presentation-video__ipad-block">
-                    <iframe width="450" height="359"  src="https://www.youtube.com/embed/xFw1VqpRU0s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p class="apart-profit__botttom-text">
+                    * Прогнозируемая доходность со второго года работы отеля
+                </p>
+            </div>
+
+            <div class="apart-profit__managers">
+                <h3 class="how-to-buy__managers_text">Наши менеджеры помогут подобрать наиболее подходящую Вам <a href="#" class="how-to-buy__managers_text_span">программу доходности</a>
+                    и сделают рассчет окупаемости</h3>
+                <button class="how-to-buy__managers_btn dn-750">оставить заявку</button>
+                <div class="how-to-buy-btn-container">
+                    <button class="how-to-buy__managers_btn ">оставить заявку</button>
+                </div>
+            </div>
+        </section>
+
+        <!--first range-->
+        <span class="for-back min-first">0</span>
+        <span class="for-back max-first">200</span>
+        <span class="for-back start-first">20</span>
+        <span class="for-back end-first">60</span>
+        <!--first range-->
+        <!--second-range-->
+        <span class="for-back min-second">0</span>
+        <span class="for-back max-second">10000000</span>
+        <span class="for-back start-second">2500000</span>
+        <span class="for-back end-second">6000000</span>
+        <!--second-range-->
+
+        <section class="apartments-selection">
+            <div class="main-wrapper">
+                <div class="apartments-selection__container">
+                    <div class="apartments-selection__left">
+                        <ul class="apartments-selection__list">
+                            <div class="default-dropdown">
+                                <span class="default-dropdown_span">СРОК СДАЧИ</span>
+                                <img src="img/dd.png" alt="" class="default-dropdown_img">
+                                <ul class="default-dropdown_ul">
+                                    <li class="default-dropdown_ul_li">
+                                        <label>
+                                <span class="default-dropdown_ul_li_span">
+                                    II КВ. 2019 Г.
+                                </span>
+                                            <input type="checkbox" class="default-dropdown_ul_li_checkbox">
+                                            <span class="default-dropdown_ul_li_checkbox_span"></span>
+                                        </label>
+                                    </li>
+                                    <li class="default-dropdown_ul_li">
+                                        <label>
+                                <span class="default-dropdown_ul_li_span">
+                                    III КВ. 2019 Г.
+                                </span>
+                                            <input type="checkbox" class="default-dropdown_ul_li_checkbox">
+                                            <span class="default-dropdown_ul_li_checkbox_span"></span>
+                                        </label>
+                                    </li>
+                                    <li class="default-dropdown_ul_li">
+                                        <label>
+                                <span class="default-dropdown_ul_li_span">
+                                    II КВ. 2020 Г.
+                                </span>
+                                            <input type="checkbox" class="default-dropdown_ul_li_checkbox">
+                                            <span class="default-dropdown_ul_li_checkbox_span"></span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="default-dropdown">
+                                <span class="default-dropdown_span">КОМНАТ</span>
+                                <img src="img/dd.png" alt="" class="default-dropdown_img">
+                                <ul class="default-dropdown_ul">
+                                    <li class="default-dropdown_ul_li">
+                                        <label>
+                                <span class="default-dropdown_ul_li_span">
+                                    II КВ. 2019 Г.
+                                </span>
+                                            <input type="checkbox" class="default-dropdown_ul_li_checkbox">
+                                            <span class="default-dropdown_ul_li_checkbox_span"></span>
+                                        </label>
+                                    </li>
+                                    <li class="default-dropdown_ul_li">
+                                        <label>
+                                <span class="default-dropdown_ul_li_span">
+                                    III КВ. 2019 Г.
+                                </span>
+                                            <input type="checkbox" class="default-dropdown_ul_li_checkbox">
+                                            <span class="default-dropdown_ul_li_checkbox_span"></span>
+                                        </label>
+                                    </li>
+                                    <li class="default-dropdown_ul_li">
+                                        <label>
+                                <span class="default-dropdown_ul_li_span">
+                                    II КВ. 2020 Г.
+                                </span>
+                                            <input type="checkbox" class="default-dropdown_ul_li_checkbox">
+                                            <span class="default-dropdown_ul_li_checkbox_span"></span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="default-dropdown">
+                                <span class="default-dropdown_span">КОРПУС</span>
+                                <img src="img/dd.png" alt="" class="default-dropdown_img">
+                                <ul class="default-dropdown_ul">
+                                    <li class="default-dropdown_ul_li">
+                                        <label>
+                                <span class="default-dropdown_ul_li_span">
+                                    II КВ. 2019 Г.
+                                </span>
+                                            <input type="checkbox" class="default-dropdown_ul_li_checkbox">
+                                            <span class="default-dropdown_ul_li_checkbox_span"></span>
+                                        </label>
+                                    </li>
+                                    <li class="default-dropdown_ul_li">
+                                        <label>
+                                <span class="default-dropdown_ul_li_span">
+                                    III КВ. 2019 Г.
+                                </span>
+                                            <input type="checkbox" class="default-dropdown_ul_li_checkbox">
+                                            <span class="default-dropdown_ul_li_checkbox_span"></span>
+                                        </label>
+                                    </li>
+                                    <li class="default-dropdown_ul_li">
+                                        <label>
+                                <span class="default-dropdown_ul_li_span">
+                                    II КВ. 2020 Г.
+                                </span>
+                                            <input type="checkbox" class="default-dropdown_ul_li_checkbox">
+                                            <span class="default-dropdown_ul_li_checkbox_span"></span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="default-dropdown">
+                                <span class="default-dropdown_span">ПРОГРАММА <br> ДОХОДНОСТИ</span>
+                                <img src="img/dd.png" alt="" class="default-dropdown_img">
+                                <ul class="default-dropdown_ul">
+                                    <li class="default-dropdown_ul_li">
+                                        <label>
+                                <span class="default-dropdown_ul_li_span">
+                                    II КВ. 2019 Г.
+                                </span>
+                                            <input type="checkbox" class="default-dropdown_ul_li_checkbox">
+                                            <span class="default-dropdown_ul_li_checkbox_span"></span>
+                                        </label>
+                                    </li>
+                                    <li class="default-dropdown_ul_li">
+                                        <label>
+                                <span class="default-dropdown_ul_li_span">
+                                    III КВ. 2019 Г.
+                                </span>
+                                            <input type="checkbox" class="default-dropdown_ul_li_checkbox">
+                                            <span class="default-dropdown_ul_li_checkbox_span"></span>
+                                        </label>
+                                    </li>
+                                    <li class="default-dropdown_ul_li">
+                                        <label>
+                                <span class="default-dropdown_ul_li_span">
+                                    II КВ. 2020 Г.
+                                </span>
+                                            <input type="checkbox" class="default-dropdown_ul_li_checkbox">
+                                            <span class="default-dropdown_ul_li_checkbox_span"></span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </ul>
+
+                        <div class="ranges apartments-top-setting">
+                            <div class="first-range first-range_apartments-top">
+                                <input type="text" class="js-range-slider" name="my_range" value="" />
+                                <div class="first-range-counters">
+                                    <div class="range-counter"><span class="range-counter-span" id="priceFrom"></span></div>
+                                    <div class="range-counter"><span class="range-counter-span" id="priceTo"></span></div>
+                                </div>
+                            </div>
+                            <div class="second-range second-range_apartments-top">
+                                <input type="text" class="second-js-range-slider" name="my_range" value="" />
+                                <div class="first-range-counters">
+                                    <div class="range-counter"><span class="range-counter-span" id="placeFrom"></span></div>
+                                    <div class="range-counter"><span class="range-counter-span" id="placeTo"></span></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="apartments-selection__btn-container">
+                            <button class="apartments-selection__button">
+                                ПОКАЗАТЬ ВАРИАНТЫ
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="apartments-selection__right">
+                        <div class="apartments-selection__right__container owl-carousel default-owl-slider owl-theme">
+                            <div class="apartments-card apartments-card_apartments-selection ">
+                                <div class="apartments-img-block">
+                                    <div class="card-img-container">
+                                        <a href="img/apartments-img.png" data-fancybox="">
+                                            <img src="img/apartments-img.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="apartments-card-text-container">
+                                        <div class="apartments-card-text-block">
+                                            <p class="apartments-card-text apartments-card-text-bold">Апартаменты: <br class="responsive-950"> <span class="apartments-card-text">студия</span></p>
+                                            <p class="apartments-card-text"><span class="apartments-card-text-bold">Площадь</span> 32м<sup>2</sup></p>
+                                            <p class="apartments-card-text"><span class="apartments-card-text-bold">Этаж:</span> 15</p>
+                                            <p class="apartments-card-text apartments-card-text-bold">Стоимость: <br class="responsive-950"><span class="apartments-card-text">2 347 000 руб</span></p>
+                                        </div>
+                                        <div class="card-star-and-btn">
+                                            <img src="img/card-star.png" alt="" class="card-star">
+                                            <button class="card-btn">Забронировать</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="apartments-card apartments-card_apartments-selection ">
+                                <div class="apartments-img-block">
+                                    <div class="card-img-container">
+                                        <a href="img/apartments-img.png" data-fancybox="">
+                                            <img src="img/apartments-img.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="apartments-card-text-container">
+                                        <div class="apartments-card-text-block">
+                                            <p class="apartments-card-text apartments-card-text-bold">Апартаменты: <br class="responsive-950"> <span class="apartments-card-text">студия</span></p>
+                                            <p class="apartments-card-text"><span class="apartments-card-text-bold">Площадь</span> 32м<sup>2</sup></p>
+                                            <p class="apartments-card-text"><span class="apartments-card-text-bold">Этаж:</span> 15</p>
+                                            <p class="apartments-card-text apartments-card-text-bold">Стоимость: <br class="responsive-950"><span class="apartments-card-text">2 347 000 руб</span></p>
+                                        </div>
+                                        <div class="card-star-and-btn">
+                                            <img src="img/card-star.png" alt="" class="card-star">
+                                            <button class="card-btn">Забронировать</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="current-promotions">
+            <div class="main-wrapper">
+                <h2 class="current-promotions__title">Текущие акции</h2>
+                <div class="current-promotions__slider owl-theme owl-carousel">
+                    <div class="current-promotions__slide">
+                        <img src="img/cp1.png" alt="" class="current-promotions__slide__img">
+
+                        <p class="current-promotions__slide__text">
+                            «Тающие» скидки
+                            С 1 по 10 октября скидка 3%,
+                            с 11 по 20 октября — 2%,
+                            с 21 по 31 октября — 1%
+
+                            <span>до конца октября</span>
+                        </p>
+                    </div>
+
+                    <div class="current-promotions__slide">
+                        <img src="img/cp2.png" alt="" class="current-promotions__slide__img">
+
+                        <p class="current-promotions__slide__text">
+                            ИПОТЕКА.
+                            Процентная ставка от Совкомбанка по ипотеке для заемщиков - 4,5%
+
+                            <span>до конца октября</span>
+                        </p>
+                    </div>
+
+                    <div class="current-promotions__slide">
+                        <img src="img/cp3.png" alt="" class="current-promotions__slide__img">
+
+                        <p class="current-promotions__slide__text">
+                            При покупке апартаментов в III очереди — бесплатное проживание в гостинице VALO Hotel City до 7 дней!
+
+                            <span>до 31 декабря 2020 года</span>
+                        </p>
+                    </div>
+
+                    <div class="current-promotions__slide">
+                        <img src="img/cp1.png" alt="" class="current-promotions__slide__img">
+
+                        <p class="current-promotions__slide__text">
+                            «Тающие» скидки
+                            С 1 по 10 октября скидка 3%,
+                            с 11 по 20 октября — 2%,
+                            с 21 по 31 октября — 1%
+
+                            <span>до конца октября</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="valo-location">
+            <div class="main-wrapper h-100">
+                <div class="valo-location__content">
+                    <div class="valo-location__left">
+                        <h2 class="valo-location_main">Локация</h2>
+
+                        <p class="valo-location_text-block_p">
+                            Самое важное при выборе недвижимости и успехе <br> гостиничного бизнеса.
+                        </p>
+
+                        <div class="valo-location__icons">
+                            <img src="img/loc-1.png" alt="">
+                            <img src="img/loc-2.png" alt="">
+                            <img src="img/loc-4.png" alt="">
+                            <img src="img/loc-3.png" alt="">
+                        </div>
+
+                        <p class="valo-location__big-text">
+                            Апартаменты <span>в 1 минуте</span>
+                            от метро «Бухарестская»
+                        </p>
+
+                        <ul class="valo-location__list">
+                            <li class="valo-location__item"><span>15-25 минут</span> - центр города, жд вокзалы, аэропорт</li>
+                            <li class="valo-location__item"><span>45-50 минут</span> - любая точка города</li>
+                        </ul>
+                    </div>
+
+                    <div class="valo-location__right">
+                        <div class="valo-location__map-block_map" id="indexMap"></div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -1365,916 +1855,359 @@
             </div>
         </section>
 
-        <section class="public-space">
-            <div class="main-wrapper">
-                <div class="public-space__content">
-                    <h2 class="public-space_main">Открытое общественное пространство</h2>
-                    <p class="public-space_text">
-                        Особое внимание уделяется благоустройству внутренней территории комплекса и развитию концептуального общественного
-                        пространства под открытым небом. На внутренней территории «города отелей» VALO разместятся фонтаны и арт-объекты, световые
-                        навигационные панели и дизайнерские фонари, будут оборудованы места для отдыха и велодорожка, ведущая прямо к центру города.
-                    </p>
-                    <a class="public-space_btn main-page-bgn">
-                        подробнее
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <section class="why-valo">
-            <div class="why-valo-left">
-
-            </div>
-            <div class="why-valo-right">
-                <div class="why-valo-right__content">
-                    <h2 class="why-valo-right__content_main">
-                        Почему стоит
-                        инвестировать
-                        в VALO?
-                    </h2>
-                    <ul class="why-valo-right__content__lists">
-                        <li class="why-valo-right__content__lists__li why-valo-right__content__lists__li1">
-                            <div class="why-valo-right__content__lists__li__image why-valo-right__content__lists__li__image1">
-
-                            </div>
-                            <div class="why-valo-right__content__lists__li_content">
-                                <h4 class="why-valo-right__content__lists__li_main">
-                                    НАДЁЖНО
-                                </h4>
-                                <p class="why-valo-right__content__lists__li_text">
-                                    Деньги вложены в реальную недвижимость!
-                                </p>
-                            </div>
-                        </li>
-
-                        <li class="why-valo-right__content__lists__li why-valo-right__content__lists__li2">
-                            <div class="why-valo-right__content__lists__li__image why-valo-right__content__lists__li__image2">
-
-                            </div>
-                            <div class="why-valo-right__content__lists__li_content">
-                                <h4 class="why-valo-right__content__lists__li_main">
-                                    ДОСТУПНО
-                                </h4>
-                                <p class="why-valo-right__content__lists__li_text">
-                                    Ипотека от 450 т. р. Студии от 2,6 млн. р. с мебелью и доходной программой!
-                                </p>
-                            </div>
-                        </li>
-
-                        <li class="why-valo-right__content__lists__li why-valo-right__content__lists__li3">
-                            <div class="why-valo-right__content__lists__li__image why-valo-right__content__lists__li__image3">
-
-                            </div>
-                            <div class="why-valo-right__content__lists__li_content">
-                                <h4 class="why-valo-right__content__lists__li_main">
-                                    СТАБИЛЬНО
-                                </h4>
-                                <p class="why-valo-right__content__lists__li_text">
-                                    Гарантированный ежемесячный доход!
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                    <div class="owl-carousel why-valo-slider default-owl-slider default-owl-slider owl-theme">
-                        <div class="why-valo-right__content__lists__li">
-                            <h4 class="why-valo-right__content__lists__li_main">
-                                НАДЁЖНО
-                            </h4>
-                            <p class="why-valo-right__content__lists__li_text">
-                                Деньги вложены в реальную недвижимость!
-                            </p>
-                        </div>
-
-                        <div class="why-valo-right__content__lists__li why-valo-right__content__lists__li2">
-                            <h4 class="why-valo-right__content__lists__li_main">
-                                ДОСТУПНО
-                            </h4>
-                            <p class="why-valo-right__content__lists__li_text">
-                                Ипотека от 450 т. р. Студии от 2,6 млн. р. с мебелью и доходной программой!
-                            </p>
-                        </div>
-
-                        <div class="why-valo-right__content__lists__li why-valo-right__content__lists__li3">
-                            <h4 class="why-valo-right__content__lists__li_main">
-                                СТАБИЛЬНО
-                            </h4>
-                            <p class="why-valo-right__content__lists__li_text">
-                                Гарантированный ежемесячный доход!
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="valo-location">
-            <div class="main-wrapper h-100">
-                <div class="valo-location__content h-100">
-                    <div class="pos-relative-750">
-                        <h2 class="valo-location_main">VALO <span class="valo-location_main_span">1 минута</span> до метро «Бухарестская»</h2>
-                        <div class="valo-location_text-block">
-                            <p class="valo-location_text-block_p">
-                                VALO расположен в одном из самых быстроразвивающихся районов Петербурга, прямо напротив метро
-                                «Бухарестская», рядом с крупной дорожной развязкой,
-                                что обеспечивает высокую транспортную доступность комплекса.
-                            </p>
-                            <a href="location.html" class="valo-location_text-block_btn main-page-bgn">ЛОКАЦИЯ</a>
-                        </div>
-                    </div>
-
-                    <div class="valo-location__map-block">
-                        <div class="valo-location__map-block_map" id="indexMap"></div>
-
-                        <div class="valo-location__map-block_right">
-                            <div class="valo-location__map-block_right__card valo-location__map-block_right__card1">
-                                <div class="valo-location__map-block_right__card_top">
-                                    <div class="valo-location__map-block_right__card_img valo-location__map-block_right__card_img1">
-
-                                    </div>
-                                    <p class="valo-location__map-block_right__card_top_text">НЕВСКИЙ <br> ПРОСПЕКТ</p>
-                                </div>
-                                <p class="valo-location__map-block_right__card_time">10 минут</p>
-                                <p class="valo-location__map-block_right__card_time_description">на метро</p>
-                            </div>
-
-                            <div class="valo-location__map-block_right__card valo-location__map-block_right__card2">
-                                <div class="valo-location__map-block_right__card_top">
-                                    <div class="valo-location__map-block_right__card_img valo-location__map-block_right__card_img2">
-
-                                    </div>
-                                    <p class="valo-location__map-block_right__card_top_text">ДВОРЦОВАЯ <br> ПЛОЩАДЬ</p>
-                                </div>
-                                <p class="valo-location__map-block_right__card_time">10 минут</p>
-                                <p class="valo-location__map-block_right__card_time_description">на метро</p>
-                            </div>
-
-                            <div class="valo-location__map-block_right__card valo-location__map-block_right__card3">
-                                <div class="valo-location__map-block_right__card_top">
-                                    <div class="valo-location__map-block_right__card_img valo-location__map-block_right__card_img3">
-
-                                    </div>
-                                    <p class="valo-location__map-block_right__card_top_text">ЛАХТА-ЦЕНТР</p>
-                                </div>
-                                <p class="valo-location__map-block_right__card_time">35 минут</p>
-                                <p class="valo-location__map-block_right__card_time_description">на машине</p>
-                            </div>
-
-                            <div class="valo-location__map-block_right__card valo-location__map-block_right__card4">
-                                <div class="valo-location__map-block_right__card_top">
-                                    <div class="valo-location__map-block_right__card_img valo-location__map-block_right__card_img4">
-
-                                    </div>
-                                    <p class="valo-location__map-block_right__card_top_text">МОСКОВСКИЙ <br> ВОКЗАЛ</p>
-                                </div>
-                                <p class="valo-location__map-block_right__card_time">15 минут</p>
-                                <p class="valo-location__map-block_right__card_time_description">на метро</p>
-                            </div>
-
-                            <div class="valo-location__map-block_right__card valo-location__map-block_right__card5">
-                                <div class="valo-location__map-block_right__card_top">
-                                    <div class="valo-location__map-block_right__card_img valo-location__map-block_right__card_img5">
-
-                                    </div>
-                                    <p class="valo-location__map-block_right__card_top_text">АЭРОПОРТ <br> «ПУЛКОВО»</p>
-                                </div>
-                                <p class="valo-location__map-block_right__card_time">25 минут</p>
-                                <p class="valo-location__map-block_right__card_time_description">на метро</p>
-                            </div>
-
-                            <div class="valo-location__map-block_right__card valo-location__map-block_right__card6">
-                                <div class="valo-location__map-block_right__card_top">
-                                    <div class="valo-location__map-block_right__card_img valo-location__map-block_right__card_img6">
-
-                                    </div>
-                                    <p class="valo-location__map-block_right__card_top_text">ТРК <br> «КОНТИНЕНТ»</p>
-                                </div>
-                                <p class="valo-location__map-block_right__card_time">1 минута</p>
-                                <p class="valo-location__map-block_right__card_time_description">пешком</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="owl-carousel location-slider default-owl-slider default-owl-slider owl-theme">
-                <div class="location-slider__item">
-                    <p class="location-slider__item_top-text">НЕВСКИЙ <br> ПРОСПЕКТ</p>
-                    <p class="location-slider__item_center-text">10 минут</p>
-                    <p class="location-slider__item_botton-text">на метро</p>
-                </div>
-
-                <div class="location-slider__item">
-                    <p class="location-slider__item_top-text location-slider__item_top-text2">ДВОРЦОВАЯ <br> ПЛОЩАДЬ</p>
-                    <p class="location-slider__item_center-text">10 минут</p>
-                    <p class="location-slider__item_botton-text">на метро</p>
-                </div>
-
-                <div class="location-slider__item">
-                    <p class="location-slider__item_top-text location-slider__item_top-text3">ЛАХТА- <br> ЦЕНТР</p>
-                    <p class="location-slider__item_center-text">35 минут</p>
-                    <p class="location-slider__item_botton-text">на машине</p>
-                </div>
-
-                <div class="location-slider__item">
-                    <p class="location-slider__item_top-text location-slider__item_top-text4">МОСКОВСКИЙ <br> ВОКЗАЛ</p>
-                    <p class="location-slider__item_center-text">15 минут</p>
-                    <p class="location-slider__item_botton-text">на метро</p>
-                </div>
-
-                <div class="location-slider__item">
-                    <p class="location-slider__item_top-text location-slider__item_top-text6">АЭРОПОРТ <br> «ПУЛКОВО»</p>
-                    <p class="location-slider__item_center-text">25 минут</p>
-                    <p class="location-slider__item_botton-text">на метро</p>
-                </div>
-
-                <div class="location-slider__item">
-                    <p class="location-slider__item_top-text location-slider__item_top-text5">ТРК <br> «КОНТИНЕНТ»</p>
-                    <p class="location-slider__item_center-text">1 минута</p>
-                    <p class="location-slider__item_botton-text">пешком</p>
-                </div>
-
-
-            </div>
-        </section>
-
         <section class="infrastructure">
-            <div class="infrastructure__left">
+            <div class="main-wrapper">
                 <div class="infrastructure__left__content">
                     <h2 class="infrastructure__left__content_main">
                         Инфраструктура
-                        комплекса
                     </h2>
-                    <ul class="infrastructure__left__content__lists">
-                        <li class="infrastructure__left__content__lists__li infrastructure__left__content__lists__li1">
-                            Просторные лобби
-                        </li>
-                        <li class="infrastructure__left__content__lists__li infrastructure__left__content__lists__li2">
-                            Фитнес-центр с бассейном
-                        </li>
-                        <li class="infrastructure__left__content__lists__li infrastructure__left__content__lists__li3">
-                            Бизнес-центр, коворкинг, конференц-залы
-                        </li>
-                        <li class="infrastructure__left__content__lists__li infrastructure__left__content__lists__li4">
-                            SPA-центр
-                        </li>
-                        <li class="infrastructure__left__content__lists__li infrastructure__left__content__lists__li5">
-                            Подземная охраняемая парковка
-                        </li>
-                        <li class="infrastructure__left__content__lists__li infrastructure__left__content__lists__li6">
-                            Благоустроенное общественное пространство под открытым небом
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="infrastructure__right">
-                <div class="owl-carousel infrastructure-slider default-owl-slider owl-theme">
-                    <div class="infrastructure-slider__item">
-                        <a data-fancybox  href="img/loc1a.jpg">
-                            <img src="img/loc1a.jpg" alt="" class="description-slider__slide_img">
+
+                    <div class="infrastructure__tabs">
+                        <a href="#inf-tab-container-1" class="i-tab infrastructure__tab active">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                                 width="19px" height="29px">
+                                <path fill-rule="evenodd"
+                                      d="M-0.000,28.998 L-0.000,-0.002 L19.000,-0.002 L19.000,28.998 L-0.000,28.998 ZM8.632,27.299 L10.367,27.299 L10.367,25.586 L8.632,25.586 L8.632,27.299 ZM17.279,1.698 L1.721,1.698 L1.721,27.299 L6.912,27.299 L6.912,23.887 L12.088,23.887 L12.088,27.299 L17.279,27.299 L17.279,1.698 ZM10.367,20.473 L12.089,20.473 L12.089,22.173 L10.367,22.173 L10.367,20.473 ZM15.545,5.111 L13.823,5.111 L13.823,3.412 L15.545,3.412 L15.545,5.111 ZM15.545,8.522 L13.823,8.522 L13.823,6.824 L15.545,6.824 L15.545,8.522 ZM15.545,11.936 L13.823,11.936 L13.823,10.236 L15.545,10.236 L15.545,11.936 ZM15.545,15.349 L13.823,15.349 L13.823,13.649 L15.545,13.649 L15.545,15.349 ZM15.545,18.761 L13.823,18.761 L13.823,17.061 L15.545,17.061 L15.545,18.761 ZM15.545,22.173 L13.823,22.173 L13.823,20.473 L15.545,20.473 L15.545,22.173 ZM15.545,25.586 L13.823,25.586 L13.823,23.887 L15.545,23.887 L15.545,25.586 ZM10.367,17.061 L12.089,17.061 L12.089,18.761 L10.367,18.761 L10.367,17.061 ZM10.367,13.649 L12.089,13.649 L12.089,15.349 L10.367,15.349 L10.367,13.649 ZM10.367,10.236 L12.089,10.236 L12.089,11.936 L10.367,11.936 L10.367,10.236 ZM10.367,6.824 L12.089,6.824 L12.089,8.522 L10.367,8.522 L10.367,6.824 ZM10.367,3.412 L12.089,3.412 L12.089,5.111 L10.367,5.111 L10.367,3.412 ZM6.911,20.473 L8.633,20.473 L8.633,22.173 L6.911,22.173 L6.911,20.473 ZM6.911,17.061 L8.633,17.061 L8.633,18.761 L6.911,18.761 L6.911,17.061 ZM6.911,13.649 L8.633,13.649 L8.633,15.349 L6.911,15.349 L6.911,13.649 ZM6.911,10.236 L8.633,10.236 L8.633,11.936 L6.911,11.936 L6.911,10.236 ZM6.911,6.824 L8.633,6.824 L8.633,8.522 L6.911,8.522 L6.911,6.824 ZM6.911,3.412 L8.633,3.412 L8.633,5.111 L6.911,5.111 L6.911,3.412 ZM3.455,23.887 L5.177,23.887 L5.177,25.586 L3.455,25.586 L3.455,23.887 ZM3.455,20.473 L5.177,20.473 L5.177,22.173 L3.455,22.173 L3.455,20.473 ZM3.455,17.061 L5.177,17.061 L5.177,18.761 L3.455,18.761 L3.455,17.061 ZM3.455,13.649 L5.177,13.649 L5.177,15.349 L3.455,15.349 L3.455,13.649 ZM3.455,10.236 L5.177,10.236 L5.177,11.936 L3.455,11.936 L3.455,10.236 ZM3.455,6.824 L5.177,6.824 L5.177,8.522 L3.455,8.522 L3.455,6.824 ZM3.455,3.412 L5.177,3.412 L5.177,5.111 L3.455,5.111 L3.455,3.412 Z"/>
+                            </svg>
+                            В комплексе
                         </a>
-                        <div class="infrastructure-slider__item_text-block">
-                            <h4 class="infrastructure-slider__item_text-block_main">ЛОББИ</h4>
-                            <p class="infrastructure-slider__item_text-block_text">3 и 4 корпус комплекса Valo</p>
+
+                        <a href="#inf-tab-container-2" class="i-tab infrastructure__tab">
+                            <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="31px" height="32px">
+                                <path fill-rule="evenodd"
+                                      d="M30.394,27.053 L20.723,30.920 C20.722,30.920 20.722,30.920 20.722,30.920 L20.704,30.927 C20.473,31.021 20.216,31.021 19.985,30.927 L19.968,30.920 C19.966,30.920 19.966,30.920 19.966,30.920 L10.656,27.196 L1.329,30.926 C1.213,30.973 1.091,30.996 0.969,30.996 C0.777,30.996 0.589,30.939 0.426,30.829 C0.161,30.650 -0.000,30.349 -0.000,30.027 L-0.000,12.591 C-0.000,12.194 0.242,11.840 0.608,11.692 L10.278,7.823 C10.280,7.823 10.280,7.823 10.280,7.823 L10.298,7.817 C10.528,7.724 10.786,7.724 11.017,7.817 L11.032,7.823 C11.034,7.823 11.034,7.823 11.034,7.823 L16.833,10.144 C17.331,10.343 17.573,10.908 17.374,11.403 C17.174,11.901 16.604,12.141 16.114,11.944 L11.625,10.148 L11.625,25.496 L19.375,28.595 L19.375,18.402 C19.375,17.868 19.809,17.434 20.344,17.434 C20.878,17.434 21.312,17.868 21.312,18.402 L21.312,28.597 L29.062,25.498 L29.062,14.528 C29.062,13.994 29.496,13.559 30.031,13.559 C30.566,13.559 31.000,13.994 31.000,14.528 L31.000,26.152 C31.000,26.549 30.758,26.905 30.394,27.053 ZM9.687,10.146 L1.937,13.246 L1.937,28.595 L9.687,25.496 L9.687,10.146 ZM24.219,17.434 C23.944,17.434 23.682,17.316 23.498,17.112 C22.878,16.421 17.437,10.259 17.437,6.779 C17.437,3.040 20.479,-0.002 24.219,-0.002 C27.958,-0.002 31.000,3.040 31.000,6.779 C31.000,10.259 25.559,16.421 24.939,17.112 C24.755,17.316 24.494,17.434 24.219,17.434 ZM24.219,1.936 C21.549,1.936 19.375,4.110 19.375,6.779 C19.375,8.627 22.103,12.478 24.219,14.987 C26.334,12.478 29.062,8.625 29.062,6.779 C29.062,4.110 26.889,1.936 24.219,1.936 ZM21.312,6.779 C21.312,5.176 22.616,3.873 24.219,3.873 C25.821,3.873 27.125,5.176 27.125,6.779 C27.125,8.381 25.821,9.686 24.219,9.686 C22.616,9.686 21.312,8.381 21.312,6.779 ZM25.187,6.779 C25.187,6.245 24.753,5.811 24.219,5.811 C23.684,5.811 23.250,6.245 23.250,6.779 C23.250,7.313 23.684,7.748 24.219,7.748 C24.753,7.748 25.187,7.313 25.187,6.779 Z"/>
+                            </svg>
+                            Рядом
+                        </a>
+                    </div>
+                </div>
+
+
+                    <div class="infrastructure__container active" id="inf-tab-container-1">
+                        <ul  class="active infrastructure__left__content__lists">
+                            <li class="infrastructure__left__content__lists__li infrastructure__left__content__lists__li1">
+                                Просторные лобби
+                            </li>
+                            <li class="infrastructure__left__content__lists__li infrastructure__left__content__lists__li2">
+                                Фитнес-центр с бассейном
+                            </li>
+                            <li class="infrastructure__left__content__lists__li infrastructure__left__content__lists__li3">
+                                Бизнес-центр, коворкинг, конференц-залы
+                            </li>
+                            <li class="infrastructure__left__content__lists__li infrastructure__left__content__lists__li4">
+                                SPA-центр
+                            </li>
+                            <li class="infrastructure__left__content__lists__li infrastructure__left__content__lists__li5">
+                                Подземная охраняемая парковка
+                            </li>
+                            <li class="infrastructure__left__content__lists__li infrastructure__left__content__lists__li6">
+                                Благоустроенное общественное пространство под открытым небом
+                            </li>
+                        </ul>
+                        <div class="owl-carousel infrastructure-slider default-owl-slider owl-theme">
+                            <div class="infrastructure-slider__item">
+                                <a data-fancybox  href="img/loc1a.jpg">
+                                    <img src="img/loc1a.jpg" alt="" class="description-slider__slide_img">
+                                </a>
+                                <div class="infrastructure-slider__item_text-block">
+                                    <h4 class="infrastructure-slider__item_text-block_main">ЛОББИ</h4>
+                                    <p class="infrastructure-slider__item_text-block_text">3 и 4 корпус комплекса Valo</p>
+                                </div>
+                            </div>
+
+                            <div class="infrastructure-slider__item">
+                                <a data-fancybox="" href="img/loc2a.jpg">
+                                    <img src="img/loc2a.jpg" alt="" class="description-slider__slide_img">
+                                </a>
+                                <div class="infrastructure-slider__item_text-block">
+                                    <h4 class="infrastructure-slider__item_text-block_main">ЛОББИ</h4>
+                                    <p class="infrastructure-slider__item_text-block_text">3 и 4 корпус комплекса Valo</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="infrastructure-slider__item">
-                        <a data-fancybox="" href="img/loc2a.jpg">
-                            <img src="img/loc2a.jpg" alt="" class="description-slider__slide_img">
-                        </a>
-                        <div class="infrastructure-slider__item_text-block">
-                            <h4 class="infrastructure-slider__item_text-block_main">ЛОББИ</h4>
-                            <p class="infrastructure-slider__item_text-block_text">3 и 4 корпус комплекса Valo</p>
+                    <div id="inf-tab-container-2" class="infrastructure__container">
+                        <ul  class="infrastructure__left__content__lists">
+                            <li class="infrastructure__left__content__lists__li infrastructure__left__content__lists__li1">
+                                Просторные лобби 2
+                            </li>
+                            <li class="infrastructure__left__content__lists__li infrastructure__left__content__lists__li2">
+                                Фитнес-центр с бассейном 2
+                            </li>
+                            <li class="infrastructure__left__content__lists__li infrastructure__left__content__lists__li3">
+                                Бизнес-центр, коворкинг, конференц-залы 2
+                            </li>
+                            <li class="infrastructure__left__content__lists__li infrastructure__left__content__lists__li4">
+                                SPA-центр 2
+                            </li>
+                            <li class="infrastructure__left__content__lists__li infrastructure__left__content__lists__li5">
+                                Подземная охраняемая парковка 2
+                            </li>
+                            <li class="infrastructure__left__content__lists__li infrastructure__left__content__lists__li6">
+                                Благоустроенное общественное пространство под открытым небом 2
+                            </li>
+                        </ul>
+                        <div class="owl-carousel infrastructure-slider default-owl-slider owl-theme">
+                            <div class="infrastructure-slider__item">
+                                <a data-fancybox  href="img/loc1a.jpg">
+                                    <img src="img/loc1a.jpg" alt="" class="description-slider__slide_img">
+                                </a>
+                                <div class="infrastructure-slider__item_text-block">
+                                    <h4 class="infrastructure-slider__item_text-block_main">ЛОББИ</h4>
+                                    <p class="infrastructure-slider__item_text-block_text">3 и 4 корпус комплекса Valo</p>
+                                </div>
+                            </div>
+
+                            <div class="infrastructure-slider__item">
+                                <a data-fancybox="" href="img/loc2a.jpg">
+                                    <img src="img/loc2a.jpg" alt="" class="description-slider__slide_img">
+                                </a>
+                                <div class="infrastructure-slider__item_text-block">
+                                    <h4 class="infrastructure-slider__item_text-block_main">ЛОББИ</h4>
+                                    <p class="infrastructure-slider__item_text-block_text">3 и 4 корпус комплекса Valo</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
+
             </div>
         </section>
 
         <section class="hostel-technology">
-            <div class="hostel-technology__left">
-                <div class="owl-carousel hostel-slider default-owl-slider owl-theme">
-                    <div class="hostel-slider__item">
-                        <a data-fancybox  href="img/loc1a.jpg" style="height: 100%;">
-                            <img src="img/loc1a.jpg" alt="" class="description-slider__slide_img">
-                        </a>
-                        <div class="hostel-slider__item__text-block">
-                            <h4 class="hostel-slider__item__text-block_main">
-                                mercure ресторан
-                            </h4>
-                            <p class="hostel-slider__item__text-block_text">3 корпус комплекса Valo</p>
-                        </div>
-                    </div>
-
-                    <div class="hostel-slider__item">
-                        <a data-fancybox  href="img/loc2a.jpg" style="height: 100%;">
-                            <img src="img/loc2a.jpg" alt="" class="description-slider__slide_img">
-                        </a>
-                        <div class="hostel-slider__item__text-block">
-                            <h4 class="hostel-slider__item__text-block_main">
-                                mercure ресторан
-                            </h4>
-                            <p class="hostel-slider__item__text-block_text">3 корпус комплекса Valo</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="hostel-technology__right">
-                <h2 class="hostel-technology__right_main">
-                    Гостиничные <br class="dn-1250">
-                    технологии <br class="dn-1250">
-                    и сервис
-                </h2>
-                <ul class="hostel-technology__right_lists">
-                    <li class="hostel-technology__right_lists_li hostel-technology__right_lists_li1">Три ресторана полного цикла с разной тематикой</li>
-                    <li class="hostel-technology__right_lists_li hostel-technology__right_lists_li2">Кафе</li>
-                    <li class="hostel-technology__right_lists_li hostel-technology__right_lists_li3">Служба ресепшн, консьерж-служба</li>
-                    <li class="hostel-technology__right_lists_li hostel-technology__right_lists_li4">Химчистка</li>
-                    <li class="hostel-technology__right_lists_li hostel-technology__right_lists_li5">Хранение багажа</li>
-                    <li class="hostel-technology__right_lists_li hostel-technology__right_lists_li6">Скоростной Wi-Fi</li>
-                    <li class="hostel-technology__right_lists_li hostel-technology__right_lists_li7">Служба клининга</li>
-                    <li class="hostel-technology__right_lists_li hostel-technology__right_lists_li8">Система контроля и управления доступом</li>
-                    <li class="hostel-technology__right_lists_li hostel-technology__right_lists_li9">Видеонаблюдение и охрана</li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="main-partners">
             <div class="main-wrapper">
-                <h1 class="main-partners__main">Наши партнеры</h1>
-                <div class="owl-carousel main-partners__slider owl-theme">
-                    <div class="main-partners__slider__item">
-                        <div class="main-partners__slider__item__top">
-                            <img src="img/YIT.png" alt="" class="main-partners__slider__item__top_img">
-                        </div>
-                    </div>
+                <div class="infrastructure__tabs infrastructure__tabs_hostel-tech">
+                    <a href="#inf-tab-container-3" class="h-tech-tab infrastructure__tab active">
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="37px" height="29px">
+                            <path fill-rule="evenodd"
+                                  d="M34.027,24.175 L32.390,24.175 L32.390,22.163 C32.390,21.683 32.000,21.292 31.521,21.292 L20.617,21.292 L20.617,19.668 L31.521,19.668 C32.000,19.668 32.390,19.278 32.390,18.798 L32.390,14.335 C32.384,9.320 28.299,5.234 23.283,5.229 L20.617,5.229 L20.617,4.310 C21.032,4.207 21.405,3.978 21.691,3.648 C22.058,3.225 22.237,2.684 22.197,2.126 C22.119,1.033 21.201,0.179 20.108,0.179 C20.105,0.179 20.101,0.179 20.098,0.179 L16.515,0.179 C15.357,0.174 14.414,1.110 14.409,2.267 C14.405,3.242 15.077,4.078 15.995,4.310 L15.995,5.229 L13.329,5.229 C8.313,5.234 4.227,9.320 4.221,14.336 L4.221,18.798 C4.222,19.277 4.612,19.668 5.091,19.668 L15.995,19.668 L15.995,21.292 L5.091,21.292 C4.612,21.292 4.222,21.683 4.221,22.163 L4.221,24.175 L2.585,24.175 C1.350,24.177 0.344,25.183 0.343,26.417 L0.343,27.928 C0.343,28.408 0.733,28.797 1.213,28.797 L35.399,28.797 C35.879,28.797 36.269,28.408 36.269,27.928 L36.269,26.417 C36.267,25.183 35.261,24.177 34.027,24.175 ZM18.878,4.392 L18.878,5.229 L17.734,5.229 L17.734,4.392 L18.878,4.392 ZM20.371,2.525 C20.304,2.594 20.215,2.634 20.120,2.635 L16.514,2.635 C16.316,2.635 16.155,2.475 16.155,2.277 C16.155,2.079 16.316,1.919 16.514,1.919 L20.098,1.919 L20.106,1.919 C20.201,1.916 20.292,1.952 20.361,2.018 C20.430,2.085 20.469,2.175 20.471,2.270 C20.473,2.366 20.437,2.456 20.371,2.525 ZM18.878,19.667 L18.878,21.292 L17.734,21.292 L17.734,19.667 L18.878,19.667 ZM5.961,17.929 L5.961,14.336 C5.966,10.278 9.271,6.973 13.329,6.968 L23.282,6.968 C27.341,6.973 30.646,10.278 30.651,14.336 L30.651,17.929 L5.961,17.929 ZM5.961,24.175 L5.961,23.031 L30.651,23.031 L30.651,24.175 L5.961,24.175 ZM34.529,26.418 L34.529,27.059 L2.082,27.059 L2.082,26.419 C2.083,26.141 2.309,25.916 2.586,25.916 L34.026,25.916 C34.303,25.916 34.529,26.141 34.529,26.418 Z"/>
+                        </svg>
 
-                    <div class="main-partners__slider__item">
-                        <div class="main-partners__slider__item__top">
-                            <img src="img/TMG.png" alt="" class="main-partners__slider__item__top_img">
-                        </div>
-                    </div>
+                        Гостиничные технологии
+                    </a>
 
-                    <div class="main-partners__slider__item">
-                        <div class="main-partners__slider__item__top">
-                            <img src="img/YIT.png" alt="" class="main-partners__slider__item__top_img">
-                        </div>
-                    </div>
-
-                    <div class="main-partners__slider__item">
-                        <div class="main-partners__slider__item__top">
-                            <img src="img/TMG.png" alt="" class="main-partners__slider__item__top_img">
-                        </div>
-                    </div>
-
-                    <div class="main-partners__slider__item">
-                        <div class="main-partners__slider__item__top">
-                            <img src="img/YIT.png" alt="" class="main-partners__slider__item__top_img">
-                        </div>
-                    </div>
-
-                    <div class="main-partners__slider__item">
-                        <div class="main-partners__slider__item__top">
-                            <img src="img/TMG.png" alt="" class="main-partners__slider__item__top_img">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="prof-company">
-            <div class="main-wrapper">
-                <h2 class="prof-company_main">
-                    Профессиональная управляющая <br>
-                    компания с европейским опытом
-                </h2>
-
-                <div class="prof-company__text-block">
-                    <p class="prof-company__text-block_text">
-                        Отвечает за комфорт проживания и предлагает полноценный гостиничный сервис
-                    </p>
-
-                    <p class="prof-company__text-block_text">
-                        Обеспечивает апарт-отелям максимальную загрузку, а собственникам апартаментов – стабильный доход
-                    </p>
-
-                    <p class="prof-company__text-block_text">
-                        Работает на всех площадках бронирования, заключает договоры с крупными корпоративными клиентами и международными туроператорами
-                    </p>
+                    <a href="#inf-tab-container-4" class="h-tech-tab infrastructure__tab">
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="16px" height="28px">
+                            <path fill-rule="evenodd"
+                                  d="M0.965,27.245 L15.125,27.245 L15.125,7.579 C15.125,3.675 11.949,0.499 8.045,0.499 C4.141,0.499 0.965,3.675 0.965,7.579 L0.965,9.152 L6.471,9.152 L6.471,7.579 C6.471,6.710 7.177,6.006 8.045,6.006 C8.912,6.006 9.618,6.710 9.618,7.579 L9.618,9.738 C9.618,10.700 8.778,11.512 7.783,11.512 L0.965,11.512 L0.965,27.245 ZM13.552,25.673 L2.538,25.673 L2.538,13.086 L7.783,13.086 C8.676,13.086 9.524,12.741 10.171,12.114 C10.829,11.477 11.192,10.633 11.192,9.738 L11.192,7.579 C11.192,5.844 9.780,4.432 8.045,4.432 C6.310,4.432 4.898,5.844 4.898,7.579 L2.538,7.579 C2.538,4.543 5.008,2.072 8.045,2.072 C11.081,2.072 13.552,4.543 13.552,7.579 L13.552,25.673 Z"/>
+                        </svg>
+                        Номера
+                    </a>
                 </div>
 
-
-                <div class="owl-carousel prof-company-slider default-owl-slider owl-theme">
-                    <p class="prof-company__text-block_text">
-                        Отвечает за комфорт проживания и предлагает полноценный гостиничный сервис
-                    </p>
-
-                    <p class="prof-company__text-block_text prof-company__text-block_text-2">
-                        Обеспечивает апарт-отелям максимальную загрузку, а собственникам апартаментов – стабильный доход
-                    </p>
-
-                    <p class="prof-company__text-block_text prof-company__text-block_text-3">
-                        Работает на всех площадках бронирования, заключает договоры с крупными корпоративными клиентами и международными туроператорами
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <section class="work-invest">
-            <div class="main-wrapper">
-                <h2 class="work-invest_main">Инвестиции, которые работают </h2>
-                <div class="work-invest_sub-main-block">
-                    <p class="work-invest_sub-main-block_p">Выберите одну из наших доходных программ, <br>
-                        а остальное сделает управляющая компания VALO Service</p>
-                    <a class="work-invest_sub-main-block_btn">подробнее о программах</a>
+                <div class="infrastructure__left__content">
+                    <h2 class="infrastructure__left__content_main">
+                        Гостиничный сервис и номера
+                    </h2>
                 </div>
 
-                <div class="work-invest__cards owl-carousel owl-theme">
-                    <div class="work-invest__cards__card">
-                        <div class="work-invest__cards__card__top">
-                            <h3 class="work-invest__cards__card__top_main">От 25 000 руб./мес.</h3>
-                            <p class="work-invest__cards__card__top_text">доходность</p>
-                            <span class="work-invest__cards__card__top_name">Classic</span>
-                        </div>
-                        <div class="work-invest__cards__card__bottom">
-                            <ul class="work-invest__cards__card__bottom__lists">
-                                <li class="work-invest__cards__card__bottom__lists__li">
-                                    <p class="work-invest__cards__card__bottom__lists__li_description">Срок аренды:</p>
-                                    <p class="work-invest__cards__card__bottom__lists__li_text">Долгосрочная (от 31 дня)</p>
-                                </li>
-
-                                <li class="work-invest__cards__card__bottom__lists__li">
-                                    <p class="work-invest__cards__card__bottom__lists__li_description">Минимальный срок договора:</p>
-                                    <p class="work-invest__cards__card__bottom__lists__li_text">от 3 до 5 лет (с даты запуска)</p>
-                                </li>
-
-                                <li class="work-invest__cards__card__bottom__lists__li">
-                                    <p class="work-invest__cards__card__bottom__lists__li_description">Стоимость услуг УК VALO Service:</p>
-                                    <p class="work-invest__cards__card__bottom__lists__li_text">15% от месячного дохода от сдачи в аренду</p>
-                                </li>
-
-                                <li class="work-invest__cards__card__bottom__lists__li">
-                                    <p class="work-invest__cards__card__bottom__lists__li_description">Доступные апартаменты:</p>
-                                    <p class="work-invest__cards__card__bottom__lists__li_text">Апартаменты Корпуса 1 (секции 1 и 4) и Корпуса 4</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="work-invest__cards__card">
-                        <div class="work-invest__cards__card__top">
-                            <h3 class="work-invest__cards__card__top_main">От 25 000 руб./мес.</h3>
-                            <p class="work-invest__cards__card__top_text">доходность</p>
-                            <span class="work-invest__cards__card__top_name">Classic</span>
-                        </div>
-                        <div class="work-invest__cards__card__bottom">
-                            <ul class="work-invest__cards__card__bottom__lists">
-                                <li class="work-invest__cards__card__bottom__lists__li">
-                                    <p class="work-invest__cards__card__bottom__lists__li_description">Срок аренды:</p>
-                                    <p class="work-invest__cards__card__bottom__lists__li_text">Долгосрочная (от 31 дня)</p>
-                                </li>
-
-                                <li class="work-invest__cards__card__bottom__lists__li">
-                                    <p class="work-invest__cards__card__bottom__lists__li_description">Минимальный срок договора:</p>
-                                    <p class="work-invest__cards__card__bottom__lists__li_text">от 3 до 5 лет (с даты запуска)</p>
-                                </li>
-
-                                <li class="work-invest__cards__card__bottom__lists__li">
-                                    <p class="work-invest__cards__card__bottom__lists__li_description">Стоимость услуг УК VALO Service:</p>
-                                    <p class="work-invest__cards__card__bottom__lists__li_text">15% от месячного дохода от сдачи в аренду</p>
-                                </li>
-
-                                <li class="work-invest__cards__card__bottom__lists__li">
-                                    <p class="work-invest__cards__card__bottom__lists__li_description">Доступные апартаменты:</p>
-                                    <p class="work-invest__cards__card__bottom__lists__li_text">Апартаменты Корпуса 1 (секции 1 и 4) и Корпуса 4</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="work-invest__cards__card">
-                        <div class="work-invest__cards__card__top progressive-bg {">
-                            <h3 class="work-invest__cards__card__top_main">От 40 000 руб./мес.</h3>
-                            <p class="work-invest__cards__card__top_text">доходность</p>
-                            <span class="work-invest__cards__card__top_name progressive-color ">Progressive</span>
-                        </div>
-                        <div class="work-invest__cards__card__bottom">
-                            <ul class="work-invest__cards__card__bottom__lists">
-                                <li class="work-invest__cards__card__bottom__lists__li">
-                                    <p class="work-invest__cards__card__bottom__lists__li_description progressive-color ">Срок аренды:</p>
-                                    <p class="work-invest__cards__card__bottom__lists__li_text">Долгосрочная (от 31 дня)</p>
-                                </li>
-
-                                <li class="work-invest__cards__card__bottom__lists__li">
-                                    <p class="work-invest__cards__card__bottom__lists__li_description progressive-color ">Минимальный срок договора:</p>
-                                    <p class="work-invest__cards__card__bottom__lists__li_text">от 3 до 5 лет (с даты запуска)</p>
-                                </li>
-
-                                <li class="work-invest__cards__card__bottom__lists__li">
-                                    <p class="work-invest__cards__card__bottom__lists__li_description progressive-color ">Стоимость услуг УК VALO Service:</p>
-                                    <p class="work-invest__cards__card__bottom__lists__li_text">20% от фактического дохода от сдачи в аренду</p>
-                                </li>
-
-                                <li class="work-invest__cards__card__bottom__lists__li">
-                                    <p class="work-invest__cards__card__bottom__lists__li_description progressive-color ">Доступные апартаменты:</p>
-                                    <p class="work-invest__cards__card__bottom__lists__li_text">Апартаменты Корпуса 1 (секции 2 и 3) и Корпуса 3</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="work-invest__cards__card">
-                        <div class="work-invest__cards__card__top garant-bg">
-                            <h3 class="work-invest__cards__card__top_main">От 39 000 руб./мес.*</h3>
-                            <p class="work-invest__cards__card__top_text">доходность</p>
-                            <span class="work-invest__cards__card__top_name garant-color">Garant</span>
-                        </div>
-                        <div class="work-invest__cards__card__bottom">
-                            <p class="work-invest__cards__card__bottom_gatant-description">+10% от дохода, превышающего эту сумму</p>
-                            <ul class="work-invest__cards__card__bottom__lists">
-                                <li class="work-invest__cards__card__bottom__lists__li">
-                                    <p class="work-invest__cards__card__bottom__lists__li_description garant-color">Срок аренды:</p>
-                                    <p class="work-invest__cards__card__bottom__lists__li_text">Долгосрочная (от 31 дня)</p>
-                                </li>
-
-                                <li class="work-invest__cards__card__bottom__lists__li">
-                                    <p class="work-invest__cards__card__bottom__lists__li_description garant-color">Минимальный срок договора:</p>
-                                    <p class="work-invest__cards__card__bottom__lists__li_text">от 3 до 5 лет (с даты запуска)</p>
-                                </li>
-
-                                <li class="work-invest__cards__card__bottom__lists__li">
-                                    <p class="work-invest__cards__card__bottom__lists__li_description garant-color">Стоимость услуг УК VALO Service:</p>
-                                    <p class="work-invest__cards__card__bottom__lists__li_text">20% от фактического дохода от сдачи в аренду</p>
-                                </li>
-
-                                <li class="work-invest__cards__card__bottom__lists__li">
-                                    <p class="work-invest__cards__card__bottom__lists__li_description garant-color">Доступные апартаменты:</p>
-                                    <p class="work-invest__cards__card__bottom__lists__li_text">Апартаменты Корпуса 1 (секции 2 и 3) и Корпуса 3</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <p class="work-invest__bottom-description">
-                    *Предполагаемая доходность, в течение 5 лет.
-                </p>
-            </div>
-        </section>
-
-        <section class="how-to-buy">
-            <div class="main-wrapper no-relative">
-                <div class="how-to-buy__managers">
-                    <h3 class="how-to-buy__managers_text">Наши менеджеры помогут подобрать наиболее подходящую Вам <a href="#" class="how-to-buy__managers_text_span">программу доходности</a>
-                        и сделают рассчет окупаемости</h3>
-                    <button class="how-to-buy__managers_btn dn-750">оставить заявку</button>
-                    <div class="how-to-buy-btn-container">
-                        <button class="how-to-buy__managers_btn ">оставить заявку</button>
-                    </div>
-                </div>
-                <h2 class="how-to-buy_main">Как купить апартаменты Valo</h2>
-
-                <div class="how-to-buy__choose-buttons">
-                    <label>
-                        <input name="how-buy-choose" class="how-to-buy__choose-buttons_radio" type="radio" id="ipotecaCheck" checked>
-                        <span class="how-to-buy__choose-buttons_button">ипотека</span>
-                    </label>
-                    <label>
-                        <input name="how-buy-choose" class="how-to-buy__choose-buttons_radio" type="radio" id="rassrochkaCheck" >
-                        <span class="how-to-buy__choose-buttons_button" id="rassBtn">рассрочка</span>
-                    </label>
-                    <label>
-                        <input name="how-buy-choose" class="how-to-buy__choose-buttons_radio" type="radio" id="stoProCheck">
-                        <span class="how-to-buy__choose-buttons_button" id="stoProBtn">100%</span>
-                    </label>
-                    <label>
-                        <input name="how-buy-choose"  class="how-to-buy__choose-buttons_radio" type="radio" id="tradeInCheck">
-                        <span class="how-to-buy__choose-buttons_button">trade in</span>
-                    </label>
-                </div>
-                <div class="how-to-buy__triangle  complex-plan__choose-corp__triangle"></div>
-            </div>
-        </section>
-
-        <section class="buy-variants">
-            <div class="main-wrapper no-relative">
-                <div class="buy-variants__ipoteca buy-variants-item" id="ipoteca">
-                    <div class="buy-variants__ipoteca__top-block">
-                        <h3 class="buy-variants__ipoteca__top-block_main">Ипотека</h3>
-                        <button class="buy-variants__ipoteca__top-block_btn">Все банки</button>
-                    </div>
-
-                    <div class="buy-variants__banks">
-                        <div class="buy-variants__banks_left">
-                            <img src="img/1bank.png" class="buy-variants__banks_img" id="bankImg">
-                            <div class="buy-variants__banks_left_content">
-                                <div class="buy-variants__banks_left_content_grid-item">
-                                    <p class="buy-variants__banks_left_content_grid-item_text">Максимальная сумма кредита</p>
-                                    <p class="buy-variants__banks_left_content_grid-item_number" id="maxSum">60 млн. руб.</p>
-                                </div>
-
-                                <div class="buy-variants__banks_left_content_grid-item">
-                                    <p class="buy-variants__banks_left_content_grid-item_text">Взнос</p>
-                                    <p class="buy-variants__banks_left_content_grid-item_number" id="vzn">от 20%</p>
-                                </div>
-
-                                <div class="buy-variants__banks_left_content_grid-item">
-                                    <p class="buy-variants__banks_left_content_grid-item_text">Ставка</p>
-                                    <p class="buy-variants__banks_left_content_grid-item_number" id="stav">от 9,5%</p>
-                                </div>
-
-                                <div class="buy-variants__banks_left_content_grid-item">
-                                    <p class="buy-variants__banks_left_content_grid-item_text">Срок</p>
-                                    <p class="buy-variants__banks_left_content_grid-item_number" id="srok">от 5 лет</p>
-                                </div>
+                <div class="hostel-technology__container active" id="inf-tab-container-3">
+                    <ul  class="active infrastructure__left__content__lists">
+                        <li class="hostel-technology__right_lists_li hostel-technology__right_lists_li1">Три ресторана полного цикла с разной тематикой</li>
+                        <li class="hostel-technology__right_lists_li hostel-technology__right_lists_li2">Кафе</li>
+                        <li class="hostel-technology__right_lists_li hostel-technology__right_lists_li3">Служба ресепшн, консьерж-служба</li>
+                        <li class="hostel-technology__right_lists_li hostel-technology__right_lists_li4">Химчистка</li>
+                        <li class="hostel-technology__right_lists_li hostel-technology__right_lists_li5">Хранение багажа</li>
+                        <li class="hostel-technology__right_lists_li hostel-technology__right_lists_li6">Скоростной Wi-Fi</li>
+                        <li class="hostel-technology__right_lists_li hostel-technology__right_lists_li7">Служба клининга</li>
+                        <li class="hostel-technology__right_lists_li hostel-technology__right_lists_li8">Система контроля и управления доступом</li>
+                        <li class="hostel-technology__right_lists_li hostel-technology__right_lists_li9">Видеонаблюдение и охрана</li>
+                    </ul>
+                    <div class="owl-carousel infrastructure-slider default-owl-slider owl-theme">
+                        <div class="infrastructure-slider__item">
+                            <a data-fancybox  href="img/loc1a.jpg">
+                                <img src="img/loc1a.jpg" alt="" class="description-slider__slide_img">
+                            </a>
+                            <div class="infrastructure-slider__item_text-block">
+                                <h4 class="infrastructure-slider__item_text-block_main">ЛОББИ</h4>
+                                <p class="infrastructure-slider__item_text-block_text">3 и 4 корпус комплекса Valo</p>
                             </div>
                         </div>
 
-                        <div class="buy-variants__banks_right">
-
+                        <div class="infrastructure-slider__item">
+                            <a data-fancybox="" href="img/loc2a.jpg">
+                                <img src="img/loc2a.jpg" alt="" class="description-slider__slide_img">
+                            </a>
+                            <div class="infrastructure-slider__item_text-block">
+                                <h4 class="infrastructure-slider__item_text-block_main">ЛОББИ</h4>
+                                <p class="infrastructure-slider__item_text-block_text">3 и 4 корпус комплекса Valo</p>
+                            </div>
                         </div>
                     </div>
                 </div>
 
+                <div id="inf-tab-container-4" class="hostel-technology__container">
+                    <ul  class="infrastructure__left__content__lists">
+                        <li class="infrastructure__left__content__lists__li infrastructure__left__content__lists__li1">
+                            Просторные лобби 2
+                        </li>
+                        <li class="infrastructure__left__content__lists__li infrastructure__left__content__lists__li2">
+                            Фитнес-центр с бассейном 2
+                        </li>
+                        <li class="infrastructure__left__content__lists__li infrastructure__left__content__lists__li3">
+                            Бизнес-центр, коворкинг, конференц-залы 2
+                        </li>
+                        <li class="infrastructure__left__content__lists__li infrastructure__left__content__lists__li4">
+                            SPA-центр 2
+                        </li>
+                        <li class="infrastructure__left__content__lists__li infrastructure__left__content__lists__li5">
+                            Подземная охраняемая парковка 2
+                        </li>
+                        <li class="infrastructure__left__content__lists__li infrastructure__left__content__lists__li6">
+                            Благоустроенное общественное пространство под открытым небом 2
+                        </li>
+                    </ul>
+                    <div class="owl-carousel infrastructure-slider default-owl-slider owl-theme">
+                        <div class="infrastructure-slider__item">
+                            <a data-fancybox  href="img/loc1a.jpg">
+                                <img src="img/loc1a.jpg" alt="" class="description-slider__slide_img">
+                            </a>
+                            <div class="infrastructure-slider__item_text-block">
+                                <h4 class="infrastructure-slider__item_text-block_main">ЛОББИ</h4>
+                                <p class="infrastructure-slider__item_text-block_text">3 и 4 корпус комплекса Valo</p>
+                            </div>
+                        </div>
 
-
-                <div id="rassrochka" class="buy-variants__rassrochka buy-variants-item">
-                    <h2 class="buy-variants__rassrochka_main">Беспроцентная рассрочка</h2>
-                    <p class="buy-variants__rassrochka_sub_main">на время строительства</p>
-
-                    <div class="buy-variants__rassrochka__text-block">
-                        <p class="buy-variants__rassrochka__text-block_text">
-                            Первоначальный взнос
-                            от 30 до 50%
-                        </p>
-
-                        <p class="buy-variants__rassrochka__text-block_text">
-                            Для оформления достаточно паспорта
-                        </p>
-
-                        <p class="buy-variants__rassrochka__text-block_text">
-                            При первом взносе 50% —
-                            скидка 5%
-                        </p>
+                        <div class="infrastructure-slider__item">
+                            <a data-fancybox="" href="img/loc2a.jpg">
+                                <img src="img/loc2a.jpg" alt="" class="description-slider__slide_img">
+                            </a>
+                            <div class="infrastructure-slider__item_text-block">
+                                <h4 class="infrastructure-slider__item_text-block_main">ЛОББИ</h4>
+                                <p class="infrastructure-slider__item_text-block_text">3 и 4 корпус комплекса Valo</p>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="owl-carousel rassrochka-slider-slider default-owl-slider owl-theme">
-                        <p class="buy-variants__rassrochka__text-block_text">
-                            Первоначальный взнос
-                            от 30 до 50%
-                        </p>
-
-                        <p class="buy-variants__rassrochka__text-block_text rassrochka-slider-item-2">
-                            Для оформления достаточно паспорта
-                        </p>
-
-                        <p class="buy-variants__rassrochka__text-block_text rassrochka-slider-item-3">
-                            При первом взносе 50% —
-                            скидка 5%
-                        </p>
-                    </div>
-
-                    <p class="buy-variants__rassrochka_description">После окончания строительства можно перейти на ипотеку</p>
-                    <button class="buy-variants__rassrochka_btn">
-                        подробнее
-                    </button>
-
-                </div>
-
-                <div id="stoPro" class="buy-variants__sto-pro buy-variants-item">
-                    <h2 class="buy-variants__sto-pro_main">Единовременная оплата</h2>
-                    <p class="buy-variants__sto-pro_sub-main">гарантирует:</p>
-                    <div class="buy-variants__sto-pro__text-block">
-                        <p class="buy-variants__sto-pro__text-block_text">
-                            Удобство и простоту оформления сделки
-                        </p>
-
-                        <p class="buy-variants__sto-pro__text-block_text">
-                            Отсутствие долгов перед застройщиком и банком
-                        </p>
-
-                        <p class="buy-variants__sto-pro__text-block_text">
-                            Максимальные скидки –
-                            от 5% до 7%
-                        </p>
-                    </div>
-
-                    <div class="owl-carousel sto-pro-slider default-owl-slider owl-theme">
-                        <p class="buy-variants__sto-pro__text-block_text">
-                            Удобство и простоту оформления сделки
-                        </p>
-
-                        <p class="buy-variants__sto-pro__text-block_text buy-variants__sto-pro__text-block_text-2">
-                            Отсутствие долгов перед застройщиком и банком
-                        </p>
-
-                        <p class="buy-variants__sto-pro__text-block_text buy-variants__sto-pro__text-block_text-3">
-                            Максимальные скидки –
-                            от 5% до 7%
-                        </p>
-                    </div>
-
-
-                    <p class="buy-variants__sto-pro_text">
-                        Действует спецпредложение для иногородних инвесторов!
-                    </p>
-                    <button class="buy-variants__sto-pro_btn">
-                        подробнее
-                    </button>
-
-                </div>
-
-                <div id="tradeIn" class="buy-variants__trade-in buy-variants-item">
-                    <h2 class="buy-variants__trade-in_main">Trade In</h2>
-                    <p class="buy-variants__trade-in_sub-main">Новая услуга VALO – зачет имеющейся недвижимости
-                        при покупке апартаментов 1 и 2 очереди!</p>
-                    <p class="buy-variants__trade-in_text">Часто бывает, что для приобретения строящейся недвижимости клиенту необходимо реализовать имеющийся у него объект. </p>
-                    <p class="buy-variants__trade-in_second-text">Специально для таких покупателей
-                        мы разработали программу VALO Trade-In!</p>
-                    <button class="buy-variants__trade-in_btn">подробнее</button>
-                </div>
-            </div>
-            <div class="buy-variants__ipoteca__bottom">
-                <p class="buy-variants__ipoteca__bottom_text">
-                    Менеджер по ипотечному кредитованию поможет подобрать наиболее <span class="buy-variants__ipoteca__bottom_text_span">выгодные условия
-                            и сэкономит ваше время</span> на подготовку документов
-                </p>
-                <button class="showMeCallBack buy-variants__ipoteca__bottom_btn dn-750">
-                    оставить заявку
-                </button>
-                <div class="buy-variants__ipoteca__bottom_btn-container">
-                    <button class="showMeCallBack buy-variants__ipoteca__bottom_btn">
-                        оставить заявку
-                    </button>
                 </div>
             </div>
         </section>
 
-        <section class="main-news">
+        <section class="vue-360">
             <div class="main-wrapper">
-                <div class="main-news__container">
-                    <div class="main-news-top">
-                        <h2 class="hostel-technology__right_main news-main">
-                            Новости
-                        </h2>
+                <div class="vue-360__container">
+                    <img src="img/360.png" alt="" class="vue-360__img">
 
-                        <a href="#" class="main-news-btn">
-                            ВСЕ НОВОСТИ
-                        </a>
+                    <div class="vue-360__text-container">
+                        <h2 class="vue-360__title">Как выглядят апартаменты?</h2>
+
+                        <p class="vue-360__text">
+                            Вы можете посмотреть как выглядят готовые и строящиеся апартаменты.
+                            В апартаментах корпуса 1 уже размещаются гости и арендаторы.
+                        </p>
                     </div>
 
-                    <div class="news-cards-container">
-                        <a href="#" class="news-card" style="background: url(https://images.pexels.com/photos/4064432/pexels-photo-4064432.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center / 100% auto">
-                            <h3 class="news-card-main">
-                                Апартаменты 2-й очереди готовы к передаче
-                            </h3>
-
-                            <p class="news-card-date">
-                                07.04.2020
-                            </p>
-                        </a>
-
-                        <a href="#" class="news-card" style="background: url(https://images.pexels.com/photos/4064432/pexels-photo-4064432.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center / 100% auto">
-                            <h3 class="news-card-main">
-                                Апартаменты 2-й очереди готовы к передаче
-                            </h3>
-
-                            <p class="news-card-date">
-                                07.04.2020
-                            </p>
-                        </a>
-
-                        <a href="#" class="news-card" style="background: url(https://images.pexels.com/photos/4054069/pexels-photo-4054069.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center / 100% auto">
-                            <h3 class="news-card-main">
-                                Апартаменты 2-й очереди готовы к передаче
-                            </h3>
-
-                            <p class="news-card-date">
-                                07.04.2020
-                            </p>
-                        </a>
-
-                        <a href="#" class="news-card" style="background: url(https://images.pexels.com/photos/4054069/pexels-photo-4054069.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center / 100% auto; ">
-                            <h3 class="news-card-main">
-                                Апартаменты 2-й очереди готовы к передаче
-                            </h3>
-
-                            <p class="news-card-date">
-                                07.04.2020
-                            </p>
-                        </a>
-                    </div>
+                    <button class="how-to-buy__managers_btn">ОНЛАЙН ШОУ-РУМ</button>
                 </div>
             </div>
         </section>
 
-        <section class="construction-progress">
-            <div class="construction-progress__live-camera popup">
-                <div class="construction-progress__live-camera__container">
-                    <div class="construction-progress__live-camera__container_in">
-                        <iframe src="" width="100%" align="left" frameborder="no" scrolling="no"
-                                allowfullscreen="1"></iframe>
-                    </div>
-                </div>
-                <img src="img/hresteg.png" alt="закрыть" class="modal-cross closeVideoBtn">
-            </div>
-
-            <div class="main-wrapper no-relative">
-                <div class="construction-progress__top-block">
-                    <h2 class="construction-progress__top-block__main">Ход строительства</h2>
-                </div>
-
-                <div class="construction-progress_cameras">
-                    <div class="construction-progress_cameras__choose-camera">
-                        <h3 class="construction-progress_cameras__choose-camera_main">Смотреть онлайн</h3>
-                        <div class="construction-progress_cameras__choose-camera__buttons">
-
-                           <button class="construction-progress_cameras__choose-camera__buttons_btn" id="camera1Btn">
-                                    КАМЕРА 1
-                            </button>
-                            </a>
-
-                            <button class="construction-progress_cameras__choose-camera__buttons_btn" id="camera2Btn">
-                                КАМЕРА 2
-                            </button>
-
-                            <button class="construction-progress_cameras__choose-camera__buttons_btn" id="camera3Btn">
-                                КАМЕРА 3
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="construction-progress__photos about-slick">
-                        <a href="img/loc1a.jpg" data-fancybox="gale" class="construction-progress__photos_fancy">
-                            <img src="img/loc1a.jpg" alt="" class="construction-progress__photos_img">
-                        </a>
-                        <a href="img/loc2a.jpg" data-fancybox="gale" class="construction-progress__photos_fancy">
-                            <img src="img/loc2a.jpg" alt="" class="construction-progress__photos_img">
-                        </a>
-                    </div>
-                </div>
-
-                <div class="construction-progress__bottom-block">
-                    <div class="construction-progress__bottom-block__left-block">
-                        <h2 class="construction-progress__bottom-block__left-block_main">
-                            Хотите узнать больше?
+        <section class="main-company">
+            <div class="main-wrapper">
+                <div class="main-company__container">
+                    <div class="main-company__left">
+                        <h2 class="main-company__title">
+                            Управляющая
+                            компания
                         </h2>
-                        <p class="construction-progress__bottom-block__left-block_sub-main">Обращайтесь в отдел продаж Valo!</p>
+
+                        <p class="main-company__text">
+                            <span>Пассивный доход</span> – доход, не зависящий от ежедневной деятельности.
+                        </p>
+
+                        <p class="main-company__text">
+                            VALO Service – команда в сфере эксплуатации зданий, работы с собственниками и управлением гостиниц. Всю операционную деятельность выполняет VALO Service.
+                        </p>
                     </div>
-                    <div class="construction-progress__bottom-block__right-block">
-                        <form class="construction-progress__bottom-block__right-block__form">
-                            <input type="text" class="construction-progress__bottom-block__right-block__form_input" placeholder="Ваше имя">
-                            <input type="tel" class="construction-progress__bottom-block__right-block__form_input" placeholder="Ваш телефон">
-                            <button class="construction-progress__bottom-block__right-block__form_input_submit">
-                                Отправить
-                            </button>
-                        </form>
-                    </div>
+                    <ul class="main-company__right">
+                        <li class="main-company__item">
+                            <img src="img/1prof.png" alt="" class="main-company__img">
+
+                            <p class="main-company__item-text">
+                                Отвечает за комфорт проживания и предлагает полноценный гостиничный сервис.
+                            </p>
+                        </li>
+
+                        <li class="main-company__item">
+                            <img src="img/2prof.png" alt="" class="main-company__img">
+
+                            <p class="main-company__item-text">
+                                Обеспечивает апарт-отелям максимальную загрузку, а собственникам апартаментов – стабильный доход.
+                            </p>
+                        </li>
+
+                        <li class="main-company__item">
+                            <img src="img/3prof.png" alt="" class="main-company__img">
+
+                            <p class="main-company__item-text">
+                                Работает на всех площадках бронирования, заключает договоры с крупными корпоративными клиентами и международными туроператорами.
+                            </p>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
 
-        <section class="rent">
-            <div class="rent__top">
-                <div class="rent__top__container">
-                    <p class="rent__top__container__text">
-                        1я и 2я очередь комплекса сданы и теперь в апартаментах VALO можно остановиться.
-                    </p>
-                </div>
-                <div class="rent__top__container__triangle "></div>
-                <div class="rent__top__container__triangle right"></div>
-            </div>
+        <section class="hotel__city">
+            <div class="main-wrapper">
+                <div class="hotel__city__container">
+                    <div class="hotel__city__left">
+                        <div class="hotel__city__left__top">
+                            <img src="img/muz.png" alt="" class="hotel__city__left__img">
+                            <p class="hotel__city__left__text">
+                                Константин Сторожев
+                                Генеральный директор
+                                VALO Service
+                            </p>
+                        </div>
 
-            <div class="rent__container">
-                <div class="rent__container__item left">
-                    <div class="rent__container__item__mask">
-                        <div class="rent__container__item__mask__content">
-                            <p class="rent__container__item__mask__content__big-text">
-                                VALO Long Stay
-                            </p>
-                            <p class="rent__container__item__mask__content__small-text">
-                                Долгосрочная аренда
-                            </p>
-                            <a href="#" class="rent__container__item__mask__content__btn">
-                                Арендовать апартаменты
-                            </a>
-                        </div>
+                        <h2 class="hotel__city__title">VALO Hotel City</h2>
+
+                        <p class="hotel__city__text">
+                            "1 марта 2020 года отель открыт. Даже в сложное время мы оперативно переориентировались на внутренних гостей и долгосрочную аренду, что позволило держать уровень загрузки на уровне 90%.
+                            <span>Следовательно инвесторы получили доход."</span>
+                        </p>
+
+                        <button class="hotel__city__btn">
+                            САЙТ ГОСТИНИЦЫ
+                            <img src="img/wa.png" alt="" class="chart__bottom__btn__img">
+                        </button>
                     </div>
+                    <h2 class="hotel__city__big-text">
+                        VALO <br>
+                        HOTEL <br>
+                        CITY
+                    </h2>
                 </div>
-                <div class="rent__container__center"></div>
-                <div class="rent__container__item right">
-                    <div class="rent__container__item__mask ">
-                        <div class="rent__container__item__mask__content right">
-                            <p class="rent__container__item__mask__content__big-text">
-                                VALO Hotel City
-                            </p>
-                            <p class="rent__container__item__mask__content__small-text">
-                                Апарт-отель (от 1 дня)
-                            </p>
-                            <a href="#" class="rent__container__item__mask__content__btn">
-                                БРОНИРОВАТЬ апартаменты
-                            </a>
-                        </div>
-                    </div>
-                </div>
+            </div>
+        </section>
+
+        <section class="construction-progress__bottom-block">
+            <div class="construction-progress__bottom-block__left-block">
+                <h2 class="construction-progress__bottom-block__left-block_main">
+                    Хотите узнать больше?
+                </h2>
+                <p class="construction-progress__bottom-block__left-block_sub-main">Обращайтесь в отдел продаж Valo!</p>
+            </div>
+            <div class="construction-progress__bottom-block__right-block">
+                <form class="construction-progress__bottom-block__right-block__form">
+                    <input type="text" class="construction-progress__bottom-block__right-block__form_input" placeholder="Ваше имя">
+                    <input type="tel" class="construction-progress__bottom-block__right-block__form_input" placeholder="Ваш телефон">
+                    <button class="construction-progress__bottom-block__right-block__form_input_submit">
+                        Отправить
+                    </button>
+                </form>
+
+                <a href="#" class="construction-progress__link">Политика конфиденциальности</a>
             </div>
         </section>
     </main>
@@ -2483,7 +2416,10 @@
 <script src="global-js/jquery.fancybox.min.js"></script>
 <script src="global-js/banks.js"></script>
 <script src="global-js/left-buttons.js"></script>
-<script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
+<script src="global-js/ion.rangeSlider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+<script src="global-js/charts.js"></script>
+<script src="https://api-maps.yandex.ru/2.1/?&lang=ru_RU" type="text/javascript"></script>
 <script src="global-js/index.js"></script>
 <script src="global-js/header.js"></script>
 <script src="global-js/sliders.js"></script>

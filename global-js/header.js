@@ -62,7 +62,6 @@ $('.header__mobile-item').click(function (e) {
 
 $(window).scroll(function () {
     if ($(this).scrollTop() > 115) {
-        console.log(1)
         $('.header__menu').addClass('fixed-menu')
     } else {
         $('.header__menu').removeClass('fixed-menu')

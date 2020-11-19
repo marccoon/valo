@@ -14,6 +14,22 @@ if ($('.default-owl-slider')) {
     });
 }
 
+if ($('.current-promotions__slider')) {
+    $('.current-promotions__slider').owlCarousel({
+        loop: true,
+        dots: false,
+        nav: true,
+        autoplay: false,
+        items: 1,
+        autoHeight: true,
+        responsive: {
+            1250: {
+                items: 3
+            }
+        }
+    });
+}
+
 
 if ($('.work-invest__cards')) {
     $('.work-invest__cards').owlCarousel({
