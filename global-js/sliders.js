@@ -21,7 +21,9 @@ if ($('.current-promotions__slider')) {
         nav: true,
         autoplay: false,
         items: 1,
+        margin:40,
         autoHeight: true,
+        stagePadding: 10,
         responsive: {
             1250: {
                 items: 3

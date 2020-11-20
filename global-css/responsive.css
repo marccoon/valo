@@ -776,7 +776,6 @@
         position: relative;
     }
     .main-news {
-        margin-top: 308px;
         padding: 60px 0 60px 0;
     }
     .news-cards-container {
@@ -2850,6 +2849,11 @@
     .hotel__city__left {
         width: 100%;
     }
+
+    .construction-progress__bottom-block__container {
+        flex-direction: column;
+        width: 100%;
+    }
 }
 @media screen and (max-width: 1200px)  {
     .complex-plan {
@@ -4291,9 +4295,6 @@
     .construction-progress {
         padding-top: 55px;
     }
-    .main-news {
-        margin-top: 189px;
-    }
     .news-card {
         width: 285px;
         height: 285px;
@@ -4306,7 +4307,6 @@
         margin-left: 0;
     }
     .main-news-top {
-        margin-bottom: 20px;
         flex-direction: column;
     }
     .main-news-btn {
@@ -7108,9 +7108,10 @@
 
     .chart__bottom__col {
         font-size: 12px;
+        line-height: 1.2;
     }
 
-    .chart__bottom__col span {
+    .chart__bottom__col a {
         font-size: 12px;
     }
 
@@ -7397,6 +7398,14 @@
         width: 285px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .apartments-selection__title {
+        font-size: 24px;
+    }
+
+    .apartments-selection__title br {
+        display: none;
     }
 }
 @media screen  and (max-width: 650px) {

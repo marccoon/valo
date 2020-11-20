@@ -242,6 +242,7 @@ window.onload = function () {
     }
 
     var ctx = document.getElementById('chart')
+    var ctx2 = document.getElementById('chart2')
     var chart = new Chart(ctx, {
         // The type of chart we want to create
         type: 'line',
@@ -355,12 +356,125 @@ window.onload = function () {
             }
         }
     });
+    var chart2 =  new Chart(ctx2, {
+        // The type of chart we want to create
+        type: 'line',
+        // The data for our dataset
+        data: {
+            datasets: [{
+                label: 'средняя цена',
+                backgroundColor: '#1eafb5',
+                borderColor: '#1eafb5',
+                pointBackgroundColor: '#fff',
+                pointHoverBackgroundColor: '#fff',
+                pointBorderColor: 'transparent',
+                pointBorderWidth: 0,
+                pointRadius: 4,
+                pointHoverRadius: 10,
+                data: [
+                    {
+                        x: new Date(2018,0),
+                        y: 2.6
+                    },
+                    {
+                        x: new Date(2018,7),
+                        y: 3
+                    },
+                    {
+                        x: new Date(2019,0),
+                        y: 3.5
+                    },
+                    {
+                        x: new Date(2019,7),
+                        y: 3.8
+                    },
+                    {
+                        x: new Date(2020, 0),
+                        y: 4.7
+                    },
+                    {
+                        x: new Date(2020, 7),
+                        y: 5.1
+                    },
+                    {
+                        x: currentDate(),
+                        y: 6.3
+                    },
+                    {
+                        x: new Date(2021, 0),
+                    },
+                ]
+            }],
+        },
+        options: {
+            tooltips: {
+                intersect: false,
+                backgroundColor: '#fff',
+                titleFontColor: '#000',
+                bodyFontFamily: 'Roboto',
+                bodyFontColor: '#000',
+                caretSize: 0,
+                body: 12,
+                callbacks: {
+                    title: function(tooltipItem, data) {
+                        let date = data['datasets'][0]['data'][tooltipItem[0]['index']]['x']
+                        return dateFilter(date)
+                    },
+                    label: function (tooltipItem) {
+                        let span = document.createElement('span')
+                        return "Средняя цена " + Number(tooltipItem.yLabel) + "млн. ₽";
+                    },
+                    yLabel: function (tooltipItem, data) {
+                        console.log(data.datasets[tooltipItem.datasetIndex])
+                        let yLabel = data.datasets[tooltipItem.datasetIndex].label
+                        return yLabel
+                    }
+                }
+            },
+            responsive: true,
+            maintainAspectRatio: false,
+            legend: false,
+            scales: {
+                xAxes: [{
+                    gridLines: {
+                        color: '#4a6396',
+                        zeroLineColor: '#4a6396',
+                    },
+                    type: 'time',
+                    time: {
+                        displayFormats: {
+                            quarter: 'month',
+                        },
+                        stepSize: 6,
+                    },
+                    ticks: {
+                        fontColor: '#ffffff',
+                    }
+                }],
+                yAxes: [{
+                    gridLines: {
+                        color: '#4a6396',
+                        zeroLineColor: '#4a6396',
+                    },
+                    position: 'right',
+                    ticks: {
+                        // Include a dollar sign in the ticks
+                        callback: function(value, index, values) {
+                            return value + ' млн ₽'
+                        },
+                        fontColor: '#ffffff',
+                        stepSize: 2,
+                    }
+                }]
+            }
+        }
+    });
 
     $('.i-tab').click(function (e) {
         e.preventDefault()
 
         if (!$(this).hasClass('active')) {
-            $('.infrastructure__tab').removeClass('active')
+            $('.i-tab').removeClass('active')
             $('.infrastructure__container').removeClass('active')
             $($(this).attr('href')).addClass('active')
             $(this).addClass('active')
@@ -369,10 +483,19 @@ window.onload = function () {
 
     $('.h-tech-tab').click(function (e) {
         e.preventDefault()
-
         if (!$(this).hasClass('active')) {
             $('.h-tech-tab').removeClass('active')
             $('.hostel-technology__container').removeClass('active')
+            $($(this).attr('href')).addClass('active')
+            $(this).addClass('active')
+        }
+    })
+
+    $('.gt-tab').click(function (e) {
+        e.preventDefault()
+        if (!$(this).hasClass('active')) {
+            $('.gt-tab').removeClass('active')
+            $('.chart-container').removeClass('active')
             $($(this).attr('href')).addClass('active')
             $(this).addClass('active')
         }

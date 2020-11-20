@@ -1124,7 +1124,8 @@ map {
     background-size: 100% 100% !important;
     position: absolute;
     bottom: 10px;
-    left: calc(50% - 58px);
+    left: auto;
+    right: 140px;
 }
 .infrastructure-slider .owl-prev:hover {
     transform: rotate(180deg);
@@ -1143,7 +1144,8 @@ map {
     background-size: 100% 100% !important;
     position: absolute;
     bottom: 10px;
-    right: calc(50% - 58px);
+    right: 80px;
+    left: auto;
 }
 .infrastructure-slider .owl-next:hover {
     transform: rotate(0);
@@ -11185,7 +11187,6 @@ area {
 .main-news {
     background: #bfe2e4;
     padding: 105px 0 95px 0;
-    margin-top: 95px;
 }
 .news-main {
     color: #1f3c51;
@@ -11870,6 +11871,7 @@ area {
     color: #fff;
     line-height: 1;
     margin-bottom: 50px;
+    font-weight: 700;
 }
 
 .chart__green-text {
@@ -11881,12 +11883,26 @@ area {
 
 .chart__green-text a {
     color: #fff;
-    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.chart__green-text a.active {
+    color: #39c0c6;
+    text-decoration: none;
+}
+
+.chart__green-text a:last-child {
+    margin-right: 0;
 }
 
 .chart-container {
     height: 218px;
     position: relative;
+    display: none;
+}
+
+.chart-container.active {
+    display: block;
 }
 
 .text-bold {
@@ -11943,7 +11959,7 @@ area {
     margin-top: 70px;
 }
 
-.chart__bottom span {
+.chart__bottom a {
     color: #39c0c6;
     display: block;
     text-decoration: underline;
@@ -11961,6 +11977,7 @@ area {
     font-size: 60px;
     line-height: 1;
     color: #2c3e51;
+    font-weight: 700;
 }
 
 .apart-profit__table {
@@ -12005,6 +12022,7 @@ area {
 .apart-profit__table__text {
     font-size: 18px;
     color: #2c3e51;
+    margin-top: 10px;
 }
 
 .apart-profit__table__text-green {
@@ -12118,13 +12136,13 @@ area {
 }
 
 .apartments-selection__right {
-    display: flex;
-    justify-content: center;
     width: 540px;
 }
 
 .apartments-selection__right__container {
     width: 378px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .apartments-selection__right__container .owl-prev {
@@ -12168,6 +12186,9 @@ area {
     min-height: 170px;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: rgba(0,0,0, .13) 0 4px 5px;
 }
 
 .current-promotions__slide__img {
@@ -12199,6 +12220,7 @@ area {
     font-size: 60px;
     line-height: 1;
     color: #fff;
+    font-weight: 700;
 }
 
 
@@ -12272,6 +12294,7 @@ area {
 .valo-location__map-block_map {
     height: 415px;
     width: 100%;
+    box-shadow: rgba(0, 0, 0, .4) 0 20px 40px;
 }
 
 .valo-location__right {
@@ -12326,6 +12349,8 @@ area {
 
 .infrastructure-slider {
     width: 50%;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .4) 0 20px 40px;
 }
 
 .infrastructure__tabs_hostel-tech {
@@ -12355,6 +12380,7 @@ area {
     font-size: 40px;
     line-height: 60px;
     margin-bottom: 20px;
+    font-weight: 700;
 }
 
 .vue-360__text {
@@ -12397,6 +12423,7 @@ area {
     line-height: 1.2;
     color: #fff;
     margin-bottom: 70px;
+    font-weight: 700;
 }
 
 .main-company__text {
@@ -12536,4 +12563,26 @@ area {
     text-align: right;
     margin-top: 30px;
     display: block;
+}
+
+.apartments-selection__title {
+    font-size: 60px;
+    line-height: 1;
+    color: #fff;
+    margin-bottom: 55px;
+    font-weight: 700;
+}
+
+.apartments-selection__title_2 {
+    text-align: center;
+}
+
+.chart__bottom__btn__img {
+    margin-left: 10px;
+}
+
+.construction-progress__bottom-block__container {
+    width: 1230px;
+    display: flex;
+    justify-content: space-between;
 }

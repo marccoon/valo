@@ -54,7 +54,8 @@ if ($('left-buttons_btn-container')) {
         }
     }
     $('#getCallBack, .calculator-block-content-top-btn, .invest-to-mercure__container__btn, ' +
-        '.good-description-block-btn, .header-ask-a-question-btn').click(function () {
+        '.good-description-block-btn, .header-ask-a-question-btn, .main-slide__video-container__btn,' +
+        '.chart__bottom__btn').click(function () {
         delSlider('.call-back-modal__container_bottom__day-slider')
         delSlider('.call-back-modal__container_bottom__hours-slider')
         delSlider('.call-back-modal__container_bottom__minutes-slider')
